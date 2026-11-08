@@ -1,0 +1,106 @@
+name: Import IPA 2021-2024 AP Morning Papers
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tools/import_ipa_bulk.py'
+      - '.github/workflows/import-ipa-2021-2024.yml'
+permissions:
+  contents: write
+jobs:
+  import:
+    strategy:
+      fail-fast: false
+      matrix:
+        session:
+          - 2021-spring
+          - 2021-autumn
+          - 2022-spring
+          - 2022-autumn
+          - 2023-spring
+          - 2023-autumn
+          - 2024-spring
+          - 2024-autumn
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install OCR and Python dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-jpn
+          python -m pip install --disable-pip-version-check 'pymupdf>=1.24,<2' 'Pillow>=11,<13' 'requests>=2.31,<3' 'pytesseract>=0.3.10' 'opencv-python-headless>=4.8,<5' 'numpy>=1.26,<3'
+      - name: Build 80 questions with conservative deskew
+        run: python tools/import_ipa_bulk.py --session '${{ matrix.session }}'
+      - name: Validate export
+        shell: bash
+        run: |
+          SESSION='${{ matrix.session }}' python - <<'PY'
+          import os,json
+          from pathlib import Path
+          p=Path('sets/ap-'+os.environ['SESSION']+'.json')
+          d=json.loads(p.read_text(encoding='utf-8'))
+          assert len(d['questions'])==80
+          assert [q['number'] for q in d['questions']]==list(range(1,81))
+          assert all(Path(q['image']).is_file() for q in d['questions'])
+          assert all(q['answer'] in 'アイウエ' for q in d['questions'])
+          print('PASS',os.environ['SESSION'],'80 questions, images, answers')
+          PY
+      - name: Store validated set
+        uses: actions/upload-artifact@v4
+        with:
+          name: ap-${{ matrix.session }}
+          retention-days: 2
+          if-no-files-found: error
+          path: |
+            sets/ap-${{ matrix.session }}.json
+            assets/ap-${{ matrix.session }}/
+  publish:
+    needs: import
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - name: Download validated sets
+        uses: actions/download-artifact@v4
+        with:
+          pattern: ap-20*-*
+          path: .
+          merge-multiple: true
+      - name: Validate and update catalog
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          all_sessions=[f'{y}-{s}' for y in range(2021,2025) for s in ('spring','autumn')]
+          manifest=json.loads(Path('sets/index.json').read_text(encoding='utf-8'))
+          manifest=[m for m in manifest if m.get('id') not in {'ap-'+s for s in all_sessions}]
+          for session in all_sessions:
+              d=json.loads(Path(f'sets/ap-{session}.json').read_text(encoding='utf-8'))
+              assert d['id']=='ap-'+session and len(d['questions'])==80
+              assert [q['number'] for q in d['questions']]==list(range(1,81))
+              assert all(Path(q['image']).exists() for q in d['questions'])
+              manifest.append(dict(id=d['id'],title=d['title'],year=d['year'],season=d['season'],sourceType='ipa',count=80,file=f'sets/ap-{session}.json'))
+          Path('sets/index.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          assert len([x for x in manifest if x['sourceType']=='ipa' and x['count']==80])>=10
+          print('PASS: 2021-2025 ten official rounds, 800 questions')
+          PY
+      - name: Commit generated question corpus
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sets/index.json sets/ap-2021-*.json sets/ap-2022-*.json sets/ap-2023-*.json sets/ap-2024-*.json assets/ap-2021-*/ assets/ap-2022-*/ assets/ap-2023-*/ assets/ap-2024-*/
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: publish official 2021-2024 AP morning sets (640 questions)'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
