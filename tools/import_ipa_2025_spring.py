@@ -46,7 +46,7 @@ class Mark:
 
 
 def fetch_pdf(url: str) -> fitz.Document:
-    response = requests.get(url, timeout=90, headers={'User-Agent':'IPA-CBT-Demo/1.0 educational material importer'})
+    response = requests.get(url, timeout=120, headers={'User-Agent':'Mozilla/5.0 (compatible; Educational-CBT-Importer/1.0)'})
     response.raise_for_status()
     if not response.content.startswith(b'%PDF-'):
         raise RuntimeError(f'IPA PDFの取得結果がPDFではありません: {url}, {response.status_code}, {len(response.content)}')
