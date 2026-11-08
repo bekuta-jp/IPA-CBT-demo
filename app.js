@@ -53,7 +53,7 @@ function normalizeSet(raw,origin='custom'){
    const defaultSource=sourceType==='ipa'?`出典：${year||'年度不明'}年度 ${season||'期不明'} 応用情報技術者試験 午前 問${originalNo}`:`自作問題：${title} 問${originalNo}`;
    const src=String(q.source||defaultSource);
    return {id:String(q.id||i+1),number:originalNo,topic:String(q.topic||'一般'),stem,code:String(q.code||''),image:safeImage(q.image),
-   options:[...options],optionImages:Array.from({length:4},(_,k)=>safeImage(q.optionImages?.[k])),answer,
+   options:[...options],optionImages:Array.from({length:4},(_,k)=>safeImage(q.optionImages?.[k])),answer,imageOnly:!!q.imageOnly,
    explanation:String(q.explanation||''),source:src,modified:!!q.modified};
   }catch(e){throw Error(`${title} の${i+1}問目：${e.message}`)}
  });
@@ -117,7 +117,7 @@ function showStart(){
  <div class="settings-grid" style="margin-top:9px"><fieldset class="fieldset"><legend>問題セットの組合せ</legend><label><input type="radio" name="set-mode" value="single" checked> 単一回を指定</label><label><input type="radio" name="set-mode" value="multi"> 複数回からランダム抽出</label></fieldset>
  <fieldset class="fieldset"><legend>出題順</legend><label><input type="radio" name="q-order" value="original" checked> 元の問番号順</label><label><input type="radio" name="q-order" value="random"> ランダム</label><small>複数回モードは必ずランダムです。</small></fieldset></div>
  </section><section class="setup-section"><h2>② 選択肢と試験時間</h2>
- <div class="settings-grid"><fieldset class="fieldset"><legend>選択肢の順序</legend><label><input type="radio" name="a-order" value="original" checked> 原順（ア→エ）</label><label><input type="radio" name="a-order" value="random"> 選択肢もランダム</label></fieldset>
+ <div class="settings-grid"><fieldset class="fieldset"><legend>選択肢の順序</legend><label><input type="radio" name="a-order" value="original" checked> 原順（ア→エ）</label><label><input type="radio" name="a-order" value="random"> 選択肢もランダム</label><small>※公式問題画像のセットでは、選択肢が画像内に含まれるため原順固定です。</small></fieldset>
  <fieldset class="fieldset"><legend>出題数・制限時間</legend><div class="setup-controls"><label>問題数 <input type="number" id="limit-count" min="1" max="80" value="80"></label><label>時間（分） <input type="number" id="limit-time" min="1" max="400" placeholder="自動"></label></div><small>時間空欄：80問150分を基準に自動調整。選択問題が不足すると出題数は少なくなります。</small></fieldset></div>
  </section><section class="setup-section"><h2>③ 自作・追加の問題を読み込む</h2>
  <label for="file-input">JSONファイル（複数選択可）</label><input id="file-input" type="file" accept=".json,application/json" multiple>
@@ -153,9 +153,10 @@ async function fetchSet(set){if(set.questions)return set;
  bank.set(set.id,parsed);return parsed;
 }
 function createExamQuestion(q,s,shuffleAnswers){
- const order=shuffleAnswers?shuffled(4):[0,1,2,3],idx=order.indexOf(q.answer);
+ // 原本画像に選択肢を含む問題は、解答ボタンのラベルだけを動かさない。
+ const order=shuffleAnswers&&!q.imageOnly?shuffled(4):[0,1,2,3],idx=order.indexOf(q.answer);
  return {uid:`${s.id}::${q.id}`,setId:s.id,setTitle:s.title,year:s.year,season:s.season,originalNumber:q.number,
-  topic:q.topic,stem:q.stem,code:q.code,image:q.image,
+  topic:q.topic,stem:q.stem,code:q.code,image:q.image,imageOnly:q.imageOnly,
   originalOptions:q.options,originalAnswer:q.answer,
   options:order.map(i=>q.options[i]),optionImages:order.map(i=>q.optionImages[i]),
   optionOrder:order,answer:idx,explanation:q.explanation,source:q.source,modified:q.modified};
@@ -196,10 +197,11 @@ function refresh(){if(!questions.length){$('subheading').textContent='問題セ�
  const q=questions[current],n=questions.length;
  $('subheading').textContent=`${n}ページ中${current+1}ページ目`;
  $('answer-title').textContent=`${current+1} ページ目`;
- $('question-body').innerHTML=`<div class="q-stem">${esc(q.stem)}</div>${renderImage(q.image,'question-image','問題の図表')}
+ $('question-body').innerHTML=q.imageOnly
+  ? `<div class="sr-only">${esc(q.stem)}</div>${renderImage(q.image,'question-image question-image-original','IPA公式問題冊子から切り出した問'+q.originalNumber+'。ア〜エの選択肢も画像内にあります。')}`
+  : `<div class="q-stem">${esc(q.stem)}</div>${renderImage(q.image,'question-image','問題の図表')}
  ${q.code?`<pre class="q-code">${esc(q.code)}</pre>`:''}
- <div class="q-opt-list">${q.options.map((o,i)=>`<div class="q-opt"><span class="letter">${letters[i]}</span><div>${esc(o)}${renderImage(q.optionImages?.[i],'option-image',letters[i]+'の図表')}</div></div>`).join('')}</div>
- `;
+ <div class="q-opt-list">${q.options.map((o,i)=>`<div class="q-opt"><span class="letter">${letters[i]}</span><div>${esc(o)}${renderImage(q.optionImages?.[i],'option-image',letters[i]+'の図表')}</div></div>`).join('')}</div>`;
  $('choices').innerHTML=letters.map((ch,i)=>`<button class="choice ${answers[current]===i?'chosen':''}" aria-pressed="${answers[current]===i}" data-opt="${i}" ${!running?'disabled':''}>${ch}</button>`).join('');
  $('choices').querySelectorAll('[data-opt]').forEach(b=>b.onclick=()=>{if(!running)return;const i=Number(b.dataset.opt);answers[current]=answers[current]===i?null:i;remember();refresh()});
  $('review-check').checked=!!flags[current];$('review-check').disabled=!running;$('flag-btn').classList.toggle('active',!!flags[current]);$('flag-btn').disabled=!running;
@@ -236,7 +238,7 @@ function resultData(){if(!finished||!results)throw Error('試験はまだ終了�
  questions:questions.map((q,i)=>{
   const a=answers[i],orig=a===null?null:q.optionOrder[a];
   return {sequence:i+1,id:q.uid,sourceSetId:q.setId,sourceSetTitle:q.setTitle,originalNumber:q.originalNumber,topic:q.topic,
-   source:q.source,modified:q.modified,question:q.stem,code:q.code,image:q.image,
+   source:q.source,modified:q.modified,question:q.stem,code:q.code,image:q.image?new URL(q.image,location.href).href:'',imageOnly:q.imageOnly,
    displayedOptions:q.options.map((text,k)=>({label:letters[k],text,image:q.optionImages?.[k]||'',originalLabel:letters[q.optionOrder[k]]})),
    originalOptions:q.originalOptions.map((text,k)=>({label:letters[k],text})),
    correctAnswer:{displayedLabel:letters[q.answer],originalLabel:letters[q.originalAnswer],text:q.options[q.answer]},
@@ -254,7 +256,7 @@ function markdownReport(wrongOnly){const data=resultData(),qs=wrongOnly?data.que
  for(const q of qs){out.push(``,`### 問${q.sequence} ／ ${q.sourceSetTitle}・元の問${q.originalNumber} ／ ${q.topic}`,
  `- 出典: ${q.source}${q.modified?'（一部改変あり）':''}`,
  `- 問題:`,q.question);
-  if(q.code)out.push('```text',q.code,'```');if(q.image)out.push(`- 問題画像: ${q.image}`);
+  if(q.code)out.push('```text',q.code,'```');if(q.image)out.push(`- IPA問題画像（数式・表・図・選択肢の原本表示。原文確認はこちらが優先）: ${q.image}`);
   for(const o of q.displayedOptions){out.push(`- ${o.label}: ${o.text}${o.image?' [画像: '+o.image+']':''} （元の${o.originalLabel}）`)}
   out.push(`- 私の解答: ${q.userAnswer?q.userAnswer.displayedLabel+'：'+q.userAnswer.text:'未解答'}`,
   `- 模範解答: ${q.correctAnswer.displayedLabel}：${q.correctAnswer.text}`,
