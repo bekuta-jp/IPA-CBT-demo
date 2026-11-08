@@ -76,43 +76,63 @@ async function loadManifest(){if(manifestLoaded)return;
  if(location.protocol==='file:')return;
  try{const r=await fetch('./sets/index.json',{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);registerManifest(await r.json());}
  catch(e){console.warn('公開セット一覧が読み込めませんでした',e)}
+ if(!selectedSetIds.length){const available=metadataList().find(isOfficialExamSet);selectedSetIds=[available?.id||'demo-a'];}
  renderSetupSets();
 }
 function metadataSort(a,b){let ya=Number(a.year)||0,yb=Number(b.year)||0;if(yb!==ya)return yb-ya;return b.season.localeCompare(a.season,'ja')||a.title.localeCompare(b.title,'ja')}
 function metadataList(){return [...bank.values()].sort(metadataSort)}
-function buildSetCards(){const year=$('year-filter')?.value||'all';const season=$('season-filter')?.value||'all';const typ=$('type-filter')?.value||'all';
- return metadataList().filter(x=>(year==='all'||x.year===year)&&(season==='all'||x.season===season)&&(typ==='all'||x.sourceType===typ)).map(x=>{
- const checked=(selectedSetIds.includes(x.id))?'checked':'';
- const badge=x.origin==='demo'?'<span class="badge-demo">デモ</span>':x.sourceType==='ipa'?'<span class="badge-demo">IPA公開過去問</span>':'<span class="badge-demo">自作</span>';
- return `<label class="set-item"><input type="checkbox" data-set-id="${esc(x.id)}" ${checked}><span class="set-meta"><b>${esc(x.title)}</b>${badge}<small>${esc(x.year)} ${esc(x.season)}　${x.origin==='public'?'公開セット':x.origin==='demo'?'動作確認用・原作問題':'ローカル読込済み'}</small></span><span class="set-count">${x.count}問</span></label>`;
- }).join('')||'<p class="loading-note">この条件に該当する問題セットはありません。JSONを読み込むかフィルタを変更してください。</p>'}
+function isOfficialExamSet(x){return x.sourceType==='ipa'&&x.count===80&&x.origin==='public'}
+function buildSetCards(){
+ const year=$('year-filter')?.value||'all',season=$('season-filter')?.value||'all',typ=$('type-filter')?.value||'all',mode=selectionMode();
+ const sets=metadataList().filter(x=>(year==='all'||x.year===year)&&(season==='all'||x.season===season)&&(typ==='all'||(typ==='ipa'?isOfficialExamSet(x):typ==='sample'?!isOfficialExamSet(x):x.origin==='custom')));
+ const groups=[
+  {title:'本試験の公開過去問（各80問）',help:'IPA公開の午前問題。単一回では一つだけ選択します。',items:sets.filter(isOfficialExamSet)},
+  {title:'試作・動作確認・自作問題',help:'少問数の試作問題とオリジナル問題。公式80問版とは別枠です。',items:sets.filter(x=>!isOfficialExamSet(x))}
+ ];
+ const html=groups.filter(g=>g.items.length).map(g=>
+  '<div class="exam-set-group"><h3>'+g.title+'</h3><p>'+g.help+'</p>'+
+  g.items.map(x=>{
+   const checked=selectedSetIds.includes(x.id)?'checked':'';
+   const badge=isOfficialExamSet(x)?'<span class="badge-real">IPA・80問</span>':x.sourceType==='ipa'?'<span class="badge-demo">テキスト試作</span>':x.origin==='demo'?'<span class="badge-demo">デモ</span>':'<span class="badge-demo">自作</span>';
+   return '<label class="set-item"><input type="'+(mode==='single'?'radio':'checkbox')+'" name="'+(mode==='single'?'exam-set-radio':'exam-set-checkbox')+'" data-set-id="'+esc(x.id)+'" '+checked+'><span class="set-meta"><b>'+esc(x.title)+'</b>'+badge+'<small>'+esc(x.year)+' '+esc(x.season)+' '+(x.origin==='demo'?'動作確認用':x.origin==='custom'?'ローカル自作':'公開問題')+'</small></span><span class="set-count">'+x.count+'問</span></label>';
+  }).join('')+'</div>'
+ ).join('');
+ return html||'<p class="loading-note">該当する問題セットがありません。年度や区分を変更するか、JSONを読み込んでください。</p>';
+}
 function selectionMode(){return document.querySelector('input[name="set-mode"]:checked')?.value||'single'}
 function selectedBank(){return selectedSetIds.map(id=>bank.get(id)).filter(Boolean)}
-function updateSelectionStats(){const total=selectedBank().reduce((a,s)=>a+s.count,0);$('selection-stats').textContent=`選択：${selectedSetIds.length}セット／収録数 ${total}問（複数回の同一問題は重複除外）`;}
-function renderSetupSets(){if(!$('set-list'))return;
- const els=metadataList(),years=[...new Set(els.map(s=>s.year).filter(Boolean))].sort((a,b)=>Number(b)-Number(a));
- const seasons=[...new Set(els.map(s=>s.season).filter(Boolean))].sort();
- const y=$('year-filter'),sv=y.value||'all';y.innerHTML='<option value="all">全年度</option>'+years.map(x=>`<option value="${esc(x)}">${esc(x)}年度</option>`).join('');y.value=years.includes(sv)?sv:'all';
- const st=$('season-filter'),ss=st.value||'all';st.innerHTML='<option value="all">全期</option>'+seasons.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('');st.value=seasons.includes(ss)?ss:'all';
- renderCardsOnly();}
-function renderCardsOnly(){if(!$('set-list'))return;
+function updateSelectionStats(){
+ if(!$('selection-stats'))return;
+ const n=selectedBank().reduce((a,s)=>a+s.count,0),mode=selectionMode();
+ $('selection-stats').textContent=mode==='single' ? (selectedSetIds.length?'選択した回：'+(bank.get(selectedSetIds[0])?.title||''):'受験する回を一つ選択してください。') : '複数回混合：'+selectedSetIds.length+'セット／収録数 '+n+'問（最大80問をランダム出題）';
+}
+function renderSetupSets(){
+ if(!$('set-list'))return;
+ const els=metadataList(),years=[...new Set(els.filter(isOfficialExamSet).map(s=>s.year).filter(Boolean))].sort((a,b)=>Number(b)-Number(a));
+ const seasons=['春期','秋期'];
+ const y=$('year-filter'),sv=y.value||'all';y.innerHTML='<option value="all">全年度</option>'+years.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'年度</option>').join('');y.value=years.includes(sv)?sv:'all';
+ const st=$('season-filter'),ss=st.value||'all';st.innerHTML='<option value="all">全期</option>'+seasons.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');st.value=seasons.includes(ss)?ss:'all';
+ renderCardsOnly();
+}
+function renderCardsOnly(){
+ if(!$('set-list'))return;
  $('set-list').innerHTML=buildSetCards();
  $('set-list').querySelectorAll('[data-set-id]').forEach(el=>el.addEventListener('change',()=>{
-  const id=el.dataset.setId,sel=selectionMode();
-  if(sel==='single'){selectedSetIds=el.checked?[id]:[];}else{selectedSetIds=el.checked?[...new Set([...selectedSetIds,id])]:selectedSetIds.filter(s=>s!==id)}
-  renderCardsOnly();updateSelectionStats();
+  const id=el.dataset.setId;
+  if(selectionMode()==='single'){selectedSetIds=[id]}else{selectedSetIds=el.checked?[...new Set([...selectedSetIds,id])]:selectedSetIds.filter(s=>s!==id)}
+  renderCardsOnly();
  }));
  updateSelectionStats();
 }
 function reset(){clearInterval(timer);running=false;finished=false;current=0;statusOpen=false;questions=[];answers=[];flags=[];results=null;memoText='';memoHtml='';$('memo-input').innerHTML='';clearSearchHighlights();updateMemoCount();try{localStorage.removeItem(storageKey)}catch(_){}showStart()}
 function showStart(){
  const resumeState=saved(),canResume=!!(resumeState?.running&&resumeState?.questions?.length);
- if(!selectedSetIds.length)selectedSetIds=['demo-a'];
+ if(!selectedSetIds.length)selectedSetIds=[];
  modal(`<h1>応用情報技術者試験 CBT 科目A</h1><p>非公式・演習用。回別問題の原順・ランダム出題、選択肢シャッフル、解答結果のLLM向け出力に対応します。</p>
  <section class="setup-section"><h2>① 問題セットを選ぶ</h2>
  <div class="setup-controls"><label>表示年度 <select id="year-filter"><option value="all">全年度</option></select></label>
  <label>期 <select id="season-filter"><option value="all">全期</option></select></label>
- <label>区分 <select id="type-filter"><option value="all">すべて</option><option value="ipa">IPA過去問</option><option value="original">自作・デモ</option></select></label></div>
+ <label>区分 <select id="type-filter"><option value="all">すべて</option><option value="ipa">本試験の過去問</option><option value="sample">試作・動作確認</option><option value="custom">自作問題</option></select></label></div>
  <div class="set-list" id="set-list"></div><div class="status-message" id="selection-stats"></div>
  <div class="settings-grid" style="margin-top:9px"><fieldset class="fieldset"><legend>問題セットの組合せ</legend><label><input type="radio" name="set-mode" value="single" checked> 単一回を指定</label><label><input type="radio" name="set-mode" value="multi"> 複数回からランダム抽出</label></fieldset>
  <fieldset class="fieldset"><legend>出題順</legend><label><input type="radio" name="q-order" value="original" checked> 元の問番号順</label><label><input type="radio" name="q-order" value="random"> ランダム</label><small>複数回モードは必ずランダムです。</small></fieldset></div>
