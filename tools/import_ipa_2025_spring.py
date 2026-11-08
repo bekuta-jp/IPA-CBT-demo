@@ -94,42 +94,43 @@ def ocr_markers(page: fitz.Page, page_index: int) -> tuple[list[Mark], list[tupl
     return anchors,brief
 
 
+# 2025r07h_ap_am_qs.pdf, 44-page public PDF. Question positions were measured
+# on the original PDF's left margin. The file is image-only, so PyMuPDF cannot
+# extract its 問N labels as text. OCR also misreads some labels (50 -> 59 etc.).
+# Key = 1-based PDF page number; values = calibrated crop starting Y (PDF pt).
+# IMPORTANT: This geometry is specific to this one official source PDF.
+CALIBRATED_LAYOUT = {
+    4:[65,275], 5:[70,250,431], 6:[66], 7:[71,251,496],
+    8:[66,268], 9:[72], 10:[71,567], 11:[74,274],
+    12:[68,188,328,488], 13:[72,459], 14:[65,205], 15:[72,499],
+    16:[67,527], 17:[73,193,394], 18:[66,266,386], 19:[73],
+    20:[69,442], 21:[72,253,474], 22:[66,286], 23:[73,313],
+    24:[67,247,467], 25:[75,195,415], 26:[67], 27:[72,512],
+    28:[65], 29:[72], 30:[64,450], 31:[73,273,433],
+    32:[67,267,427], 33:[74,455], 34:[67,355,475], 35:[71],
+    36:[65,285], 37:[73,293], 38:[65,325], 39:[71,377],
+    40:[66,326], 41:[71],
+}
+
+
 def find_markers(doc: fitz.Document) -> list[Mark]:
-    raw=[]
-    extracted_chars=0
-    for p in range(3,len(doc)):
-        page=doc[p]
-        blocks=page.get_text('dict').get('blocks',[])
-        for block in blocks:
-            if 'lines' not in block:continue
-            for line in block['lines']:
-                label=''.join(span.get('text','') for span in line['spans'])
-                extracted_chars+=len(label)
-                standard=unicodedata.normalize('NFKC',label)
-                m=re.match(r'^\s*問\s*([0-9]{1,2})(?![0-9])(?:\s|[、，.\-]|$)',standard)
-                if not m:continue
-                n=int(m.group(1))
-                if not (1<=n<=80):continue
-                x0,y0,*_=line['bbox']
-                if x0<=page.rect.width*.35:raw.append(Mark(n,p,max(0,y0-7)))
-    print('Question PDF extracted characters:',extracted_chars,'embedded marker candidates:',len(raw),flush=True)
-    if len(raw)<80:
-        raw=[]
-        for p in range(3,len(doc)):
-            anchors,brief=ocr_markers(doc[p],p)
-            print(f'OCR page {p+1:02d} markers={[(m.number,round(m.y)) for m in anchors]} '
-                  f'tokens={brief[:28]}',flush=True)
-            raw.extend(anchors)
-    raw.sort(key=lambda m:(m.page,m.y))
-    found=[]
-    for candidate in raw:
-        if candidate.number==len(found)+1:
-            found.append(candidate)
-    if len(found)!=80:
-        print('Detected markers in reading order:',[(m.number,m.page+1,round(m.y)) for m in raw],file=sys.stderr)
-        raise RuntimeError(f'問題の検出が80問に達しませんでした: {len(found)}問。データを公開しません。')
-    print('Found 80 questions. First/last markers:',found[0],found[-1],flush=True)
-    return found
+    # Never silently apply these coordinates to a revised/reflowed PDF.
+    if len(doc) != 44:
+        raise RuntimeError(f'公式問題冊子のページ数が変更されました（{len(doc)}頁）。再調査が必要です。')
+    if sum(len(ys) for ys in CALIBRATED_LAYOUT.values()) != 80:
+        raise RuntimeError('固定問題位置テーブルが80問になっていません。')
+    markers=[]
+    for page_num,positions in CALIBRATED_LAYOUT.items():
+        page=doc[page_num-1]
+        if not 550 <= page.rect.width <= 700 or not 780 <= page.rect.height <= 900:
+            raise RuntimeError(f'問題冊子のページ{page_num}のサイズが想定と異なります: {page.rect}')
+        for y in positions:
+            if y<40 or y>page.rect.height-65:
+                raise RuntimeError(f'問題位置がページ外です: page={page_num}, y={y}')
+            markers.append(Mark(len(markers)+1,page_num-1,float(y)))
+    print('Official 2025 spring layout: 80 calibrated question regions',
+          'first=',markers[0],'last=',markers[-1],flush=True)
+    return markers
 
 def page_segments(doc:fitz.Document,markers:list[Mark],i:int):
     first=markers[i]
