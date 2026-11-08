@@ -28,7 +28,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問1。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.0
     },
     {
       "id": "r07h-q02",
@@ -47,7 +48,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問2。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.449
     },
     {
       "id": "r07h-q03",
@@ -66,7 +68,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問3。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.0
     },
     {
       "id": "r07h-q04",
@@ -85,7 +88,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問4。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.339
     },
     {
       "id": "r07h-q05",
@@ -104,7 +108,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問5。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.19
     },
     {
       "id": "r07h-q06",
@@ -123,7 +128,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問6。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.0
     },
     {
       "id": "r07h-q07",
@@ -142,7 +148,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問7。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.441
     },
     {
       "id": "r07h-q08",
@@ -161,7 +168,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問8。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.216
     },
     {
       "id": "r07h-q09",
@@ -180,7 +188,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問9。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.0
     },
     {
       "id": "r07h-q10",
@@ -199,7 +208,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問10。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.418
     },
     {
       "id": "r07h-q11",
@@ -218,7 +228,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問11。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.0
     },
     {
       "id": "r07h-q12",
@@ -237,7 +248,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問12。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.0
     },
     {
       "id": "r07h-q13",
@@ -256,7 +268,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問13。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.0
     },
     {
       "id": "r07h-q14",
@@ -275,7 +288,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問14。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.0
     },
     {
       "id": "r07h-q15",
@@ -294,7 +308,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問15。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.572
     },
     {
       "id": "r07h-q16",
@@ -313,7 +328,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問16。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.681
     },
     {
       "id": "r07h-q17",
@@ -332,7 +348,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問17。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.433
     },
     {
       "id": "r07h-q18",
@@ -351,7 +368,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問18。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.666
     },
     {
       "id": "r07h-q19",
@@ -370,7 +388,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問19。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.266
     },
     {
       "id": "r07h-q20",
@@ -389,7 +408,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問20。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.884
     },
     {
       "id": "r07h-q21",
@@ -408,7 +428,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問21。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.586
     },
     {
       "id": "r07h-q22",
@@ -427,7 +448,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問22。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.516
     },
     {
       "id": "r07h-q23",
@@ -446,7 +468,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問23。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.772
     },
     {
       "id": "r07h-q24",
@@ -465,7 +488,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問24。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.829
     },
     {
       "id": "r07h-q25",
@@ -484,7 +508,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問25。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.453
     },
     {
       "id": "r07h-q26",
@@ -503,7 +528,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問26。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.522
     },
     {
       "id": "r07h-q27",
@@ -522,7 +548,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問27。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.443
     },
     {
       "id": "r07h-q28",
@@ -541,7 +568,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問28。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.434
     },
     {
       "id": "r07h-q29",
@@ -560,7 +588,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問29。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.909
     },
     {
       "id": "r07h-q30",
@@ -579,7 +608,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問30。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -1.054
     },
     {
       "id": "r07h-q31",
@@ -598,7 +628,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問31。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.947
     },
     {
       "id": "r07h-q32",
@@ -617,7 +648,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問32。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.907
     },
     {
       "id": "r07h-q33",
@@ -636,7 +668,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問33。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.0
     },
     {
       "id": "r07h-q34",
@@ -655,7 +688,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問34。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.626
     },
     {
       "id": "r07h-q35",
@@ -674,7 +708,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問35。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.428
     },
     {
       "id": "r07h-q36",
@@ -693,7 +728,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問36。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.268
     },
     {
       "id": "r07h-q37",
@@ -712,7 +748,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問37。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.0
     },
     {
       "id": "r07h-q38",
@@ -731,7 +768,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問38。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.833
     },
     {
       "id": "r07h-q39",
@@ -750,7 +788,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問39。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.507
     },
     {
       "id": "r07h-q40",
@@ -769,7 +808,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問40。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.703
     },
     {
       "id": "r07h-q41",
@@ -788,7 +828,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問41。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.455
     },
     {
       "id": "r07h-q42",
@@ -807,7 +848,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問42。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.477
     },
     {
       "id": "r07h-q43",
@@ -826,7 +868,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問43。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.444
     },
     {
       "id": "r07h-q44",
@@ -845,7 +888,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問44。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.451
     },
     {
       "id": "r07h-q45",
@@ -864,7 +908,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問45。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.415
     },
     {
       "id": "r07h-q46",
@@ -883,7 +928,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問46。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.836
     },
     {
       "id": "r07h-q47",
@@ -902,7 +948,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問47。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.54
     },
     {
       "id": "r07h-q48",
@@ -921,7 +968,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問48。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.418
     },
     {
       "id": "r07h-q49",
@@ -940,7 +988,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問49。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.868
     },
     {
       "id": "r07h-q50",
@@ -959,7 +1008,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問50。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -1.077
     },
     {
       "id": "r07h-q51",
@@ -978,7 +1028,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問51。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.855
     },
     {
       "id": "r07h-q52",
@@ -997,7 +1048,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問52。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.441
     },
     {
       "id": "r07h-q53",
@@ -1016,7 +1068,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問53。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.662
     },
     {
       "id": "r07h-q54",
@@ -1035,7 +1088,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問54。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.474
     },
     {
       "id": "r07h-q55",
@@ -1054,7 +1108,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問55。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.796
     },
     {
       "id": "r07h-q56",
@@ -1073,7 +1128,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問56。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.869
     },
     {
       "id": "r07h-q57",
@@ -1092,7 +1148,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問57。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.739
     },
     {
       "id": "r07h-q58",
@@ -1111,7 +1168,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問58。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.0
     },
     {
       "id": "r07h-q59",
@@ -1130,7 +1188,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問59。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.421
     },
     {
       "id": "r07h-q60",
@@ -1149,7 +1208,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問60。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.374
     },
     {
       "id": "r07h-q61",
@@ -1168,7 +1228,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問61。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.537
     },
     {
       "id": "r07h-q62",
@@ -1187,7 +1248,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問62。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.0
     },
     {
       "id": "r07h-q63",
@@ -1206,7 +1268,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問63。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.575
     },
     {
       "id": "r07h-q64",
@@ -1225,7 +1288,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問64。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.673
     },
     {
       "id": "r07h-q65",
@@ -1244,7 +1308,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問65。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.79
     },
     {
       "id": "r07h-q66",
@@ -1263,7 +1328,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問66。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.919
     },
     {
       "id": "r07h-q67",
@@ -1282,7 +1348,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問67。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.0
     },
     {
       "id": "r07h-q68",
@@ -1301,7 +1368,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問68。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.577
     },
     {
       "id": "r07h-q69",
@@ -1320,7 +1388,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問69。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.458
     },
     {
       "id": "r07h-q70",
@@ -1339,7 +1408,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問70。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.658
     },
     {
       "id": "r07h-q71",
@@ -1358,7 +1428,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問71。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.466
     },
     {
       "id": "r07h-q72",
@@ -1377,7 +1448,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問72。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.871
     },
     {
       "id": "r07h-q73",
@@ -1396,7 +1468,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問73。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.652
     },
     {
       "id": "r07h-q74",
@@ -1415,7 +1488,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問74。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.505
     },
     {
       "id": "r07h-q75",
@@ -1434,7 +1508,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問75。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.0
     },
     {
       "id": "r07h-q76",
@@ -1453,7 +1528,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問76。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.428
     },
     {
       "id": "r07h-q77",
@@ -1472,7 +1548,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問77。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.725
     },
     {
       "id": "r07h-q78",
@@ -1491,7 +1568,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問78。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.358
     },
     {
       "id": "r07h-q79",
@@ -1510,7 +1588,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問79。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": 0.341
     },
     {
       "id": "r07h-q80",
@@ -1529,7 +1608,8 @@
       "explanation": "",
       "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問80。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
       "modified": true,
-      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。",
+      "deskewDegrees": -0.462
     }
   ]
 }
