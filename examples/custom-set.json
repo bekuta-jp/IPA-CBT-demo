@@ -1,0 +1,40 @@
+{
+  "id": "my-set-01",
+  "title": "自作・データベース演習 第1回",
+  "year": 2026,
+  "season": "自作",
+  "exam": "AP",
+  "sourceType": "original",
+  "questions": [
+    {
+      "id": "db-01",
+      "number": 1,
+      "topic": "データベース",
+      "stem": "社員表には社員IDが1、2、3の社員がいる。資格表に社員IDが1と3の行がある。次のSQLが返す社員IDはどれか。",
+      "code": "SELECT S.社員ID FROM 社員 S WHERE NOT EXISTS (SELECT 1 FROM 資格 Q WHERE Q.社員ID = S.社員ID);",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "1, 2, 3"
+      ],
+      "answer": 1,
+      "explanation": "社員ID=2では相関副問合せの行数が0となるため、NOT EXISTSが真になる。"
+    },
+    {
+      "id": "alg-02",
+      "number": 2,
+      "topic": "アルゴリズム",
+      "stem": "次のループの計算量として最も適切なものはどれか。",
+      "code": "for (i = 0; i < n; i++) { for (j = 1; j < n; j *= 2) work(); }",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n log n)",
+        "O(n²)"
+      ],
+      "answer": "ウ",
+      "explanation": "外側O(n)、内側O(log n)の入れ子なのでO(n log n)。"
+    }
+  ]
+}
