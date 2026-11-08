@@ -1,0 +1,1535 @@
+{
+  "id": "ap-2025-spring",
+  "title": "2025年度 春期（令和7年度）応用情報 午前［公式問題画像］",
+  "year": 2025,
+  "season": "春期",
+  "sourceType": "ipa",
+  "exam": "AP",
+  "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前",
+  "sourceUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+  "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_ans.pdf",
+  "imageOnly": true,
+  "notes": "IPA問題冊子の各問を画像で掲載。選択肢順は原順固定。公式解答で採点。",
+  "questions": [
+    {
+      "id": "r07h-q01",
+      "number": 1,
+      "topic": "テクノロジ系",
+      "stem": "問1 論理式 P, 0 がいずれも真であるとき, 論理式 R の真偽にかかわらず真になる式は\nどれか。ここで, \" \"は否定を, “V\" SBME, “A” は論理積を, “つっ”は含意\n(\"吉 つ 偽”となるときに限り偽となる演算) を表す。\nア ((Pっ0)人(0っP))っ(Rっ6)\n4 ((Pっ0 )人(0っP))っ(0っR )\nウ ((P30)V(Q5P)) 5 (R50)\nェ ((Pっ6)V(0っP)) > (05k)",
+      "image": "assets/ap-2025-spring/q01.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問1。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q02",
+      "number": 2,
+      "topic": "テクノロジ系",
+      "stem": "問2 OSx 51 の範囲で単調に増加する連続関数 f (x) が f(9) <0 ミ「f(1) を満た\nすときに, 区間内で f (x) = 0 である x の値を近似的に求めるアルゴリズムにおいて,\n(2) は何回実行されるか。\n\n〔アルゴリズム〕\n(1) m0, xと1とする。\n+x,\n(2) xo ーー とする。\n(3) x, — x 9.001 ならば x の値を近似値として終了する。\n(4) f(x) OMS x で x として, そうでなければ x。 で x とする。\n(5) (2) に戻る。\nP 10         4 20         ウ 100         エ 1,000",
+      "image": "assets/ap-2025-spring/q02.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問2。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q03",
+      "number": 3,
+      "topic": "テクノロジ系",
+      "stem": "問3 AI における機械学習の過程において, 過学習と疑われたときの人解消方法として,\n最も適切なものはどれか。\nア 訓練した時と同じ精度を出すために, 訓練データをテストデータとして使用する。\n4 精度を高めるために, 元の訓練データに加工を施し, 訓練データの量を増やす。\nウ 予測した結果に近づけるために, モデルをより複雑にする。\nエ より多くの未知のデータに対して予測できるように, 汎化性能を下げる。",
+      "image": "assets/ap-2025-spring/q03.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問3。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q04",
+      "number": 4,
+      "topic": "テクノロジ系",
+      "stem": "問4 リアルタイム性が求められる組込みシステムにおいて, システムへの入力に対する\nリアルタイムな応答の方法として, 最も適切なものはどれか。\nア 0S を使用しないで応答する。\nイ 定められた制限時間内に応答する。\nウ 入力された順序を守って応答する。\nエ 入力時刻を記録して応答する。",
+      "image": "assets/ap-2025-spring/q04.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問4。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q05",
+      "number": 5,
+      "topic": "テクノロジ系",
+      "stem": "問5 A, B, C の順序で入力されるデータがある。各データについてスタックへの挿入と\n取出しを 1 回ずつ行うことができる場合, データの出力順序は何通りあるか。\nて  5 * BC\nス\nタ\nッ\nの\nア 3         イ 4         上ウ 5         エ 6",
+      "image": "assets/ap-2025-spring/q05.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問5。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q06",
+      "number": 6,
+      "topic": "テクノロジ系",
+      "stem": "問6 図の2 分探索木に 1 と 0 の二つの要素を順に追加した AVL 木として, 適切なものは\nどれか。\n©)\n©    (7)\nCRORG\nァ           4\n@)            (の\n()    (5       (2)    (6)\nOOO @   OO® ©\nQ ©\n9           ne\n(5          (5\n(3    (7)      (9)    ©)\nOQ © ©    ) (の   (の\nQ ©      OQ ©",
+      "image": "assets/ap-2025-spring/q06.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問6。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q07",
+      "number": 7,
+      "topic": "テクノロジ系",
+      "stem": "問7 fact (n) は, 非負の整数 n に対して n の階乗を返す。fact (n) の再帰的な定義は\nどれか。\nア if n=0 then return 0 else return nx fact (n—1)\n4 if n=0 then return 9 else return nx fact (n+1)\nウ if n=O then return 1 else return nx fact (n—1)\nエ if n=0 then return 1 else return nXfact (n+1)",
+      "image": "assets/ap-2025-spring/q07.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問7。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q08",
+      "number": 8,
+      "topic": "テクノロジ系",
+      "stem": "問8 同じ命令ミネットをもつコンピュータAと B とがある。それぞれのCPU クロック周期\n及びあるプログラムを実行したときの CPI (Cycles Per Instruction) は, 表のとお\nりである。そのプログラムを実行したとき, コンピュータAの処理時間は, コンピュ\nータ B の処理時間の何倍になるか。\n>       a\n7  32     イ  2      ウ 2      i 8",
+      "image": "assets/ap-2025-spring/q08.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問8。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q09",
+      "number": 9,
+      "topic": "テクノロジ系",
+      "stem": "問9 DMAコントローラーの説明として, 適切なものはどれか。\nア MPU では時間が掛かる積和演算を, 高速に行う。\nイ 仮想メモリ機能, メモリ保護機能などのメモリ管理機能を提供する。\nウ 動作クロックに合わせてカウントするカウントレジスタをもち, それによって時\n間の経過を保持する。\nエ メモリと入出力装置, 又はメモリとメモリとの間のデータ転送を, MPU を介さず\nに行う。",
+      "image": "assets/ap-2025-spring/q09.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問9。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q10",
+      "number": 10,
+      "topic": "テクノロジ系",
+      "stem": "問19 オブジェクトストレージの特徴として, 適切なものはどれか。\nア オブジェクトにはユニークな識別子が割り当てられ, 識別子を使ってアクセスす\nる。\nイ オブジェクトの内容を更新する際, 上書き更新をする。\nウ 広域分散を実現するためには, 遠隔地のストレージと静止点を設けて同期を行う\n必要がある。\nエ ストレージはディレクトリの概念を使った階層構造である。",
+      "image": "assets/ap-2025-spring/q10.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問10。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q11",
+      "number": 11,
+      "topic": "テクノロジ系",
+      "stem": "AL マルチプロセッサによる並列処理で得られる高速化率 (単ニプロセッサのときと比\nべた倍率) E を, 次の式によって評価する。r = 6.9 のアプリケーションの高速化率\nがr = 0.3 のものの 3 倍となるのは, プロセッサが何台のときか。\nn\nごことで,\n\nn: プロセッサの台数 (1 Sn)\n\nr : 対象とする処理のうち, 並列化が可能な部分の割合 (9 ミrミ1)\nとし, 並列化に伴うオーバーヘッドは考慮しなかいものとする。\nア 3             イ 4             ウ 5             エ 6",
+      "image": "assets/ap-2025-spring/q11.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問11。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q12",
+      "number": 12,
+      "topic": "テクノロジ系",
+      "stem": "問12 二つのシステム A, B の乏働率をそれぞれce。 (0<a,<1), ws (O<as<1), MTBF\nをそれぞれ MTBF, MTBF。, MTTR をそれぞれ MITR, MTTR。 としたとき, これらの関係\nとして, 常に成り立つものはどれか。\nP= wsならば, MTBF。三MTBF。であり, かつ MTTR。三MTTR。である。\nイ eg。三wsならば, MTTR。 ノ MTBF。王MTTR。 7 MTBF。である。\nD> wsならば, MTBF, > MTBF。であり, かつ MTTR、 > MTTR。である。\nZL ay > ast Sk, MTTR。 / MTBF, > MTTR。 / MTBF。である。",
+      "image": "assets/ap-2025-spring/q12.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問12。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q13",
+      "number": 13,
+      "topic": "テクノロジ系",
+      "stem": "問13 図のように3 個の装置を並列と直列に組み合わせて構成したシステムがある。装軒\n単体の稼働率と, システムの乏働率の関係を示したグラフはどれか。ここで, 3 個の\n装置の稼働率は, 全て等しいものとする。\n\n=\nPF 1.0                 >        t 1.0\na            |              a\nw            i                i\nの          ws                  の\n       5.5      T9            6        6.5      Te\n装置単体の稼働率             装置単体の稼働率\n2 19         -               エ 10         -\nス            H                  ス            Poy\ng         .ソ                   g         a\n       LY                    働       a\nx     es                       x     販\n%%       0.5      7.0            °F       6.5      Tr9\n装置単体の稼働率                   装置単体の稼働率",
+      "image": "assets/ap-2025-spring/q13.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問13。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q14",
+      "number": 14,
+      "topic": "テクノロジ系",
+      "stem": "問14 リアルタイム OS において, 実行中のタスクがプリエンプションによって須移する\n状態はどれか。\nア 休止状態           イ 実行可能状態\nウ 終了状態           エ 待ち状態",
+      "image": "assets/ap-2025-spring/q14.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問14。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q15",
+      "number": 15,
+      "topic": "テクノロジ系",
+      "stem": "PAIS 仮想記憶管理におけるページ置換えアルゴリズムとして LRU方式を採用する。 主記\n憶のページ枠が, 4000, 5000, 6000, 7000 番地 (いずれも 16 進数) の 4 ページ分で,\nプログラムが参照するページ番号の順が, 1つ2つ3っつ4つ2つ5つ3つ1づつ6っ\n5 つ 4 のとき, 最後の参照ページ 4 は何番地にページインされているか。ここで, 最\n初の1つ 2つ3つ4の参照で, それぞれのページは 4000, 5000, 6000, 7000 番地に\nページインされるものとする。\n\nア 4000          4 5000          ウ 6000          エ 7000",
+      "image": "assets/ap-2025-spring/q15.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問15。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q16",
+      "number": 16,
+      "topic": "テクノロジ系",
+      "stem": "問16 Hit, 0SS のライセンスごとに, そのライセンスの OSS を利用したプログラムを配\n布するとき, ソースコードを公開しなければならないかどうかを示す。a一d に入れ\nるライセンスの適切な組合せはどれか。ここで, RHO “〇\"は公開 しなければなら\nないことを表し, “X” は公開しなくてもよいことを表す。\n配布プログラム\n| \"トトトロ\n[esay-as_rewevenonvevon |o|olol|*l\n[ssewwcyz2uezm226 。 |olol*lxl\n[cwwsyz2ueza226 [ol x [=I *|\n[= T= TT]",
+      "image": "assets/ap-2025-spring/q16.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問16。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q17",
+      "number": 17,
+      "topic": "テクノロジ系",
+      "stem": "間17 OpenAPI Specification に従った API の定義・開発を支援する機能を提供する 0SS\nはどれか。\nア curl          イ OpenAM        ウ Serverspec     I Swagger",
+      "image": "assets/ap-2025-spring/q17.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問17。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q18",
+      "number": 18,
+      "topic": "テクノロジ系",
+      "stem": "問18 8 ビット D/A 変換器を使って負でない電圧を発生させる。使用する D/A 変換器は,\n最下位の 1 ビットの変化で出力が 10 ミリV変化する。データに 9 を与えたときの出\n力は9 ミリ Vである。データに 16 進数で 82 を与えたときの出力は何ミリ V か。\n\nア 820           イ 1,024         ウ 1,300         エ 1.312",
+      "image": "assets/ap-2025-spring/q18.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問18。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q19",
+      "number": 19,
+      "topic": "テクノロジ系",
+      "stem": "問19 産業機器の制御装置として使われる PLC の説明として, 適切なものはどれか。\nア 自動制御であり, 偏差の比例, 積分及び微分の 3 要素で制御する。\nイ 主としてラダー図を用いたシーケンスプログラムによって制御する。\nウ 電圧及び電流のアナログ信号をデジタル信号に変換する。\nエエ リレーシーケンス回路のハードウェアによって制御する。",
+      "image": "assets/ap-2025-spring/q19.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問19。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q20",
+      "number": 20,
+      "topic": "テクノロジ系",
+      "stem": "問20 FPGA などに実装するデジタル回路を記述し, 論理全成するために使用される言語\nはどれか。\nア DDL     イ HDL     ウ UML     エ XML",
+      "image": "assets/ap-2025-spring/q20.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問20。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q21",
+      "number": 21,
+      "topic": "テクノロジ系",
+      "stem": "問21 roT システムにおいて, センサーの値をゲートウェイに送信するセンサーノードの\n消費電流を抑えるため, 図のような間欠動作を考える。 センサーノードの動作時間\nは 10 ミリ秒で, その間は平均して 10mA の電流が流れる。待機中は常に 0.1A の電\n流が流れる。 間欠動作の平均電流を 1A 以下にするための待機時間として, 最も短\nいものはどれか。ここで, 平均電流の値を求める時間は十分に長いものとする。\n動作時間 待機時間\n(19ミリ秒)        -\n°                                       時間\nア 1.1秒                イ 11.1秒\nウゥ 111.1秒                 xm 1111.1秒",
+      "image": "assets/ap-2025-spring/q21.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問21。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q22",
+      "number": 22,
+      "topic": "テクノロジ系",
+      "stem": "間22 ユーザーインタフェースのユーザビリティ を評価する手法には, 利用者が参加する\nものと専門家だけで実施するものとがある。 利用者が参加する手法と専門家だけで実\n施する手法との適切な組合せはどれか。",
+      "image": "assets/ap-2025-spring/q22.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問22。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q23",
+      "number": 23,
+      "topic": "テクノロジ系",
+      "stem": "問23 W3C で仕様が定義され, EPR,  直線, 文字列などの図形オブジェクトを XML 形\n式で記述し, Web ページでの図形描画にも使うこと ができる画像フォーマットはどれ\nか。\nア OpenGL         イ PNG            ウ SVG            エ TIFF",
+      "image": "assets/ap-2025-spring/q23.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問23。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q24",
+      "number": 24,
+      "topic": "テクノロジ系",
+      "stem": "間24 KBD lol デバイスから送信される大量で, かつ様々な形式のデータ を格納可能な\nデータモデルのうち, 行ごとに任意の列数をもち, かつ列ごとに複数の値をもつこと\nによって, 和柔軟なデータ格納を実現しているデータモデルはどれか。\nア グラフ              イ ドキュメント\nウ リレーショナル          エ ワイドカラム",
+      "image": "assets/ap-2025-spring/q24.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問24。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q25",
+      "number": 25,
+      "topic": "テクノロジ系",
+      "stem": "問25 UML を用いて表した図のデータモデルを関係データベース上に実装する際の解釈の\nうち, 適切なかものはどれか。\nIN\n制約 : “注文\" のインスタンス\nが指定送付先をもつときは, その\n\"付加情報” の注文主と \"注文\"\n\\OBBE-BF BEE\n/\nmess      | 注文番号 |      1品目番号\n請求先           受注日            名称\n主送付先          数量\n1\nbal                    制約 : \"注文\"のインスタンス\n付加情報           | が指定送付先をもつときは, 当該\n識別番号                 Ex\" の BE! の送付先で\n 指定送付先       Seger の副送付\nア “指定送付先\"を指定する際, “付加情報\" 表のどの行でも選択できる。\nイ “付加情報\" RO \"顧客'表の行数は一致していなければならない。\nウ “付加情報\" 表には “MR” 表に対する参照制約を指定する。\nエ “付加情報\" 表には \"注文\" 表に対する参照制約を指定する。",
+      "image": "assets/ap-2025-spring/q25.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問25。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q26",
+      "number": 26,
+      "topic": "テクノロジ系",
+      "stem": "問26 関係を第2正規形から第3 正規形に変換する手順はどれか。\nア 候補キー以外の属性から, 候補キーの一部の属性に対して関数従属性がある場合,\nその関係を分解する。\nイ 候補キー以外の属性間に関数従属性がある場合, その関係を分解する。\nウ 候補キーの一部の属性から, 候補キー以外の属性への関数従属性がある場合 そ\nの関係を分解する。\nエーつの属性に複数の値が入っている場合, 単一の値になるように分解する。",
+      "image": "assets/ap-2025-spring/q26.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問26。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q27",
+      "number": 27,
+      "topic": "テクノロジ系",
+      "stem": "問27 SOL 文に示す参照制約が存在する“商品” RO “BE 表とがある。“商品” RO\n行を削除したとき, 削除した行の商品コードと同じ値の商品コードをもつ \"受注”表\nの行を自動的に削除する SQL 文として, a に入れる字句はどれか。\n\n(SOL 文〕\nCREATE TABLE 商品 (\n商品コード CHAR(4) PRIMARY KEY ,\n商品名       VARCHAR(64)\n)\nCREATE TABLE 受注 (\n受注番号     INTEGER PRIMARY KEY ,\n商品コード CHAR(4) ,\n受注個数      INTEGER ,\n納品日      CHAR(8) ,\nFOREIGN KEY (商品コード) REFERENCES 商品(商品コード)\nON DELETE |\n)\nP CASCADE                      イ RESTRICT\nウ SET DEFAULT              エ SET NULL",
+      "image": "assets/ap-2025-spring/q27.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問27。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q28",
+      "number": 28,
+      "topic": "テクノロジ系",
+      "stem": "間28 和両立である関係KR と S MHS, RUS と等しいものはどれか。ここで, 一は差演\n算, は共通演算を表す。\nア (R-S) —(S—R)        4 R-(R-S)\nウ R—(S—R)           xX S—(R-S)",
+      "image": "assets/ap-2025-spring/q28.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問28。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q29",
+      "number": 29,
+      "topic": "テクノロジ系",
+      "stem": "問29 無線 LAN のアクセスポイントや IP 電話機などに, LAN ケーブルを利用して給電も\n行う仕組みはどれか。\nア PLC          イ PoE          ウ UPS          エ USB",
+      "image": "assets/ap-2025-spring/q29.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問29。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q30",
+      "number": 30,
+      "topic": "テクノロジ系",
+      "stem": "間30 MTU (Maximum Transmission Unit) が 1,500 バイトに設定された IPv4 ネットワー\nクで, 2,000 バイトのデータを TCP を用いて送信するときに, 二つ目に送信されるパ\nケットに含まれるデータは何バイトか。ここで, TCP ヘッ ダー長は 20 バイト, IP へ\nッダー長は 26 バイト, イーサネットのヘッダー長と トレーラー長は, それぞれ 14 バ\nイトと4バイトとする。また, データを複数パケッ トに分割して送信するときは, 先\nに送信するパケットに格納できる上限までデータを含めて送信するものとする。\n\nア 500        イ 540        ウ 580        エ 598",
+      "image": "assets/ap-2025-spring/q30.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問30。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q31",
+      "number": 31,
+      "topic": "テクノロジ系",
+      "stem": "問31 次のルーティングテーブルをもつルータが宛先 IP アドレス 192.168.1.1 のバケッ\nトを受信したとき, 選択されるネクストホップはどれか。ことこで, 宛先 IP アドレス\nの条件を満たす宛先ネットワークが複数あるときは, それらのうちで, サブネットマ\nスクが最も長い宛先ネットワークのネクストホップを選択する。\nア 10.1.0.1                イ 10.1.0.2\nウ 19.1.0.3                エ 10.1.0.4",
+      "image": "assets/ap-2025-spring/q31.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問31。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q32",
+      "number": 32,
+      "topic": "テクノロジ系",
+      "stem": "問32 あるサブネットでは, ルータやスイッチなどのネットワーク機器に IP アドレスを\n割り当てる際, 割当て可能なアドレスの末尾から降順に使用するルールを採用してい\nる。このサブネットのネットワークアドレスを 10, 16. 32.64/26 とするとき, 10 番目\nに割り当てられるネットワーク機器のアドレスはどれか。ここで, ネッ トワーク機器\n1 台に対して, このサブネット内のアドレス 1 個を割り当てるものとする。\n\nア 19.16.32.54              イ 10.16, 32.55\nウ 10,16.32.117         エ 10.16, 32.118",
+      "image": "assets/ap-2025-spring/q32.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問32。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q33",
+      "number": 33,
+      "topic": "テクノロジ系",
+      "stem": "問33 TCP/IP ネットワークで, データ転送用と制御用とに異なるウェルノウンポート番\n号が割り当てられているプロトコルはどれか。\nア FTP     イ POPS     ウ SMTP     SNMP",
+      "image": "assets/ap-2025-spring/q33.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問33。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q34",
+      "number": 34,
+      "topic": "テクノロジ系",
+      "stem": "間34 30k バイトの JPEG ファイルを電子メールに添付するとき, 実際の転送データはお\nよそ何k バイトになるか。ここで, 添付ファイルはMTIME base64 を用いてエンコーデ\nィングされるものとする。\n\nア 20      イ 30      ウ 49      エ 60",
+      "image": "assets/ap-2025-spring/q34.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問34。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q35",
+      "number": 35,
+      "topic": "テクノロジ系",
+      "stem": "問35 デジタル庁, 総務省及び経済産業省が策定した “電子政府における調達のために参\n照すべき暗号のリスト (CRYPTREC 暗号リスト)\"”を構成する暗号リストの説明のうち,\n適切なものはどれか。\n\nア 推奨候補暗号リストとは, CRYPTREC によって安全性及び実装性能が確認された\n暗号技術のうち, 市場における利用実績が十分であるか今後の普及が見込まれると\n判断され, 当該技術の利用を推奨するもののリストである。\n\nイ 推奨候補暗号リストとは, 候補段階に格下げされ, 互換性維持目的で利用する暗\n号技術のリストである。\n\nウ 電子政府推奨暗号リストとは, CRYPTREC によって安全性及び実装性能が確認さ\nれた暗号技術のうち, 市場における利用実績が十分であるか今後の普及が見込まれ\nると判断され, 当該技術の利用を推奨するもののリストである。\n\nエ 電子政府推奨暗号リストとは, 推奨段階に格下げされ, 互換性維持目的で利用す\nる暗号技術のリストである。",
+      "image": "assets/ap-2025-spring/q35.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問35。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q36",
+      "number": 36,
+      "topic": "テクノロジ系",
+      "stem": "間36 Web サーバのログを分析したところ, Web サーバへの攻撃と思われる HTTP リクエス\nトヘッダーが記録されていた。 RO HTTP リクエストヘッダーから推測できる, 攻撃\n者が悪用しようとしていた可能性が高い脆弱性はどれか。ここで, HTTP リクエスト\nヘッダー中の “%20” は空白を意味する。\n\n(HTTP リクエストヘッダーの部〕\nGET /cgi-bin/submit.cgi?user=:cat%20/etc/passwd HTTP/1.1\nAccept: */*\nAccept-Language: ja\nUA-CPU: x86\nAccept-Encoding: gzip, deflate\nUser-Agent: (省略)\nHost: test.example.com\nConnection: Keep-Alive\nP HTTP ヘッダーインジェクション (HTTP Response Splitting)\nイ 0S コマンドインジェクション\nウ SQLインジェクション\nエエ クロスサイトスクリプティング",
+      "image": "assets/ap-2025-spring/q36.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問36。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q37",
+      "number": 37,
+      "topic": "テクノロジ系",
+      "stem": "問37 暗号機能を実装した IoT 機器における脅威のうち, サイドチャネル攻撃に該当する\nものはどれか。\nア 暗号化関数を線形近似する式を導き, その線形近似式から秘密情報の取得を試み\nる。\nイ 機器が発する電磁波を測定することによって秘密情報の取得を試みる。\nウ ニニつの平文の差とそれぞれの暗号文の差の関係から, 秘密情報の取得を試みる。\nエ 理論的にあり得る復号鍵の全てを機器に入力して秘密情報の取得を試みる。",
+      "image": "assets/ap-2025-spring/q37.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問37。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q38",
+      "number": 38,
+      "topic": "テクノロジ系",
+      "stem": "間38 PKIを構成する OCSP を利用する目的はどれか。\nア 誤って破棄してしまった秘密鍵の再発行処理の進捗状況を問い合わせる。\nイ デジタル証明書から生成した鍵情報の交換が OCSP クライアントと 0CSP レ スポン\nダーの間で失敗した際, 認証状態を確認する。\nウ デジタル証明書が失効しているかどうかの状態を問い合わせる。\nエ   有効期限が切れたデジタル証明書の更新処理の進捗状況を確認す る。",
+      "image": "assets/ap-2025-spring/q38.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問38。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q39",
+      "number": 39,
+      "topic": "テクノロジ系",
+      "stem": "問39 欧米などの企業, 組織で行わもれている \"セキュリティクリアランス\"の事例は どれ\n\nか。\n\nア インターネットと重要な秘密情報を取り扱う組織内ネットワークとを, 物理的に\n分離する。\n\nイ 重要な秘密情報へのアクセス権を付与されたアカウントを定期的に調べ, 不要な\n場合は削除する。\n\nウ 重要な秘密情報を取り扱う部署に配属される予定の個人の適性を評価する。\n\nエ 離席時に机の上の重要な秘密情報を含む書類や媒体を片付ける。",
+      "image": "assets/ap-2025-spring/q39.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問39。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q40",
+      "number": 40,
+      "topic": "テクノロジ系",
+      "stem": "問49 ソフトウェアの情報セキュリティ対策のうち, SBOM (Software Bill OF\nMaterials) 管理ツールを用いることができるものはどれか。\nア ソフトウェアでの利用者認証に用いるアカウントの一元管理\nイ ソフトウェアについての脆筑性管理\nウゥ ソフトウェアのソースコードについてのバージョン管理, アクセス制御及び改ざ\nん防止\nDL ソフトウェアのソースコードのバックアップとマルウェア混入防止",
+      "image": "assets/ap-2025-spring/q40.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問40。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q41",
+      "number": 41,
+      "topic": "テクノロジ系",
+      "stem": "問41 cookie に Secure 属性を設定しなかったときと比較した, 設定したときの Web ブラ\n\nウザの動作として, 適切なものはどれか。\n\nア cookie に設定された有効期間を過ぎると, Web ブラウザが cookie を無効である\nと判断する。\n\nイ URL 内のスキームがhttps のときだけ, Web ブラウザから cookie が送出される。\n\nウ Web ブラウザがアクセスする URL 内のパスと cookie に設定されたパスのプレフ\nィックスが一致するときだけ, Wed ブラウザから cookie が送出される。\n\nエエ Web ブラウザではJavaScript による cookie の読出しが禁止される。",
+      "image": "assets/ap-2025-spring/q41.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問41。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q42",
+      "number": 42,
+      "topic": "テクノロジ系",
+      "stem": "問42 Web アプリケーションソフトウェアの開発における WS コマンドインジェクション\n対策はどれか。\nア SQL 文の組立ては全てプレースホルダで実装する。\nイ シェルを起動できる言語機能を利用した実装を避ける。\nウ 直接メモリにアクセスできる言語機能を利用した実装を避ける。\nエ 利用者が入力したファイル名にディレクトリが含まれていないかのエラーチェッ\nクを実装する。",
+      "image": "assets/ap-2025-spring/q42.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問42。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q43",
+      "number": 43,
+      "topic": "テクノロジ系",
+      "stem": "間43 VPNで使用されるプロトコルである IPsec, L2TP, TLS の, 0S1 基本参照モデルにお\nける相対的な位置関係はどれか。\n0SI基本参照モデル      ‘   3   ¢   >\n上位層 (アプリケーション層)\n下位層 (物理層)\nPA      4 B      ウ C      = 0",
+      "image": "assets/ap-2025-spring/q43.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問43。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q44",
+      "number": 44,
+      "topic": "テクノロジ系",
+      "stem": "問44 パスワードクラックの対策のうち, ストレッチングに該当するものはどれか。\n\nア あらかじめ利用者だけが知っている質問と答えををシステムに登録しておき, 普段\nと異なるログイン方法の場合に追加で質問を行う。\n\nイ 一定時間内にパスワードを一定回数誤ったとき, それ以降のログインを試行でき\nないようにする。\n\nウ パスワードの照合のためのハッシュ値を, パスワードに対してハッシュ化を繰り\n返して, 求める。\n\nエ パスワードの照合のためのハッシュ値を, パスワードに利用者 ID ごとに異なる\n文字列を付加してからハッシュ化して, 求める。",
+      "image": "assets/ap-2025-spring/q44.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問44。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q45",
+      "number": 45,
+      "topic": "テクノロジ系",
+      "stem": "問45 デザインレビューの目的はどれか。\nア 設計工程内で, 設計工程の成果物の問題点を発見する。\nイ 品質保証部門が, 全成果物の出荷の可否を判定する。\nウ 品質保証部門によるプログラムのサンプリング検査によって, 設計者では気付か\nない品質上の問題点を発見する。\nエ プロジェクトマネジメントのプロセス上の問題点を発見する。",
+      "image": "assets/ap-2025-spring/q45.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問45。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q46",
+      "number": 46,
+      "topic": "テクノロジ系",
+      "stem": "問46 システムをバージョンアップするとき, システムの稼働環境を二つ用意しておき,\n一方の環境で現バージョンのシステムを稼働させた状態のままで他方の環境のシステ\nムをバージョンアップし, ロードバランサーなどを使って乏働環境を切り替える。こ\nれによって, 切替えに伴うシステムのダウンタイムを短くするとともに, バージョン\nアップしたシステムで不具合が発生したときには, 元のバージョ ンに切り戻す時間を\n短くすることができる。この手法を何というか。\nア ブルーグリーンデプロイメント    イ ホットスタンバイ\nウ ホットスワップ            エ ローリングアップデート",
+      "image": "assets/ap-2025-spring/q46.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問46。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q47",
+      "number": 47,
+      "topic": "テクノロジ系",
+      "stem": "間47 ソフトウェアの保守性を定量評価するときに使用する指標として, 適切なものはど\nれか。\nア (運用期間中に発生した不具合件数) + (プログラムの規模)\nイ (適正規模の基準を満たすプログラムの数) + (プログラムの総数)\nウ (テスト実施済みの分岐の数) + (プログラムの総分岐数)\nエエ (プログラムの推定総エラー数) 一 (摘出エラー数)",
+      "image": "assets/ap-2025-spring/q47.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問47。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q48",
+      "number": 48,
+      "topic": "テクノロジ系",
+      "stem": "問48 XP (Extreme Programming) のプラクティスの一つであるものはどれか。\nア 構造化プログラミング     イ コンポーネント指向プログラミング\nウ ビジュアルプログラミング    エ ペアプログラミング",
+      "image": "assets/ap-2025-spring/q48.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問48。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q49",
+      "number": 49,
+      "topic": "テクノロジ系",
+      "stem": "問49 分散システムの脆弱性を実験によって発見する手法であるカオスエンジニアリング\nには。 五つの原則がある。 この原則のうちの三つは, “定常状態における振る舞いの\n仮説を立てる”, “実世界の事象を多様化させる “継続的に実行できるよう実験を自\n動化する\" である。あと二つの原則の組みはどれか。\n\nア \"開発環境で実験を行う\", \"影響範囲を局所化する\"\nイ “開発環境で実験を行う\", \"有影響範囲を広く捉える\"\nウ “本番環境で実験を行う\", \"影響範囲を局所化する\"\nエ \"本番環境で実験を行う\", \"影響範囲を広く捉える\"",
+      "image": "assets/ap-2025-spring/q49.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問49。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q50",
+      "number": 50,
+      "topic": "テクノロジ系",
+      "stem": "問59 スクラムにおいて繰り返し実行するイベントのうち, ステークホルダに作業の結果\nをプレゼンテーションして, プロダクトゴールに対する進捗について話し合い, 必要\nに応じてスコープを調整するイベントはどれか\nア スプリントプランニング      イ スプリントレビュー\nウ デイリースクラム         EZ レトロスペクティブ",
+      "image": "assets/ap-2025-spring/q50.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問50。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q51",
+      "number": 51,
+      "topic": "マネジメント系",
+      "stem": "間51 プロジェクトマネジメントにおける“プロジェクト宮章\"の説明はどれか。\n\nア プロジェクトの実行, 監視, 管理の方法を規定するために, スケジュール, リス\nクなどに関するマネジメントの役割や責任などを記した文書\n\nイ プロジェクトのスコープを定義むするために, プロジェク トの目標」成果物, 要求\n事項及び境界を記した文書\n\nウ プロジェクトの目標を達成し, 必要な成果物を作成するために, プロジェクトで\n実行する作業を階層構造で記した文書\n\nエ プロジェクトを正式に認可するために, ビジネスニーズ, 目標, 成果物, プロジ\nエクトマネージャ, 及びプロジェクトマネージャの責任・権限を記した文書",
+      "image": "assets/ap-2025-spring/q51.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問51。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q52",
+      "number": 52,
+      "topic": "マネジメント系",
+      "stem": "間52 EVM を使用してマネジメントをしているプロジェクトで, 進捗に関する指標値は次\nのとおりであった。このプロジェクトに対する適切な評価と対策はどれか。\n(進捗に関する指標値〕\n\nCPI (コスト効率指数) : 0.9\n\nSPI (スケジュール効率指数) : 1.\n\nBAC (完成時総予算) に基づく TCPI (残作業効率指数) : 1.2\n\nア コストが予算を超えているが, スケジュールには余裕があり, 残作業のコスト効\n率を計画よりも上げる必要はないので, CPL に基づいて完成までに必要なコストを\n予測する。\n\nイ コストが予算を超えているので, 完成時総予算を超過するおそれがあるが, スケ\nジュールには余裕があるので, 残作業のコスト効率を上げる対策を検討するか, A\nンティンジェンシー予備費の使用を検討する。\n\nウ コストには余裕があるが, スケジュールが予定より遅れており, 残作業のコスト\n効率を計画よりも上げる必要があるので, ファストトラッキングなどを用いたスケ\nジュール短縮を検討するとともに, コンティンジェンシー予備費の使用を検討する。\n\nエ コストには余裕があるので, 残作業のコスト効率を計画よりも上げる必要はない\nが, スケジュールが予定より遅れているので, クラッシングなどを用いたスケジュ\nール短縮を検討する。",
+      "image": "assets/ap-2025-spring/q52.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問52。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q53",
+      "number": 53,
+      "topic": "マネジメント系",
+      "stem": "問53 プロジェクトの期間を短縮する方法のうち, クラッシングに該当するものはどれか。\nア 作業の前後関係を組み直し, 実施する順番を変える。\nイ 作業を分析し, 同時に実施できる者分を複数の作業に分割し, 並行して実施する。\nウ 先行作業の一部の成果物が完成した時点で, 後続作業を開始する。\nエエ プロジェクトの外部から要員を調達し, クリティカルパス上の作業に投入する。",
+      "image": "assets/ap-2025-spring/q53.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問53。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q54",
+      "number": 54,
+      "topic": "マネジメント系",
+      "stem": "R54 あるシステム開発プロジェクトのシステムテストにおけるテスト刻度及び欠陥密度\nの値は, 図に示した領域 ①領域 ののうち, 領域 ④の範囲内であった。品質管理基\n準に照らして評価すると, 行うべき活動として最も適切なものはどれか。 ここで, こ\nのプロジェクトの品質管理基準では, 定量評価の基準と LT, 表に従ってテスト密度\n及び欠陥密度の基準値を設定した上で, テスト密度は基準値の 80%以上であること,\nかつ, 欠陥密度は基準値の 80 %以上 120 %未満でおることと定めている。\n\n品質指標と基準値\n欠陥密度         1\n(件/KLOC)         H\n0.12           ーーニーニーニーニーニーーーーーーー- -\n0.08           ーーーーーーニーーーーーーー\n1\n16          テスト密度 (件/KLOC)\nテスト結果の領域分析\nア 欠陥密度は基準を満たしているが, システムの品質に問題がないか, 欠陥の妥当\n性を確認する。\nイ システムの欠陥が多いので, 検出した欠陥の原因を分析した上で, システムの品\n質改善に取り組む。\nウ システムの欠陥を十分に検出できていない懸念があるので, テストの観点に漏れ\nがないかなど, テストケースの妥当性を確認する。\nIo テスト密度が不足しているので, システムの規模に見合うテストケース数以上と\nなるように, テストケースを追加する。",
+      "image": "assets/ap-2025-spring/q54.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問54。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q55",
+      "number": 55,
+      "topic": "マネジメント系",
+      "stem": "問55 あるサービスではサービス可用性の SLA] に基づき, サービス可用性の目標値の\n遵守状況を月ごとに測定して評価している。 ある月の実績値は 99.39%6だった。この\n月にサービス可用性の目標値を達成するためには, サービス停止時間は, 最低, 何時\n間少なければよかったか。\n\n〔サービス可用性の SLA)\n- サービス可用性の目標値 : 99.5%以上\n・サービス提供時間帯 : 7 時一22 時\n・サービス提供日数 : 29 日月\nア 04        4 0.6        ウ 1.3        エ 1.95",
+      "image": "assets/ap-2025-spring/q55.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問55。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q56",
+      "number": 56,
+      "topic": "マネジメント系",
+      "stem": "問56 A 社は, 自社がオンプレミスで運用している業務システムを, クラウドサービスへ\n段階的に移行する。段階的移行では, 初めにネットワークとサーバを IaaS に移行 し,\n次に全てのミドルウェアを PaaS に移行する。A 社が行っているシステム運用作業の\nうち, この移行によって不要となるシステム運用作業の組合せはどれか。\n\n〔A 社が行っているシステム運用作業)\nD 業務システムのバッチ処理のジョブ監視\n② 物理サーバの起動, 停止のオペレーション\n⑬ ハードウェアの異常を警告する保守ランプの目視監視\n@ ミドルウェアへのパッチ適用\nTaaS への移行によって不要   PaaS への移行によって不要\n|zle _ lee\n[ose",
+      "image": "assets/ap-2025-spring/q56.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問56。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q57",
+      "number": 57,
+      "topic": "マネジメント系",
+      "stem": "問57 サービスの継続的改善で, 改善の達成目標を設定して活動するとき, \"サービスの\n提供やマネジメントの成功に重要な要因\"を特定したものを何というか。\nア CSF     イ KGI     ウ KPI     エ OKR",
+      "image": "assets/ap-2025-spring/q57.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問57。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q58",
+      "number": 58,
+      "topic": "マネジメント系",
+      "stem": "PISS システム監査におけるウォークスルー法の説明として, 適切なものはどれか。\nア 機密データの保管状況に関する資料及び文書類を入手し, 内容を点検する。\nイ システムの運用状況について, 関係者に口頭で問い合わせ, 回答を入手する。\nウ データの生成から入力, 処理, 出力,利活用までのプロセス, 及び組み込まれて\nいる一連のコントロールを確認する。\nエ テストデータを監査対象プログラムで処理し, 期待した結果が出力されるかどう\nかを確かめる。",
+      "image": "assets/ap-2025-spring/q58.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問58。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q59",
+      "number": 59,
+      "topic": "マネジメント系",
+      "stem": "M59 システム監査における \"監査手続\" として, 最も適切なものはどれか。\nア 監査計画の立案や監査業務の進捗管理を行うための手続\nイ 監査結果を受けて, 監査報告書に監査人の結論や指摘事項を記述する手続\nウ 監査項目について, 十分かつ適切な証拠を入手するための手続\nエ 監査テーマに合わせて, 監査チームを編成する手続",
+      "image": "assets/ap-2025-spring/q59.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問59。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q60",
+      "number": 60,
+      "topic": "マネジメント系",
+      "stem": "問69 システム管理基準 (令和5 年) における, ユーザ受入テストに関する監査のチェッ\n\nクポイントとして, 適切なものはどれか。\n\nア 構築された情報システムに, 業務要件が適切に反映されていることを確認するた\nめに, 利用者の立場からテストされていること\n\nイ 情報システムの乏働後に, IT 戦略における目標を達成しているかどうかを確認\nするために, 客観的な情報に基づいてテストされていること\n\nウ 利用者からのシステム要件が適切に反映されていることを確認するために, 情報\nシステムの全ての構成要素について, 中間成果物も含めてレビューされていること\nエエ 利用者が情報システムを利用できるようにするために, 情報システムの移行後に,\n移行結果について, 本番環境が利用可能かどうかレビューされていること",
+      "image": "assets/ap-2025-spring/q60.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問60。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q61",
+      "number": 61,
+      "topic": "ストラテジ系",
+      "stem": "問61 DX 認定制度における認定基準に含まれている事項はどれか。\nア 経営ビジョン及び DX 戦略を策定して対外発信を行うことに加えて, ビジネスモ\nデルの革新などデジタル技術活用の成果目標も既に達成していること\n4 経営ビジョン及びビジネスモデルの方向性を公表するとともに, 策定したビジネ\nスモデルを実現するための方策として, DX 戦略を公表していること\nウ 申請対象が, 中小企業基本法で定められた中小企業であること\nエ デジタルガバナンス・コード 3.6 の全項目に対応していること",
+      "image": "assets/ap-2025-spring/q61.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問61。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q62",
+      "number": 62,
+      "topic": "ストラテジ系",
+      "stem": "問62 A 社は, ソリューションプロバイダから, 顧客に対するワントゥワンマーケティン\nグを実現する統合的なソリューションの提案を受けた。この提案に該当するソリュー\nションとして, 適切なものはどれか。\n\nア CRMソリューション       4 HRMソリューション\nウ SCMソリューション       エ 財務管理ソリリューション",
+      "image": "assets/ap-2025-spring/q62.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問62。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q63",
+      "number": 63,
+      "topic": "ストラテジ系",
+      "stem": "間63 クラウドサービスなどの提供を迅速に実現するためのプロビジョニングの説明はど\n\nれか。\n\nア 企業の情報システムの企画, 設計 開発, BA, 保守などのサービスを, 一貫し\nて又は工程の幾つかを部分的に提供する。\n\nイ 業種や事業内容などで共通する複数の企業や組織が共同でデータセンターを運用\nして, それぞれがインターネットを通して各種サービスを利用する。\n\nウ 自社でハードウェア, ネットワークなどの環境を用意し, 業務パッケージなどを\n導入して利用する運用形態にする。\n\nエエ 利用者の需要を予想し, ネットワーク設備やシシステムリソースなどを計画的に調\n達して強化し, 利用者の要求に応じたサービスを提供できるように備える。",
+      "image": "assets/ap-2025-spring/q63.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問63。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q64",
+      "number": 64,
+      "topic": "ストラテジ系",
+      "stem": "問64 製品 X と製品Y を販売している企業が,  見積作成と提案書作成に掛かる業務時間を,\nそれぞれ 290%削減できるシステムの構築を検討している。Activity-Based  Costing\nを用いて, 次の条件が洗い出された。本システム構築による製品 X の見積作成と製品\nX の提案書作成に関する月間総人件費削減効果は幾らか。\n\n(RF)\n・ 製品 X の見積作成に掛かる月間業務時間は, 50 時間\n・ 製品 X の提案書作成に掛かる月間業務時間は, 50 時間\n・ 製品 Y の見積作成に掛かる月間業務時間は, 100 時間\n製品 Y の提案書作成に掛かる月間業務時間は, 400 時間\n・ 製品 X と製品 Y の見積作成に掛かる月間総人件費は, 6057\n- 製品 X と製品 Y の提案書作成に掛かる月間総人件費は, 366 万円\n- 見積作成と提案書作成は, それぞれ人件費単価が異なる部門が担っている。\n・ 製品 X と製品 Y の見積作成に掛かる人件費単価は, 同じである。\n- 製品 X と製品 Y の提案書作成に掛かる人件費単価は, 同じである。\nア 4万円      イ 8万円      ウ 12万円     エ 14万円",
+      "image": "assets/ap-2025-spring/q64.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問64。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q65",
+      "number": 65,
+      "topic": "ストラテジ系",
+      "stem": "問65 システム管理基準 (令和 5 年) によれば, 企画プロセスにおけるビジネス分析の達\n\n成目標のーつとして, 適切なものはどれか。\n\nア あるべきビジネスモデル及び業務プロセスによって生じる問題やメリットが明確\nにされている。\n\nイ 関連する情報システム及び情報システムの構成要素問のインタフェースが特定さ\nれている。\n\nウ 重要な情報システムの遂行能力・性能・稼動率などの実績の測定量が明確にされ\nている。\n\nエエ 優先順位付けされた要望が業務要件として明確にされ,  利用者及び関係者と合意\nされている。",
+      "image": "assets/ap-2025-spring/q65.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問65。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q66",
+      "number": 66,
+      "topic": "ストラテジ系",
+      "stem": "間66 ベンダーX 社に対して, 表に示すように要件定義フェーズから運用テストフェーズ\n\nまでを委託したい。X 社との契約に当たって, \"情報システム・モデル取引・契約書\nべく第二版>” に照らし, 各フェーズの契約形態を整理した。ad の契約形態のうち,\n準委任型が適切であるとされるものはどれか。\n\nvas   こュニ   ソフトウェア設計。 | 、__   ンュニ    上\n\nシステム | システム              システム | システム   運用\n要件定義     cae      i    プログラミング,             <       2\n\n準委任型                          準委任型\n\n又は            請負型       c     又は\n\nア a,b       イ ad       D bye       エ b, d",
+      "image": "assets/ap-2025-spring/q66.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問66。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q67",
+      "number": 67,
+      "topic": "ストラテジ系",
+      "stem": "問67 市場成長率と相対的市場シェアから, 市場と企業との関係を分析し, 自社製品や事\n業についての最適な資源配分方針を求めるための手法はどれか。\nア 3C     4 BSC     ウ PPM     エ SWOT",
+      "image": "assets/ap-2025-spring/q67.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問67。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q68",
+      "number": 68,
+      "topic": "ストラテジ系",
+      "stem": "問68 プライスライニング戦略はどれか。\nア 消費者が選択しやすいように, 複数の価格帯に分けて商品を用意する。\nイ 商品の品質の良さやステータスを訴えるために意図的に価格を高く設定する。\nウ 商品本体の価格を安く設定し, 関連消耗品の販売で利益を得る。\nエエ 新商品に高い価格を設定して早い段階で利益を回収する。",
+      "image": "assets/ap-2025-spring/q68.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問68。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q69",
+      "number": 69,
+      "topic": "ストラテジ系",
+      "stem": "問69 カーシェアビジネスをビジネスモデルキャンバスに当てはめた。b に該当するもの\nはどれか。 なお, アーエは ad のいずれかに該当する。\n【カーシェアビジネス〕\n- カーディーラーから車両を調達し, 維持・メンテナンスしながら, その車両を提携\n駐車場に保管・準備する。\n・ 必要なときだけ車両を使いたい人が登録する会員制度を構築し, 会員から月会費を\n徴収する。\n会員向けの Web サイトで, 会員に使いたい車両や利用時間などを予約してもらい,\n会員に対して車両の時間貸しを行い, 利用料を徴収する。\n[〔[ビジネスモデルキャンバス〕}\nKP         KA        VWP         CR         CS\nカーディーラー | 維持・      [し 5 | |会員\n提携駐車坦         メンテナンス\nKR                  CH\n|                 Web サイト\nC$                        RS\nme aie xvesvamm, Bauer | | d |\nア 月会費, 利用料             イ 車両\nウ 車両の時間貸し              エ 必要なときだけ車両を使いたい人",
+      "image": "assets/ap-2025-spring/q69.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問69。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q70",
+      "number": 70,
+      "topic": "ストラテジ系",
+      "stem": "問79 フリーミアムの特徴はどれか。\n\nア Web サイト内の広告だけを収益源としているので, サービスの維持・拡大が困難\nである。\n\n4 全ての利用者に広く課金するモデルである。\n\nウ 有料と無料の境界が明確になかっていて, 高度な機能や充実した内容など有料のサ\nービスの優位性がはっきりしている。\n\nエエ 利用者ごとに掛かるコストが大きいので, 少数の利用者が限定的に使うような場\n合にだけ, より高い効果が見込める。",
+      "image": "assets/ap-2025-spring/q70.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問70。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q71",
+      "number": 71,
+      "topic": "ストラテジ系",
+      "stem": "問71 クラウドで学習し, エッジデバイスで推論する機械学習ペースのエッジ AI におい\nて, エッジデバイスで行われる推論処理として, 適切なものはどれか。\nア 一定の環境の中で試行錯誤を行い, 行動に報酬を与えることで学習するプロセス\nイ 学習したモデルに従い, 実際にデータの識別などを行うプロセス\nウ 識別などを行うためのモデルを, 正解のラベルを付けたデータによって作成する\nプロセス\nエ 識別などを行うためのモデルを, 正解のラベルを付けないデータによって作成す\nるプロセス",
+      "image": "assets/ap-2025-spring/q71.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問71。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q72",
+      "number": 72,
+      "topic": "ストラテジ系",
+      "stem": "問72 スマートファクトリーで使用される AL を用いたマシンビジョ ンの目的として, 適\n\n切なものはどれか。\n\nア クラウドに次積した入出荷データを用いて AI が需要予測し, 生産数を最適化す\nる。\n\nイ 作業者が装着した VR ゴーグルに AI が作業状況に応じたガイ ドを表示することに\nよって, 作業効率を向上させる。\n\nウ 設計変更内容を AI によって整理し, 製造現場に正確に伝舌する。\n\nエ 人間の目視検査を AI が代替し, 検査効率を向上させる。",
+      "image": "assets/ap-2025-spring/q72.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問72。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q73",
+      "number": 73,
+      "topic": "ストラテジ系",
+      "stem": "間73 コンピテンシーモデルの説明はどれか。\n\nア 権限行使と命令統制による労務管理を批判し   目標管理制度や経営参加制度など\nによる動機付けが有効でもるとしたもの\n\nイ 最適なリーダーシップの唯一のスタイルは存在せず, 望ましいリーダーシッ プの\nスタイルは, 状況に応じて異なるとしたもの\n\nウ 人材の評価や育成の基準とするために, 恒常的に成果に結び付けること ができる\n個人の行動や思考特性を定義したもの\n\nエ 人間の基本的欲求を低次から, 生理的欲求, 安全の欲求,所属と愛の欲求, 承認\nORR, 自己実現の欲求としたもの",
+      "image": "assets/ap-2025-spring/q73.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問73。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q74",
+      "number": 74,
+      "topic": "ストラテジ系",
+      "stem": "問74 様々な昌要予測モデルのもととなっている時系列モデルに関する記述として, 適切\n\nなものはどれか。\n\nア 移動平均法では, 平均する期間を長くするほど, 短期的な需要の変化の影響が大\nきくなる。\n\nイ 移動平均法は, 長期的な需要のトレンドを把握するのには向かないが, BOR\n要の変化を把握するのには向いている。\n\nウ 指数平滑法では, 平滑化定数の値が 0%に近いほど直前の実績値を重視し,\n199%に近いほど過去の実績値を重視する。\n\nエエ 指数平滑法は, 過去の実績値よりも直近の実績値を用いるほど予測の精度が向上\nすると考えられる場合に有効な手法である。",
+      "image": "assets/ap-2025-spring/q74.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問74。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q75",
+      "number": 75,
+      "topic": "ストラテジ系",
+      "stem": "問75 引き出された多くの事実やアイディアを, 類似するものでグルーピングしていく収\n東技法はどれか。\nア MM法            4 ゴードン法\nウ 親和図法           エ ブレーンストーミング",
+      "image": "assets/ap-2025-spring/q75.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問75。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q76",
+      "number": 76,
+      "topic": "ストラテジ系",
+      "stem": "問76 表から, 卸売業A社と小売業 B 社の財務指標を比較したとき, 卸売業A社について\n適切な記述はどれか。\n単位 百万円\n\nLam | ml al\nア 売上高,総資産の額がともに低く, 総資産回転率も低い。\nイ 売上高営業利益率が高く, 総資産営業利益率も高い。\nウ 営業利益, 総資産の額がともに低く, 総資産営業利益率も低い。\nエ 総資産回転率が高く, 総資産営業利益率も高い。",
+      "image": "assets/ap-2025-spring/q76.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問76。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q77",
+      "number": 77,
+      "topic": "ストラテジ系",
+      "stem": "問77 売上高が 7,000 万円のとき, 200 万円の損失, 売上高が 9,000 万円のとぎ, 600 万\n円の利益と予想された。 売上高が 8, 000 万円のときの変動費は何万円か。、ここで, 売\n上高が変わっても変動費率は変わらないものとする。\nア 3,200    イ 4,000    ウ 4,800    エ 5,600",
+      "image": "assets/ap-2025-spring/q77.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問77。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q78",
+      "number": 78,
+      "topic": "ストラテジ系",
+      "stem": "問78 著作権法及び関連法令によれば, 生成 AI を利用して画像を生成する行為又はその\n\n生成物の利用が著作権侵害にあたるか否かに関して, 適切な記述はどれか。\n\nア AI が既存の著作権で保護されている画像をデータセットとして学習している場\n合は, その AI を利用して画像を生成すると, いかなる場合も著作権侵害になる。\n\nイ AL を利用して生成した画像が著作権で保護された既存の画像と類似しており,\nそれを公開した場合, 著作権侵害となる可能性がある。\n\nウ AT を利用して生成した画像は, AI が自動的に創作したものであるため, いかな\nる状況でも著作権の対象外となり, 著作権侵害の懸念は生じない。\n\nTAL を利用して生成した画像は, 生成した本人の私的使用に限って, 利用が認め\nられており, 商業利用を行った場合は, いかなる場合も著作権侵害となる。",
+      "image": "assets/ap-2025-spring/q78.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問78。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q79",
+      "number": 79,
+      "topic": "ストラテジ系",
+      "stem": "79 資金決済法における暗号資産に関する記述として, 適切なものはどれか。\n\nア 暗号資産交換業者は, 情報の安全管理や広告勧誘規制などの行為規制は受ける\nが, 資本金額や純資産額などの財務的規制は受けない。\n\nイ 暗号資産は 不特定の者に対して使用でき, 電子的に記録され, 移転できるもの\nであり, 法定通貨又は法定通貨建ての資産ではないが, 法定通貨と相互に交換でき\nる。\n\nウ 暗号資産は。 ブロックチェーン技術を用いて集中管理されており, 法定通貨と同\nER, 銀行などの金融機関で入手・交換できる。\n\nI 利用者の保有する暗号資産の残高や取引は, 発行者によって利用者ごとに管理さ\nれているので, 利用者は保有している暗号資産を発行者の指定する加盟店だけで使\n用できる。",
+      "image": "assets/ap-2025-spring/q79.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問79。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    },
+    {
+      "id": "r07h-q80",
+      "number": 80,
+      "topic": "ストラテジ系",
+      "stem": "PISO 欧州へ電子部品を輸出するには, RoHS 指令への対応が必要である。この RoHS 指令\n\nの目的として, 適切なものはどれか。\n\nア 家電製品から有用な部品や材料をリサイクルし, 廃棄物を減量するとともに, 資\n源の有効利用を推進する。\n\nイ 機器が発生する電磁妨害が, 無線通信機器及びその他の機器の正常な動作を妨げ\nるレベルを超えないようにする。\n\nウ 大量破壊兵器の開発及び拡英, 通常兵器の過剰備蓄に関わるおそれがある場合な\nど, 国際社会の平和と安全を脅かす輸出行為を防止する。\n\nエエ 電気電子製品の生産から処分までの全ての段階で, 有害物質が環境及び人の健康\nに及ぼす危険を最小化する。",
+      "image": "assets/ap-2025-spring/q80.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：独立行政法人情報処理推進機構（IPA） 令和7年度 春期 応用情報技術者試験 午前 問80。https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。"
+    }
+  ]
+}

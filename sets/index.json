@@ -7,5 +7,14 @@
     "sourceType": "ipa",
     "count": 16,
     "file": "sets/ap-2025-spring-preview.json"
+  },
+  {
+    "id": "ap-2025-spring",
+    "title": "2025年度 春期（令和7年度）応用情報 午前［公式問題画像］",
+    "year": 2025,
+    "season": "春期",
+    "sourceType": "ipa",
+    "count": 80,
+    "file": "sets/ap-2025-spring.json"
   }
 ]
