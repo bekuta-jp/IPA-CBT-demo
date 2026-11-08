@@ -16,6 +16,8 @@ from dataclasses import dataclass
 from pathlib import Path
 
 import fitz
+import pytesseract
+from pytesseract import Output
 from PIL import Image, ImageChops
 import requests
 
@@ -54,36 +56,80 @@ def fetch_pdf(url: str) -> fitz.Document:
     return fitz.open(stream=response.content, filetype='pdf')
 
 
+def ocr_markers(page: fitz.Page, page_index: int) -> tuple[list[Mark], list[tuple[str, int, int]]]:
+    """Locate 問N in image-only IPA PDFs, using OCR only on the left question-number strip."""
+    region = fitz.Rect(46, 38, min(page.rect.width * .29, 174), page.rect.height - 47)
+    scale = 3.1
+    pix = page.get_pixmap(matrix=fitz.Matrix(scale, scale), clip=region,
+                          colorspace=fitz.csGRAY, alpha=False)
+    im = Image.frombytes('L', (pix.width,pix.height), pix.samples)
+    result = pytesseract.image_to_data(im,lang='jpn+eng',config='--psm 11',output_type=Output.DICT)
+    tokens=[]
+    for i,raw in enumerate(result['text']):
+        t=unicodedata.normalize('NFKC', raw).strip()
+        if not t:continue
+        try: conf=float(result['conf'][i])
+        except (ValueError,TypeError):conf=-1
+        if conf<5:continue
+        x=int(result['left'][i]); y=int(result['top'][i]); w=int(result['width'][i]); h=int(result['height'][i])
+        tokens.append((t,x,y,w,h,conf))
+    # Most digits in ordinary text are to the right of the 問 column; locate the 問 glyph first.
+    anchors=[]
+    for i,(t,x,y,w,h,conf) in enumerate(tokens):
+        key=t.replace(' ', '').replace('　','')
+        full=re.match(r'^[問間閣闇](?:第)?(\d{1,2})(?!\d)',key)
+        if full:
+            n=int(full.group(1))
+            if 1<=n<=80 and x/scale+region.x0<page.rect.width*.19:
+                anchors.append(Mark(n,page_index,max(0,(y/scale+region.y0)-7)))
+            continue
+        if re.fullmatch(r'[問間閣闇]',key):
+            for t2,x2,y2,w2,h2,conf2 in tokens:
+                if not re.fullmatch(r'\d{1,2}',t2):continue
+                if x2>=x+w-5 and x2<=x+w+34 and abs(y2-y)<max(h,h2):
+                    n=int(t2)
+                    if 1<=n<=80 and x/scale+region.x0<page.rect.width*.19:
+                        anchors.append(Mark(n,page_index,max(0,y/scale+region.y0-7)))
+    brief=[(t,round(x/scale+region.x0),round(y/scale+region.y0)) for (t,x,y,w,h,c) in tokens if (x/scale+region.x0)<page.rect.width*.18]
+    return anchors,brief
+
+
 def find_markers(doc: fitz.Document) -> list[Mark]:
-    raw = []
-    for p in range(3, len(doc)):
-        page = doc[p]
-        for block in page.get_text('dict').get('blocks',[]):
-            if 'lines' not in block:
-                continue
+    raw=[]
+    extracted_chars=0
+    for p in range(3,len(doc)):
+        page=doc[p]
+        blocks=page.get_text('dict').get('blocks',[])
+        for block in blocks:
+            if 'lines' not in block:continue
             for line in block['lines']:
                 label=''.join(span.get('text','') for span in line['spans'])
+                extracted_chars+=len(label)
                 standard=unicodedata.normalize('NFKC',label)
                 m=re.match(r'^\s*問\s*([0-9]{1,2})(?![0-9])(?:\s|[、，.\-]|$)',standard)
-                if not m:
-                    continue
+                if not m:continue
                 n=int(m.group(1))
-                if not (1<=n<=80):
-                    continue
+                if not (1<=n<=80):continue
                 x0,y0,*_=line['bbox']
-                if x0>page.rect.width*0.35: continue
-                raw.append(Mark(n,p,max(0,y0-7)))
+                if x0<=page.rect.width*.35:raw.append(Mark(n,p,max(0,y0-7)))
+    print('Question PDF extracted characters:',extracted_chars,'embedded marker candidates:',len(raw),flush=True)
+    if len(raw)<80:
+        raw=[]
+        for p in range(3,len(doc)):
+            anchors,brief=ocr_markers(doc[p],p)
+            print(f'OCR page {p+1:02d} markers={[(m.number,round(m.y)) for m in anchors]} '
+                  f'tokens={brief[:28]}',flush=True)
+            raw.extend(anchors)
     raw.sort(key=lambda m:(m.page,m.y))
     found=[]
     for candidate in raw:
-        if candidate.number == len(found)+1:
+        if candidate.number==len(found)+1:
             found.append(candidate)
     if len(found)!=80:
-        print('Found markers in reading order:', [(m.number,m.page,round(m.y)) for m in raw],file=sys.stderr)
-        raise RuntimeError(f'問題の検出が80問に達しませんでした: {len(found)}問。この状態では公開しません。')
-    print('Found sequential 80 questions. Page ranges:',found[0].page,found[-1].page)
+        print('Detected markers in reading order:',[(m.number,m.page+1,round(m.y)) for m in raw],file=sys.stderr)
+        raise RuntimeError(f'問題の検出が80問に達しませんでした: {len(found)}問。データを公開しません。')
+    print('Found 80 questions. First/last markers:',found[0],found[-1],flush=True)
     return found
-
 
 def page_segments(doc:fitz.Document,markers:list[Mark],i:int):
     first=markers[i]
@@ -128,7 +174,14 @@ def convert_question(doc:fitz.Document,markers:list[Mark],i:int):
     text='\n'.join([t for t in extracted if t]).strip()
     text=re.sub(r'\n{3,}','\n\n',text)
     if len(text)<8:
-        raise RuntimeError(f'問{i+1}の文字情報が短すぎます: {text!r}')
+        # IPA public question PDF can be image-only. OCR text is only for LLM review,
+        # not the authoritative exam display; the original screenshot remains primary.
+        preview=out.copy()
+        preview.thumbnail((1300,3000))
+        text=pytesseract.image_to_string(preview,lang='jpn+eng',config='--psm 6').strip()
+        if len(text)<8:
+            print(f'WARNING: question {i+1} OCR text unavailable; image-only',flush=True)
+            text=f'【問{i+1}：原本画像をご参照ください。文字抽出ができませんでした。】' 
     return {
         'id':f'r07h-q{i+1:02d}','number':i+1,
         'topic':FIELDS[i],
@@ -140,7 +193,7 @@ def convert_question(doc:fitz.Document,markers:list[Mark],i:int):
         'explanation':'',
         'source':f'{SOURCE} 問{i+1}。{QS_URL}',
         'modified':True,
-        'modificationNote':'問題冊子から問ごとの画像を切り出し。原文の選択肢は画像内に原順で掲載。検索・復習用の抽出文字列はPDF由来でレイアウト・数式の表記が一部異なる場合があります。'
+        'modificationNote':'問題冊子から問ごとの画像を切り出し。画像内の選択肢は原順固定。復習用テキストはPDF抽出またはOCRによる参考データであり、数式・図表・文字の誤読を含む場合があるため原本画像を正とします。'
     }
 
 
