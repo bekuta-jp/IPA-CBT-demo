@@ -125,12 +125,32 @@ def heading_candidates(tokens):
  return keep
 
 
+
+# Positions of OCR-obscured question headers verified against the official
+# scanned question pages and adjacent recognized question numbers.
+# Entries use one-based PDF page numbers and crop start Y in PDF points.
+CALIBRATED_MISSING = {
+ '2021-spring':[(4,471),(5,187),(7,258)],
+ '2021-autumn':[(7,287),(19,266)],
+ '2022-spring':[(5,393),(12,251),(15,272)],
+ '2022-autumn':[(6,71),(29,437)],
+ '2023-spring':[(11,480),(13,329),(14,67),(16,265),(17,445)],
+ '2023-autumn':[(11,333),(16,475),(23,275),(30,328)],
+ '2024-spring':[(10,204),(16,70),(26,290),(35,249)],
+ '2024-autumn':[(5,310),(8,73),(11,417)],
+}
+
 def find_positions(doc,session):
  candidates=[]; diagnostic=[]
  for pi in range(2,len(doc)-2):
   pg=doc[pi];tokens=strip_ocr(pg,pi);cand=heading_candidates(tokens)
   diagnostic.append({'page':pi+1,'height':pg.rect.height,'candidates':cand,'tokens':[(z['t'],z['x'],z['y']) for z in tokens if z['x']<=93]})
   for c in cand:candidates.append((pi,c['y'],c['number']))
+ for one_based_page,y in CALIBRATED_MISSING.get(session,[]):
+  p=one_based_page-1
+  if any(pi==p and abs(yy-y)<12 for pi,yy,_ in candidates):raise ValueError(f'Calibrated position collides with OCR marker: {session} page={one_based_page} y={y}')
+  candidates.append((p,float(y),None))
+ candidates.sort(key=lambda z:(z[0],z[1]))
  print('POSITION_COUNTS',session,'pages',len(doc),'found',len(candidates),'expected 80',flush=True)
  for d in diagnostic:
   print('PAGE_DIAG',session,'page',d['page'],'candidates',[(round(v['y']),v['number'],v['t']) for v in d['candidates']],flush=True)
