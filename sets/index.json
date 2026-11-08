@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "id": "ap-2025-spring-preview",
+    "title": "2025年度 春期（令和7年度）午前・テキスト試作16問",
+    "year": 2025,
+    "season": "春期",
+    "sourceType": "ipa",
+    "count": 16,
+    "file": "sets/ap-2025-spring-preview.json"
+  }
+]
