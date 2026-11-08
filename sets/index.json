@@ -25,5 +25,77 @@
     "sourceType": "ipa",
     "count": 80,
     "file": "sets/ap-2025-autumn.json"
+  },
+  {
+    "id": "ap-2021-spring",
+    "title": "2021年度 春期（令和3年度）応用情報 午前［公式問題画像］",
+    "year": 2021,
+    "season": "春期",
+    "sourceType": "ipa",
+    "count": 80,
+    "file": "sets/ap-2021-spring.json"
+  },
+  {
+    "id": "ap-2021-autumn",
+    "title": "2021年度 秋期（令和3年度）応用情報 午前［公式問題画像］",
+    "year": 2021,
+    "season": "秋期",
+    "sourceType": "ipa",
+    "count": 80,
+    "file": "sets/ap-2021-autumn.json"
+  },
+  {
+    "id": "ap-2022-spring",
+    "title": "2022年度 春期（令和4年度）応用情報 午前［公式問題画像］",
+    "year": 2022,
+    "season": "春期",
+    "sourceType": "ipa",
+    "count": 80,
+    "file": "sets/ap-2022-spring.json"
+  },
+  {
+    "id": "ap-2022-autumn",
+    "title": "2022年度 秋期（令和4年度）応用情報 午前［公式問題画像］",
+    "year": 2022,
+    "season": "秋期",
+    "sourceType": "ipa",
+    "count": 80,
+    "file": "sets/ap-2022-autumn.json"
+  },
+  {
+    "id": "ap-2023-spring",
+    "title": "2023年度 春期（令和5年度）応用情報 午前［公式問題画像］",
+    "year": 2023,
+    "season": "春期",
+    "sourceType": "ipa",
+    "count": 80,
+    "file": "sets/ap-2023-spring.json"
+  },
+  {
+    "id": "ap-2023-autumn",
+    "title": "2023年度 秋期（令和5年度）応用情報 午前［公式問題画像］",
+    "year": 2023,
+    "season": "秋期",
+    "sourceType": "ipa",
+    "count": 80,
+    "file": "sets/ap-2023-autumn.json"
+  },
+  {
+    "id": "ap-2024-spring",
+    "title": "2024年度 春期（令和6年度）応用情報 午前［公式問題画像］",
+    "year": 2024,
+    "season": "春期",
+    "sourceType": "ipa",
+    "count": 80,
+    "file": "sets/ap-2024-spring.json"
+  },
+  {
+    "id": "ap-2024-autumn",
+    "title": "2024年度 秋期（令和6年度）応用情報 午前［公式問題画像］",
+    "year": 2024,
+    "season": "秋期",
+    "sourceType": "ipa",
+    "count": 80,
+    "file": "sets/ap-2024-autumn.json"
   }
 ]

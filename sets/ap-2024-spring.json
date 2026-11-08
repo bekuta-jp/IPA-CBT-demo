@@ -1,0 +1,1613 @@
+{
+  "id": "ap-2024-spring",
+  "title": "2024年度 春期（令和6年度）応用情報 午前［公式問題画像］",
+  "year": 2024,
+  "season": "春期",
+  "sourceType": "ipa",
+  "exam": "AP",
+  "sourceUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+  "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_ans.pdf",
+  "imageOnly": true,
+  "questions": [
+    {
+      "id": "2024-spring-q01",
+      "number": 1,
+      "topic": "テクノロジ系",
+      "stem": "間1 複数の袋からそれぞれ白と赤の玉を幾つかずつ取り出すとき, ベイズの定理を利用\nして事後確率を求める場合はどれか。\nア ある袋から取り出した二つの玉の色が同じと推定することができる確率を求める\n場合\nイ 異なる袋から取り出した玉が同じ色であると推定することができる確率を求める\n場合\nウ 玉を一つ取り出すために, ある袋が選ばれると推定することができる確率を求め\nる場合\nエ 取り出した玉の色から, どの袋から取り出されたのかを推定するための確率を求\nめる場合",
+      "image": "assets/ap-2024-spring/q01.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問1 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q02",
+      "number": 2,
+      "topic": "テクノロジ系",
+      "stem": "問2 ATM (現金自動預払機) が 1 台ずつ設置してある二つの支店を統合し, 統合後の支\n店には ATM を 1 台設置する。 統合後の ATM の平均待ち時間を求める式はどれか。ここ\nで, 待ち時間は M/M/1 の待ち行列モデルに従い, 平均待ち時間にはサービス時間を\n含まず, ATM を 1 台に統合しても十分に処理できるものとする。\n〔条件\n(1) 統合後の平均サービス時間 : Ts\n(2) 統合前の ATM の利用率 : 両支店ともp\n(3) 統合後の利用者数: 統合前の両支店の利用者数の合計\nas iB            p           2p           2p\nプア  Top *'s    4  T=2p XTs    9 Pe    エ T=2p *\"",
+      "image": "assets/ap-2024-spring/q02.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問2 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q03",
+      "number": 3,
+      "topic": "テクノロジ系",
+      "stem": "問3 AI におけるディープラーニングに関する記述として, 最も適切なものはどれか。\n\nア あるデータから結果を求める処理を, 人間の脳神経回路のように多層の処理を重\nねることによって, 複雑な判断をできるようにする。\n\nイ 大量のデータからまだ知られていない新たな規則や仮説を発見するために, 想定\n値から大きく外れている例外事項を取り除きながら分析を繰り返す手法である。\n\nウ 多様なデータや大量のデータに対して, 三段論法, 統計的手法やパターン認識手\n法を組み合わせることによって, 高度なデータ分析を行う手法である。\n\nエ 知識がルールに従って表現されており, 演旨手法を利用した推論によって有意な\n結論を導く手法である。",
+      "image": "assets/ap-2024-spring/q03.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問3 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q04",
+      "number": 4,
+      "topic": "テクノロジ系",
+      "stem": "問4 符号長7 ビット, 情報ビット数4 ビットのハミング符号による誤り訂正の方法を,\n次のとおりとする。\n受信した 7 ビットの符号語 ぇ  % Xe Me MH (CH= ORL) に対して\nQ= %   +x   +x   $y\na=    +r      圭二る\nQ=          Xt xe t xt\n(いずれも mod 2 での計算)\nを計算し, @, , @の中に少なくとも一つは 0 でないものがある場合には,\nf= qtoX2+Qx4\nを求めて, 左から / ビット目を反転することによって誤りを訂正する。\n受信した符号語が 1000101 であった場合, 誤り訂正後の符号語はどれか。\nア 1000001       イ 1000101       ウ 1001101       xX 1010101",
+      "image": "assets/ap-2024-spring/q04.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問4 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.354
+    },
+    {
+      "id": "2024-spring-q05",
+      "number": 5,
+      "topic": "テクノロジ系",
+      "stem": "FAS 正の整数Mに対して, 次の二つの流れ図に示すアルゴリズムを実行したとき, 結果\nx の値が等しくなるようにしたい。a に入れる条件として, 適切かものはどれか。\nYes\nア nぐM     4 n>M-1   ウ n>M     エ n>M二1",
+      "image": "assets/ap-2024-spring/q05.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問5 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q06",
+      "number": 6,
+      "topic": "テクノロジ系",
+      "stem": "問6 各ノードがもつデータを出力する再帰処理 (ノード n)を定義した。この処理を,\n図の 2 分木の根 (最上位のノード) から始めたときの出力はどれか。\n〔f(ノード n)の定義〕\n1. ノードnの右に子ノードrがあれば, f(ノードr)を実行\n2. ノードnの左に子ノード | があれば, f(ノード DERE\n3. 再帰処理f(ノードr), f(ノード Dを未実行の子ノード, 又は子ノー\nドがなければ, ノード自身がもつデータを出力\n4, 終了\nア テーEDXCBA        イ ABCXDE—++\nウ E-D+CXB+A         エ ED-CBX+A+",
+      "image": "assets/ap-2024-spring/q06.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問6 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q07",
+      "number": 7,
+      "topic": "テクノロジ系",
+      "stem": "問7 整列方法に関するアルゴリズムの記述のうち, バブルソートの記述はどれか。ここ\n\nで, 整列対象は重複のない 1 から 9 の数字がランダムに並んでいる数字列とする。\nア 数字列の最後の数字から最初の数字に向かって, 隣り合う二つの数字を比較して\n小さい数字が前に来るよう数字を入れ替える操作を繰り返し行う。\n\nイ 数字列の中からランダムに基準となる数を選び, 基準より小さい数と大きい数の\n二つのグループに分け, それぞれのグループ内も同じ操作を繰り返し行う。\n\nウ 数字列をほぼ同じ長さの二つの数字列のグループに分割していき, 分割できなく\nなった時点から, グループ内で数字が小さい順に並べる操作を繰り返し行う。\n\nエ 未処理の数字列の中から最小値を探索し, 未処理の数字列の最初の数字と入れ替\nえる操作を繰り返し行う。",
+      "image": "assets/ap-2024-spring/q07.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問7 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q08",
+      "number": 8,
+      "topic": "テクノロジ系",
+      "stem": "AS 同一メモリ空間で, 転送元の開始アドレス, 転送先の開始アドレス, 方向フラグ及\nび転送語数をパラメータとして指定することによって, データをブロック転送できる\n機能をもつ CPU がある。 図のようにアドレス 1001 から 1008 のデータをアドレス\n1003 DS 1006 に転送するとき, 指定するパラメータとして適切なものはどれか。こ\nTT, 転送は開始アドレスから 1 語ずつ行われ, 方向フラグに 0 を指定するとアドレ\nスの昇順に, 1 を指定するとアドレスの降順に転送を行うものとする。\n\n実行前                RATS\nアドレス                                           アドレス\n\n1000                              1000\n\n1001                              1001\n\n1002                              1002\n\n1003                              1003\n\n1004                              1004\n\n1005                              1005\n\n1006                              1006\n\n1007                              1007\n\nSee           に\n\n転送元の開始アドレス | 転送先の開始アドレス\n| ww |] mw | ev | 4 |\n|っ| ww | ww | ぃ| 』\nPee es 上",
+      "image": "assets/ap-2024-spring/q08.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問8 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q09",
+      "number": 9,
+      "topic": "テクノロジ系",
+      "stem": "問9 量子ゲート方式の量子コンピュータの説明として, 適切なものはどれか。\nア 演算は2進数で行われ, 結果も 2 進数で出力される。\nイ 特定のアルゴリズムによる演算だけができ, 加算演算はできない。\nウ 複数の状態を同時に表現する量子ビットと, その重ね合わせを利用する。\nエ 量子状態を変化させながら観測するので, 106C以上の高温で動作する。",
+      "image": "assets/ap-2024-spring/q09.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問9 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q10",
+      "number": 10,
+      "topic": "テクノロジ系",
+      "stem": "問10 主記憶のアクセス時間が 60 ナノ秒, キャッシュメモリのアクセス時間が 10ナノ秒\nであるシステムがある。キャッシュメモリを介して主記憶にアクセスする場合の実効\nアクセス時間が 15 ナノ秒であるとき, キャッシュメモリのヒット率は幾らか。\nアァ 6.1     4 0.17     ウ 0.83     エ 09",
+      "image": "assets/ap-2024-spring/q10.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問10 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q11",
+      "number": 11,
+      "topic": "テクノロジ系",
+      "stem": "間11 15Mバイトのプログラムを圧縮して, フラッシュメモリに格納している。プログラ\nムのサイズは圧縮によって元のサイズの 40 9%%になっている。フラッシュメモリから\n主記憶への転送速度が 20 M バイトノ秒であり, 1 M バイトに圧縮されたデータの展開\nに主記憶上で 0.03 秒が掛かるとき, このプログラムが主記憶に展開されるまでの時\n間は何秒か。こことで, フラッシュメモリから主記憶への転送と圧縮データの展開は同\n時には行われないものとする。\n\nア 0.48     4 0.75     ウ 0.93     エ 1,20",
+      "image": "assets/ap-2024-spring/q11.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問11 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q12",
+      "number": 12,
+      "topic": "テクノロジ系",
+      "stem": "問12 システムの信頼性設計に関する記述のうち, 適切なものはどれか。\n\nア フェールセーフとは, 利用者の誤操作によってシステムが異常終了してしまうこ\nとのないように, 単純なミスを発生させないようにする設計方法である。\n\nイ フェールソフトとは, 故障が発生した場合でも機能を縮退させることなく稼働を\n継続する概念である。\n\nウ フォールトアボイダンスとは, システム構成要素の個々の品質を高めて故障が発\n生しないようにする概念である。\n\nエエ フォールトトレランスとは, 故障が生じてもシステムに重大な影響が出ないよう\nに, あらかじめ定められた安全状態にシステムを固定し, 全体として安全が維持さ\nれるような設計方法である。",
+      "image": "assets/ap-2024-spring/q12.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問12 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q13",
+      "number": 13,
+      "topic": "テクノロジ系",
+      "stem": "問13 オブジェクトストレージの記述として, 最も適切なものはどれか。\n\nア 更新頻度の少ない非構造型データの格納に適しており, 大容量で拡張性のあるス\nトレージ空間を仮想的に実現することができる。\n\nイ 高速のストレージ専用ネットワークを介して, 複数のサーバからストレージを共\n有することによって, 高速にデータを格納することができる。\n\nウ サーバごとに割り当てられた専用ストレージであり, 容量が不足したときにはス\nトレージを追加することができる。\n\nエ 複数のストレージを組み合わせることによって, 仮想的な 1 台のストレージとし\nて運用することができる。",
+      "image": "assets/ap-2024-spring/q13.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問13 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q14",
+      "number": 14,
+      "topic": "テクノロジ系",
+      "stem": "問14 1 台のCPU の性能を 1 とするとき, そのCPU を n 台用いたマルチプロセッサの性能\n\nP が,\nn\nCE\n\nで表されるとする。ここで, a はオーバーヘッドを表す定数である。例えば, a=\n0.1, n = 4 とすると, P = 3 なので, 4 台のCPU から成るマルチプロセッサの性能は\n約 3 になる。この式で表されるマルチプロセッサの性能には上限があり, n を幾ら大\nきくしても『P はある値以上には大きくならない。 a = 9.1 OHA, P の上限は幾らか。\n7 5      4 10     ウ 15     エ 20",
+      "image": "assets/ap-2024-spring/q14.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問14 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q15",
+      "number": 15,
+      "topic": "テクノロジ系",
+      "stem": "問15 コンピュータの性能評価には, シミュレーションを用いた方法, 解析的な方法など\nがある。シミュレーションを用いた方法の特徴はどれか。\nア 解析的な方法よりも計算量が少なく, 効率的に解が求まる。\nイ 解析的な方法よりも, 乱数を用いることで高精度の解が得られる。\nウ 解析的に解が求められないモデルに対しても, 数値的に解が求まる。\nエ 解析的に解が求められるモデルの検証には使用できない。",
+      "image": "assets/ap-2024-spring/q15.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問15 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q16",
+      "number": 16,
+      "topic": "テクノロジ系",
+      "stem": "問16 ノンプリエンプティブ方式のタスクの状態遷移に関する記述として, 適切なものは\n\nどれか。\n\nア OS は実行中のタスクの優先度を他のタスクよりも上げることによって, 実行中\nのタスクが終了するまでタスクが切り替えられるのを防ぐ。\n\nイ 実行中のタスクが自らの中断を 0S に要求することによってだけ, 0S は実行中の\nタスクを中断し, 動作可能な他のタスクを実行中に切り替えることができる。\n\nウ 実行中のタスクが無限ループに陥っていることを OS が検知した場合, 0S は実行\n中のタスクを終了させ, 動作可能な他のタスクを実行中に切り替える。\n\nエ 実行中のタスクより優先度が高い動作可能なタスクが実行待ち行列に追加された\n場合, 0S は実行中のタスクを中断し, 優先度が高い動作可能なタスクを実行中に\n切り替える。",
+      "image": "assets/ap-2024-spring/q16.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問16 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.331
+    },
+    {
+      "id": "2024-spring-q17",
+      "number": 17,
+      "topic": "テクノロジ系",
+      "stem": "問17 三つの資源 X 一Z を占有して処理を行う四つのプロセス A 一 D がある。各プロセ\n\nスは処理の進行に伴い, 表中の数値の順に資源を占有し, 実行終了時に三つの資源を\nー括して解放する。 プロセスA と同時にもう一つプロセスを動かした場合に, デッド\nロックを起こす可能性があるプロセスはどれか。\n\npati fetal\n\n|e [si [2 fas |\n\nLo 18s1slil\nア B,C, D    4 CD     ウ Cだけ    エ Dだけ",
+      "image": "assets/ap-2024-spring/q17.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問17 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q18",
+      "number": 18,
+      "topic": "テクノロジ系",
+      "stem": "問18 複数のクライアントから接続されるサーバがある。このサーバのタスクの多重度が\n2 以下の場合, タスク処理時間は常に 4 秒である。このサーバに 1 秒間隔で 4 件の処\n理要求が到着した場合, 全ての処理が終わるまでの時間はタスクの多重度が1 のとき\nと 2 のときとで, 何秒の差があるか。\nア 6      イ 7      ウゥ 8      エ 9",
+      "image": "assets/ap-2024-spring/q18.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問18 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q19",
+      "number": 19,
+      "topic": "テクノロジ系",
+      "stem": "問19 プログラムを構成するモジュールや関数の実行回数, 実行時間など, 性能改善のた\nめの分析に役立つ情報を収集するツールはどれか。\nア エエミュレーター            イ 光ぎュルーー\nOo PAW               xr プロファイラ",
+      "image": "assets/ap-2024-spring/q19.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問19 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q20",
+      "number": 20,
+      "topic": "テクノロジ系",
+      "stem": "問20 エアコンや電気自動車でエネルギー効率のよい制御や電力変換をするためにパワー\n半導体が用いられる。このパワー半導体の活用例の一つであるインバータの説明とし\nて, 適切なものはどれか。\n\nア 直流電圧をより高い直流電圧に変換する。\nイ 直流電圧をより低い直流電圧に変換する。\nウ 交流電力を直流電力に変換する。\nエ 直流電力を交流電力に変換する。",
+      "image": "assets/ap-2024-spring/q20.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問20 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q21",
+      "number": 21,
+      "topic": "テクノロジ系",
+      "stem": "問21 入力がAとB, 出力がYの論理回路を動作させたとき, 図のタイムチャートが得ら\n\nれた。この論理回路として, 適切なものはどれか。\n\n1    :\n\nSs ee\n\n9    —      一\n\n9    :               j\nァ           ィ           9           z=\nA           A           A            A\nspo afer sey 紀!",
+      "image": "assets/ap-2024-spring/q21.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問21 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q22",
+      "number": 22,
+      "topic": "テクノロジ系",
+      "stem": "問22 次の方式で画素にメモリを割り当てる 640X480 のグラフィック LCD モジュールが\nHS. 始点 (5, 4) から終点 (9, 8) まで直線を描画するとき, 直線上の x=7 OW\n素に割り当てられたメモリのアドレスの先頭は何番地か。ここで, 画素の座標は\n(x, y) で表すものとする。\n方式〕\n・メモリは0 番地から昇順に使用する。\n・1 画素は 16 ビットとする。\n・座標 (6。 0) から座標 (639。479) までメモリを連続して割り当てる。\n・各画素は, x=0 から x 軸の方向にメモリを割り当てていく。\n・x三639 の次は x三6 とし, yを1 増やす。\nx\nJ    9 123 45 6 7 8 9 1011 12 1314 15    a    639\nLIED) 2 LO CCCCCOC CCC OCS         (J\nのののらら@ら@ら@のら⑨⑤@@⑨⑨のの⑥@@@         (\n       KEIIAIXTTAXATIXAD)\n   POPP     |\nCOCCOAYYYYYYYYY         @\n       4OCYYY位OO         fe\n3番地      の②@ら@ら@の@⑥〈〇  ⑤らののら@ら@ら@の@⑥@@)      (J\nリンそそャんこヤー ニニニャニャニャニャズ4-     |\nMIららるる@①@ .@⑤@@らるるる@ぐ@         (J\njeeceevees @@@@@ぐ         @\nOOOOODOOOやOOOOOO          OC\n       :           始点 。 RR\nペーーーーテ\n8ビット       479 DOOOOCOCOOCOOCOOO          |\nア 3847          イ 7680          ウ 7694          エ 8978",
+      "image": "assets/ap-2024-spring/q22.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問22 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q23",
+      "number": 23,
+      "topic": "テクノロジ系",
+      "stem": "間23 データセンターなどで採用されているサーバ, ネットワーク機器に対する直流給電\nの利点として, 適切なものはどれか。\nア 交流から直流への変換, 直流から交流への変換で生じる電力損失を低減できる。\nイ 受電設備からCPU などのLSI ET, 同じ電圧のまま給電できる。\nウ 停電の危険がないので, 電源バックアップ用のバッテリを不要にできる。\nエエ トランスを用いて容易に昇圧, 降圧ができる。",
+      "image": "assets/ap-2024-spring/q23.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問23 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q24",
+      "number": 24,
+      "topic": "テクノロジ系",
+      "stem": "間24 ビットマップフォントよりも, アウトラインフォントの利用が適している場合はど\nれか。\nア 英数字だけでなく, 漢字も表示する。\n4 各文字の幅を一定にして表示する。\nウ 画面上にできるだけ高速に表示する。\nエ 文字を任意の倍率に拡大して表示する。",
+      "image": "assets/ap-2024-spring/q24.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問24 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q25",
+      "number": 25,
+      "topic": "テクノロジ系",
+      "stem": "F925 ストアドプロシージャの利点はどれか。\nア アプリケーションプログラムからネットワークを介して DBMS にアクセスする場\n合, 両者間の通信量を減少させる。\nイ アプリケーションプログラムからの一連の要求を一括して処理することによって,\nDBMS 内の実行計画の数を減少させる。\nウ アプリケーションプログラムからの一連の要求を一括して処理することによって,\nDBMS 内の必要バッファ数を減少させる。\nエ データが格納されているディスク装置への 1/0 回数を減少させる。",
+      "image": "assets/ap-2024-spring/q25.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問25 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q26",
+      "number": 26,
+      "topic": "テクノロジ系",
+      "stem": "間26 “部品” 表及び “FER” 表に対し, SOL 文を実行して結果を得た。SQL 文の a に入\nれる字句はどれか。\n部品               在庫                       (結果)\n(SQL 32)\nSELECT 部品.部品 ID AS 部品 ID,\nCASE WHEN 部品.発注点>[ aid\nTHEN N 必要” ELSE N 7832’ END AS 発注要否\nFROM 部品 LEFT OUTER JOIN 在庫\nON 部品.部品 ID = 在庫.部品ID\nGROUP BY 部品.部品 ID, 部品.発注点\nア COALESCE(MIN(在庫.在庫数), 0)\nイ COALESCE(MIN(在庫. 在庫数), NULL)\nウ COALESCE(SUM(在庫. 在庫数), 0)\nエエ COALESCE(SUM(在庫. 在庫数), NULL)",
+      "image": "assets/ap-2024-spring/q26.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問26 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.403
+    },
+    {
+      "id": "2024-spring-q27",
+      "number": 27,
+      "topic": "テクノロジ系",
+      "stem": "問27 トランザクションTはチェックポイント後にコミットしたが, その後にシステム障\n害が発生した。 トランザクション 1 の更新内容をその終了直後の状態にするために用\nいられる復旧技法はどれか。ここで, トランザクションは WAL プロトコルに従い, チ\nエックポイントの他に, トランザクションログを利用する。\n\nア 2相ロック          イ シャドウページ\nウ ロールバック        エ ロールフォワード",
+      "image": "assets/ap-2024-spring/q27.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問27 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q28",
+      "number": 28,
+      "topic": "テクノロジ系",
+      "stem": "P28 データウェアハウスのテーブル構成をスタースキーマとする場合, 分析対象のトラ\nンザクションデータを格納するテーブルはどれか。\nア サマリテーブル          イ ディメンジョンテーブル\nウ ファクトテーブル            エ ルックアップテーブル",
+      "image": "assets/ap-2024-spring/q28.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問28 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q29",
+      "number": 29,
+      "topic": "テクノロジ系",
+      "stem": "29 ビッグデータの基盤技術として利用される NoSQL に分類されるデータベースはどれ\n2\nア 関係データモデルをオブジェクト指向データモデルに拡張し, 操作の定義や型の\n継承関係の定義を可能としたデータベース\nイ 経営者の意思決定を支援するために, ある主題に基づくデータを現在の情報とと\nもに過去の情報も蓄積したデータベース\nウ 様々な形式のデータを一つのキーに対応付けて管理するキーバリュー型データベ\nース\nエ データ項目の名称, BARE, データそのものの特性を表すメタ情報を管理する\nTBR,",
+      "image": "assets/ap-2024-spring/q29.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問29 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q30",
+      "number": 30,
+      "topic": "テクノロジ系",
+      "stem": "間39 CSMA/CD 方式の LAN に接続されたノードの送信動作として, 適切なものはどれか。\n\nア 各ノードに論理的な順位付けを行い, 送信権を順次受け渡し, これを受け取った\nノードだけが送信を行う。\n\n4 各ノードは伝送媒体が使有中かどうかを調べ, 使有中でなければ送信を行う。衝\n突を検出したらランダムな時間の経過後に再度送信を行う。\n\nウ 各ノードを環状に接続して, 送信権を制御するための特殊なフレームを巡回させ,\nこれを受け取ったノードだけが送信を行う。\n\nエ タイムスロットを割り当てられたノードだけが送信を行う。",
+      "image": "assets/ap-2024-spring/q30.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問30 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.444
+    },
+    {
+      "id": "2024-spring-q31",
+      "number": 31,
+      "topic": "テクノロジ系",
+      "stem": "間31 IP アドレス 2908.77.188.166 は, どのアドレスに該当するか。\nア グローバルアドレス            イ プライベートアドレス\nウ ブロードキャストアドレス       エ マルチキャストアドレス",
+      "image": "assets/ap-2024-spring/q31.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問31 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q32",
+      "number": 32,
+      "topic": "テクノロジ系",
+      "stem": "間32 ルータを冗長化するために用いられるプロトコルはどれか。\nア PPP        イ RARP       ウ SNMP       VRRP",
+      "image": "assets/ap-2024-spring/q32.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問32 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q33",
+      "number": 33,
+      "topic": "テクノロジ系",
+      "stem": "問33 ビット誤り率が9.0001%の回線を使って, 1,.509バイトのパケットを16, 600個送信\nするとき, 誤りが含まれるパケットの個数の期待値はおよそ幾らか。\nア 10     イ 15     ウ 80     x 120",
+      "image": "assets/ap-2024-spring/q33.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問33 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q34",
+      "number": 34,
+      "topic": "テクノロジ系",
+      "stem": "問34 0penFlow を使った SDN (Software-Defined Networking) の説明として, 適切なも\n\nのはどれか。\n\nア 単一の物理サーバ内の仮想サーバ同士が, 外部のネットワーク機器を経由せずに,\n物理サーバ内部のソフトウェアで実現された仮想スイッチを経由して, 通信する方\n式\n\nイ データを転送するネットワーク機器とは分離したソフトウェアによって, ネット\nワーク機器を集中的に制御, 管理するアーキテクチャ\n\nウ プロトコルの文法を形式言語を使って厳密に定義する, 1890 で標準化された通信\nプロトコルの規格\n\nエ ルータやスイッチの機器内部で動作するソフトウェアを, オープンソースソフト\nウェア (0SS) で実現する方式",
+      "image": "assets/ap-2024-spring/q34.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問34 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q35",
+      "number": 35,
+      "topic": "テクノロジ系",
+      "stem": "問35 3D セキュア 2.0 (EW 3-D セキュア) は, オンラインショッピングにおけるクレジ\nットカード決済時に, 不正取引を防止するための本人認証サービスである。3D セキ\nュユア 2.0 で利用される本人認証の特徴はどれか。\n\nア 利用者がカード会社による本人認証に用いるパスワードを忘れた場合でも, 安全\nにパスワードを再発行することができる。\n\nイ 利用者の過去の取引履歴や決済に用いているデバイスの情報から不正利用や高リ\nスクと判断される場合に, カード会社が追加の本人認証を行う。\n\nウ 利用者の過去の取引履歴や決済に用いているデバイスの情報にかかわらず, カー\nド会社がパスワードと生体認証を併用した本人認証を行う。\n\nエエ 利用者の過去の取引履歴や決済に用いているデバイスの情報に加えて, 操作して\nいるのが人間であることを確認した上で, カード会社が追加の本人認証を行う。",
+      "image": "assets/ap-2024-spring/q35.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問35 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.333
+    },
+    {
+      "id": "2024-spring-q36",
+      "number": 36,
+      "topic": "テクノロジ系",
+      "stem": "問36 企業の DMZ 上で 1 台の DNS サーバを, インターネット公開用と, 社内の PC 及びサ\nーバからの名前解決の問合せに対応する社内用とで共用している。この DNS サーバが,\nDNS キャッシュポイズニング攻撃による被害を受けた結果, 直接引き起こされ得る現\n象はどれか。\n\nア DNS サーバのハードディスク上に定義されている DNS サーバ名が書き換わり, イ\nンターネットから DNS サーバに接続できなくなる。\n\n4 DNS サーバのメモリ上にワームが常駐し, DNS 参照元に対して不正プログラムを\n送り込む。\n\nウ 社内の利用者が, インターネット上の特定の Web サーバにアクセスしようとする\nと, 本来とは異なる Web サーバに誘導される。\n\nエ 社内の利用者間の電子メールについて, 宛先メールアドレスが書き換えられ, 送\n信ができなくなる。",
+      "image": "assets/ap-2024-spring/q36.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問36 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q37",
+      "number": 37,
+      "topic": "テクノロジ系",
+      "stem": "間37 DNSSEC で実現できることはどれか。\n\nア DNS キャッシュサーバが得た応答の中のリソースレコードが, 権威 DNS サーバで\n管理されているものであり, 改ざんされていないことの検証\n\nイ 権威DNS サーバと DNS キャッシュサーバとの通信を暗号化することによる, ゾー\nン情報の漏えいの防止\n\nウ 長音\"一\" と漢数字 “一\" などの似た文字をドメイン名に用いて, 正規サイトの\nように見せかける攻撃の防止\n\nエ 利用者のURLの入力誤りを悪用して, 偽サイトに誘導する攻撃の検知",
+      "image": "assets/ap-2024-spring/q37.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問37 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q38",
+      "number": 38,
+      "topic": "テクノロジ系",
+      "stem": "問38 公開鍵暗号方式を使った暗号通信を n 人が相互に行う場合, 全部で何個の異なる鍵\nが必要になるか。ここで, 一組の公開鍵と秘密鍵は 2 個と数える。\nア n+1     イ 2n      td vo   = nt",
+      "image": "assets/ap-2024-spring/q38.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問38 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q39",
+      "number": 39,
+      "topic": "テクノロジ系",
+      "stem": "問39 自社製品の脆弱性に起因するリスクに対応するための社内機能として, 最も適切な\nものはどれか。\nア CSIRT\nイ PSIRT\nウ Soc\nI WHOIS データベースの技術連絡担当",
+      "image": "assets/ap-2024-spring/q39.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問39 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q40",
+      "number": 40,
+      "topic": "テクノロジ系",
+      "stem": "問40 JIS 0 31000:2019 (リスクマネジメントー指針) において, リスク特定で考慮する\nことが望ましいとされている事項はどれか。\nア 結果の性質及び大きさ\nイ 残留リスクが許容可能かどうかの判断\nウ 資産及び組織の資源の性質及び価値\nエ 事象の起こりやすさ及び結果",
+      "image": "assets/ap-2024-spring/q40.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問40 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q41",
+      "number": 41,
+      "topic": "テクノロジ系",
+      "stem": "問41 WAF による防御が有効な攻撃として, 最も適切なものはどれか。\nア DNS サーバに対する DNS キャッシュポイズニング\nイ REST API サービスに対する APL の脆弱性を狙った攻撃\nウ SMTP サーバの第三者不正中継の脆弱性を悪用したフィッシングメールの配信\nエ 電子メールサービスに対する大量, DO, サイズの大きな電子メールの配信",
+      "image": "assets/ap-2024-spring/q41.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問41 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q42",
+      "number": 42,
+      "topic": "テクノロジ系",
+      "stem": "問42 PC からサーバに対し, IPv6 を利用した通信を行う場合,ネットワーク層で暗号化\nを行うときに利用するものはどれか。\nア IPsec    イ PPP     ウ SSH     =x TLS",
+      "image": "assets/ap-2024-spring/q42.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問42 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.215
+    },
+    {
+      "id": "2024-spring-q43",
+      "number": 43,
+      "topic": "テクノロジ系",
+      "stem": "問43 SPF (Sender Policy Framework) の仕組みはどれか。\n\nア 電子メールを受信するサーバが, 電子メールに付与されているデジタル署名を使\nって, 送信元ドメインの詐称がないことを確認する。\n\nイ 電子メールを受信するサーバが, 電子メールの送信元のドメイン情報と, 電子メ\nールを送信したサーバの IP アドレスから, 送信元ドメインの詐称がないことを確\nBTS.\n\nウ 電子メールを送信するサーバが, 電子メールの宛先のドメインや送信者のメール\nアドレスを問わず, 全ての電子メールをアーカイブする。\n\nエ 電子メールを送信するサーバが, 電子メールの送信者の上司からの承認が得られ\nるまで, 一時的に電子メールの送信を保留する。",
+      "image": "assets/ap-2024-spring/q43.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問43 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q44",
+      "number": 44,
+      "topic": "テクノロジ系",
+      "stem": "問44 IC カードの面タンパ性を高める対策はどれか。\n\nア 1C カードと 1IC カードリーダーとが非接触の状態で利用者を認証して, 利用者の\n利便性を高めるようにする。\n\nイ 故障に備えてあらかじめ作成した予備の ITC カードを保管し, 故障時に直ちに予\n備カードに交換して利用者が IC カードを使い続けられるようにする。\n\nウ 信号の読出し用プローブの取付けを検出すると IC チップ内の保存情報を消去す\nる回路を設けて, IC チップ内の情報を容易には解析できないようにする。\n\nエ 利用者認証に IC カードを利用している業務システムにおいて, 退職者の IC カー\nドは業務システム側で利用を停止して, 他の利用者が利用できないようにする。",
+      "image": "assets/ap-2024-spring/q44.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問44 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q45",
+      "number": 45,
+      "topic": "テクノロジ系",
+      "stem": "問45 オブジェクト指向におけるクラス間の関係のうち, 適切なものはどれか。\nア クラス間の関連は, 二つのクラス間でだけ定義できる。\nイ サブクラスではスーパークラスの操作を再定義することができる。\nウ サブクラスのインスタンスが, スーパークラスで定義されている操作を実行する\nときは, スーパークラスのインスタンスに操作を依頼する。           -\nTL 二つのクラスに集約の関係があるときには, 集約オブジェクトは部分となるオブ\nジェクトと, 属性及び操作を共有する。",
+      "image": "assets/ap-2024-spring/q45.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問45 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q46",
+      "number": 46,
+      "topic": "テクノロジ系",
+      "stem": "問46 モジュール結合度に関する記述のうち, 適切なものはどれか。\nア あるモジュールが CALL 命令を使用せずに JUMP 命令でごほかのモジュールを呼び出\nすとき, このモジュール間の関係は, 外部結合である。\nイ 実行する機能や論理を決定するために引数を受け渡すとき, このモジュール問の\n関係は, 内容結合である。\nウ 大域的な単一のデータ項目を参照するねモジュール間の関係は, 制御結合である。\nエ 大域的なデータを参照するモジュール間の関係は, 共通結合である。",
+      "image": "assets/ap-2024-spring/q46.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問46 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q47",
+      "number": 47,
+      "topic": "テクノロジ系",
+      "stem": "(147 ソフトウェア信頼度成長モデルの一つであって, テスト工程においてバグが収束し\nたと判定する根拠の一つとして使用するゴンペルツ曲線はどれか。\n                               4\n累                               R\na                               横\nり                                り\n検                               検\n出                                出\n数                               数\nテスト項目消化数                   テスト項目消化数\nウ                               エ\n累                               R\na                               積\naR                               誤\nり                                り\n検                               検\n出                                出\n数                               数\nテスト項目消化数                   テスト項目消化数",
+      "image": "assets/ap-2024-spring/q47.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問47 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q48",
+      "number": 48,
+      "topic": "テクノロジ系",
+      "stem": "P48 リーンソフトウェア開発において, ソフトウェア開発のプロセスとプロセスの所要\n時間とを可視化し, ボトルネックや無駄がないかどうかを確認するのに用いるものは\nどれか。\n\nア ストーリーカード         イ スプリントバックログ\nか パーンダウンチャート          エ バリューストリームマップ",
+      "image": "assets/ap-2024-spring/q48.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問48 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q49",
+      "number": 49,
+      "topic": "テクノロジ系",
+      "stem": "問49 JIS X 33002:2017 (プロセスアセスメント実施に対する要求事項) の説明として,\n\n適切なものはどれか。\n\nア 組織のプロセスを継続的に改善して品質を高めるための要求事項を規定している。\n\nイ 組織プロセスの品質を客観的に診断するための要求事項を規定している。\n\nウ プロジェクトの実施に重要で, DO, 影響た及ぼすプロジェクトマネジメントの\n概念及びプロセスに関する包括的な手引きを規定している。\n\nエ 明確に定義された用語を使用し, ソフトウェアライフサイクルプロセスの共通枠\n組みを規定している。",
+      "image": "assets/ap-2024-spring/q49.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問49 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q50",
+      "number": 50,
+      "topic": "テクノロジ系",
+      "stem": "問50 ドキュメンテーションジェネレーターの説明として, 適切なものはどれか。\n\nア HTML, CSS などのリソースを読み込んで, 画面などに描画又は表示するソフトウ\nェエア\n\nイ ソースコード中にある, フォーマットに従って記述されたコメント文などから\nプログラムのドキュメントを生成するソフトウェア\n\nウ 動的に Web ページを生成するために, 文書のテンプレートと埋込み入力データを\n合成して出力するソフトウェア\n\nエ 文書構造がマーク付けされたテキストファイルを読み込んで, 印刷可能なドキュ\nメントを組版するソフトウェア",
+      "image": "assets/ap-2024-spring/q50.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問50 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q51",
+      "number": 51,
+      "topic": "マネジメント系",
+      "stem": "問51 EVM で管理しているプロジェクトがある。 Mid, プロジェクトの開始から完了予定\nまでの期間の半分が経過した時点での状況である。コスト効率, スケジュール効率が\nこのままで推移すると仮定した場合の見通しのうち, 適切なものはどれか。\n\n         1        1\nis                        1          3          1\n1       '\nH       1\nH       1\n1       H\ni= AC                H\ni       H\n1       H\nEV !                   !\n1       H\n開始日       現時点      完了予定日\nア 計画に比べてコストは多くなり, プロジェクトの完了は遅くなる。\nイ 計画に比べてコストは多くなり, プロジェクトの完了は早くなる。\nウ 計画に比べてコストは少なくなり, プロジェクトの完了は遅くなる。\nエ 計画に比べてコストは少なくなり, プロジェクトの完了は早くなる。",
+      "image": "assets/ap-2024-spring/q51.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問51 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q52",
+      "number": 52,
+      "topic": "マネジメント系",
+      "stem": "問52 図のアローダイアグラムで表されるプロジェクトがある。結合点 5 の最早結合点時\n刻はプロジェクトの開始から第何日か。ここで, プロジェクトの開始日は 9 日目とす\nる。\nD\nwo   の\n@)            (のり ayy\n2         1      作業名\n(ーー%5)      OFC\nーー : ダミー作業\nアァ 4      イ 5      ウ 6      ェ 7",
+      "image": "assets/ap-2024-spring/q52.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問52 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q53",
+      "number": 53,
+      "topic": "マネジメント系",
+      "stem": "問53 JIS Q 21500:2018 (プロジェクトマネジメントの手引) によれば, プロセス “リス\n\nクの管理” の目的はどれか。\n\nア 特定したリスクに適切な処置を行うためにリスクを測定して, その優先順位を定\nめる。\n\n4 発生した場合に, プロジェクトの目標にプラス又はマイナスの影響を与えること\nがある潜在的リスク事象及びその特性を決定する。\n\nウ プロジェクトの目標への機会を高めて脅威を軽減するために, 選択肢を作成して\n対策を決定する。\n\nエ リスクへの対応を実行するかどうか及びそれが期待する効果を上げられるかどう\nかを明らかにし, プロジェクトの混乱を最小限にする。",
+      "image": "assets/ap-2024-spring/q53.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問53 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q54",
+      "number": 54,
+      "topic": "マネジメント系",
+      "stem": "問54 工場の生産能力を増強する方法として, 新規システムを開発する案と既存システム\nを改修する案とを検討している。 次の条件で, 期待金額価値の高い案を採用するとき,\n採用すべき案と期待金額価値との組合せのうち, 適切なものはどれか。ここで, 期待\n金額価値は, 収入と投資額との差で求める。\n\n〔条件〕\n・新規システムを開発する場合の投資額は190 億円であって, 既存システムを改修す\nる場合の投資額は 50 億円である。\n・ 需要が拡大する確率は 79%%であって, 需要が縮小する確率は 309%%である。\n・新規システムを開発した場合, 需要が拡大したときは 186 億円の収入が見込まれ,\nBEM MN LES Fld 50 億円の収入が見込まれる。\n・ 既存システムを改修した場合, 需要が拡大したときは 120 億円の収入が見込まれ,\n需要が縮小したときは 49 億円の収入が見込まれる。\n- 他の条件は考慮しない。\n\n| 7 lmgzxzcomw | ml",
+      "image": "assets/ap-2024-spring/q54.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問54 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q55",
+      "number": 55,
+      "topic": "マネジメント系",
+      "stem": "間55 SaaS (Software as a Service) による新規サービスを提供するに当たって, 顧客\nへの課金方式を検討している。課金方式 ① … ④ のうち, 想定利用状況に基づいて最\nも高い利益が得られる課金方式を採用したときの, 年間利益は何万円か。ここで, 新\n規サービスの課金は月ごとに行い, 各月の想定利用状況は同じとする。また, 新規サ\nービスの運用に掛かる費用は 1,050 万円年とする。\n〔課金方式〕\n\n①月間のサービス利用時間による従量課金            4,000 円プ時間\n@月間のトランザクション件数による従量課金           700 円件\n月末時点のディスク割当て量による従量課金           300 円/GB\n④月末時点の利用者 ID 数による従量課金             1,600 円/ID\n〔想定利用状況\n\n・サービス利用時間                   250 時間ノ月\n\n・トランザクション件数            1,500 件月\n\n・ 月末時点のディスク割当て量       3, 300 GB\n\n・月末時点の利用者 ID 数                  650 ID\n\nア 150        イ 198        ウ 210        エ 260",
+      "image": "assets/ap-2024-spring/q55.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問55 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q56",
+      "number": 56,
+      "topic": "マネジメント系",
+      "stem": "RISE サービスマネジメントにおけるサービスレベル管理の活動はどれか。\n\nア 現在の資源の調整と最適化とを行い, 将来の資源要件に関する予測を記載した計\n画を作成する。\n\nイ サービスの提供に必要な予算に応じて, 適切な資金を確保する。\n\nウ 災害や障害などで事業が中断しても, 要求されたサービス機能を合意された期間\n内に確実に復旧できるように, 事業影響度の評価や復旧優先順位を明確にする。\n\nエ 提供するサービス及びサービスレベル目標を決定し, サービス提供者が顧客との\n間で合意文書を交わす。",
+      "image": "assets/ap-2024-spring/q56.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問56 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q57",
+      "number": 57,
+      "topic": "マネジメント系",
+      "stem": "問57 温室効果ガスの排出量の算定基準である GHG プロトコルでは, 事業者の事業活動に\nよって直接的, 又は間接的に排出される温室効果ガスについて, スコープを三つに分\nけている。 事業者 X 社がデータセンター事業者であるときの, スコープ 1 の例として,\n適切なものはどれか。\n\n(GHG プロトコルにおけるスコープの説明〕\nスコープ 1 | 温室効果ガスの直接排出。事業者が所有している, 又は管理している排出源か\nee |\nスコープ2 | 電気の使用に伴う温室効果ガスの間接排出。事業者が消費する購入電力の発電\npe\" [Momaenomnerstes\nスコープ 3 | その他の温室効果ガスの間接排出。事業者の活動に関連して生じるが, 事業者\niMPreerrinriiiiiidiil\nア X 社が自社で管理する IT 機器を使用するために購入した電力の, 発電に伴う温\n室効果ガス\n4 X 社が自社で管理する IT 機器を廃棄処分するときに, 産業廃棄物処理事業者が\n排出する温室効果ガス\nウ X 社が自社で管理する発電装置を稼働ささせることによって発生する温室効果ガス\nエ X 社が提供するハウジングサービスを利用する企業が自社で管理する IT 機器を\n使用するために購入した電力の, 発電に伴う温室効果ガス",
+      "image": "assets/ap-2024-spring/q57.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問57 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q58",
+      "number": 58,
+      "topic": "マネジメント系",
+      "stem": "問58 システム監査基準 (BNSF) が規定している監査調書の説明として, 最も適切な\nものはどれか。\nア 監査の結論に至った過程を明らかにし, 監査の結論を支える合理的な根拠とする\nための記録\nイ 監査の目的に応じた適切な形式によって作成し, 監査依頼者に提出する, 監査の\n概要と監査の結論を記載した要約版の報告書\nウ システム監査対象ごとに, 具体的な監査スケジュールを定めた詳細計画\nエ システム監査の中長期における方針等を明らかにすることを目的として作成する\n文書",
+      "image": "assets/ap-2024-spring/q58.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問58 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q59",
+      "number": 59,
+      "topic": "マネジメント系",
+      "stem": "F959 システム監査基準 (令和5年) によれば, システム監査において, 監査人が一定の\n基準に基づいて総合的に点検・評価を行う対象とするものは, 情報システムのマネジ\nメント, コントロールと, あと一つはどれか。\n\nア ガバナンス           イ コンプライアンス\nウ サイバーレジリエンス      エ モニタリング",
+      "image": "assets/ap-2024-spring/q59.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問59 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q60",
+      "number": 60,
+      "topic": "マネジメント系",
+      "stem": "問69 情報システムに対する統制を IT に係る全般統制と IT に係る業務処理統制に分けた\nとき, IT に係る業務処理統制に該当するものはどれか。\nア サーバ室への入退室を制限・記録するための入退室管理システム\nA システム開発業務を適切に委託するために定めた選定手続\nウ 販売管理システムにおける入力データの正当性チェック機能\nエ 不正アクセスを防止するためのファイアウォールの運用管理",
+      "image": "assets/ap-2024-spring/q60.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問60 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q61",
+      "number": 61,
+      "topic": "ストラテジ系",
+      "stem": "間61 エンタープライズアーキテクチャの参照モデルのうち, BRM (Business Reference\n\nModel) として提供されるものはどれか。\n\nア アプリケーションサービスを機能的な観点から分類・体系化したサービスコンポ\nーネント\n\nイ サービスコンポーネントを実際に活用するためのプラットフォームやテクノロジ\nの標準仕様\n\nウ 参照モデルの中で最も業務に近い階層として提供される, 業務分類に従った業務\n体系及びシステム体系と各種業務モデル\n\nエ 組織間で共有される可能性の高い情報について, 名称, 定義及び各種属性を総体\n的に記述したモデル",
+      "image": "assets/ap-2024-spring/q61.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問61 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q62",
+      "number": 62,
+      "topic": "ストラテジ系",
+      "stem": "問62 “デジタルガバナンス・コード 2.0\" の説明として, 適切なものはどれか。\n\nア 企業の自主的な DX 推進を促すために, デジタル技術による社会変革を踏まえた\n経営ビジョン策定など経営者に求められる対応を, 経済産業省がまとめたもの\n\nイ 教育委員会に対して, 教育情報セキュリティポリシーの基本理念や情報セキュリ\nティ対策基準の記述例を, 文部科学省がまとめたもの\n\nウ 全国どこでも誰もが便利で快適に暮らせる社会を目指し, 自治体が重点的に取組\nむべき事項を, 総務省がまとめたもの\n\nエ デジタル社会形成のために政府が迅速かつ重点的に実施すべき施策などを, デジ\nタル庁がまとめたもの",
+      "image": "assets/ap-2024-spring/q62.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問62 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q63",
+      "number": 63,
+      "topic": "ストラテジ系",
+      "stem": "問63 SOAの説明はどれか。\n\nア Seat, 人事, 製造購買, 在庫管理, 販売などの企業の業務プロセスを一元管理\nすることによって, 業務の効率化や経営資源の全体最適を図る手法\n\nイ 企業の業務プロセス, システム化要求などのニーズと, ソフトウェアパッケージ\nの機能性がどれだけ適合し, どれだけかい離しているかを分析する手法\n\nウ 業務プロセスの問題点を洗い出して, 目標設定, 実行, チェック, 修正行動のマ\nネジメントサイクルを適用し, 継続的な改善を図る手法\n\nエエ 利用者の視点から業務システムの機能を幾つかの独立した部品に分けることによ\nって, 業務プロセスとの対応付けや他ソフトウェアとの連携を容易にする手法",
+      "image": "assets/ap-2024-spring/q63.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問63 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q64",
+      "number": 64,
+      "topic": "ストラテジ系",
+      "stem": "問64 IT 投資案件において, 投資効果を PBP (Pay Back Period) で評価する。投資額が\n500 のとき, 期待できるキャッシュインの四つのシナリオ a~d のうち, 効果が最も\n高いものはどれか。\n\n。             |\n。             [|        [+ |\n。                         | + |\n。L- 暫 |ilslslsTsl\nしイン| | mm ml a]\nア a          イ b          DQ &          エ d",
+      "image": "assets/ap-2024-spring/q64.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問64 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q65",
+      "number": 65,
+      "topic": "ストラテジ系",
+      "stem": "間65 EMS (Electronics Manufacturing Services) の説明として, 適切なものはどれか。\nア 相手先プランドで販売する電子機器の設計だけを受託し, 製造は相手先で行う。\nイ 外部から調達した電子機器に付加価値を加えて, 自社ブランドで販売する。\nウ 自社ブランドで販売する電子機器のソフトウェア開発だけを外部に委託し, ハー\nドウェアは自社で設計製造する。\nエ 生産設備をもつ企業が, 他社からの委託を受けて電子機器を製造する。",
+      "image": "assets/ap-2024-spring/q65.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問65 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q66",
+      "number": 66,
+      "topic": "ストラテジ系",
+      "stem": "間66 組込み機器のハードウェアの製造を外部に委託する場合のコンティンジェンシープ\nランの記述として, 適切なものはどれか。\nア 実績のある外注先の利用によって, リスクの発生確率を低減する。\nイ 製造品質が担保されていることを確認できるように委託先と契約する。\nウ 複数の会社の見積りを比較検討して, 委託先を選定する。\nエ 部品調達のリスクが顕在化したときに備えて, 対処するための計画を策定する。",
+      "image": "assets/ap-2024-spring/q66.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問66 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q67",
+      "number": 67,
+      "topic": "ストラテジ系",
+      "stem": "間67 PPM において, 投資用の資金源として位置付けられる事業はどれか。\nア 市場成長率が高く, 相対的市場占有率が高い事業\nイ 市場成長率が高く, 相対的市場占有率が低い事業\nウ 市場成長率が低く, 相対的市場占有率が高い事業\nエ 市場成長率が低く, 相対的市場占有率が低い事業",
+      "image": "assets/ap-2024-spring/q67.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問67 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.363
+    },
+    {
+      "id": "2024-spring-q68",
+      "number": 68,
+      "topic": "ストラテジ系",
+      "stem": "問68 企業が属する業界の競争状態と収益構造を, “新規参入の脅威\"。 \"供給者の支配力\",\n“買い手の交渉力\", “代替製品・サービスの會威\", “既存競合者同士の敵対関係\" の\n要素に分類して, 分析するフレームワークはどれか。\nア PEST 分析                          イ VRIO 分析\nウ バリューチェーン分析       エエ ファイブフォース分析",
+      "image": "assets/ap-2024-spring/q68.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問68 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q69",
+      "number": 69,
+      "topic": "ストラテジ系",
+      "stem": "間69 フィージビリティスタディの説明はどれか。\n\nア 企業が新規事業立ち上げや海外進出する際の検証, 公共事業の採算性検証, 情報\nシステムの導入手段の検証など, 実現性を調査・検証する投資前評価のこと\n\nイ 技術革新, 社会変動などに関する未来予測によく用いられ, 専門家グループなど\nがもつ直観的意見や経験的判断を, 反復型アンケートを使って組織的に集約・洗練\nして収束すること\n\nウ 集団 (小グループ) によるアイディア発想法の一つで, 会議の参加メンバー各自\nが自由春放にアイディアを出し合い, 互いの発想の異質さを利用して, 連想を行う\nことによって, さらに多数のアイディアを生み出そうという集団思考法・発想法の\nこき\n\nエ 商品が市場に投入されてから, 次第に売れなくなり姿を消すまでのプロセスを\n導入期, 成長期, 成熟 (市場飽和) 期, 衰退期の 4 段階で表現して, その市場にお\nける製品の寿命を検討すること",
+      "image": "assets/ap-2024-spring/q69.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問69 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q70",
+      "number": 70,
+      "topic": "ストラテジ系",
+      "stem": "問76 ToT 活用におけるデジタルツインの説明はどれか。\n\nア インターネットを介して遠隔地に設置した 3D プリンターへ設計データを送り,\n短時間に製品を製作すること\n\nイ システムを正副の二重に用意し, 災害や故障時にシステムの稼働の継続を保証す\nること\n\nウ 自宅の家電機器とインターネットでつながり, 乏働監視や操作を遠隔で行うこと\nができるウェアラブルデバイスのこと\n\nエ デジタル空間に現実世界と同等な世界を, 様々なセンサーで収集したデータを用\nいて構築し, 現実世界では実施できないようなシミュレーションを行うこと",
+      "image": "assets/ap-2024-spring/q70.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問70 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q71",
+      "number": 71,
+      "topic": "ストラテジ系",
+      "stem": "間71 ToT を活用したビジネスモデルの事例のうち, マスカスタマイゼーションの事例は\nどれか。\n\nア 建機メーカーが, 建設機械にエンジンの稼働状況が分かるセンサーと GPS を搭載\nLC, 機械の稼働場所と稼働状況を可視化する。これによって, 盗難された機械に\nキーを入れても, 遠隔操作によってエンジンが掛からないようにする。\n\nイ 航空機メーカーが, エンジンに組み込まれたセンサーから乏働状況に関するデー\nタを収集し, これを分析して, 航空会社にエンジンの予防保守情報を提供する。\n\nウ 自動車メーカーが, 稼働状況を把握するセンサーと, 遠隔地からドアロックを解\n錠できる装置を自動車に搭載して, カーシェアサービスを提供する。\n\nエ 眼鏡メーカーが, 店内で顧客の顔の形状を 3D スキャナーによってデジタル化し\nパターンの組み合わせで顧客に合ったフレーム形状を設計する。 その後, 工場に設\n計情報を送信し, パーツを組み合わせてフレームを効率的に製造する。",
+      "image": "assets/ap-2024-spring/q71.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問71 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q72",
+      "number": 72,
+      "topic": "ストラテジ系",
+      "stem": "間72 ToT の技術として注目されている, エッジコンピューティングの説明として, 最も\n\n適切なものはどれか。\n\nア 演算処理のリソースをセンサー端末の近傍に置くことによって, アプリケーショ\nン処理の低遅延化や通信トラフィックの最適化を行う。\n\nイ 人体に装着して脈拍センサーなどで人体の状態を計測して解析を行う。\n\nウ ネットワークを介して複数のコンピュータを結ぶことによって, 全体として処理\n能力が高いコンピュータシステムを作る。\n\nエエ 周りの環境から微小なエネルギーを収穫して, 電力に変換する。",
+      "image": "assets/ap-2024-spring/q72.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問72 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q73",
+      "number": 73,
+      "topic": "ストラテジ系",
+      "stem": "問73 ゲーム理論における “ナッシュ均衡\" の説明はどれか。\n\nア 一部プレイヤーの受取が, そのまま残りのプレイヤーの支払となるような, BT\nレイヤーの利得 (正負の支払) の総和がゼロとなる状態\n\nイ 戦略を決定するに当たって, 相手側の各戦略 (行動) について, 相手の結果が最\n大利得となる場合同士を比較して, その中で相手の利得を最小化する行動を選択し\nている状態\n\nウ 戦略を決定するに当たって, 自身の各戦略 (行動) について, 自身の結果が最小\n利得となる場合同士を比較して, その中で自身の利得を最大化する行動を選択して\nいる状態\n\nエ 非協カゲームのモデルであり, 相手の行動に対して最適な行動をとる行動原理の\n中で。どのプレイヤーも自分だけが戦略を変更しても利得を増やせない戦略の組合",
+      "image": "assets/ap-2024-spring/q73.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問73 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q74",
+      "number": 74,
+      "topic": "ストラテジ系",
+      "stem": "問74 分析対象としている問題に数多くの要因が関係し, それらが相互に絡み合っている\nとき, 原因と結果, 目的と手段といった関係を追求していくことによって, 因果関係\nを明らかにし, 解決の糸口をつかむための図はどれか。\nア アローダイアグラム         イ パレート図\nウ マトリックス図         エ 連関図",
+      "image": "assets/ap-2024-spring/q74.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問74 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q75",
+      "number": 75,
+      "topic": "ストラテジ系",
+      "stem": "問75 製品 X。Yを1 台製造するのに必要な部品数は, 表のとおりである。製品 1 台当た\nりの利益が X, Y ともに 1 万円のとき, 利益は最大何万円になるか。ここで, 部品A\nは 120 個, 部品B は60 個まで使えるものとする。\n単位 個\n製品\nx     Y\nP| «||\n還\nア 30          イ 40          ウ 45          エ 60",
+      "image": "assets/ap-2024-spring/q75.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問75 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q76",
+      "number": 76,
+      "topic": "ストラテジ系",
+      "stem": "間76 今年度のA社の販売実績と費用 (HEH, BHR) を表に示す。来年度, BERD\n5%増加し, 販売単価が 5%低下すると予測されるとき, 今年度と同じ営業利益を確\n保するためには, 最低何台を販売する必要があるか。\n\nア 2,575)    4 2,750    ウ 2,778    エ 2,862",
+      "image": "assets/ap-2024-spring/q76.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問76 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.382
+    },
+    {
+      "id": "2024-spring-q77",
+      "number": 77,
+      "topic": "ストラテジ系",
+      "stem": "問77 損益計算資料から求められる損益分岐点売上高は, 何百万円か。\n単位 百万円\n売上高           500\n材料費 (変動費)    200\n外注費 (変動費)     100\n製造固定費        100\n総利益           100\n販売固定費         80\n利益             20\nア 225          4 300          ウ 450          エ 480",
+      "image": "assets/ap-2024-spring/q77.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問77 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q78",
+      "number": 78,
+      "topic": "ストラテジ系",
+      "stem": "問78 特許法による保護の対象となるものはどれか。\nア 自然法則を利用した技術的思想の創作のうち高度なもの\nイ 思想又は感情を創作的に表現したもの\nウ 物品の形状, 模様, 色彩など, 視覚を通じて美感を起こさせるもの\nエ 文字, BY, 記号などの標章で, 商品や役務について使用するもの",
+      "image": "assets/ap-2024-spring/q78.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問78 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q79",
+      "number": 79,
+      "topic": "ストラテジ系",
+      "stem": "問79 不正競争防止法の不正競争行為に該当するものはどれか。\n\nア A社と競争関係になっていない B 社が, 偶然に, A 社の社名に類似のドメイン名\nを取得した。\n\nイ ある地方だけで有名な和菓子に類似した商品名の飲料を, その和菓子が有名では\nない地方で販売し, 利益を取得した。\n\nウ 商標権のない商品名を用いたドメイン名を取得し, 当該商品のコピー商品を販売\nし, 利益を取得した。\n\nエ 他社サービスと類似しているが, 自社サービスに適しており, 正当な利益を得る\n目的があると認められるドメインを取得し, それを利用した。",
+      "image": "assets/ap-2024-spring/q79.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問79 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2024-spring-q80",
+      "number": 80,
+      "topic": "ストラテジ系",
+      "stem": "問80 個人情報のうち, 個人情報保護法における要配慮個人情報に該当するものはどれか。\nア 個人情報の取得時に, 本人が取扱いの配慮を申告することによって設定される情\n報\nイ 個人に割り当てられた, 運転免許証, クレジットカードなどの番号\nウ 生存する個人に関する, 個人を特定するために用いられる勤務先や住所などの情\nR\nエ 本人の病歴, 犯罪の経歴など不当な差別や不利益を生じさせるおそれのある情報",
+      "image": "assets/ap-2024-spring/q80.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2024年度 春期 応用情報技術者試験 午前 問80 https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.317
+    }
+  ]
+}

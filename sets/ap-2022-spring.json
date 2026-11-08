@@ -1,0 +1,1613 @@
+{
+  "id": "ap-2022-spring",
+  "title": "2022年度 春期（令和4年度）応用情報 午前［公式問題画像］",
+  "year": 2022,
+  "season": "春期",
+  "sourceType": "ipa",
+  "exam": "AP",
+  "sourceUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+  "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_ans.pdf",
+  "imageOnly": true,
+  "questions": [
+    {
+      "id": "2022-spring-q01",
+      "number": 1,
+      "topic": "テクノロジ系",
+      "stem": "問1 浮動小数点数を, 仮数部が7 ビットである表示形式のコンピュータで計算した場合\n情報落ちが発生しないものはどれか。ここで, 仮数部が 7 ビットの表示形式とは次の\nフォーマットであり, ( )。 内は 2 進数,Y は指数である。また, { ) 内を先に計算\nするものとする。\n\n(1. Xp Xo Xs Xa Xs Xe Xr 2% 2\"\nP (C1. 1)2X23+(1.0)2x 274} + (1, 0) 2x 2\n4 {(1.1)2%279= (1,0) 2% 274} + (1, 0) 2X 25\n {(1.0)2X 2+ (1.1)2X 279) +(1.0)2x2-4\nエ {(1.0)2x2°—(1, 0), 2-4} + (1, 1)2X 278",
+      "image": "assets/ap-2022-spring/q01.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問1 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q02",
+      "number": 2,
+      "topic": "テクノロジ系",
+      "stem": "問2 全体集合 S 内に異なる部分集合 A と B があるとき, AnB に等しいものはどれか。\nここで, AUB はAとBの和集合, AnBはAとBの積集合, A は S におけるAの補集\n合。 A一BはAからBを除いた差集合を表す。\nア A-B\nイ (AUB) 一(AnB)\nウ (S—A)U(S—B)\nエ $一(AnB)",
+      "image": "assets/ap-2022-spring/q02.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問2 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q03",
+      "number": 3,
+      "topic": "テクノロジ系",
+      "stem": "問3 M/M/1 の待ち行列モデルにおいて, 窓口の利用率が 259%から 409%に増えると, 平\n均待ち時間は何倍になるか。\nア 1.25    イ 1.60     ウ 2.00    エ 3.00",
+      "image": "assets/ap-2022-spring/q03.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問3 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q04",
+      "number": 4,
+      "topic": "テクノロジ系",
+      "stem": "問4 ハミング符号とは, データに冗長ビットを付加して, 1 ビットの誤りを訂正できる\nようにしたものである。ここでは, Xi, Xz, Xa, X。の 4 ビットから成るデータに, 3\nビットの冗長ビット Ps, Po, Pi を付加したハミング符号 Xi Xo Xa Ps X4 Po Pi を考える。\n付加したビット Pi, Pa, Psは, CHEN\n\nXi ® X3 @ Xa @ P1 =D\nXi ® X2@ Xa @ P2 =O\nXi ® X2 @ Xa @ Ps = 0\nとなるように決める。ここで, © は排他的論理和を表す。\nハミング符号 1119911 には 1 ビットの誤りが存在する。誤りビットを訂正したハミ\nング符号はどれか。\nア 0110011     4 1010011      ウ 1100011     エ 1110111",
+      "image": "assets/ap-2022-spring/q04.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問4 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q05",
+      "number": 5,
+      "topic": "テクノロジ系",
+      "stem": "FAIS リストには, 配列で実現する場合とポインタで実現する場合とがある。リストを配\n列で実現した場合の特徴として, 適切なものはどれか。ここで, 配列を用いたリスト\nは配列に要素を連続して格納することによってリストを構成し, ポインタを用いたリ\nストは要素と次の要素へのポインタを用いることによってリストを構成するものとす\nる。\n\nア リストにある実際の要素数にかかわらず, リストに入れられる要素の最大個数に\n対応した領域を確保し, 実際には使用されない領域が発生する可能性がある。\n\nイ リストの中間要素を参照するには, リストの先頭から順番に要素をたどっていく\nことから, 要素数に比例した時間が必要となる。\n\nウ リストの要素を格納する領域の他に, 次の要素を指し示すための領域が別途必要\nとなる。\n\nエ リストへの挿入位置が分かる場合には, リストにある実際の要素数にかかわらず\n要素の挿入を一定時間で行うことができる。",
+      "image": "assets/ap-2022-spring/q05.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問5 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q06",
+      "number": 6,
+      "topic": "テクノロジ系",
+      "stem": "問6 再入可能プログラムの特徴はどれか。\nア 主記憶上のどのアドレスから配置しても, 実行することができる。\nイ 手続の内部から自分自身を呼び出すことができる。\nウ 必要な部分を補助記憶装置から読み込みながら動作する。主記憶領域の大きさに\n制限があるときに, 有効な手法である。\nエ 複数のタスクからの呼出しに対して, 並行して実行されても, それぞれのタスク\nに正しい結果を返す。",
+      "image": "assets/ap-2022-spring/q06.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問6 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q07",
+      "number": 7,
+      "topic": "テクノロジ系",
+      "stem": "問7 プログラム言語のうち, ブロックの範囲を指定する方法として特定の記号や予約語\nを用いず, 等しい文字数の字下げを用いるという特徴をもつものはどれか。\nPC      イ Java    ウ PHP     エ Python",
+      "image": "assets/ap-2022-spring/q07.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問7 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q08",
+      "number": 8,
+      "topic": "テクノロジ系",
+      "stem": "AS プロセッサの高速化技法の一つとして, 同時に実行可能な複数の動作を, コンパイ\nルの段階でまとめて一つの複合命令とし, 高速化を図る方式はどれか。\nア CISC     イ MIMD     ウ RISC     x= VLIW",
+      "image": "assets/ap-2022-spring/q08.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問8 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q09",
+      "number": 9,
+      "topic": "テクノロジ系",
+      "stem": "問9 キャッシュメモリのアクセス時間が主記憶のアクセス時間の 1/30 で, ヒット率が\n959%のとき, 実効メモリアクセス時間は, 主記憶のアクセス時間の約何倍になるか。\nア 0.03     イ 0.08     ウ 0.37     エ 0.95",
+      "image": "assets/ap-2022-spring/q09.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問9 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q10",
+      "number": 10,
+      "topic": "テクノロジ系",
+      "stem": "AO キャッシュメモリのフルアソシエイティブ方式に関する記述として, 適切なものは\nenn.\nア キャッシュメモリの各ブロックに主記憶のセットが固定されている。\nイ キャッシュメモリの各ブロックに主記憶のブロックが固定されている。\nウ 主記憶の特定の 1 ブロックに専用のキャッシュメモリが割り当てられる。\nエエ 任意のキャッシュメモリのブロックを主記憶のどの部分にも割り当てられる。",
+      "image": "assets/ap-2022-spring/q10.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問10 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q11",
+      "number": 11,
+      "topic": "テクノロジ系",
+      "stem": "問11 8T バイトの磁気ディスク装置 6 台を, 予備ディスク (ホットスペアディスク) 1台\n込みの RAIDS 構成にした場合, 実効データ容量は何T「バイトになるか。\nP 24         4 32         ウ 40         エ 48",
+      "image": "assets/ap-2022-spring/q11.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問11 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q12",
+      "number": 12,
+      "topic": "テクノロジ系",
+      "stem": "間12 プロセッサ数と, 計算処理におけるプロセスの並列化が可能な部分の割合とが, 性\n\n能向上へ及ぼす影響に関する記述のうち, アムダールの法則に基づいたものはどれか。\n\nア 全ての計算処理が並列化できる場合 速度向上比は, プロセッサ数を増やしても\nある水準に瀬近的に近づく。\n\nイ 並列化できない計算処理がある場合, 速度向上比は, プロセッサ数に比例して増\n加する。\n\nウ 並列化できない計算処理がある場合, 速度向上比は, プロセッサ数を増やしても\nある水準に滞近的に近づく。\n\nエ 並列化できる計算処理の割合が増えると, 速度向上比は, プロセッサ数に反比例\nして減少する。",
+      "image": "assets/ap-2022-spring/q12.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問12 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q13",
+      "number": 13,
+      "topic": "テクノロジ系",
+      "stem": "問13 ホットスタンバイシステムにおいて, 現用系に障害が発生して待機系に切り替わる\n\n契機として, 最も適切な例はどれか。\n\nア 現用系から待機系へ定期的に送信され, 現用系が動作中であることを示すメッセ\nージが途切れたとき\n\nイ 現用系の障害をオペレータが認識し, コンソール操作を行ったとき\n\nウ 待機系が現用系にたまった処理の残量を定期的に監視していて, 残量が一定量を\n上回ったとき\n\nエ 待機系から現用系に定期的にロードされ実行される診断プログラムが, 現用系の\n障害を検出したとき",
+      "image": "assets/ap-2022-spring/q13.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問13 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q14",
+      "number": 14,
+      "topic": "テクノロジ系",
+      "stem": "問14 MTBF を長くするよりも, MTTR を短くするのに役立つものはどれか。\nア エラーログ取得機能            イ 記憶装置のビット誤り訂正機能\nウ 命令再試行機能               エ 予防保全",
+      "image": "assets/ap-2022-spring/q14.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問14 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q15",
+      "number": 15,
+      "topic": "テクノロジ系",
+      "stem": "問15 2 台のプリンタがあり, それぞれの稼働率が 0.7 と 0.6 である。この 2 台のいずれ\nか一方が稼働していて, 他方が故障している確率は幾らか。ここで, 2 台のプリンタ\nの稼働状態は独立であり, プリンタ以外の要因は考慮しないものとする。\nア 0.18    イ 0,28    ウ 0.42    エ 0.46",
+      "image": "assets/ap-2022-spring/q15.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問15 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q16",
+      "number": 16,
+      "topic": "テクノロジ系",
+      "stem": "問16 ジョブ群と実行の条件が次のとおりであるとき, 一時ファイルを作成する磁気ディ\n\nスクに必要な容量は最低何 Wバイトか\n\n〔ジョブ群〕\n\nOOO 0\nOO\n\n[実行の条件〕\n\n(1) ジョブの実行多重度を 2 とする。\n\n(2) 各ジョブの処理時間は同一であり, 他のジョブの影響は受けない。\n\n(3) 各ジョブは開始時に 50Mバイトの一時ファイルを新たに作成する。\n\n(4) MQ の関係があれば, ジョブ X の開始時に作成した一時ファイルは, 直\n後のジョブY で参照し, ジョブY の終了時にその一時ファイルを削除する。直後の\nジョブが複数個ある場合には, 最初に生起されるジョブだけが先行ジョブの一時フ\nァイルを参照する。\n\n(5) O<B はジョブ X の終了時に, ジョブ Y, 2 のようにジョブ X と矢印で結\nばれる全てのジョブが, 上から記述された順に優先して生起されることを示す。\n(6) cee は先行するジョブ XY 両方が終了したときにジョブ 1 が生起され\n\nることを示す。\n\n(7) ジョブの生起とは実行待ち行列への追加を意味し, 各ジョブは待ち行列の順に\n実行される。\n\n(8) 0S のオーバヘッドは考慮しない。\n\nア 100     4 150     ウ 200     エ 250",
+      "image": "assets/ap-2022-spring/q16.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問16 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q17",
+      "number": 17,
+      "topic": "テクノロジ系",
+      "stem": "問17 一つの VC バスに接続された二つのセンサがある。それぞれのセンサ値を読み込む\nニニつのタスクで排他的に制御したい。利用するリアルタイム OS の機能として, 適切\nなものはどれか。\n7 Fa                      4 セマフォ\nウ マルチスレッド             エ ラウンドロビピン",
+      "image": "assets/ap-2022-spring/q17.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問17 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q18",
+      "number": 18,
+      "topic": "テクノロジ系",
+      "stem": "FAIS フラグメンテーションに関する記述のうち, 適切なものはどれか。\n\nア 可変長ブロックのメモリプール管理方式では, 様々な大きさのメモリ領域の獲得\nや返却を行ってもフラグメンテーションは発生しない。\n\n4 固定長ブロックのメモリプール管理方式では, 可変長ブロックのメモリプール管\n理方式よりもメモリ領域の獲得と返却を速く行えるが, フラグメンテーションが発\n生しやすい。\n\nウ フラグメンテーションの発生によって, 合計としては十分な空きメモリ領域があ\nるにもかかわらず, 必要とするメモリ領域を獲得できなくなることがある。\n\nエ メモリ領域の獲得と返却の頻度が高いシステムでは, フラグメンテーションの発\n生を防止するため, メモリ領域が返却されるたびにガーベジコレクションを行う必\n要がある。",
+      "image": "assets/ap-2022-spring/q18.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問18 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q19",
+      "number": 19,
+      "topic": "テクノロジ系",
+      "stem": "間19 複数のクライアントから接続されるサーバがある。このサーバのタスクの多重度が\n2 以下の場合, タスク処理時間は常に 4 秒である。このサーバに 1 秒間隔で 4 OM\n理要求が到着した場合, 全ての処理が終わるまでの時間はタスクの多重度が 1のとき\nと 2 のときとで, 何秒の差があるか。\nアァ 6      イ 7      ウ 8      ェ 9",
+      "image": "assets/ap-2022-spring/q19.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問19 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q20",
+      "number": 20,
+      "topic": "テクノロジ系",
+      "stem": "問26 FPGAの説明として, 適切なものはどれか、\nア 電気的に記憶内容の書換えを行うことができる不揮発性メモリ\nイ 特定の分野及びアプリケーション用に限定した特定用途向け汎用集積回路\nウ 浮動小数点数の演算を高速に実行する演算ユニット\nエエ 論理回路を基板上に実装した後で再プログラムできる集積回路",
+      "image": "assets/ap-2022-spring/q20.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問20 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q21",
+      "number": 21,
+      "topic": "テクノロジ系",
+      "stem": "問21 次の方式で画素にメモリを割り当てる 640X480 のグラフィック LOD モジュールが\nHS, tam (5, 4) から終点 (9, 8) まで直線を描画するとき, 直線上の x=7 OF\n素に割り当てられたメモリのアドレスの先頭は何番地か。ここで, 画素の座標は (>,\ny) で表すものとする。\n\n(方式〕\n・メモリは 0 番地から昇順に使用する。\n・1 画素は 16 ビットとする。\n+ BEAR (0, 0) から座標 (639, 479) までメモリを連続して割り当てる。\n・各画素は, x三0 から x 軸の方向にメモリを割り当てていく。\n・x三639 の次は x=0 とし, yを1増やす。\nx\nメモリ    a) DVOOO OOOO OOO:            (】\n   みeieeeieeeieieeeioe oo\n|      KIIILILIL TLL ILL           |\nmaa eae aaa aaa avai,     3\n   YY YYて   @\n        leeeee' @@@@@@@@@@           @\n      あらる@@⑥ひ COSSCSOCSS        (J\nJOSCCONe Cocccoce          @\nの@@@①'@@ cocceece)          @\njeeeeevees @@ののの          @\nOOOOODOOOやもOOOてOO            OC\n        :             始点 。 終点\nあーニーを\n8ビット       479 COOOCOOOCOOOOCOOOCO          Q\nア 3847             4 7680             ウ 7694            エ 8978",
+      "image": "assets/ap-2022-spring/q21.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問21 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q22",
+      "number": 22,
+      "topic": "テクノロジ系",
+      "stem": "間22 アクチュエータの説明として, 適切なものはどれか。\nア 与えられた目標量と. センサから得られた制御量を比較し, 制御量を目標量に一\n致させるように操作量を出力する。\n4 位置, 角度, RE, MRE, 力, 温度などを検出し, 電気的な情報に変換する。\nウ エネルギー源からのパワーを, 回転, 直進などの動きに変換する。\nエ マイクロフォン, センサなどが出力する微小な電気信号を増幅する。",
+      "image": "assets/ap-2022-spring/q22.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問22 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q23",
+      "number": 23,
+      "topic": "テクノロジ系",
+      "stem": "問23 マイクロプロセッサの耐タンパ性を向上させる手法として, 適切なかものはどれか。\nア ESD (Electrostatic Discharge) に対する耐性を強化する。\n4 チップ検査終了後に検査有パッドを残しておく。\nウ チップ内部を物理的に解析しようとすると, 内部回路が破壊されるようにする。\nエエ 内部メモリの物理アドレスを整然と配置する。",
+      "image": "assets/ap-2022-spring/q23.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問23 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q24",
+      "number": 24,
+      "topic": "テクノロジ系",
+      "stem": "間24 ユーザインタフェースのユーザビリティを評価するときの, 利用者が参加する手法\nと専門家だけで実施する手法との適切な組みはどれか。",
+      "image": "assets/ap-2022-spring/q24.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問24 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q25",
+      "number": 25,
+      "topic": "テクノロジ系",
+      "stem": "問25 レイトレーシング法の説明として, 適切なものはどれか。\nア スクリーンの全ての画素について, 視線と描画の対象となる物体との交点を反射\n属性や透明属性なども含めて計算し, その中から視点に最も近い交点を選択する。\nA スクリーンの走査線ごとに視点とその走査線を結ぶ走査面を作成し, 各走査面と\n描画の対象となる物体との交差を調べて交差線分を求め, 奥行き判定を行うことに\nよって描画する。\nウ 描画の対象となる二つの物体のうち, 一方が近くに, もう一方が遠くにあるとき\nに, まず遠くの物体を描いてから近くの物体を重ね書きする。\nエ 描画の対象となる物体の各面をピクセルに分割し, ピクセルごとに視点までの距\n離を計算し, その最小値を作業領域に保持することによって, 視点までの距離が最\n小となる面を求める。",
+      "image": "assets/ap-2022-spring/q25.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問25 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.298
+    },
+    {
+      "id": "2022-spring-q26",
+      "number": 26,
+      "topic": "テクノロジ系",
+      "stem": "間26 CAP 定理におけるAとPの特性をもつ分散システムの説明として, 適切なものはど\nNd.\nア 可用性と整合性と分断耐性の全てを満たすことができる。\nイ 可用性と整合性を満たすが分断耐性を満たさない。\nウ 可用性と分断耐性を満たすが整合性を満たさない。\nエ 整合性と分断耐性を満たすが可用性を満たさない。",
+      "image": "assets/ap-2022-spring/q26.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問26 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.359
+    },
+    {
+      "id": "2022-spring-q27",
+      "number": 27,
+      "topic": "テクノロジ系",
+      "stem": "問27 ANSI/SPARC 3 層スキーマモデルにおける内部スキーマの設計に含まれるものはど\nれか。\nア SQL 問合せ応答時間の向上を目的としたインデックスの定義\nイ エンティティ間の “1 対多\", “SHS” などの関連を明示する E-R モデルの作成\nウ エンティティ内やエンティティ間の整合性を保つための一意性制約や参照制約の\nエ データの冗長性を排除し, 更新の一貫性と効率性を保持するための正規化",
+      "image": "assets/ap-2022-spring/q27.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問27 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q28",
+      "number": 28,
+      "topic": "テクノロジ系",
+      "stem": "問28 第1, 第2, 第3 正規形とリレーションの特徴 a, b, c の組合せのうち, 適切なも\n\nのはどれか。\na: どの非キー属性も, 主キーの真部分集合に対して関数従属しない。\nb : どの非キー属性も, 主キーに推移的に関数従属しない。\nc : 繰返し属性が存在しない。\n\n[7{ * 1 5 | k |\n\n1ィイ1 * foe | 5\n\n2| ャ 1 』 | 5 |\n\n| ・ To» 1 』 |",
+      "image": "assets/ap-2022-spring/q28.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問28 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q29",
+      "number": 29,
+      "topic": "テクノロジ系",
+      "stem": "問29 undo/redo 方式を用いた障害回復におけるログ情報の要否として, 適切な組合せは\nどれか。",
+      "image": "assets/ap-2022-spring/q29.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問29 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q30",
+      "number": 30,
+      "topic": "テクノロジ系",
+      "stem": "問39 ビッグデータの利用におけるデータマイニングを説明したものはどれか。\nア 琉積されたデータを分析し, 単なる検索だけでは分からない隠れた規則や相関関\n係を見つけ出すこと\nイ データウェアハウスに格納されたデータの一部を, 特定の用途や部門用に切り出\nして, データベースに格納すること\nウ データ処理の対象となる情報を基に規定した, データの構造, 意味及び操作の枠\n組みのこと\nエエ データを複数のサーバに複製し, 性能と可用性を向上させること",
+      "image": "assets/ap-2022-spring/q30.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問30 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q31",
+      "number": 31,
+      "topic": "テクノロジ系",
+      "stem": "問31 IPv6 アドレスの表記として, 適切なものはどれか。\nア 2001:db8::3ab::ff01             イ 2001:db8::3ab:ff91\nウ 26091:db8.3ab:ff91               エ 2001.db8.3ab.ff91",
+      "image": "assets/ap-2022-spring/q31.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問31 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q32",
+      "number": 32,
+      "topic": "テクノロジ系",
+      "stem": "問32 シリアル回線で使用するものと同じデータリンクのコネクション確立やデータ転送\nを, LAN 上で実現するプロトコルはどれか。\nア MPLS     イ PPP     ウ PPPoE    エ PPTP",
+      "image": "assets/ap-2022-spring/q32.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問32 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q33",
+      "number": 33,
+      "topic": "テクノロジ系",
+      "stem": "問33 UDP を使用しているものはどれか。\nア FTP     イ NTP     ウ POP3     エ TELNET",
+      "image": "assets/ap-2022-spring/q33.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問33 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q34",
+      "number": 34,
+      "topic": "テクノロジ系",
+      "stem": "問34 IPv4 で 192.168.30.32/28 のネットワークに接続可能なホストの最大数はどれか。\nア 14     イ 16     ウ 28     エ 30",
+      "image": "assets/ap-2022-spring/q34.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問34 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.325
+    },
+    {
+      "id": "2022-spring-q35",
+      "number": 35,
+      "topic": "テクノロジ系",
+      "stem": "問35 OpenFlow を使った SDN (Software-Defined Networking) に関する記述として, 適\n\n切なものはどれか。\n\nア インターネットのドメイン名を管理する世界規模の分散データベースを用いて,\nIP アドレスの代わりに名前を指定して通信できるようにする仕組み\n\nイ 携帯電話網において, 回線交換方式ではなく, パケット交換方式で音声通話を実\n現する方式\n\nウ ストレージ装置とサーバを接続し, WWN (World Wide Name) によってノードやポ\nートを識別するストレージ用ネットワーク\n\nエ データ転送機能とネットワーク制御機能を論理的に分離し, ネットワーク制御を\n集中的に行うことを可能にしたアーキテクチャ",
+      "image": "assets/ap-2022-spring/q35.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問35 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q36",
+      "number": 36,
+      "topic": "テクノロジ系",
+      "stem": "問36 複数のシステムやサービスの間で利用される SAML (Security Assertion Markup\nLanguage) はどれか。\nア システムの負荷や動作状況に関する情報を送信するための仕様\nイ 脆弱性に関する情報や償成情報を交換するための仕様\nウ 通信を暗号化し, VPN を実装するための仕様\nエ 認証や認可に関する情報を交換するための仕様",
+      "image": "assets/ap-2022-spring/q36.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問36 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q37",
+      "number": 37,
+      "topic": "テクノロジ系",
+      "stem": "問37 サイバーキルチェーンの債察段階に関する記述として, 適切なものはどれか。\n\nア 攻撃対象企業の公開 Web サイトの脆弱性を悪用してネットワークに侵入を試みる。\n\nイ 攻撃対象企業の社員に標的型攻撃メールを送って PC をマルウェアに感染させ,\nPC 内の個人情報を入手する。\n\nウ 攻撃対象企業の社員の SNS LORE, 肩書などを足がかりに, 関連する組織や人\n物の情報を洗い出す。\n\nエ サイバーキルチェーンの 2 番目の段紫をいい, 攻撃対象に特化した PDF やドキュ\nメントファイルにマルウェアを仕込む。",
+      "image": "assets/ap-2022-spring/q37.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問37 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q38",
+      "number": 38,
+      "topic": "テクノロジ系",
+      "stem": "問38 チャレンジレスポンス認証方式に該当するものはどれか。\n\nア 固定パスワードを, TLS による暗号通信を使い クライアントからサーバに送信\nLT, サーバで検証する。\n\nイ 端末のシリアル番号を, クライアントで秘密鍵を使って暗号化し, サーバに送信\nして, サーバで検証する。\n\nウ トークンという機器が自動的に表示する, 認証のたびに異なる数字列をパスワー\nドとしてサーバに送信して, サーバで検証する。\n\nエ 利用者が入力したパスワードと, サーバから受け取ったランダムなデータとをク\nライアントで演算し, その結果をサーバに送信して, サーバで検証する。",
+      "image": "assets/ap-2022-spring/q38.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問38 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q39",
+      "number": 39,
+      "topic": "テクノロジ系",
+      "stem": "問39 メッセージの送受信における署名鍵の使用に関する記述のうち, 適切なものはどれ\n\nか。\n\nア 送信者が送信者の署名鍵を使ってメッセージに対する署名を作成し, メッセージ\nに付加することによって, 受信者が送信者による署名であることを確認できるよう\nになる。\n\nイ 送信者が送信者の署名鍵を使ってメッセージを暗号化することによって, 受信者\nが受信者の署名鍵を使って, 暗号文元のメッセージに戻すてとができるようにな\nる。\n\nウ 送信者が送信者の署名鍵を使ってメッセージを暗号化することによって, メッセ\nージの内容が関係者以外に分からないようになる。\n\nエ 送信者がメッセージに固定文字列を付加し, 更に送信者の署名鍵を使って暗号化\nすることによって, 受信者がメッセージの改ざん部位を特定できるようになる。",
+      "image": "assets/ap-2022-spring/q39.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問39 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q40",
+      "number": 40,
+      "topic": "テクノロジ系",
+      "stem": "問49 Web ブラウザの cookie に関する設定と, それによって期待される効果の記述のう\n\nち, 最も適切なものはどれか。\n\nア サードパーティ cookie をブロックする設定によって, 当該 Web ブラウザが閲覧\nした Web サイトのコンテンツのキャッシュが保持されなくなり, 閲覧したコンテン\nツが当該 Web ブラウザのほかの利用者に知られないようになる。\n\nイ サードパーティ cookie をブロックする設定によって, 当該 Web ブラウザが複数\nの Web サイトを閲覧したときにトラッキングされないようになる。\n\nウ ファーストパーティ cookie を承諾する設定によって, 当該 Web ブラウザが Web\nサイトの改ざんを cookie のハッシュ値を用いて検知できるようになる。\n\nエエ ファーストパーティ cookie を承諾する設定によって, 当該 Web ブラウザがデジ\nタル証明書の失効情報を入手でき, 閲覧中の Web サイトのデジタル証明書の有効性\nを確認できるようになる。",
+      "image": "assets/ap-2022-spring/q40.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問40 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q41",
+      "number": 41,
+      "topic": "テクノロジ系",
+      "stem": "間41 クライアント証明書で利用者を認証するリバースプロキシサーバを用いて, 複数の\nWeb サーバにシングルサインオンを行うシステムがある。このシステムに関する記述\nのうち, 適切なものはどれか。\n\nア クライアント証明書を利用者の PC に送信するのは, Web サーバではなく, リバ\nースプロキシサーバである。\n\nイ クライアント証明書を利用者の PC に送信するのは, リバースプロキシサーバで\nはなく, Web サーバである。\n\nウ 利用者 ID などの情報を Web サーバに送信するのは, リバースプロキシサーバで\nはなく, 利用者の PC である。\n\nエエ 利用者 ID などの情報を Web サーバに送信するのは, 利用者の PC ではなく, リバ\nースプロキシサーバである。",
+      "image": "assets/ap-2022-spring/q41.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問41 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q42",
+      "number": 42,
+      "topic": "テクノロジ系",
+      "stem": "問42 パスワードクラック手法の一種でちある, レインボー攻撃に該当するものはどれか。\n\nア 何らかの方法で事前に利用者 ID と平文のパスワードのリストを入手しておき,\n複数のシステム間で使い回されている利用者 ID とパスワードの組みを狙って, A\nグインを試行する。\n\nイ パスワードに成り得る文字列の全てを用いて, 総当たりでログインを試行する。\n\nウ 平文のパスワードとハッシュ値をチェーンによって管理するテーブルを準備して\nおき, それを用いて, 不正に入手したハッシュ値からパスワードを解読する。\n\nL 利用者の誕生日や電話番号などの個人情報を言葉巧みに聞き出して, パスワード\nを類推する。",
+      "image": "assets/ap-2022-spring/q42.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問42 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q43",
+      "number": 43,
+      "topic": "テクノロジ系",
+      "stem": "問43 JIS 0 27000:2019 (情報セキュリティマネジメントシステムー用語) における “Y\nスクレベル\" の定義はどれか。\nア 署威によって付け込まれる可能性のある, 資産又は管理策の弱点\nイ 結果とその起こりやすさの組合せとして表現される, リスクの大きさ\nウ 対応すべきリスクに付与する優先順位\nエ リスクの重大性を評価するために目安とする条件",
+      "image": "assets/ap-2022-spring/q43.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問43 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q44",
+      "number": 44,
+      "topic": "テクノロジ系",
+      "stem": "問44 内部ネットワークの PC からインターネット上の Web サイトを参照するときに, DMZ\nに設置した VDI (Virtual Desktop Infrastructure) サーバ上の Web ブラウザを利用\nすると, 未知のマルウェアが PC にダウンロードされるのを防ぐというセキュリティ\n上の効果が期待できる。この効果を生み出す VWI サーバの動作の特徴はどれか。\n\nア Web サイトからの受信データを受信処理した後, IPsec でカプセル化し, PC に送\n信する。\n\n4 Web サイトからの受信データを受信処理した後, 実行ファイルを削除し, その他\nのデータを PC に送信する。\n\nウ Web サイトからの受信データを受信処理した後, 生成したデスクトップ画面の画\n像データだけを PC に送信する。\n\nエエ Web サイトからの受信データを受信処理した後, 不正なコード列が検知されない\n場合だけ PC に送信する。",
+      "image": "assets/ap-2022-spring/q44.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問44 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q45",
+      "number": 45,
+      "topic": "テクノロジ系",
+      "stem": "問45 ファジングに該当するものはどれか。\n\nア サーバに『IN パケットを送信し, サーバからの応答を観測して, 稼働しているサ\nービスを見つけ出す。\n\nイ サーバの 0S やアプリケーションソフトウェアが生成したログやコマンド履歴な\nどを解析して, ファイルサーバに保存されているファイルの改ざんを検知する。\n\nウ ソフトウェアに, 問題を引き起こしそうな多様なデータを入力し, 挙動を監視し\nて, MBE ROT.\n\nL ネットワーク上を流れるパケットを収集し, そのプロトコルヘッダやペイロード\nを解析して, あらかじめ登録された攻撃パターンと一致するものを検出する。",
+      "image": "assets/ap-2022-spring/q45.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問45 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q46",
+      "number": 46,
+      "topic": "テクノロジ系",
+      "stem": "問46 モジュールの独立性の尺度であるモジュール結合度は, 低いほど独立性が高くなる。\n次のうち, モジュールの独立性が最も高い結合はどれか。\nア 外部結合   イ 共通結合   ウ スタンプ結合 エ データ結合",
+      "image": "assets/ap-2022-spring/q46.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問46 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q47",
+      "number": 47,
+      "topic": "テクノロジ系",
+      "stem": "問47 次の流れ図において, 判定条件網羅 (DMR) を満たす最少のテストケースの組\n\nみはどれか。\n\nA>0\n\nかっ   te\n\nB=0\n\nEe\n\nア (1) A=0, B=9 (2) A=1, B=1\n4 (1) A=1, B=@ (2) A=1, B=1\nウ (1) A=0, B=9 (2) A=1, B=1  (3) A=1, B=0\nエ (1) A=0, B=0 (2) A=0, B=1  (3) A=1, B=0",
+      "image": "assets/ap-2022-spring/q47.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問47 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.403
+    },
+    {
+      "id": "2022-spring-q48",
+      "number": 48,
+      "topic": "テクノロジ系",
+      "stem": "問48 問題は発生していないが, プログラムの仕様書と現状のソースコードとの不整合を\n解消するために, リバースエンジニアリングの手法を使って仕様書を作成し直す。こ\nれはソフトウェア保守のどの分類に該当するか\nア 完全化保守            イ 是正保守\nウ 適応保守             エ 予防保守",
+      "image": "assets/ap-2022-spring/q48.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問48 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.172
+    },
+    {
+      "id": "2022-spring-q49",
+      "number": 49,
+      "topic": "テクノロジ系",
+      "stem": "P49 アジャイル開発の手法の二つであるスクラムにおいて, 決められた期間におけるス\nクラムチームの生産量を相対的に表現するとき, 尺度として用いるものはどれか。\nア スプリント            イ スプリントレトロスペクティブ\nウ バックログ           エ ベロシティ",
+      "image": "assets/ap-2022-spring/q49.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問49 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.244
+    },
+    {
+      "id": "2022-spring-q50",
+      "number": 50,
+      "topic": "テクノロジ系",
+      "stem": "問59 ソフトウェア開発に使われる IDE の説明として, 適切なものはどれか。\nア エディタ, コンパイラ, リンカ, デバッガなどが一体となったツール\nイ 専用のハードウェアインタフェースで CPU の情報を取得する装置\nウ ターゲット CPUを搭載した評価ボードなどの実行環境\nエ タスクスケジューリングの仕組みなどを提供するソフトウェア",
+      "image": "assets/ap-2022-spring/q50.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問50 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q51",
+      "number": 51,
+      "topic": "マネジメント系",
+      "stem": "問51 ある組織では, プロジェクトのスケジュールとコストの管理にアーンドバリューマ\nネジメントを用いている。 期間 10 日間のプロジェクトの, 5 日目の終了時点の状況\nは表のとおりである。この時点でのコスト効率が今後も続くとしたとき, 完成時総コ\nスト見積り (EAC) は何万円か。\nLsaw | sl\nアァ 110        イ 129        ウ 135        =x 150",
+      "image": "assets/ap-2022-spring/q51.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問51 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q52",
+      "number": 52,
+      "topic": "マネジメント系",
+      "stem": "間52 プロジェクトのスケジュールを短縮するために, アクティビティに割り当てる資源\nを増やして, アクティビティの所要期間を短縮する技法はどれか。\nア クラッシング           イ クリティカルチェーン法\nウ ファストトラッキング       エエ モンテカルロ法",
+      "image": "assets/ap-2022-spring/q52.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問52 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q53",
+      "number": 53,
+      "topic": "マネジメント系",
+      "stem": "間53 ソフトウェア開発プロジェクトにおいて, 表の全ての作業を完了させるために必要\nな期間は最短で何日間か。\n[mw lmeamomr | ぁ |\n[se 人mmsmz | ぉ|\n利用者教育            テストの完了及び\n|\nア 80            イ 95            ウ 100           エ 120",
+      "image": "assets/ap-2022-spring/q53.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問53 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.265
+    },
+    {
+      "id": "2022-spring-q54",
+      "number": 54,
+      "topic": "マネジメント系",
+      "stem": "問54 プロジェクトのコンティンジェンシ計画において決定することとして, 適切なもの\nはどれか。\nア あらかじめ定義された, ある条件のときにだけ実行する対応策\nイ 活動リストの活動ごとに必要な資源\nウ プロジェクトに適用する品質の要求事項及び規格\nエ プロジェクトのステークホルダの情報及びコミュニケーションのニーズ",
+      "image": "assets/ap-2022-spring/q54.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問54 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q55",
+      "number": 55,
+      "topic": "マネジメント系",
+      "stem": "PISS あるシステムにおけるデータ復旧の要件が次のとおりであるとき, データのバック\nアップは最長で何時間ごとに取得する必要があるか。\n〔データ復旧の要件〕\n・RTO (目標復旧時間) : 3 時間\n・RPO (目標復旧時点) : 12 時間前\nアァ 3            イ 9            ウ 12           =x 15",
+      "image": "assets/ap-2022-spring/q55.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問55 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q56",
+      "number": 56,
+      "topic": "マネジメント系",
+      "stem": "間56 ITIL 2011 edition では, 可用性管理における重要業績評価指標 (KPI) の例とし\nて, “保守性を表す指標値\" の短縮を挙げている。保守性を表す指標に該当するもの\nはどれか。\nア 一定期間内での中断の数\nイ 平均故障間隔\nウ 平均サービス・インシデント間隔\nエ 平均サービス回復時間",
+      "image": "assets/ap-2022-spring/q56.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問56 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.27
+    },
+    {
+      "id": "2022-spring-q57",
+      "number": 57,
+      "topic": "マネジメント系",
+      "stem": "問57 基幹業務システムの構築及び運用において, データ管理者 (0A) とデータベース管\nHES (DBA) を別々に任命した場合の DA の役割として, 適切なものはどれか。\nア 業務データ量の増加傾向を把握し, ディスク装置の増設などを計画して実施する。\nイ システム開発の設計工程では, 主に論理データベース設計を行い,。 データ項目を\n管理して標準化する。\nウ システム開発のテスト工程では, 主にパフォーマンスチューニングを担当する。\nエ システム障害が発生した場合には, データの復旧や整合性のチェックなどを行う。",
+      "image": "assets/ap-2022-spring/q57.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問57 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q58",
+      "number": 58,
+      "topic": "マネジメント系",
+      "stem": "問58 事業継続計画 (BCP) について監査を実施した結果, 適切な状況と判断されるもの\nはどれか。\nア 従業員の緊急連絡先リストを作成し, 最新版に更新している。\nイ 重要書類は複製せすずに, 1 か所で集中保管している。\nウ 全ての業務について, 優先順位なしに同一水準の BCP を策定している。\nエ 平時にはBCP を従業員に非公開としている。",
+      "image": "assets/ap-2022-spring/q58.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問58 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q59",
+      "number": 59,
+      "topic": "マネジメント系",
+      "stem": "問59 監査調書に関する記述のうち, 適切なものはどれか。\n\nア 監査調書には, 監査対象部門以外においても役立つ情報があるので, 全て企業内\nで公開すべきである。\n\nイ 監査調書の役割として, 監査実施内容の客観性を確保し, 監査の結論を支える合\n理的な根拠とすることなどが挙げられる。\n\n> 監査調書は, 通常, 電子媒体で保管されるが, 機密保持を徹底するためバックア\nップは作成すべきではない。\n\nエ 監査調書は監査の過程で入手した客観的な事実の記録なので, 監査担当者の所見\nは記述しない。",
+      "image": "assets/ap-2022-spring/q59.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問59 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q60",
+      "number": 60,
+      "topic": "マネジメント系",
+      "stem": "問60 監査証拠の入手と評価に関する記述のうち, システム監査基準 (平成 30 年) に照\n\nSLT, 適切でないものはどれか。\n\nア アジャイル手法を用いたシステム開発プロジェクトにおいては, 管理用ドキュメ\nントとしての体裁が整っているものだけが監査証拠として利用できる。\n\nイ 外部委託業務実施拠点に対する監査において, システム監査人が委託先から入手\nした第三者の保証報告書に依拠できると判断すれば, 現地調査を省略できる。\n\nウ 十分かつ適切な監査証拠を入手するための本調査の前に, 監査対象の実態を把握\nするための予備調査を実施する。\n\nエエ 一つの監査目的に対して, 通常は, 複数の監査手続を組み合わせて監査を実施す\nる。",
+      "image": "assets/ap-2022-spring/q60.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問60 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q61",
+      "number": 61,
+      "topic": "ストラテジ系",
+      "stem": "問61 システム管理基準 (平成 30 年) によれば, IT システムの運用・利用におけるログ\n\n管理に関する記述のうち, 適切なものはどれか。\n\nア 取得したログは, 不正なアクセスから保護し, 内容が改ざんされないように保管\nする。\n\nイ 通常の運用範囲を超えたアクセスや違反行為に関するログを除外し, 運用の作業\nログ, 利用部門の活動ログを記録し, 保管する。\n\nウ 特権的アクセスのログは, あまり重要ではないので, 分析対象から除外する。\n\nエ 保管したログは, 情報セキュリティインシデントが発生した場合にだけ分析し\n分析結果に応じて必要な対策を講じる。",
+      "image": "assets/ap-2022-spring/q61.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問61 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.277
+    },
+    {
+      "id": "2022-spring-q62",
+      "number": 62,
+      "topic": "ストラテジ系",
+      "stem": "問62 SOAの説明はどれか。\n\nア SH, 人事, 製造, 購買, 在庫管理, 販売などの企業の業務プロセスを一元管理\nすることによって, 業務の効率化や経営資源の全体最適を図る手法\n\nイ 企業の業務プロセス, システム化要求などのニーズと, ソフトウェアパッケージ\nの機能性がどれだけ適合し, どれだけかい離しているかを分析する手法\n\nウ 業務プロセスの問題点を洗い出して, 目標設定, 実行, チェック, 修正行動のマ\nネジメントサイクルを適用し, 継続的な改善を図る手法\n\nエエ 利用者の視点から業務システムの機能を幾つかの独立した部品に分けることによ\nって, 業務プロセスとの対応付けや他ソフトウェアとの連携を容易にする手法",
+      "image": "assets/ap-2022-spring/q62.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問62 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q63",
+      "number": 63,
+      "topic": "ストラテジ系",
+      "stem": "問63 BPOの説明はどれか。\n\nア 災害や事故で被害を受けても, 重要事業を中断させない, 又は可能な限り中断其\n間を短くする仕組みを構築すること\n\nイ 社内業務のうちコアビジネスでない事業に関わる業務の一部又は全部を, 外部の\n専門的な企業に委託すること\n\nウ 製品の基準生産計画, 部品表及び在庫情報を基に, 資材の所要量と必要な時期を\nRO, これを基準に資材の手配, 納入の管理を支援する生産管理手法のこと\n\nエ プロジェクトを, 戦略との適合性や費用対効果, リスクといった観点から評価を\n行い, 情報化投資のバランスを管理し, 最適化を図ること",
+      "image": "assets/ap-2022-spring/q63.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問63 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q64",
+      "number": 64,
+      "topic": "ストラテジ系",
+      "stem": "問64 IT 投資効果の評価方法において, キャッシュフローベースで初年度の投資による\nキャッシュアウトを何年後に回収できるかという指標よはどれか。\nア IRR (Internal Rate of Return)    4 NPV (Net Present Value)\nウ PBP (Pay Back Period)         エ ROI (Return On Investment)",
+      "image": "assets/ap-2022-spring/q64.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問64 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q65",
+      "number": 65,
+      "topic": "ストラテジ系",
+      "stem": "問65 非機能要件の使用性に該当するものはどれか。\nア 4 時間以内のトレーニングを受けることで, 新しい画面を操作できるようになる\nこと\nイ 業務量がピークの日であっても, 8時間以内で夜間バッチ処理を完了できること\nウ 現行のシステムから新システムに 72 時間以内で移行できること\nエ 地震などの大規模災害時であっても, 144 時間以内にシステムを復旧できること",
+      "image": "assets/ap-2022-spring/q65.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問65 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.341
+    },
+    {
+      "id": "2022-spring-q66",
+      "number": 66,
+      "topic": "ストラテジ系",
+      "stem": "問66 UML の図のうち, 業務要件定義において, 業務フローを記述する際に使用する, 処\n理の分岐や並行処理, 処理の同期などを表現できる図はどれか。\nア アクティビティ図         4 クラス図\nウ 状態マシン図           =m ユースケース図",
+      "image": "assets/ap-2022-spring/q66.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問66 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q67",
+      "number": 67,
+      "topic": "ストラテジ系",
+      "stem": "間67 PPM において, 投資用の資金源として位置付けられる事業はどれか。\nア 市場成長率が高く, 相対的市場占有率が高い事業\nイ 市場成長率が高く, 相対的市場占有率が低い事業\nウ 市場成長率が低く, 相対的市場占有率が高い事業\nエ 市場成長率が低く, 相対的市場占有率が低い事業",
+      "image": "assets/ap-2022-spring/q67.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問67 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q68",
+      "number": 68,
+      "topic": "ストラテジ系",
+      "stem": "PIES アンゾフの成長マトリクスを説明したものはどれか。\n\nア 外部環境と内部環境の観点から, 強み, BH, WA, 脅威という四つの要因につ\nいて情報を整理し, 企業を取り巻く環境を分析する手法である。\n\nイ 企業のビジョンと戦略を実現するために, 財務, MA, 内部ビジネスプロセス,\n学習と成長という四つの視点から事業活動を検討し, アクションプランまで具体化\nしていくマネジメント手法である。\n\n> 事業戦略を, 市場浸透 市場拡大, 製品開発, 多角化という四つのタイプに分類\nし, 事業の方向性を検討する際に用いる手法である。\n\nエ 製品ライフサイクルを, 導入期, 成長期, 成熟期, 衰退期という四つの段階に分\n類し, 企業にとって最適な戦略を立案する手法である。",
+      "image": "assets/ap-2022-spring/q68.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問68 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q69",
+      "number": 69,
+      "topic": "ストラテジ系",
+      "stem": "問69 パイラルマーケティングの説明はどれか。\n\nア 顧客の好みや欲求の多様化に対応するために, 画一的なマーケティングを行うの\nではなく, 顧客一人ひとりの興味関心に合わせてマーケティングを行う手法\n\nイ 市場全体をセグメント化せずに一つとして捉え, 一つの製品を全ての購買者に対\nし, 画一的なマーケティングを行う手法\n\nウ 実店舗での商品販売, EC サイトなどのバーチャル店舗販売など複数のチャネル\nを連携させ, 顧客がチャネルを意識せず購入できる利便性を実現する手法\n\nエエ 人から人へ, プラスの評価が口コミで爆発的に広まりやすいインターネットの特\n長を生かす手法",
+      "image": "assets/ap-2022-spring/q69.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問69 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q70",
+      "number": 70,
+      "topic": "ストラテジ系",
+      "stem": "問70 半導体産業において, ファブレス企業と比較したファウンドリ企業のビジネスモデ\nルの特徴として, 適切なものはどれか。\nア 工場での生産をアウトソーシングして, 生産設備への投資を抑える。\n4 自社製品の設計 マーケティングに注力し, 新市場を開拓する。\nウ 自社製品の販売に注力し, 売上げを拡大する。\nエ 複数の企業から生産だけを専門に請け負い, 多くの製品を低コストで生産する。",
+      "image": "assets/ap-2022-spring/q70.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問70 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q71",
+      "number": 71,
+      "topic": "ストラテジ系",
+      "stem": "問71 XBRL で主要な取扱いの対象とされている情報はどれか。\nア 医療機関のカルテ情報      イ 企業の顧客情報\nウ 企業の財務情報        エ 自治体の住民情報",
+      "image": "assets/ap-2022-spring/q71.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問71 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q72",
+      "number": 72,
+      "topic": "ストラテジ系",
+      "stem": "問72 “かんばん方式\" を説明したものはどれか。\nア 各作業の効率を向上させるために, 仕様が統一された部品, 半製品を調達する。\nイ 効率よく部品調達を行うために, 関連会社から部品を調達する。\nウ 中間在庫を極力減らすために, 生産ラインにおいて, 後工程が必要とする部品を\n自工程で生産できるように, 必要な部品だけを前工程から調達する。\nエ より品質が高い部品を調達するために, 部品の納入指定業者を複数定め, 競争入\n札で部品を調達する。",
+      "image": "assets/ap-2022-spring/q72.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問72 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q73",
+      "number": 73,
+      "topic": "ストラテジ系",
+      "stem": "問73 製造業の A 社では, NC 工作機械を用いて, 四つの仕事 ad を行っている。各仕\n事間の段取り時間は表のとおりである。合計の段取り時間が最小になるように仕事\nを行った場合の合計段取り時間は何時間か。ここで, 仕事はどの順序で行ってもよ\nく, avd を一度ずつ行うものとし, FROM から TO への段取り時間で検討する。\n\n単位 時間\nPe Te\nしgm トモ\na\nしLee 1 も 1 1 イー\nしに\nア 4                イ 5                ウ 6                エ 7",
+      "image": "assets/ap-2022-spring/q73.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問73 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q74",
+      "number": 74,
+      "topic": "ストラテジ系",
+      "stem": "間74 会議におけるファシリテータの役割として, 適切なものはどれか。\n\nア 技術面や法律面など, 自らが専門とする特定の領域の議論に対してだけ, 助言を\n行う。\n\n4 議長となり, 経営層の意向に合致した結論を導き出すように議論をコントロール\nする。\n\nウ 中立公平な立場から, 会議の参加者に発言を促したり, 議論の流れを整理したり\nする。\n\nエ 日程調整, 資料準備, 議事録作成など, 会議運営の事務的作業に特化した支援を\n行う。",
+      "image": "assets/ap-2022-spring/q74.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問74 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q75",
+      "number": 75,
+      "topic": "ストラテジ系",
+      "stem": "問75 リーダシップ論のうち, PM 理論の特徴はどれか。\n\nア 優れたリーダシップを発揮する, リーダ個人がもつ性格, 知性, 外観などの個人\n的資質の分析に焦点を当てている。\n\nイ リーダシップのスタイルについて, 目標達成能力と集団維持能力の二つの次元に\n焦点を当てている。\n\nウ リーダシップの有効性は, 部下の成熟 (自律性) の度合いという状況要因に依存\nするとしている。\n\nエ リーダシップの有効性は, リーダがもつパーソナリティと, リーダがどれだけ統\n制力や影響力を行使できるかという状況要因に依存するとしている。",
+      "image": "assets/ap-2022-spring/q75.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問75 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q76",
+      "number": 76,
+      "topic": "ストラテジ系",
+      "stem": "問76 新製品の設定価格とその価格での予測需要との関係を表にした。最大利益が見込め\nる新製品の設定価格はどれか。ここで, いずれの場合にも, 次の費用が発生するもの\nとする。\n固定費 : 1, 906, 000 円\n変動費 : 609 円ノ個\nア 1,000    イ 1,200    ウ 1,400    エ 1,600",
+      "image": "assets/ap-2022-spring/q76.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問76 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q77",
+      "number": 77,
+      "topic": "ストラテジ系",
+      "stem": "問77 A 社は,B 社と著作物の権利に関する特段の取決めをせず, A 社の要求仕様に基づ\nWC, 販売管理システムのプログラム作成をB 社に委託した。この場合のプログラム\n著作権の原始的帰属に関する記述のうち, 適切なものはどれか。\n\nア A社とB社が話し合って帰属先を決定する。\nイ A社とB社の共有帰属となる。\n\nウ A社に帰属する。\n\nエ B社に帰属する。",
+      "image": "assets/ap-2022-spring/q77.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問77 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q78",
+      "number": 78,
+      "topic": "ストラテジ系",
+      "stem": "間78 不正アクセス禁止法で規定されている, “不正アクセス行為を助長する行為の禁\n\nJE” 規定によって規制される行為はどれか。\n\nア 業務その他正当な理由なく, 他人の利用者 ID とパスワードを正規の利用者及び\nシステム管理者以外の者に提供する。\n\nイ 他人の利用者 ID とパスワードを不正に入手する目的で,。 フィッシングサイトを\n開設する。\n\nウ 不正アクセスの目的で, 他人の利用者 ID とパスワードを不正に入手する。\n\nエ 不正アクセスの目的で, 不正に入手した他人の利用者 ID とパスワードをPC に保\n管する。",
+      "image": "assets/ap-2022-spring/q78.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問78 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.299
+    },
+    {
+      "id": "2022-spring-q79",
+      "number": 79,
+      "topic": "ストラテジ系",
+      "stem": "問79 A社はB社に対して業務システムの設計, 開発を委託し, A 社とB社は請負契約を\n\n結んでいる。 作業の実態から, 偽装請負とされる事象はどれか。\n\nア A 社の従業員が, B 社を作業場所として, A 社の責任者の指揮命令に従ってシス\nテムの検証を行っている。\n\nイ A 社の従業員が, B 社を作業場所として, B 社の責任者の指揮命令に従ってシス\nテムの検証を行っている。\n\nウ B 社の従業員が, A 社を作業場所として, A 社の責任者の指揮命令に従って設計\n書を作成している。\n\nエ B 社の従業員が, A 社を作業場所として, B 社の責任者の指揮命令に従って設計\n書を作成している。",
+      "image": "assets/ap-2022-spring/q79.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問79 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2022-spring-q80",
+      "number": 80,
+      "topic": "ストラテジ系",
+      "stem": "間80 欧州へ電子部品を輸出するには, ROHS 指令への対応が必要である。この ROHS 指令\n\nの目的として, 適切なものはどれか。\n\nア 家電製品から有用な部分や材料をリサイクルし, 廃棄物を減量するとともに, 資\n源の有効利用を推進する。\n\nイ 機器が発生する電磁妨害が, 無線通信機器及びその他の機器が意図する動作を妨\nげるレベルを超えないようにする。\n\nウ 大量破壊兵器の開発及び拡散, 通常兵器の過剰備蓄に関わるおそれがある場合な\nど, 国際社会の平和と安全を脅かす輸出行為を防止する。\n\nI 電気電子製品の生産から処分までの全ての段階で, 有害物質が環境及び人の健康\nに及ぼす危険を最小化する。",
+      "image": "assets/ap-2022-spring/q80.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2022年度 春期 応用情報技術者試験 午前 問80 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000009sgk-att/2022r04h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    }
+  ]
+}

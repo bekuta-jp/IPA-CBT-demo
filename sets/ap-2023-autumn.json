@@ -1,0 +1,1613 @@
+{
+  "id": "ap-2023-autumn",
+  "title": "2023年度 秋期（令和5年度）応用情報 午前［公式問題画像］",
+  "year": 2023,
+  "season": "秋期",
+  "sourceType": "ipa",
+  "exam": "AP",
+  "sourceUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+  "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_ans.pdf",
+  "imageOnly": true,
+  "questions": [
+    {
+      "id": "2023-autumn-q01",
+      "number": 1,
+      "topic": "テクノロジ系",
+      "stem": "問1 2桁の2進数 xi x。が表す整数を x とする。2 進数 x. x, が表す整数を, x の式で表し\nたものはどれか。ここで, int(r) は非負の実数 r の小数点以下を切り捨てた整数を\n表す。\n\nア       |    x                         1    7\nア 2x+4 int テ                イ 2xt+5 int\nウ 2x-3 int($)                エ 2x-4 int($)",
+      "image": "assets/ap-2023-autumn/q01.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問1 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.428
+    },
+    {
+      "id": "2023-autumn-q02",
+      "number": 2,
+      "topic": "テクノロジ系",
+      "stem": "問2 複数の変数をもつデータに対する分析手法の記述のうち, 主成分分析はどれか\nア 変数に共通して影響を与える新たな変数を計算して, データの背後にある構造を\n取得する方法\nイ 変数の値からほかの変数の値を予測して, データがもつつ変数間の関連性を確認す\nる方法\nウ 変数の値が互いに類似するものを集めることによって, データを分類する方法\nエ 変数を統合した新たな変数を使用して, データがもつ変数の数を減らす方法",
+      "image": "assets/ap-2023-autumn/q02.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問2 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q03",
+      "number": 3,
+      "topic": "テクノロジ系",
+      "stem": "問3 逆ポーランド表記法 (後置記法) で表現されている式 ABCD二X十において,\nA=16, B=8, C=4, D=2 のときの演算結果はどれか。逆ポーランド表記法による式\nAB十は, 中苗記法による式A十B と同一である。\nア 32      イ 46      ウ 48      エ 94",
+      "image": "assets/ap-2023-autumn/q03.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問3 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.306
+    },
+    {
+      "id": "2023-autumn-q04",
+      "number": 4,
+      "topic": "テクノロジ系",
+      "stem": "問4 図のように 16 ビピットのデータを 4X4 の正方形状に並べ, 行と列にパリティビット\nを付加することによって何ビットまでの誤りを訂正できるか。ここで, 図の網掛け部\n分はパリティビットを表す。\n訓加回回回\njets [fe fo|\n回回頭回回\nLf spe] fa]\nLefefey|\n\nみ i           4 2          ウ 3          エ 4",
+      "image": "assets/ap-2023-autumn/q04.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問4 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.437
+    },
+    {
+      "id": "2023-autumn-q05",
+      "number": 5,
+      "topic": "テクノロジ系",
+      "stem": "問5 双方向リストを三つの一次元配列 elem[i], next[i], prev[i]の組で実現する。双\n方向リストが図の状態のとき, 要素 D の次に要素 C を挿入した後の next[6],\nprey[6]の値の組合せはどれか。ここで, 双方向リストは次のように表現する。\n\n・双方向リストの要素は, elem[i]に値, next[i]に次の要素の要素番号, prev[i]に\n前の要素の要素番号を設定\n・双方向リストの先頭, 末尾の要素番号は, それぞれ変数 Head, Tail に設定\n・next[i], prev[i]の値が 0 である要素は, それぞれ双方向リストの末尾, 先頭を表\nす。\n・双方向リストへの要素の追加は, 一次元配列の未尾に追加\n一次元配列の末尾\n要素番号 1 2 3 4 sh oa\neeis 1 el\nBRES 1 2 3 4 stot\nHead  7]\nTail\nae eee)\n[={ 5]",
+      "image": "assets/ap-2023-autumn/q05.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問5 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.314
+    },
+    {
+      "id": "2023-autumn-q06",
+      "number": 6,
+      "topic": "テクノロジ系",
+      "stem": "問6 あるデータ列を整列したら状態 0 から順に状態 1, 2,・・・, N へと推移した。整\n列に使ったアルゴリズムはどれか。\n状態0 3.5, 9, 6, 1, 2\n状態1 3, 5, 6, 1, 2, 9\n状態2 3, 5, 1, 2, 6, 9\nRAEN 1, 2, 3, 5, 6, 9\nアークイックソート            4 挿入ソート\nウ バブルソート         エ ヒープソート",
+      "image": "assets/ap-2023-autumn/q06.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問6 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q07",
+      "number": 7,
+      "topic": "テクノロジ系",
+      "stem": "問7 JavaScript のオブジェクトの表記法などを基にして規定したものであって, “名前\nと値との組みの集まり” & “値の順序付きリスト\" の二つの構造に基づいてオブジェ\nクトを表現する, データ記述の仕様はどれか。\nアァ DOM     イ JSON     ウ SOAP     エ XML",
+      "image": "assets/ap-2023-autumn/q07.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問7 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.157
+    },
+    {
+      "id": "2023-autumn-q08",
+      "number": 8,
+      "topic": "テクノロジ系",
+      "stem": "問8 スマートフォンなどで高い処理性能と低消費電力の両立のために, 異なる目的に適\nした複数の種類のコアを搭載したプロセッサはどれか。\nア スーパースカラプロセッサ\nイ ソフトコアプロセッサ\nウ へテロジニアスマルチコアプロセッサ\nエ ホモジニアスマルチコアプロセッサ",
+      "image": "assets/ap-2023-autumn/q08.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問8 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.315
+    },
+    {
+      "id": "2023-autumn-q09",
+      "number": 9,
+      "topic": "テクノロジ系",
+      "stem": "FO パイプラインの人性能を向上させるための技法の一つで, 分岐条件の結果が決定する\n前に, 分岐先を予測して命令を実行するものはどれか。\nア アウトオブオーダー実行          イ ERED IR\nウ 投入実行                   エ レジスタリネーミング",
+      "image": "assets/ap-2023-autumn/q09.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問9 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.5
+    },
+    {
+      "id": "2023-autumn-q10",
+      "number": 10,
+      "topic": "テクノロジ系",
+      "stem": "PHO ファイルシステムをフラッシュメモリで構成するとき, ブロックごとの書換え回数\nを管理することによって, フラッシュメモリの寿命を延ばす技術はどれか。\nア ウェアレベリング\nイ ジャーナリング\nウ デフラグ\nエ ライトアンプリフィケーション",
+      "image": "assets/ap-2023-autumn/q10.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問10 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.211
+    },
+    {
+      "id": "2023-autumn-q11",
+      "number": 11,
+      "topic": "テクノロジ系",
+      "stem": "All 画面表示用フレームバッファがユニファイドメモリ方式であるシステムの特徴はど\nれか。\nア 主記憶とは別に専用のフレームバッファをもつ。\n4 主記憶の一部を表示領域として使用する。\nウ シリアル接続した表示デバイスに, 描画コマンドを用いて表示する。\nエ 表示リフレッシュが不要である。",
+      "image": "assets/ap-2023-autumn/q11.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問11 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.47
+    },
+    {
+      "id": "2023-autumn-q12",
+      "number": 12,
+      "topic": "テクノロジ系",
+      "stem": "問12 SAN (Storage Area Network) におけるサーバとストレージの接続形態の説明とし\nて, 適切なものはどれか。\nア シリアル ATA などの接続方式によって内蔵ストレージとして 1対1 に接続する。\nイ ファイバチャネルなどによる専用ネットワークで接続する。\nウ プロトコルは CIFS (Common Internet File System) を使用し, LAN で接続する。\nエエ プロトコルはNFS (Network File System) を使用し, LAN で接続する。",
+      "image": "assets/ap-2023-autumn/q12.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問12 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.336
+    },
+    {
+      "id": "2023-autumn-q13",
+      "number": 13,
+      "topic": "テクノロジ系",
+      "stem": "問13 システムの性能を向上させるための方法として, スケールアウトが適しているシス\n\nテムはどれか。\n\nア 一連の大きな処理を一括して実行しなければならないので, 並列処理が困難な処\n理が中心のシステム\n\nイ 参照系のトランザクションが多いので, 複数のサーバで分散処理を行っているシ\nステム\n\nウ データを追加するトランザクションが多いので, データの整合性を取るためのオ\nーバーヘッドを小さくしなければならないシステム\n\nエエ 同一のマスターデータベースがシステム内に複数配置されているので, マスター\nを更新する際にはデータベース間で整合性を保持しなければならないシステム",
+      "image": "assets/ap-2023-autumn/q13.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問13 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.437
+    },
+    {
+      "id": "2023-autumn-q14",
+      "number": 14,
+      "topic": "テクノロジ系",
+      "stem": "問14 IaC (Infrastructure as Code) に関する記述として, 最も適切なものはどれか。\n\nア インフラストラクチャの自律的なシステム運用を実現するために, インシデント\nへの対応手順をコードに定義むすること\n\nイ 各種開発支援ツールを利用するために, ツールの連携手順をコードに定義むするこ\n&\n\nウ 継続的インテグレーションを実現するために, アプリケーションの生成手順や試\n験の手順をコードに定義むすること\n\nエエ ソフトウェアによる自動実行を可能にするために, システムの構成や状態をコー\nドに定義むすること",
+      "image": "assets/ap-2023-autumn/q14.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問14 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.409
+    },
+    {
+      "id": "2023-autumn-q15",
+      "number": 15,
+      "topic": "テクノロジ系",
+      "stem": "FAIS アクティブースタンバイ構成の 2 台のサーバから成るシステムがある。各サーバの\nMTBF は 99 時間, MTTR は 10 時間, フェールオーバーに要する時間は 2 時間であると\nき, このシステムの稼働率はおよそ幾らか。ここで, 二重に障害は発生しないものと\nする。\nア 9.82     4 0.89     ウ 0.91     エ 0.98",
+      "image": "assets/ap-2023-autumn/q15.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問15 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.391
+    },
+    {
+      "id": "2023-autumn-q16",
+      "number": 16,
+      "topic": "テクノロジ系",
+      "stem": "問16 ページング方式の仮想記憶において, あるプログラムを実行したとき, 1 回のペー\nジフォールトの平均処理時間は 30 ミリ秒であった。ページフォールト発生時の処理\n時間が次の条件であったとすると, ページアウトを伴わないページインだけの処理の\n割合は幾らか。\n〔ページフォールト発生時の処理時間〕\n(1) ページアウトを伴わない場合, ページインの処理時間は 29 ミリ秒である。\n(2) ページアウトを伴う場合, 置換えページの選択, ページアウト, ページインの合\n\n計処理時間は 69 ミリ秒である。\n\nア 0.25        イ 0.33        ウ 0.67        エ 0.75",
+      "image": "assets/ap-2023-autumn/q16.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問16 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q17",
+      "number": 17,
+      "topic": "テクノロジ系",
+      "stem": "A? プリエンプティブな優先度ベペースのスケジューリングで実行する二つの周期タスク\nA 及び B がある。 タスク B が周期内に処理を完了できるタスクA 及び B の最大実行時\n間及び周期の組合せはどれか。ここで, タスク A の方がタスク B より優先度が高く,\nかつ, タスクA とB の共有資源はなく, タスク切替え時間は考慮しないものとする。\nまた, 時間及び周期の単位はミリ秒とする。\n最大実行時間| 周期           最大実行時間| 周期\n    pet\npals Te | [sl fe,\n,   -\n最大実行時間| 周期           最大実行時間| 周期",
+      "image": "assets/ap-2023-autumn/q17.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問17 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q18",
+      "number": 18,
+      "topic": "テクノロジ系",
+      "stem": "間18 あるコンピュータ上で, 当該コンピュータとは異なる命令形式のコンピュータで実\n行できる目的プログラムを生成する言語処理プログラムはどれか。\nア エミュレーター       イ クロスコンパイラ\nウ 最適化コンパイラ       エ プログラムジェネレーター",
+      "image": "assets/ap-2023-autumn/q18.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問18 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.412
+    },
+    {
+      "id": "2023-autumn-q19",
+      "number": 19,
+      "topic": "テクノロジ系",
+      "stem": "問19 Linux カーネルの説明として, 適切なものはどれか。\n\nア CUI によるコマンド入力のためのシェルと呼ばれるソフトウェアが組み込まれて\nいて, 文字での操作が可能である。\n\nイ GU を利用できるデスクトップ環境が組み込まれていて, マウスを使った直感的\nな操作が可能である。\n\nウ Web ブラウザ, ワープロソフト, 表計算ソフトなどが含まれており, Linux カー\nネルだけで多くの業務が行える。\n\nエ プロセス管理やメモリ管理などの, アプリケーションソフトウェアが動作するた\nめの基本機能を提供する。",
+      "image": "assets/ap-2023-autumn/q19.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問19 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q20",
+      "number": 20,
+      "topic": "テクノロジ系",
+      "stem": "問20 FPGAの説明として, 適切なものはどれか。\nア 電気的に記憶内容の書換えを行うことができる不揮発性メモリ\nイ 特定の分野及びアプリケーション用に限定した特定用途向け汎用集積回路\nウ 浮動小数点数の演算を高速に実行する演算ユニット\nI 論理回路を基板上に実装した後で再プログラムできる集積回路",
+      "image": "assets/ap-2023-autumn/q20.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問20 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.428
+    },
+    {
+      "id": "2023-autumn-q21",
+      "number": 21,
+      "topic": "テクノロジ系",
+      "stem": "問21 MOS トランジスタの説明として, 適切なものはどれか。\nア pn 接合における電子と正孔の再結合によって光を放出するという性質を利用し\nた半導体素子\nイ pn 接合部に光が当たると電流が発生するという性質を利用した半導体素子\nウ 金属と半導体との間に酸化物絶縁体を挟んだ構造をもつことが特徴の半導体素子\nエエ 逆方向電圧をある電圧以上印加すると, 電流だけが増加し電圧がほぼ一定に保た\nれるという特性をもつ半導体素子",
+      "image": "assets/ap-2023-autumn/q21.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問21 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q22",
+      "number": 22,
+      "topic": "テクノロジ系",
+      "stem": "問22 図の論理回路において, S=1, R=1, X=0, Y=1ODE%, $ を一旦 0 にした後,再\nび 1 に戻した。 この操作を行った後の X,Y の値はどれか。\n5               X\nR               Y\nア X=0, Y=0   4 X=0, Y=1   > X=1, Y=0   = X=1, Y=1",
+      "image": "assets/ap-2023-autumn/q22.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問22 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q23",
+      "number": 23,
+      "topic": "テクノロジ系",
+      "stem": "問23 真理値表に示す 3 入力多数決回路はどれか。\n|Iwlmlcel' |\n|elelel o |\nLelelil e |\nle lilel 6 |\nlelilil i |\nlilelel 6 |\nlilelili |\nIrlileli |\nhh li lil i |\nア ーA                      イ 。A\nB                         B\nc                 Y        c                Y\n7 A                      エー A\nB                         B\n                 Y        C                 Y",
+      "image": "assets/ap-2023-autumn/q23.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問23 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q24",
+      "number": 24,
+      "topic": "テクノロジ系",
+      "stem": "問24 JIS X 9303-1:2006 (ユーザシステムインタフェース及びシンボルーアイコン及び\n\n機能アイコン一般) で規定されているアイコンの習得性の説明はどれか。\n\nア アイコンによって表現されたシステム機能が, それが理解された後に, どれだけ\n容易に思い出すことができるかを示す。\n\nイ アイコンの図柄の詳細を, どれだけ容易に区別できるかを示す。\n\nウ 同じ又は類似したアイコンによる以前の経験に基づいて, どれだけ容易にアイコ\nンを識別できるかを示す。\n\nエ 空間的, 時間的又は文脈的に近くに表示された別のアイコンから, 与えられたア\nイコンをどれだけ容易に区別できるかを示す。",
+      "image": "assets/ap-2023-autumn/q24.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問24 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.335
+    },
+    {
+      "id": "2023-autumn-q25",
+      "number": 25,
+      "topic": "テクノロジ系",
+      "stem": "問25 バーチャルリアリティに関する記述のうち, レンダリングの説明はどれか。\nア ウェアラブルカメラ, 慣性センサーなどを用いて非言語情報を認識する処理\nイ 仮想世界の情報をディスプレイに描画可能な形式の画像に変換する処理\nウ 視覚的に現実世界と仮想世界を融合させるために, それぞれの世界の中に定義さ\nれた 3 次元座標を一致させる処理\nエ 時間経過とともに生じる物の移動などの変化について, モデル化したものを物理\n法則などに当てはめて変化させる処理",
+      "image": "assets/ap-2023-autumn/q25.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問25 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.354
+    },
+    {
+      "id": "2023-autumn-q26",
+      "number": 26,
+      "topic": "テクノロジ系",
+      "stem": "問26 “売上” 表への次の検索処理のうち, B*木インデックスよりもハッシュインデック\nスを設定した方が適切なものはどれか。ここで, インデックスを設定する列を<>内\nに示す。\n売上 GRES, 売上年月日, 商品名, 利用者 ID, 店舗番号, 売上金額)\nア 売上金額が 1 万円以上の売上を検索する。 ご売上金額>\nイ 売上年月日が今月の売上を検索する。 ご売上年月日>\nウ 商品名が ‘DB で始まる売上を検索する。ぐ商品名>\nエ 利用者IDが 1001 の売上を検索する。ぐ利用者 ID>",
+      "image": "assets/ap-2023-autumn/q26.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問26 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.677
+    },
+    {
+      "id": "2023-autumn-q27",
+      "number": 27,
+      "topic": "テクノロジ系",
+      "stem": "問27 関係モデルにおける外部キーの説明として, 適切なものはどれか。\nア ある関係の候補キーを参照する属性, 又は属性の組\nイ 主キー以外で, タプルを一意に識別できる属性, 又は属性の組\nウ タプルを一意に識別できる属性, 又は属性の組の集合のうち極小のもの\nエ タプルを一意に識別できる属性, 又は属性の組を含む集合",
+      "image": "assets/ap-2023-autumn/q27.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問27 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q28",
+      "number": 28,
+      "topic": "テクノロジ系",
+      "stem": "問28 更新可能なビューを作成する SOL 文はどれか。ここで, SOL 文中に現れる基底表は\n全て更新可能とする。\nア CREATE VIEW 高額商品(商品番号, 商品名, 商品単価)\nAS SELECT 商品番号, 商品名, 商品単価 FROM 商品 WHERE 商品単価>1009\nイ CREATE VIEW 受注商品(商品番号)\nAS SELECT DISTINCT 商品番号 FROM 受注\nウ CREATE VIEW 商品受注(商品番号, 受注数量)\nAS SELECT 商品番号, SUM(受注数量) FROM 受注 GROUP BY 商品番号\nエ CREATE VIEW 商品平均受注数量(平均受注数量)\nAS SELECT AVG(受注数量) FROM 受注",
+      "image": "assets/ap-2023-autumn/q28.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問28 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.403
+    },
+    {
+      "id": "2023-autumn-q29",
+      "number": 29,
+      "topic": "テクノロジ系",
+      "stem": "問29 “製品” 表と\"在庫\" 表に対し, RO SOL 文を実行した結果として得られる表の行\n数は幾つか。\nSELECT DISTINCT 製品番号 FROM 製品\nWHERE NOT EXISTS (SELECT 製品番号 FROM 在庫\nWHERE 在庫数 > 30 AND 製品.製品番号 = 在庫.製品番号)\n製品                              在庫\n    | we | zews | tw |\n    | we | sw | gl\n| wwe | xswe | al\n| mwe | gww | wl\nLe | ww | |\nァ 1           イ 2          ウ 3          エ 4",
+      "image": "assets/ap-2023-autumn/q29.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問29 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.319
+    },
+    {
+      "id": "2023-autumn-q30",
+      "number": 30,
+      "topic": "テクノロジ系",
+      "stem": "問30 DENS をシステム障害発生後に再立エげするとき, ロールフォワードすべきトラン\nザクションとロールバックすべきトランザクションの組合せとして, 適切なものはど\nれか。ここで, トランザクションの中で実行される処理内容は次のとおりとする。\n\n  データベースに対する Read 回数 と Write 回数\n時間\nT1 -一一一@\nチ\nT2         as\n15         {| 一一ーーーーe\nT6\nーーーーーー はコミットされていないトランザクションを示す。\n———0 はコミットされたトランザクションを示す。",
+      "image": "assets/ap-2023-autumn/q30.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問30 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q31",
+      "number": 31,
+      "topic": "テクノロジ系",
+      "stem": "問31 190Mビットノ秒のLAN を使用し, 1 件のレコード長が 1, 009 バイトの電文を 1,000\n件連続して伝送するとき, 伝送時間は何秒か。ここで, LAN の伝送効率は 50%%とする。\nア 0.02     イ 0,08     ウゥ 0.16     = 1.6",
+      "image": "assets/ap-2023-autumn/q31.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問31 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q32",
+      "number": 32,
+      "topic": "テクノロジ系",
+      "stem": "問322 プライベート IP アドレスを割り当てられた PC が NAPT (IP マスカレード) 機能を\nもつルータを経由して, インターネット上の Web サーバにアクセスしている。Web +\nーバから PC への応答パケットに含まれるヘッダー情報のうち, このルータで書き換\nえられるフィールドの組合せとして, 適切なかものはどれか。ここで, RHO 〇 はフ\nイールドの情報が書き換えられることを表す。\nplo | o | | っ\nele [oe\nsl __ 1] 5でタイ\nロロ",
+      "image": "assets/ap-2023-autumn/q32.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問32 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.293
+    },
+    {
+      "id": "2023-autumn-q33",
+      "number": 33,
+      "topic": "テクノロジ系",
+      "stem": "間33 TCP/IP 環境において, ping によってホストの接続確認をするときに使用されるプ\nロトコルはどれか。\nア CHAP        イ ICMP        ウ SMTP        エ SNMP",
+      "image": "assets/ap-2023-autumn/q33.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問33 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q34",
+      "number": 34,
+      "topic": "テクノロジ系",
+      "stem": "間34 サブネットマスクが 255.255.252.0 のとき, IP アドレス 172.30.123.45 のホスト\nが属するサブネットワークのアドレスはどれか。\nア 172.30.3.0  イ 172.30.120.0 ウ 172.39.123.09 エ 172.30.252.0",
+      "image": "assets/ap-2023-autumn/q34.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問34 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q35",
+      "number": 35,
+      "topic": "テクノロジ系",
+      "stem": "問35 IPv4 ネットワークにおけるマルチキャストの使用例に関する記述として, 適切な\n\nものはどれか。\n\nア LAN に初めて接続する PC が, DHCP プロトコルを使用して, 自分自身に割り当て\nられる IP アドレスを取得する際に使用する。\n\nイ ネットワーク機器が, ARP プロトコルを使用して, 宛先 IP アドレスから MAC ア\nドレスを得るためのリクエストを送信する際に使用する。\n\nウ メーリングリストの利用者が, SMTP プロトコルを使用して, メンバー全員に対\nし, 同一内容の電子メールを一斉送信する際に使用する。\n\nエ ルータが RIP-2 プロトコルを使用して, 隣接するルータのグループに, 経路の更\n新情報を送信する際に使用する。",
+      "image": "assets/ap-2023-autumn/q35.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問35 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.367
+    },
+    {
+      "id": "2023-autumn-q36",
+      "number": 36,
+      "topic": "テクノロジ系",
+      "stem": "P36 パスワードクラック手法の一種である, レインボーテーブル攻撃に該当するものは\nどれか。\n\nア 何らかの方法で事前に利用者 ID と平文のパスワードのリストを入手しておき,\n複数のシステム間で使い回されている利用者 ID とパスワードの組みを狙って, O\nグインを試行する。\n\nイ パスワードに成り得る文字列の全てを用いて, 総当たりでログインを試行する。\n\nウ 平文のパスワードとハッシュ値をチェーンによって管理するテーブルを準備して\nおき, それを用いて, 不正に入手したハッシュ値からパスワードを解読する。\n\nエ 利用者の誕生日, 電話番号などの個人情報を言葉巧みに聞き出して, パスワード\nを類推する。",
+      "image": "assets/ap-2023-autumn/q36.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問36 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.455
+    },
+    {
+      "id": "2023-autumn-q37",
+      "number": 37,
+      "topic": "テクノロジ系",
+      "stem": "問37 権円昌線暗号の特徴はどれか。\nア RSA暗号と比べて, 短い鍵長で同レベルの安全性が実現できる。\nイ 共通鍵暗号方式であり, MS PRSOMBs MRICS TEMTSS,\nウ 総当たりによる解読が不可能なことが, 数学的に証明されている。\nエ データを秘匿する目的で用いる場合 復号鍵を秘密にしておく必要がない。",
+      "image": "assets/ap-2023-autumn/q37.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問37 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q38",
+      "number": 38,
+      "topic": "テクノロジ系",
+      "stem": "問38 自社の中継用メールサーバで, 接続元 IP アドレス, 電子メールの送信者のメール\nアドレスのドメイン名, 及び電子メールの受信者のメールアドレスのドメイン名から\n成るログを取得するとき, 外部ネットワークからの第三者中継と判断できるログはど\nれか。ここで, AAA.168.1.5 と AAA.168.1.10 は自社のグローバル IP アドレスとし,\nBBB. 45.67.89 と BBB.45.67.96 は社外のグローバル IP アドレスとする。a.b.c は自社\nのドメイン名とし, a.b.d と a.b.e は他社のドメイン名とする。また, IP アドレスと\nドメイン名は詐称されていないものとする。\n\nし\n接続元 IT『 アドレス     メールアドレスの      メールアドレスの\nドメイン名          ドメイン名\nFlamer swe ww\nmem eee ee |\nにeee se he |",
+      "image": "assets/ap-2023-autumn/q38.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問38 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q39",
+      "number": 39,
+      "topic": "テクノロジ系",
+      "stem": "問39 JPCERT コーディネーションセンター “CSIRT ガイド (2021 年 11 月 308)” では,\nCSIRT を機能とサービス対象によって六つに分類しており, その一つにコーディネー\nションセンターがある。コーディネーションセンターの機能とサービス対象の組合せ\nとして, 適切なものはどれか。\n\n インシデント対応の中で, CSIRT 間の情報失調整\n\nを行う。\n\nインシデントの傾向分析やマルウェアの解析, 攻撃の\n 厩刀の分析を行い。 必要に応じて注意を喘起する。 | MRM BRR\n ーー パッチ作成や注意喚起を | 下社製品の利用者\n\nDe\n\nxz | 組織内 CSIRT の機能の一部又は全部をサービスプロバ | oe\n\nイダとして, 有償で請け負う。",
+      "image": "assets/ap-2023-autumn/q39.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問39 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q40",
+      "number": 40,
+      "topic": "テクノロジ系",
+      "stem": "問40 JIS Q 27000 : 2019 (情報セキュリティマネジメントシステムーー用語) において,\n認可されていない個人, エンティティ又はプロセスに対して, 情報を使用させず, ま\nた, 開示しない特性として定義されているものはどれか。\n\nア 機密性    4 真正性    ウ 認証     エ 否認防止",
+      "image": "assets/ap-2023-autumn/q40.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問40 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.194
+    },
+    {
+      "id": "2023-autumn-q41",
+      "number": 41,
+      "topic": "テクノロジ系",
+      "stem": "問41 暗号機能を実装した 1oT 機器における脅威のうち, サイドチャネル攻撃に該当する\nものはどれか。\nア 暗号化関数を線形近似する式を導き, その線形近似式から秘密情報の取得を試み\nる。\nイ 機器が発する電磁波を測定することによって秘密情報の取得を試みる。\nウ 二つの平文の差とそれぞれの暗号文の差の関係から, 秘密情報の取得を試みる。\nエ 理論的にあり得る復号鍵の全てを機器に入力して秘密情報の取得を試みる。",
+      "image": "assets/ap-2023-autumn/q41.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問41 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q42",
+      "number": 42,
+      "topic": "テクノロジ系",
+      "stem": "問42 セキュアブートの説明はどれか。\n\nア BIOS にパスワードを設定し, PC 起動時に BIOS のパスワード入力を要求すること\nによって, OS の不正な起動を防ぐ技術\n\n4 HDD 又は SSD にパスワードを設定し, PC 起動時に HDD 又は SSD のパスワード入力\nを要求することによって, 0S の不正な起動を防ぐ技術\n\nウ PC の起動時に 05 のプログラムやドライバのデジタル署名を検証し, デジタル署\n名が有効なものだけを実行することによって, OS 起動完了前のマルウェアの実行\n\nエエ マルウェア対策ソフトを OS のスタートアッププログラムに登録し, OS 起動時に\n自動的にマルウェアスキャンを行うことによって, マルウェアの被害を防ぐ技術",
+      "image": "assets/ap-2023-autumn/q42.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問42 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q43",
+      "number": 43,
+      "topic": "テクノロジ系",
+      "stem": "間43 PC のストレージ上の重要なデータを保護する方法のうち, ランサムウェア感染に\n\nよる被害の低減に効果があるものはどれか。\n\nア WORM (Write Once Read Many) 機能を有するストレージを導入して, そこに重要\nなデータをバックアップする。\n\nイ ストレージを RAIDS 構成にして, 1 台のディスク故障時にも重要なデータを利用\n可能にする。\n\nウ 内蔵ストレージを増設して, 重要なデータを常時レプリケーションする。\n\nエエ ネットワーク上のストレージの共有フォルダをネットワークドライブに割り当て\nて, そこに重要なデータをバックアップする。",
+      "image": "assets/ap-2023-autumn/q43.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問43 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q44",
+      "number": 44,
+      "topic": "テクノロジ系",
+      "stem": "間44 DKIM (DomainKeys Identified Mail) に関する記述のうち, 適切なものはどれか。\n\nア 送信側のメールサーバで電子メールにデジタル署名を付与し, 受信側のメールサ\nーバでそのデジタル署名を検証して送信元ドメインの認証を行う。\n\nイ 送信者が電子メールを送信するとき, 送信側のメールサーバは, 送信者が正規の\n利用者かどうかの認証を利用者 ID とパスワードによって行う。\n\nウ 送信元ドメイン認証に失敗した除の電子メールの処理方法を記載したポリシーを\nDNS サーバに登録し, 電子メールの認証結果を監視する。\n\nエエ 電子メールの送信元ドメインでメール送信に使うメールサーバの IP アドレスを\nDNS サーバに登録しておき, 受信側で送信元ドメインの DNS サーバに登録されてい\nる IP アドレスと電子メールの送信元メールサーバの IP アドレスとを照合する。",
+      "image": "assets/ap-2023-autumn/q44.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問44 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q45",
+      "number": 45,
+      "topic": "テクノロジ系",
+      "stem": "問45 DNSSEC についての記述のうち, 適切なものはどれか。\n\nア DNS サーバへの問合せ時の送信元ポート番号をランダムに選択することによって,\nDNS 問合せへの不正な応答を防止する。\n\n4 DNS の再帰的な問合せの送信元として許可するクライアントを制限することによ\nって, DNS を悪用した DoS 攻撃を防止する。\n\nウ 共通鍵暗号方式によるメッセージ認証を用いることによって, 正当な DNS サーバ\nからの応答であることをクライアントが検証できる。\n\nエ 公開鍵暗号方式によるデジタル署名を用いることによって, 正当な DNS サーバか\nらの応答であることをクライアントが検証できる。",
+      "image": "assets/ap-2023-autumn/q45.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問45 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q46",
+      "number": 46,
+      "topic": "テクノロジ系",
+      "stem": "問46 問題を引き起こす可能性があるデータを大量に入力し, そのときの応答や挙動を監\n視することによって, ソフトウェアの騰弱性を検出するテスト手法はどれか。\nア 限界値分析 イ 実験計画法 ウ ファジング エ ロードテスト",
+      "image": "assets/ap-2023-autumn/q46.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問46 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q47",
+      "number": 47,
+      "topic": "テクノロジ系",
+      "stem": "問47 アプリケーションソフトウェアの開発環境上で, 用意された部品やテンプレートを\nGUI による操作で組み合わせたり, 必要に応じて一部の処理のソースコードを記述し\nたりして, ソフトウェアを開発する手法はどれか。\nア 継続的インテグレーション    イ ノーコード開発\nウ プロトタイピング       エ ローコード開発",
+      "image": "assets/ap-2023-autumn/q47.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問47 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q48",
+      "number": 48,
+      "topic": "テクノロジ系",
+      "stem": "問48 問題は発生していないが, プログラムの仕様書と現状のソースコードとの不整合を\n解消するために, リバースエンジニアリングの手法を使って仕様書を作成し直す。こ\nれはソフトウェア保守のどの分類に該当するか。\nア 完全化保守         4 是正保守\nウ 適応保守           エ 予防保守",
+      "image": "assets/ap-2023-autumn/q48.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問48 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q49",
+      "number": 49,
+      "topic": "テクノロジ系",
+      "stem": "問49 アジャイルソフトウェア開発宣言では, \"あることがらに価値があることを認めな\nがらも別のことがらにより価値をおく\" としている。\"別のことがら” に該当するも\nのの組みはどれか。\nア 個人と対話, 動くソフトウェア, 顧客との協調。 変化への対応\n4 個人と対話, 包括的なかドキュメント, 顧客との協調, 計画に従うこと\nウ プロセスやツール, 動くソフトウェア, 契約交渉 変化への対応\nエ プロセスやツール, 包括的なドキュメント, 契約交渉。 計画に従うこと",
+      "image": "assets/ap-2023-autumn/q49.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問49 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q50",
+      "number": 50,
+      "topic": "テクノロジ系",
+      "stem": "問50 組込みシステムのソフトウェア開発に使われる IDE の説明として, 適切なものはど\nれか。\nア エディター, コンパイラ, リンカ, デバッガなどが一体となったツール\nイ 専用のハードウェアインタフェースで CPU の情報を取得する装置\nウ ターゲットCPUを搭載した評価ボードなどの実行環境\nエ タスクスケジューリングの仕組みなどを提供するソフトウェア",
+      "image": "assets/ap-2023-autumn/q50.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問50 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q51",
+      "number": 51,
+      "topic": "マネジメント系",
+      "stem": "問51 PMBOK ガイド 第 7 版によれば, プロジェクト・スコープ記述書に記述する項目は\nどれか。\nア WBS                       イ コスト見積額\nウ ステークホルダー分類          エ プロジェクトの除外事項",
+      "image": "assets/ap-2023-autumn/q51.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問51 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q52",
+      "number": 52,
+      "topic": "マネジメント系",
+      "stem": "問52 システム開発のプロジェクトにおいて, EVM を活用したパフォーマンス管理をして\nWS. 開発途中のある時点で EV一PV の値が負であるとき, どのような状況を示して\nいるか。\n\nア スケジュール効率が, 計画よりも良い。\n\nイ プロジェクトの完了が, 計画よりも遅くなる。\nウ プロジェクトの進捗が, 計画よりも遅れている。\nエエ プロジェクトの進捗が, 計画よりも進んでいる。",
+      "image": "assets/ap-2023-autumn/q52.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問52 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q53",
+      "number": 53,
+      "topic": "マネジメント系",
+      "stem": "問53 プロジェクトのスケジュールを短縮したい。 当初の計画は図 1 のとおりである。作\nSEE を作業 E1, £2, E3 に分けて, 図 2 のとおりに計画を変更すると, スケジュール\nは全体で何日短縮できるか。\nA    B    D\nOQ   QQ   ©)\n6       凡例\n)                       〇 作業名 〇\n所要日数\nOO POP\n図1 当初の計画\nA    B    D\nOQ   (〇   〇\nO  N        凡例\n}   OQ                  O 作業名 O\n所要日数\nツテ: ダミー作業\nOPO OPO\n図2 変更後の計画\nァ 1      4 2      ウ 3      エ 4",
+      "image": "assets/ap-2023-autumn/q53.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問53 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q54",
+      "number": 54,
+      "topic": "マネジメント系",
+      "stem": "問54 プロジェクトマネジメントにおいて, コンティンジェンシー計画を作成するプロセ\nスはどれか。\nア リスクの管理        イ リスクの特定\nウ リスクの評価        エ リスクへの対応",
+      "image": "assets/ap-2023-autumn/q54.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問54 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q55",
+      "number": 55,
+      "topic": "マネジメント系",
+      "stem": "間55 サービスマネジメントシステム (SMS) における是正処置の説明はどれか。\n\nア 検出された不適合又はほかの望ましくない状況の原因を除去する, 又は再発の起\nこりやすさを低減するための処置\n\nイ 構成品目の変更の展開に伴って, 構成情報を更新する処置\n\nウ パフォーマンスを向上するために繰り返し行われる活動であって, SMS 及びサー\nビスの適切性, 妥当性及び有効性を継続的に改善するための処時\n\nエ 問題を “記録・分類\" し, “優先度付け\" し, “必要ならばエスカレーション\"し,\n“可能ならば解決する” 一連の処置",
+      "image": "assets/ap-2023-autumn/q55.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問55 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q56",
+      "number": 56,
+      "topic": "マネジメント系",
+      "stem": "問56 Y 社は, 受注管理システムを運用し, 顧客に受注管理サービスを提供している。 日\n数が 36 日, 月曜日の回数が 4 回である月において, サービス提供条件を達成するた\nめに許容されるサービスの停止時間は最大何時間か。ここで, サービスの停止時間は,\n小数第 1 位を切り捨てるものとする。\n〔サービス提供条件]\n・サービスは, 計画停止時間を除いて, 毎日 9 時から 24 時まで提供する。\n・計画停止は, 毎週月曜日の 0 時から6時まで実施する。\n- サービスの可用性は 99%以上とする。\nア 9      イ 6      ウ 7      xz 13",
+      "image": "assets/ap-2023-autumn/q56.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問56 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q57",
+      "number": 57,
+      "topic": "マネジメント系",
+      "stem": "問57 フルバックアップ方式と差分バックアップ方式とを用いた運用に関する記述のうち,\n適切なものはどれか。\nア 障害からの復旧時に差分バックアップのデータだけ処理すればよいので, フルバ\nックアップ方式に比べ, 差分バックアップ方式は復旧時間が短い。\nイ フルバックアップのデータで復元した後に, 差分バックアップのデータを反映さ\nせて復旧する。\nウ フルバックアップ方式と差分バックアップ方式とを併用して運用することはでき\nない。\nエ フルバックアップ方式に比べ, 差分バックアップ方式はバックアップに要する時\n間が長い。",
+      "image": "assets/ap-2023-autumn/q57.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問57 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q58",
+      "number": 58,
+      "topic": "マネジメント系",
+      "stem": "問58 システム監査人が作成する監査調書に関する記述として, 適切なものはどれか。\nア 監査調書の作成は任意であり, 作成しなくても問題はない。\nイ 監査調書は, 監査人自身の行動記録であり, 監査チーム内でも他の監査人と共有\nすべきではない。\nウ 監査調書は, 監査の結論を支える合理的な根拠とするために, 発見した事実及び\n発見事実に関する所見を記載する。\nエエ 監査調書は, 保管の必要がない監査人の備忘録である。",
+      "image": "assets/ap-2023-autumn/q58.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問58 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q59",
+      "number": 59,
+      "topic": "マネジメント系",
+      "stem": "問59 販売管理システムにおいて, 起票された受注伝票の入力が, 漏れなく, DO, BR\n\nすることなく実施されていることを確かめる監査手続として, 適切なものはどれか\nア 受注データから値引取引データなどの例外取引データを抽出し, 承認の記録を確\nかめる。\n\nイ 受注伝票の入力時に論理チェック及びフォーマットチェックが行われているか,\nテストデータ法で確かめる。\n\nウ 販売管理システムから出力したプルーフリストと受注伝票との照合が行われてい\nるか, プルーフリストと受注伝票上の照合印を確かめる。\n\nエ 並行シミュレーション法を用いて, 受注伝票を処理するプログラムの論理の正確\n性を確かめる。",
+      "image": "assets/ap-2023-autumn/q59.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問59 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q60",
+      "number": 60,
+      "topic": "マネジメント系",
+      "stem": "問60 金融店 “財務報告に係る内部統制の評価及び監査に関する実施基準 (令和元年) \"\n\nにおける “IT への対応\" に関する記述のうち, 適切なものはどれか。\n\nア TIT 環境とは, 企業内部に限られた範囲での IT の利用状況である。\n\nイ ITの統制は, IT に係る全般統制及び IT に係る業務処理統制から成る。\n\nウ TIT の利用によって統制活動を自動化している場合, 当該統制活動は有効である\nと評価される。\n\nエ IT を利用せず手作業だけで内部統制を運用している場合, 直ちに内部統制の不\n備となる。",
+      "image": "assets/ap-2023-autumn/q60.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問60 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q61",
+      "number": 61,
+      "topic": "ストラテジ系",
+      "stem": "問61 バックキャスティングの説明として, 適切なものはどれか\n\nア システム開発において, 先にプロジェクト要員を確定し, リソースの範囲内で優\n先すべき機能から順次提供する開発手法\n\nイ 前提として認識すべき制約を受け入れた上で未来のありたい姿を描き, 予想され\nる課題や可能性を洗い出し解決策を検討ることによって, ありたい姿に近づける\n思考方法\n\nウ 組織において, 下位から上位への発議を受け付けて経営の意思決定に反映するマ\nネジメント手法\n\nエ 投資戦略の有効性を検証する際に, 過去のデータを用いてどの程度の利益が期待\nできるかをシミュレーションする手法",
+      "image": "assets/ap-2023-autumn/q61.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問61 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q62",
+      "number": 62,
+      "topic": "ストラテジ系",
+      "stem": "問62 A 社は, ソリューションプロバイダから, 顧客に対するワントゥワンマーケティン\nグを実現する統合的なソリューションの提案を受けた。この提案に該当するソリュー\nションとして, 最も適切なものはどれか。\n\nア CRMソリューション       4 HRMソリューション\nウ SCMソリューション       エ 財務管理ソリリューション",
+      "image": "assets/ap-2023-autumn/q62.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問62 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q63",
+      "number": 63,
+      "topic": "ストラテジ系",
+      "stem": "問63 SOAを説明したものはどれか\n\nア 企業改革において既存の組織やビジネスルールを抜本的に見直し, 業務フロー\n管理機構及び情報システムを再構築する手法のこと\n\nイ 企業の経営資源を有効に活用して経営の効率をる向上させるために, 基幹業務を部\n門ごとではなく 統合的に管理するための業務システムのこと\n\nウ 発注者と IT アウトソーシングサービス提供者との間で, サービスの品質につい\nて合意した文書のこと\n\nエエ ビジネスプロセスの構成要素とそれを支援する IT 基盤を, ソフトウェア部品で\nあるサービスとして提供するシステムアーキテクチャのこと",
+      "image": "assets/ap-2023-autumn/q63.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問63 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q64",
+      "number": 64,
+      "topic": "ストラテジ系",
+      "stem": "問64 IT 投資効果の評価方法において, キャッシュフローベースで初年度の投資による\nキャッシュアウトを何年後に回収できるかという指標よはどれか。\nア IRR (Internal Rate of Return)    4 NPV (Net Present Value)\nウ PBP (Pay Back Period)         エエ ROI (Return On Investment)",
+      "image": "assets/ap-2023-autumn/q64.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問64 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q65",
+      "number": 65,
+      "topic": "ストラテジ系",
+      "stem": "問65 システム開発の成果物が利害関係者の要件 (要求事項) を満たしているという客観\n的な証拠を得るための検証手法として, JIS X 0166:2021 (システム及びソフトウェ\nア技術ライフサイクルプロセス一要求エンジニアリング) では, インスペクション,\n分析又はシミュレーション, デモンストレーション, テストを挙げている。これらの\nうち, 成果物となる文書について要件 (要求事項) への遵守度合いを検査するものは\nどれか。\nア インスペクション         イ テスト\nウ デモンストレーション          エ 分析又はシミュレーション",
+      "image": "assets/ap-2023-autumn/q65.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問65 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q66",
+      "number": 66,
+      "topic": "ストラテジ系",
+      "stem": "問66 半導体メーカーが行っているファウンドリーサービスの説明として, 適切なものは\nどれか。\nア 商号や商標の使用権とともに, 一定地域内での商品の独占販売権を与える。\nイ 自社で半導体製品の企画, 設計から製造までを一貫して行い, それを自社ブラン\nドで販売する。\nウ 製造設備をもたず, 半導体製品の企画, 設計及び開発を専門に行う。\nエエ 他社からの製造委託を受けて, 半導体製品の製造を行う。",
+      "image": "assets/ap-2023-autumn/q66.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問66 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q67",
+      "number": 67,
+      "topic": "ストラテジ系",
+      "stem": "間67 H. 1. アンゾフが提唱した成長マてトリクスを説明したものはどれか。\n\nア 既存製品か新製品かという製品軸と既存市場か新市場かという市場軸の両軸で提\nえ, 事業成長戦略を考える。\n\nイ コストで優位に立つかコスト以外で差別化するか, ターゲットを広くするか集中\nするかによって戦略を考える。\n\nウ 市場成長率が高いか低いか, 相対的市場シェアが大きいか小さいかによって事業\nを捉え, 資源配分の戦略を考える。\n\nエ 自社の内部環境の強みと弱み, 取り巻く外部環境の機会と番威を抽出し, 取組方\n針を整理して戦略を考える。",
+      "image": "assets/ap-2023-autumn/q67.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問67 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q68",
+      "number": 68,
+      "topic": "ストラテジ系",
+      "stem": "問68 願客から得る同意の範囲を段階的に広げながら, プロモーションを行うことが特徴\n的なマーケティング手法はどれか。\nア アフィリエイトマーケティング     イ 差別型マーケティング\nウ パーミッションマーケティング    エ バイラルマーケティング",
+      "image": "assets/ap-2023-autumn/q68.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問68 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.564
+    },
+    {
+      "id": "2023-autumn-q69",
+      "number": 69,
+      "topic": "ストラテジ系",
+      "stem": "問69 市場を消費者特性でセグメント化する際に, 基準となる変数を, 地理的変数, AO\n統計的変数, 心理的変数, 行動的変数に分類するとき, 人口統計的変数に分類される\nものはどれか。\nア 社交性などの性格         イ 職業\nウ 人口密度             エ 製品の使用割合",
+      "image": "assets/ap-2023-autumn/q69.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問69 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q70",
+      "number": 70,
+      "topic": "ストラテジ系",
+      "stem": "問79 オープンイノベーションの説明として, 適切なものはどれか。\nア 外部の企業に製品開発の一部を任せることで, 短期間で市場へ製品を投入する。\nイ 顧客に提供する製品やサービスを自社で開発することで, 新たな価値を創出する。\nウ 自社と外部組織の技術やアイディアなどを組み合わせることで創出した価値を,\nさらに外部組織へ提供する。\nエ 自社の業務の工程を見直すことで, 生産性向上とコスト削減を実現する。",
+      "image": "assets/ap-2023-autumn/q70.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問70 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q71",
+      "number": 71,
+      "topic": "ストラテジ系",
+      "stem": "問71 CPS (サイバーフィジカルシステム) を活用している事例はどれか。\n\nア 仮想化された標準的なシステム資源を用意しておき, 業務内容に合わせてシステ\nムの規模や構成をソフトウェアによって設定する。\n\nイ 機器を販売するのではなく貸し出し, その機器に組み込まれたセンサーで使用状\n況を検知し, その情報を基に利用者から利用料金を徴収する。\n\nウ 業務処理機能やデータ蓄積機能をサーバにもたせ, クライアント側はネットワー\nク接続と最小限の入出力機能だけをもたせてデスクトップの仮想化を行う。\n\nエエ 現実世界の都市の構造や活動状況のデータによって仮想世界を構築し, 災害の発\n生や時間軸を自由に操作して, 現実世界では実現できないシミュレーションを行う。",
+      "image": "assets/ap-2023-autumn/q71.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問71 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q72",
+      "number": 72,
+      "topic": "ストラテジ系",
+      "stem": "問72 個人が, インターネットを介して提示された単発の仕事を受託する働き方も,それ\nによって形成される経済形態を表すものはどれか。\nア APIエコノミー            イ ギグエコノミー\nウ シャドーエコノミー          エエ トークンエコノミー",
+      "image": "assets/ap-2023-autumn/q72.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問72 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": -0.349
+    },
+    {
+      "id": "2023-autumn-q73",
+      "number": 73,
+      "topic": "ストラテジ系",
+      "stem": "問73 スマートファクトリーで使用される AI を用いたマシンビジョンの目的として, 適\n\n切なものはどれか。\n\nア 作業者が装着した VK ゴーグルに作業プロセスを表示することによって, 作業効\n率を向上させる。\n\nイ 従来の人間の目視検査を自動化し, 検査効率を向上させる。\n\nウ 需要予測を目的として, クラウドに蓄積した入出荷データを用いて機械学習を行\nい, 生産数の最適化を行う。\n\nI 設計変更内容を, AI を用いて吟味して, 製造現場に正確に伝達する。",
+      "image": "assets/ap-2023-autumn/q73.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問73 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q74",
+      "number": 74,
+      "topic": "ストラテジ系",
+      "stem": "問74 BCM (Business Continuity Management) において考慮すべきレジリエンスの説明\nはどれか。\nア 競争力の源泉となる, 他社に真似のできない自社固有の強み\nイ 想定される全てのリスクを回避して事業継続を行う方針\nウ 大規模災害などの発生時に事業の継続を可能とするために事前に策定する計画\nエ 不測の事態が生じた場合の組織的対応力や, 支障が生じた事業を復元させるカカ",
+      "image": "assets/ap-2023-autumn/q74.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問74 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q75",
+      "number": 75,
+      "topic": "ストラテジ系",
+      "stem": "問75 リーダーシップ論のうち,F. E. フィードラーが提唱するコンティンジェンシー理\n\n論の特徴はどれか。\n\nア 優れたリーダーシップを発揮する, リーダー個人がもつづ性格, 知性, 外観などの\n個人的資質の分析に焦点を当てている。\n\nイ リーダーシップのスタイルについて, 目標達成能力と集団維持能力の二つの次元\nに焦点を当てている。\n\nウ リーダーシップの有効性は, 部下の成熟 (自律性) の度合いという状況要因に依\n存するとしている。\n\nエ リーダーシップの有効性は, リーダーがもつパーソナリティと, リーダーがどれ\nだけ統制力や影響力を行使できるかという状況要因に依存するとしている。",
+      "image": "assets/ap-2023-autumn/q75.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問75 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q76",
+      "number": 76,
+      "topic": "ストラテジ系",
+      "stem": "問76 発生した故障について, 発生要因ごとの件数の記録を基に, 故障発生件数で上位を\n占める主な要因を明確に表現するのに適している図法はどれか。\nア 特性要因図          イ パレート図\nウ マトリックス図          = 連関図",
+      "image": "assets/ap-2023-autumn/q76.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問76 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q77",
+      "number": 77,
+      "topic": "ストラテジ系",
+      "stem": "問77 取得原価30 万円のPC を 2 年間使用した後, 廃棄処分し, 廃棄費用 2 万円を現金で\n支払った。このときの固定資産の除却損は廃棄費用も含めて何万円か。ここで, 耐用\n年数は 4 年, 減価償却方法は定額法, 定額法の償却率は 0.250, 残存価額は 9 円とす\nる。\n\nア 9.5        イ 13.0        ウ 15.0        エ 17.0",
+      "image": "assets/ap-2023-autumn/q77.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問77 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q78",
+      "number": 78,
+      "topic": "ストラテジ系",
+      "stem": "間78 プログラムの著作物について, 著作権法上, 適法である行為はどれか。\nア 海賊版を複製したプログラムと事前に知りながら入手し, 業務で使用した。\nイ 業務処理用に購入したプログラムを複製し, 社内教育用として各部門に配布した。\nウ 職務著作のプログラムを, 作成した担当者が独断で複製し, 他社に貸与した。\nエ 処理速度を向上させるために, 購入したプログラムを改変した。",
+      "image": "assets/ap-2023-autumn/q78.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問78 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q79",
+      "number": 79,
+      "topic": "ストラテジ系",
+      "stem": "問79 匿名加工情報取扱事業者が, 適正な匿名加工を行った匿名加工情報を第三者提供す\n\nる際の義務として, 個人情報保護法に規定されているものはどれか。\n\nア 第三者に提供される匿名加工情報に含まれる個人に関する情報の項目及び提供方\n法を公表しなければならない。\n\nイ 第三者へ提供した場合は, 速やかに個人情報保護委員会へ提供した内容を報告し\nなければならない。\n\nウ 第三者への提供の手段は ハードコピーなどの物理的な媒体た用いることに限ら\nれる。\n\nXL 匿名加工情報であっても, 第三者提供を行う際には事前に本人の承諾が必要であ\nる。",
+      "image": "assets/ap-2023-autumn/q79.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問79 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2023-autumn-q80",
+      "number": 80,
+      "topic": "ストラテジ系",
+      "stem": "問89 図は, 企業と労働者の関係を表している。企業 B と労働者C の関係に関する記述の\nうち, 適切なものはどれか。\nNs\n\nア “契約” が請負契約で, 企業A が受託者, 企業 B が委託者であるとき, PHBE\n労働者C との間には, 指揮命令関係が生じる。\n\nイ \"契約\" が出向にかかわる契約で, 企業A が企業 B に労働者C を出向させたとき,\n企業 B と労働者C との間には指揮命令関係が生じる。\n\nウ \"契約\" が労働者派遣契約で, 企業A が派遣元, 企業 B が派遣先であるとき, 企\n業 B と労働者C の間にも, 雇用関係が生じる。\n\nエ \"契約\" が労働者派遣契約で, 企業A が派遣元, 企業 B が派遣先であるとき, 企\n業 B に労働者C が出向しているといえる。",
+      "image": "assets/ap-2023-autumn/q80.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2023年度 秋期 応用情報技術者試験 午前 問80 https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式公開問題の原本ページから問題単位に切り出し、傾き補正を施した画像です。復習用OCR文は参考情報であり、画像原本を正とします。",
+      "deskewDegrees": 0.0
+    }
+  ]
+}
