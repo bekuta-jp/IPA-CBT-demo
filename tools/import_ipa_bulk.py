@@ -127,7 +127,7 @@ def heading_candidates(tokens):
 
 def find_positions(doc,session):
  candidates=[]; diagnostic=[]
- for pi in range(3,len(doc)-2):
+ for pi in range(2,len(doc)-2):
   pg=doc[pi];tokens=strip_ocr(pg,pi);cand=heading_candidates(tokens)
   diagnostic.append({'page':pi+1,'height':pg.rect.height,'candidates':cand,'tokens':[(z['t'],z['x'],z['y']) for z in tokens if z['x']<=93]})
   for c in cand:candidates.append((pi,c['y'],c['number']))
