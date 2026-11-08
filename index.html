@@ -19,6 +19,57 @@
 
 /* v2 setup and result dialogs */
 .modal.setup{max-width:840px}.modal.results{max-width:710px}.setup-section{margin:15px 0 11px;padding:14px 15px;background:#f8fafc;border:1px solid #d8e0e8;border-radius:6px}.setup-section h2{font-size:15px;margin:0 0 9px;color:#173e69}.settings-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.fieldset{border:1px solid #d6dee5;background:white;padding:12px;border-radius:5px}.fieldset legend{font-weight:700;font-size:13px}.fieldset label{display:block;margin:6px 0;line-height:1.45}.set-list{max-height:195px;overflow:auto;border:1px solid #d6dce4;background:white;padding:6px 10px;border-radius:5px}.set-item{display:flex;align-items:center;gap:10px;padding:8px 4px;border-bottom:1px solid #eceff2}.set-item:last-child{border-bottom:0}.set-item input{width:18px;height:18px;accent-color:#164677}.set-meta{flex:1;line-height:1.35}.set-meta b{font-weight:600}.set-meta small{display:block;color:#667788}.set-count{color:#37536f;font-variant-numeric:tabular-nums}.setup-controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px}.setup-controls input[type=number]{width:82px;padding:7px;border:1px solid #abb8c6;border-radius:4px}.setup-controls select{padding:7px;border:1px solid #abb8c6;border-radius:4px}.setup-prompt{margin:8px 0 0;color:#52657a;font-size:12px}.status-message{color:#284e74;line-height:1.6;font-size:13px;white-space:pre-wrap}.status-message.error{color:#b51a31}.badge-demo{font-size:10px;background:#e8f0fa;padding:3px 6px;color:#355e8c;border-radius:20px;margin-left:6px}.score-card{text-align:center;border:1px solid #d2e2f2;background:#f3f8ff;padding:23px;border-radius:8px;margin:17px 0}.score-card strong{font-size:43px;color:#164677;display:block}.score-card p{margin:4px 0;color:#546272}.result-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.result-actions button{white-space:normal;line-height:1.4;min-height:45px}.source-line{font-size:11px;color:#687b8b;margin-top:20px;border-top:1px dashed #cfd8e2;padding-top:9px}.question-image{max-width:100%;max-height:480px;object-fit:contain;display:block;margin:12px 0}.option-image{max-width:100%;max-height:140px;object-fit:contain;display:block;margin:4px 0}.loading-note{font-size:12px;color:#52657a}.options-summary{display:flex;flex-wrap:wrap;gap:5px}.opt-chip{font-size:12px;background:#e9eff6;border-radius:3px;padding:3px 7px}.set-item[aria-disabled=true]{opacity:.55}.source-count{font-weight:700;color:#205481}.import-note{font-size:12px;color:#617180;margin-top:8px}@media(max-width:600px){.settings-grid{grid-template-columns:1fr}.modal.setup{padding:16px}.result-actions{grid-template-columns:1fr}.setup-controls{display:block}.setup-controls>*{margin:7px 0}}
+
+/* v3: 公式チュートリアル画像を参考にした操作再現。非公式UI。 */
+.q-opt-list{display:flex;flex-wrap:wrap;align-items:flex-start;column-gap:clamp(22px,3vw,65px);row-gap:12px;margin-top:18px}
+.q-opt{display:flex;flex:0 1 auto;max-width:100%;min-width:min(100%,70px);gap:8px;align-items:flex-start;line-height:1.8}
+.q-opt .letter{flex-shrink:0}
+.q-opt>div:last-child{min-width:0;white-space:pre-wrap;overflow-wrap:anywhere}
+.q-opt:has(.option-image){width:100%;flex-basis:100%}
+#answer-pane .ah{font-size:17px;margin-bottom:24px;gap:10px;cursor:pointer;user-select:none}
+#answer-pane .ah:before{content:none}
+#review-check{appearance:none;-webkit-appearance:none;background:#f4f4f4;border:1px solid #c3c3c3;width:17px;height:17px;margin:0;flex:0 0 17px;cursor:pointer;position:relative}
+#review-check:checked{background:#fff;border:1px solid #324f76}
+#review-check:checked:after{content:'✔';position:absolute;top:-6px;left:1px;font-size:19px;color:#174978}
+#review-check:disabled{cursor:default}
+body.exam-running .q-scroll,body.exam-running #answer-pane,body.exam-running #status-pane{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+body.exam-running .q-scroll img{-webkit-user-drag:none;user-drag:none;pointer-events:none}
+#memo-window{left:12%;top:11%;width:min(640px,85vw);height:470px;min-height:300px;min-width:340px;resize:both}
+#memo-window .floating-content{padding:0;display:flex;flex-direction:column;min-height:calc(100% - 37px)}
+#memo-window .floattitle{height:32px}
+.memo-tools{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:6px 9px;background:#e8eef5;border-bottom:1px solid #aebac7;font-size:12px}
+.memo-tools button{border:1px solid #8fa8c2;padding:4px 8px;border-radius:2px;background:white;cursor:pointer;font-size:12px;min-height:29px}
+.memo-tools button:disabled{opacity:.45;cursor:not-allowed}
+.memo-tools button.is-active{background:#174978;color:#fff}
+.memo-tools .swatch-btn{width:24px;min-width:24px;height:23px;padding:2px 0;border:1px solid #a0a8b2}
+.memo-tools .swatch-btn.red{background:#ff5d76}.memo-tools .swatch-btn.blue{background:#456fff}.memo-tools .swatch-btn.yellow{background:#ffdb3b}.memo-tools .swatch-btn.none{background:linear-gradient(125deg,#fff 43%,#db3f3f 46%,#db3f3f 52%,#fff 55%)}
+.memo-tools label{display:inline-flex;align-items:center;gap:4px;cursor:pointer}
+.memo-searchbar{display:flex;align-items:center;gap:6px;padding:5px 8px;border-bottom:1px solid #bfcee0;background:#f8fafc}
+.memo-searchbar input{flex:1;min-width:85px;border:1px solid #c1cbd7;background:#fff;padding:5px 7px;font-size:13px}
+.memo-searchbar button{padding:4px 9px}
+.memo-edit{outline:0;flex:1;min-height:150px;max-height:none;overflow:auto;padding:10px 13px;line-height:25px;font-size:15px;white-space:pre-wrap;overflow-wrap:anywhere;background:repeating-linear-gradient(to bottom,#fff 0px,#fff 24px,#dbe5ee 24px,#dbe5ee 25px);}
+.memo-edit:empty:before{content:attr(data-placeholder);color:#9099a5;pointer-events:none}
+.memo-mark-red{background:#ff8d96}.memo-mark-blue{background:#9ab6ff}.memo-mark-yellow{background:#ffe179}
+.memo-search-hit{outline:2px solid #f4a400;background:#fffd8f}
+.memo-status{display:flex;justify-content:space-between;gap:8px;background:#f4f6fa;border-top:1px solid #d4dbe2;padding:4px 9px;font-size:11px;color:#556372}
+.memo-ime-note{font-size:11px;color:#526170}
+#calc-window{right:9%;top:10%;left:auto;width:330px;height:440px;min-width:280px;min-height:395px;max-width:min(94vw,460px);resize:none;background:#fff;border:2px solid #273b58;box-shadow:0 8px 24px #0005}
+#calc-window .floattitle{height:42px;background:#f3f2f7;color:#222;cursor:move;border-bottom:1px solid #c1c1c8;font-weight:700;font-size:15px}
+#calc-window .floattitle button{background:transparent;font-size:19px}
+#calc-window .floating-content{padding:0;display:flex;flex-direction:column;height:calc(100% - 42px)}
+.calc-top{background:#000;min-height:55px;display:flex;justify-content:flex-end;align-items:flex-start;padding:6px 5px;gap:4px}
+.calc-top button{min-width:36px;min-height:33px;padding:2px;background:#1b4d86;color:#fff;border:2px solid #0a2e5b;font-size:17px;cursor:pointer}
+.calc-top button.active{background:#e6a21d;border-color:#a96800}
+#calc-display{height:69px;background:#fff;border:0;border-radius:0;display:flex;align-items:flex-end;justify-content:flex-end;font-size:31px;line-height:1;min-width:0;padding:14px 13px 10px;box-shadow:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#222;font-family:Arial,monospace}
+.calcgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:repeat(5,1fr);gap:3px;padding:4px;background:#091c31;flex:1;margin:0}
+.calcgrid button{min-height:0;height:auto;background:#184c85;color:#fff;border:1px solid #021a38;font-size:clamp(19px,2.1vw,27px);border-radius:0;padding:0}
+.calcgrid button.op,.calcgrid button.equal{background:#174978;color:#fff}
+.calcgrid button:hover{background:#3269a8}
+#calc-window[data-size="small"]{width:300px;height:413px}
+#calc-window[data-size="medium"]{width:350px;height:482px}
+#calc-window[data-size="large"]{width:430px;height:555px}
+#calc-window[data-size="large"] .calcgrid button{font-size:31px}
+@media(max-width:600px){#memo-window{left:2%;width:96%;height:65%;min-width:0;top:12%}#calc-window,#calc-window[data-size]{right:auto;left:6%;top:12%;width:min(88vw,400px);max-height:85vh;height:430px}.q-opt-list{column-gap:18px;row-gap:8px}}
 </style>
 </head>
 <body>
@@ -31,13 +82,31 @@
   <main id="workspace">
    <section id="question-pane"><div class="zoomrow"><label for="zoom">拡大・縮小</label><input type="range" min="80" max="160" step="5" value="100" id="zoom"><span id="zoom-number">100 %</span></div><div class="q-scroll" id="question-scroll"><article class="q-body" id="question-body"></article></div></section>
    <div id="splitter" title="左右の表示幅をドラッグして変更"></div>
-   <aside id="answer-pane"><div class="ah" id="answer-title">問 1</div><div id="choices"></div><p class="answer-help">選択中の解答を再度クリックすると<br>未解答に戻ります。<br><span class="flagtext" id="flag-text"></span></p></aside>
+   <aside id="answer-pane"><label class="ah"><input id="review-check" type="checkbox" aria-label="この問題を後で見直す"><span id="answer-title">1 ページ目</span></label><div id="choices"></div><p class="answer-help">選択中の解答を再度クリックすると<br>未解答に戻ります。<br><span class="flagtext" id="flag-text"></span></p></aside>
    <section id="status-pane"><div class="status-main" id="status-grid"></div><div class="status-key"><div class="keyrow"><span class="swatch"></span>未解答</div><div class="keyrow"><span class="swatch green"></span>解答済み</div><div class="keyrow"><span class="swatch red"></span>後で見直すもの</div><div class="keyrow"><span class="swatch yellow"></span>解答中</div></div></section>
   </main>
   <footer id="foot"><button class="btn" id="status-btn">解答状況</button><button class="btn light" id="calc-btn">電卓</button><div class="foot-status" id="foot-status">未開始</div><button class="btn light push" id="flag-btn">後で見直す</button><button class="btn" id="prev-btn">前の問題</button><button class="btn" id="next-btn">次の問題</button></footer>
  </div>
-<div id="memo-window" class="floating" role="dialog" aria-label="メモ"><div class="floattitle">メモ <button class="float-close" data-close="memo-window" aria-label="閉じる">×</button></div><div class="floating-content"><div class="float-actions"><label><input type="checkbox" id="memo-transparent"> 半透明</label><span>練習中のメモは自動保存</span></div><textarea id="memo-input" placeholder="計算の途中式、見直し事項などを入力"></textarea></div></div>
-<div id="calc-window" class="floating" role="dialog" aria-label="電卓"><div class="floattitle">電卓 <button class="float-close" data-close="calc-window" aria-label="閉じる">×</button></div><div class="floating-content"><div class="calc-display" id="calc-display">0</div><div class="calcgrid" id="calc-grid"></div></div></div>
+<div id="memo-window" class="floating" role="dialog" aria-label="メモ">
+ <div class="floattitle"><span>メモ</span><span><button type="button" class="float-close" data-close="memo-window" aria-label="閉じる">×</button></span></div>
+ <div class="floating-content">
+  <div class="memo-tools">
+   <button id="memo-search-toggle" type="button">⌕ 検索</button>
+   <button type="button" data-marker="red" class="swatch-btn red" aria-label="赤色マーカー" title="選択文字を赤くマーク"></button>
+   <button type="button" data-marker="blue" class="swatch-btn blue" aria-label="青色マーカー" title="選択文字を青くマーク"></button>
+   <button type="button" data-marker="yellow" class="swatch-btn yellow" aria-label="黄色マーカー" title="選択文字を黄色くマーク"></button>
+   <button type="button" data-marker="none" class="swatch-btn none" aria-label="マーカー解除" title="選択文字のマーカーを消す"></button>
+   <span class="memo-ime-note">入力：</span>
+   <button id="memo-romaji" type="button" class="is-active" aria-pressed="true">ローマ字</button>
+   <button id="memo-kana" type="button" aria-pressed="false">かな</button>
+   <label><input type="checkbox" id="memo-transparent"> 半透明</label>
+  </div>
+  <div id="memo-searchbar" class="memo-searchbar" hidden><input id="memo-search" type="search" placeholder="検索する文字を入力" aria-label="メモを検索"><button id="memo-find" type="button">検索</button><span id="memo-hits" aria-live="polite"></span></div>
+  <div id="memo-input" class="memo-edit" contenteditable="true" role="textbox" aria-label="試験中のメモ" aria-multiline="true" data-placeholder="ここにメモを入力できます（ローマ字／かなはOSの日本語IMEを使用）" spellcheck="false"></div>
+  <div class="memo-status"><span id="memo-input-note">入力方式：OSのIMEで切替（Webページからは強制変更不可）</span><span id="memo-count">0 / 10,000 文字</span></div>
+ </div>
+</div>
+<div id="calc-window" data-size="medium" class="floating" role="dialog" aria-label="電卓"><div class="floattitle"><span>電卓</span><button class="float-close" data-close="calc-window" aria-label="閉じる">×</button></div><div class="floating-content"><div class="calc-top"><button type="button" data-calc-size="small">小</button><button type="button" class="active" data-calc-size="medium">中</button><button type="button" data-calc-size="large">大</button></div><div class="calc-display" id="calc-display" aria-live="polite">0</div><div class="calcgrid" id="calc-grid"></div></div></div>
 <div id="modal-layer"><div class="modal" id="modal-content"></div></div>
 <script src="demo-data.js" defer></script>
 <script src="app.js" defer></script>
