@@ -1,0 +1,44 @@
+name: Deskew 2025 AP Question Images
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/deskew-2025-images.yml'
+      - 'tools/deskew_2025.py'
+permissions:
+  contents: write
+jobs:
+  deskew:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install image dependencies
+        run: python -m pip install --disable-pip-version-check 'Pillow>=11,<13' 'opencv-python-headless>=4.8,<5' 'numpy>=1.26,<3' 'pymupdf>=1.24,<2' 'pytesseract>=0.3.10' 'requests>=2.31,<3'
+      - name: Deskew 2025 spring and autumn images
+        run: python tools/deskew_2025.py
+      - name: Validate 160 source images
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for ss in ('2025-spring','2025-autumn'):
+              d=json.loads(Path('sets/ap-'+ss+'.json').read_text())
+              assert len(d['questions'])==80
+              assert all(Path(q['image']).exists() for q in d['questions'])
+          print('PASS: 160 official images preserved')
+          PY
+      - name: Publish corrected images
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sets/ap-2025-spring.json sets/ap-2025-autumn.json assets/ap-2025-spring/ assets/ap-2025-autumn/
+          if ! git diff --cached --quiet; then
+            git commit -m 'images: conservative deskew of 2025 official question scans'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
