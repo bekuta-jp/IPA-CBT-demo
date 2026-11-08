@@ -1,0 +1,282 @@
+{
+  "id": "ap-2025-spring-preview",
+  "title": "2025年度 春期（令和7年度）午前・テキスト試作16問",
+  "year": 2025,
+  "season": "春期",
+  "sourceType": "ipa",
+  "exam": "AP",
+  "questions": [
+    {
+      "id": "r07h-q01",
+      "number": 1,
+      "topic": "テクノロジ系",
+      "stem": "論理式 P，Q がいずれも真であるとき，論理式 R の真偽にかかわらず真になる式はどれか。ここで，記号の上線は否定，∨は論理和，∧は論理積，→は含意（真→偽となるときに限り偽）を表す。",
+      "options": [
+        "((P→Q)∧(Q→P))→(R→Q̄)",
+        "((P→Q)∧(Q̄→P̄))→(Q→R)",
+        "((P→Q̄)∨(Q→P))→(R→Q̄)",
+        "((P→Q̄)∨(Q→P̄))→(Q→R)"
+      ],
+      "answer": "エ",
+      "code": "",
+      "source": "出典：IPA「令和7年度春期 応用情報技術者試験 午前 問1」https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "試験画面用に句読点・空白・数式や表の書式を一部整形。設問の内容・正解は変更していません。"
+    },
+    {
+      "id": "r07h-q02",
+      "number": 2,
+      "topic": "テクノロジ系",
+      "stem": "0≦x≦1 の範囲で単調に増加する連続関数 f(x) が f(0)<0≦f(1) を満たすときに，区間内で f(x)=0 である x の値を近似的に求めるアルゴリズムにおいて，(2) は何回実行されるか。",
+      "options": [
+        "10",
+        "20",
+        "100",
+        "1,000"
+      ],
+      "answer": "ア",
+      "code": "［アルゴリズム］\n(1) x₀←0，x₁←1 とする。\n(2) x←(x₀+x₁)/2 とする。\n(3) x₁−x＜0.001 ならば x の値を近似値として終了する。\n(4) f(x)≧0 ならば x₁←x として，そうでなければ x₀←x とする。\n(5) (2) に戻る。",
+      "source": "出典：IPA「令和7年度春期 応用情報技術者試験 午前 問2」https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "試験画面用に句読点・空白・数式や表の書式を一部整形。設問の内容・正解は変更していません。"
+    },
+    {
+      "id": "r07h-q03",
+      "number": 3,
+      "topic": "テクノロジ系",
+      "stem": "AIにおける機械学習の過程において，過学習と疑われたときの解消方法として，最も適切なものはどれか。",
+      "options": [
+        "訓練した時と同じ精度を出すために，訓練データをテストデータとして使用する。",
+        "精度を高めるために，元の訓練データに加工を施し，訓練データの量を増やす。",
+        "予測した結果に近づけるために，モデルをより複雑にする。",
+        "より多くの未知のデータに対して予測できるように，汎化性能を下げる。"
+      ],
+      "answer": "イ",
+      "code": "",
+      "source": "出典：IPA「令和7年度春期 応用情報技術者試験 午前 問3」https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "試験画面用に句読点・空白・数式や表の書式を一部整形。設問の内容・正解は変更していません。"
+    },
+    {
+      "id": "r07h-q04",
+      "number": 4,
+      "topic": "テクノロジ系",
+      "stem": "リアルタイム性が求められる組込みシステムにおいて，システムへの入力に対するリアルタイムな応答の方法として，最も適切なものはどれか。",
+      "options": [
+        "OSを使用しないで応答する。",
+        "定められた制限時間内に応答する。",
+        "入力された順序を守って応答する。",
+        "入力時刻を記録して応答する。"
+      ],
+      "answer": "イ",
+      "code": "",
+      "source": "出典：IPA「令和7年度春期 応用情報技術者試験 午前 問4」https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "試験画面用に句読点・空白・数式や表の書式を一部整形。設問の内容・正解は変更していません。"
+    },
+    {
+      "id": "r07h-q07",
+      "number": 7,
+      "topic": "テクノロジ系",
+      "stem": "fact(n)は，非負の整数nに対してnの階乗を返す。fact(n)の再帰的な定義はどれか。",
+      "options": [
+        "if n=0 then return 0 else return n×fact(n−1)",
+        "if n=0 then return 0 else return n×fact(n+1)",
+        "if n=0 then return 1 else return n×fact(n−1)",
+        "if n=0 then return 1 else return n×fact(n+1)"
+      ],
+      "answer": "ウ",
+      "code": "",
+      "source": "出典：IPA「令和7年度春期 応用情報技術者試験 午前 問7」https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "試験画面用に句読点・空白・数式や表の書式を一部整形。設問の内容・正解は変更していません。"
+    },
+    {
+      "id": "r07h-q08",
+      "number": 8,
+      "topic": "テクノロジ系",
+      "stem": "同じ命令セットをもつコンピュータAとBとがある。それぞれのCPUクロック周期，及びあるプログラムを実行したときのCPIは，表のとおりである。そのプログラムを実行したとき，コンピュータAの処理時間は，コンピュータBの処理時間の何倍になるか。",
+      "options": [
+        "1/32",
+        "1/2",
+        "2",
+        "8"
+      ],
+      "answer": "ウ",
+      "code": "コンピュータ | CPUクロック周期 | CPI\nA | 1ナノ秒 | 4.0\nB | 4ナノ秒 | 0.5",
+      "source": "出典：IPA「令和7年度春期 応用情報技術者試験 午前 問8」https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "試験画面用に句読点・空白・数式や表の書式を一部整形。設問の内容・正解は変更していません。"
+    },
+    {
+      "id": "r07h-q09",
+      "number": 9,
+      "topic": "テクノロジ系",
+      "stem": "DMAコントローラの説明として，適切なものはどれか。",
+      "options": [
+        "MPUでは時間が掛かる積和演算を，高速に行う。",
+        "仮想メモリ機能，メモリ保護機能などのメモリ管理機能を提供する。",
+        "動作クロックに合わせてカウントするカウントレジスタをもち，それによって時間の経過を保持する。",
+        "メモリと入出力装置，又はメモリとメモリとの間のデータ転送を，MPUを介さずに行う。"
+      ],
+      "answer": "エ",
+      "code": "",
+      "source": "出典：IPA「令和7年度春期 応用情報技術者試験 午前 問9」https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "試験画面用に句読点・空白・数式や表の書式を一部整形。設問の内容・正解は変更していません。"
+    },
+    {
+      "id": "r07h-q10",
+      "number": 10,
+      "topic": "テクノロジ系",
+      "stem": "オブジェクトストレージの特徴として，適切なものはどれか。",
+      "options": [
+        "オブジェクトにはユニークな識別子が割り当てられ，識別子を使ってアクセスする。",
+        "オブジェクトの内容を更新する際，上書き更新をする。",
+        "広域分散を実現するためには，遠隔地のストレージと静止点を設けて同期を行う必要がある。",
+        "ストレージはディレクトリの概念を使った階層構造である。"
+      ],
+      "answer": "ア",
+      "code": "",
+      "source": "出典：IPA「令和7年度春期 応用情報技術者試験 午前 問10」https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "試験画面用に句読点・空白・数式や表の書式を一部整形。設問の内容・正解は変更していません。"
+    },
+    {
+      "id": "r07h-q11",
+      "number": 11,
+      "topic": "テクノロジ系",
+      "stem": "マルチプロセッサによる並列処理で得られる高速化率Eを，次の式によって評価する。r=0.9のアプリケーションの高速化率がr=0.3のものの3倍となるのは，プロセッサが何台のときか。並列化に伴うオーバーヘッドは考慮しない。",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": "エ",
+      "code": "E=1 / (1−r+r/n)\nn：プロセッサの台数（1≦n）\nr：並列化が可能な部分の割合（0≦r≦1）",
+      "source": "出典：IPA「令和7年度春期 応用情報技術者試験 午前 問11」https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "試験画面用に句読点・空白・数式や表の書式を一部整形。設問の内容・正解は変更していません。"
+    },
+    {
+      "id": "r07h-q12",
+      "number": 12,
+      "topic": "テクノロジ系",
+      "stem": "二つのシステムA，Bの稼働率をそれぞれα_A，α_B（いずれも0と1の間），MTBFをMTBF_A，MTBF_B，MTTRをMTTR_A，MTTR_Bとしたとき，これらの関係として常に成り立つものはどれか。",
+      "options": [
+        "α_A=α_Bならば，MTBF_A=MTBF_Bであり，かつMTTR_A=MTTR_Bである。",
+        "α_A=α_Bならば，MTTR_A/MTBF_A=MTTR_B/MTBF_Bである。",
+        "α_A>α_Bならば，MTBF_A>MTBF_Bであり，かつMTTR_A>MTTR_Bである。",
+        "α_A>α_Bならば，MTTR_A/MTBF_A>MTTR_B/MTBF_Bである。"
+      ],
+      "answer": "イ",
+      "code": "",
+      "source": "出典：IPA「令和7年度春期 応用情報技術者試験 午前 問12」https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "試験画面用に句読点・空白・数式や表の書式を一部整形。設問の内容・正解は変更していません。"
+    },
+    {
+      "id": "r07h-q14",
+      "number": 14,
+      "topic": "テクノロジ系",
+      "stem": "リアルタイムOSにおいて，実行中のタスクがプリエンプションによって遷移する状態はどれか。",
+      "options": [
+        "休止状態",
+        "実行可能状態",
+        "終了状態",
+        "待ち状態"
+      ],
+      "answer": "イ",
+      "code": "",
+      "source": "出典：IPA「令和7年度春期 応用情報技術者試験 午前 問14」https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "試験画面用に句読点・空白・数式や表の書式を一部整形。設問の内容・正解は変更していません。"
+    },
+    {
+      "id": "r07h-q15",
+      "number": 15,
+      "topic": "テクノロジ系",
+      "stem": "仮想記憶管理におけるページ置換アルゴリズムとしてLRU方式を採用する。主記憶のページ枠が4000，5000，6000，7000番地（いずれも16進数）の4ページ分で，参照するページ番号の順が1→2→3→4→2→5→3→1→6→5→4のとき，最後の参照ページ4は何番地にページインされているか。ここで，最初の1→2→3→4の参照で，それぞれ4000，5000，6000，7000番地にページインされるものとする。",
+      "options": [
+        "4000",
+        "5000",
+        "6000",
+        "7000"
+      ],
+      "answer": "ウ",
+      "code": "",
+      "source": "出典：IPA「令和7年度春期 応用情報技術者試験 午前 問15」https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "試験画面用に句読点・空白・数式や表の書式を一部整形。設問の内容・正解は変更していません。"
+    },
+    {
+      "id": "r07h-q17",
+      "number": 17,
+      "topic": "テクノロジ系",
+      "stem": "OpenAPI Specificationに従ったAPIの定義・開発を支援する機能を提供するOSSはどれか。",
+      "options": [
+        "curl",
+        "OpenAM",
+        "Serverspec",
+        "Swagger"
+      ],
+      "answer": "エ",
+      "code": "",
+      "source": "出典：IPA「令和7年度春期 応用情報技術者試験 午前 問17」https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "試験画面用に句読点・空白・数式や表の書式を一部整形。設問の内容・正解は変更していません。"
+    },
+    {
+      "id": "r07h-q18",
+      "number": 18,
+      "topic": "テクノロジ系",
+      "stem": "8ビットD/A変換器を使って負でない電圧を発生させる。使用するD/A変換器は，最下位の1ビットの変化で出力が10ミリV変化する。データに0を与えたときの出力は0ミリVである。データに16進数で82を与えたときの出力は何ミリVか。",
+      "options": [
+        "820",
+        "1,024",
+        "1,300",
+        "1,312"
+      ],
+      "answer": "ウ",
+      "code": "",
+      "source": "出典：IPA「令和7年度春期 応用情報技術者試験 午前 問18」https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "試験画面用に句読点・空白・数式や表の書式を一部整形。設問の内容・正解は変更していません。"
+    },
+    {
+      "id": "r07h-q19",
+      "number": 19,
+      "topic": "テクノロジ系",
+      "stem": "産業機器の制御装置として使われるPLCの説明として，適切なものはどれか。",
+      "options": [
+        "自動制御であり，偏差の比例，積分及び微分の3要素で制御する。",
+        "主としてラダー図を用いたシーケンスプログラムによって制御する。",
+        "電圧及び電流のアナログ信号をデジタル信号に変換する。",
+        "リレーシーケンス回路のハードウェアによって制御する。"
+      ],
+      "answer": "イ",
+      "code": "",
+      "source": "出典：IPA「令和7年度春期 応用情報技術者試験 午前 問19」https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "試験画面用に句読点・空白・数式や表の書式を一部整形。設問の内容・正解は変更していません。"
+    },
+    {
+      "id": "r07h-q20",
+      "number": 20,
+      "topic": "テクノロジ系",
+      "stem": "FPGAなどに実装するデジタル回路を記述し，論理合成するために使用される言語はどれか。",
+      "options": [
+        "DDL",
+        "HDL",
+        "UML",
+        "XML"
+      ],
+      "answer": "イ",
+      "code": "",
+      "source": "出典：IPA「令和7年度春期 応用情報技術者試験 午前 問20」https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "試験画面用に句読点・空白・数式や表の書式を一部整形。設問の内容・正解は変更していません。"
+    }
+  ]
+}
