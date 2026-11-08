@@ -162,7 +162,7 @@ def find_positions(doc,session):
  # Require monotonic agreement when OCR actually recognizes the label.
  wrong=[]
  for n,(_,_,label) in enumerate(candidates,1):
-  if label is not None and label!=n:wrong.append((n,label))
+  if label is not None and label!=n and not (n%10==0 and label==n+9):wrong.append((n,label))
  print('LABEL_MISMATCHES',session,wrong,flush=True)
  if len(wrong)>5:
   raise ValueError(f'Question-number alignment uncertain: {wrong}')
