@@ -94,16 +94,66 @@ def ocr_markers(page: fitz.Page, page_index: int) -> tuple[list[Mark], list[tupl
     return anchors,brief
 
 
-# 秋期の問題番号は画像主体のため、OCRで位置を調査する。
-# 調査が終わるまでは安全に停止する（問を誤って公開しない）。
+# 固定位置はIPA公式2025年秋期・午前問題冊子（40ページ）用。
+# 問題見出しの位置はGitHub ActionsのOCRログと公式ページ画像で検証。
+# 問60はOCRで見出しを落とすため原本画像で目視確認した。
+# 数値は1-based PDF page とそのページの問題開始Y（PDF pt）。
+CALIBRATED_LAYOUT = {
+    4:[71,338],
+    5:[72,312],
+    6:[71,332,521],
+    7:[72,192,372],
+    8:[70],
+    9:[74,315],
+    10:[74,335],
+    11:[72,233,392],
+    12:[69,319],
+    13:[71,272],
+    14:[70,230,390],
+    15:[71,372],
+    16:[70,270,410],
+    17:[73,294,434],
+    18:[70,230,350,570],
+    19:[71,311],
+    20:[67,328],
+    21:[72,312],
+    22:[70,331,471],
+    23:[74,194,334],
+    24:[76,356,496],
+    25:[71],
+    26:[69,407],
+    27:[72,192,492],
+    28:[69,250,449],
+    29:[73,314],
+    30:[75,236],
+    31:[74,315],
+    32:[74,315],
+    33:[72,432],
+    34:[68,309],
+    35:[71],
+    36:[69,315],
+    37:[71,286,446],
+    38:[69],
+}
+
+
 def find_markers(doc: fitz.Document) -> list[Mark]:
-    print('Autumn layout diagnostic: pages=',len(doc),flush=True)
-    for page_index in range(3,len(doc)):
-        page=doc[page_index]
-        anchors,brief=ocr_markers(page,page_index)
-        left=[(t,x,y) for t,x,y in brief if x<=110]
-        print(f'Page {page_index+1:02d} size={page.rect.width}x{page.rect.height} anchors={[ (m.number,round(m.y)) for m in anchors ]} left={left[:75]}',flush=True)
-    raise RuntimeError('秋期の問題位置調査が完了していません。ログを確認し、80問分の位置を検証してください。')
+    if len(doc)!=40:
+        raise RuntimeError(f'秋期公式冊子のページ数が変わりました（{len(doc)}頁）。再調査が必要です。')
+    if sum(len(ys) for ys in CALIBRATED_LAYOUT.values())!=80:
+        raise RuntimeError('位置テーブルが80問ではありません。')
+    markers=[]
+    for page_no,positions in CALIBRATED_LAYOUT.items():
+        page=doc[page_no-1]
+        if not 510<=page.rect.width<=520 or not 720<=page.rect.height<=735:
+            raise RuntimeError(f'秋期PDFのページ寸法が想定外です: page={page_no} size={page.rect}')
+        for y in positions:
+            if y<40 or y>page.rect.height-65:
+                raise RuntimeError(f'問の開始位置が想定外: page={page_no}, y={y}')
+            markers.append(Mark(len(markers)+1,page_no-1,float(y)))
+    print('Official 2025 autumn layout: 80 calibrated question regions',
+          'first=',markers[0],'last=',markers[-1],flush=True)
+    return markers
 
 def page_segments(doc:fitz.Document,markers:list[Mark],i:int):
     first=markers[i]
