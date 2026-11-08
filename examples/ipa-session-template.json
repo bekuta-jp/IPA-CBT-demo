@@ -1,0 +1,33 @@
+{
+  "id": "ap-2025-autumn",
+  "title": "2025年度 秋期 応用情報技術者試験 午前",
+  "year": 2025,
+  "season": "秋期",
+  "exam": "AP",
+  "sourceType": "ipa",
+  "questions": [
+    {
+      "id": "q001",
+      "number": 1,
+      "topic": "分野名を記載",
+      "stem": "【ここにIPA公表過去問の問題文を正確に入力】",
+      "options": [
+        "【選択肢ア】",
+        "【選択肢イ】",
+        "【選択肢ウ】",
+        "【選択肢エ】"
+      ],
+      "answer": "ア",
+      "source": "出典：令和7年度 秋期 応用情報技術者試験 午前 問1",
+      "modified": false,
+      "explanation": "必要に応じて独自解説を記載",
+      "image": "assets/ap-2025-autumn/q001.png",
+      "optionImages": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ]
+}
