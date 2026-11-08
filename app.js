@@ -6,18 +6,18 @@ const storageKey = 'ap-cbt-pages-v2';
 const bank = new Map();
 let questions=[], answers=[], flags=[], current=0, statusOpen=false;
 let running=false, finished=false, endAt=0, startedAt=0, timer=null;
-let memoText='', results=null, config=null, selectedSetIds=[];
+let memoText='', memoHtml='', memoImeMode='romaji', results=null, config=null, selectedSetIds=[];
 let loadingSets=false, manifestLoaded=false;
 const esc = s => String(s ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const clamp = (n,lo,hi)=>Math.min(hi,Math.max(lo,n));
 function safeStore(data){try{localStorage.setItem(storageKey,JSON.stringify(data));return true}catch(_){return false}}
 function saved(){try{return JSON.parse(localStorage.getItem(storageKey)||'null')}catch(_){return null}}
-function remember(){if(!questions.length)return;safeStore({questions,answers,flags,current,running,finished,endAt,startedAt,memoText,results,config,selectedSetIds})}
+function remember(){if(!questions.length)return;safeStore({questions,answers,flags,current,running,finished,endAt,startedAt,memoText,memoHtml,memoImeMode,results,config,selectedSetIds})}
 function restore(){const s=saved();if(!s||!Array.isArray(s.questions)||!s.questions.length||!Array.isArray(s.answers)||s.answers.length!==s.questions.length)return false;
  questions=s.questions;answers=s.answers;flags=Array.isArray(s.flags)?s.flags:Array(questions.length).fill(false);
  current=clamp(s.current||0,0,questions.length-1);running=!!s.running;finished=!!s.finished;
- endAt=s.endAt||0;startedAt=s.startedAt||0;memoText=s.memoText||'';results=s.results||null;
- config=s.config||{};selectedSetIds=s.selectedSetIds||[];$('memo-input').value=memoText;return true}
+ endAt=s.endAt||0;startedAt=s.startedAt||0;memoText=s.memoText||'';memoHtml=sanitizeMemoHtml(s.memoHtml||esc(memoText));memoImeMode=s.memoImeMode==='kana'?'kana':'romaji';results=s.results||null;
+ config=s.config||{};selectedSetIds=s.selectedSetIds||[];$('memo-input').innerHTML=memoHtml;setMemoImeMode(memoImeMode);updateMemoCount();return true}
 function modal(html,cls=''){const el=$('modal-content');el.className='modal '+cls;el.innerHTML=html;$('modal-layer').classList.remove('hidden')}
 function closeModal(){$('modal-layer').classList.add('hidden')}
 function fileName(s){return String(s||'set').replace(/[^a-zA-Z0-9_-]/g,'_').slice(0,45)}
@@ -29,7 +29,7 @@ function textField(v,field){if(typeof v!=='string')throw Error(field+' は文字
 function safeImage(s){if(!s||typeof s!=='string')return '';
  if(/^data:image\/(png|jpeg|webp|gif);base64,[a-z\d+/=]+$/i.test(s))return s;
  if(/^https:\/\/[a-z\d.-]+(?:\:[0-9]+)?\/[a-z\d\/%._~+?#=&-]*$/i.test(s))return s;
- if(/^(?!\/|\.\.)(?:[a-z\d_-]+\/)*[a-z\d_.-]+\.(?:png|jpg|jpeg|webp|gif)$/i.test(s))return s;
+ if(/^(?!\/|\.\.)(?:[a-z\d_-]+\/)*[a-z\d_.-]+\.(?:png|jpg|jpeg|webp|gif|svg)$/i.test(s))return s;
  return '';
 }
 function normalizeAnswer(v){if(Number.isInteger(v)&&v>=0&&v<=3)return v;
@@ -104,7 +104,7 @@ function renderCardsOnly(){if(!$('set-list'))return;
  }));
  updateSelectionStats();
 }
-function reset(){clearInterval(timer);running=false;finished=false;current=0;statusOpen=false;questions=[];answers=[];flags=[];results=null;memoText='';$('memo-input').value='';localStorage.removeItem(storageKey);showStart()}
+function reset(){clearInterval(timer);running=false;finished=false;current=0;statusOpen=false;questions=[];answers=[];flags=[];results=null;memoText='';memoHtml='';$('memo-input').innerHTML='';clearSearchHighlights();updateMemoCount();try{localStorage.removeItem(storageKey)}catch(_){}showStart()}
 function showStart(){
  const resumeState=saved(),canResume=!!(resumeState?.running&&resumeState?.questions?.length);
  if(!selectedSetIds.length)selectedSetIds=['demo-a'];
@@ -182,7 +182,7 @@ async function beginFromSelection(){if(loadingSets)return;
  }catch(e){notice.className='status-message error';notice.textContent='開始できません：'+e.message}finally{loadingSets=false;if($('start-btn')){$('start-btn').disabled=false;$('start-btn').textContent='試験開始'}}
 }
 function start(qs,mins,conf){clearInterval(timer);questions=qs;answers=Array(qs.length).fill(null);flags=Array(qs.length).fill(false);current=0;statusOpen=false;running=true;finished=false;results=null;config=conf;
- startedAt=Date.now();endAt=startedAt+mins*60000;memoText='';$('memo-input').value='';$('memo-window').classList.remove('visible');$('calc-window').classList.remove('visible');closeModal();remember();refresh();tickTimer();timer=setInterval(tickTimer,500)}
+ startedAt=Date.now();endAt=startedAt+mins*60000;memoText='';memoHtml='';$('memo-input').innerHTML='';clearSearchHighlights();updateMemoCount();$('memo-window').classList.remove('visible');$('calc-window').classList.remove('visible');closeModal();remember();refresh();tickTimer();timer=setInterval(tickTimer,500)}
 function tickTimer(){if(!running)return;
  const ms=Math.max(0,endAt-Date.now()),sec=Math.ceil(ms/1000),h=Math.floor(sec/3600),m=Math.floor((sec%3600)/60),s=sec%60;
  $('remaining').textContent=[h,m,s].map(n=>String(n).padStart(2,'0')).join(':');$('remaining').style.color=sec<=300?'#b7223b':'';if(ms===0)endExam(true);
@@ -195,7 +195,7 @@ function renderImage(url,cls,alt){return url?`<img class="${cls}" src="${esc(url
 function refresh(){if(!questions.length){$('subheading').textContent='問題セットを選択してください';$('question-body').textContent='';$('choices').textContent='';$('remaining').textContent='--:--:--';return}
  const q=questions[current],n=questions.length;
  $('subheading').textContent=`${n}問中 ${current+1}問目${finished?' ・ 終了済み（採点結果は出力ファイル参照）':''}`;
- $('answer-title').textContent=`問 ${current+1}`;
+ $('answer-title').textContent=`${current+1} ページ目`;
  $('question-body').innerHTML=`<h2 class="q-heading">問 ${current+1}<span class="q-topic">${esc(q.topic)}</span></h2>
  <div class="q-stem">${esc(q.stem)}</div>${renderImage(q.image,'question-image','問題の図表')}
  ${q.code?`<pre class="q-code">${esc(q.code)}</pre>`:''}
@@ -203,12 +203,12 @@ function refresh(){if(!questions.length){$('subheading').textContent='問題セ�
  <div class="source-line">${esc(q.source)}${q.modified?'（一部改変あり）':''}　｜　元の問題番号：${esc(q.originalNumber)}</div>`;
  $('choices').innerHTML=letters.map((ch,i)=>`<button class="choice ${answers[current]===i?'chosen':''}" aria-pressed="${answers[current]===i}" data-opt="${i}" ${!running?'disabled':''}>${ch}</button>`).join('');
  $('choices').querySelectorAll('[data-opt]').forEach(b=>b.onclick=()=>{if(!running)return;const i=Number(b.dataset.opt);answers[current]=answers[current]===i?null:i;remember();refresh()});
- $('flag-text').textContent=flags[current]?'✓ 後で見直す：設定済み':'';$('flag-btn').classList.toggle('active',!!flags[current]);$('flag-btn').disabled=!running;
+ $('review-check').checked=!!flags[current];$('review-check').disabled=!running;$('flag-text').textContent='';$('flag-btn').classList.toggle('active',!!flags[current]);$('flag-btn').disabled=!running;
  $('prev-btn').disabled=current===0;$('next-btn').disabled=current===n-1;
  $('memo-btn').disabled=!running;$('calc-btn').disabled=!running;$('end-btn').disabled=!running;
  $('status-btn').classList.toggle('active',statusOpen);
  $('question-pane').style.display=statusOpen?'none':'flex';$('answer-pane').style.display=statusOpen?'none':'block';$('splitter').style.display=statusOpen?'none':'block';$('status-pane').classList.toggle('open',statusOpen);
- $('foot-status').textContent=`解答済み ${answers.filter(v=>v!==null).length} / ${n}問　｜　見直し ${flags.filter(Boolean).length}問`;
+ document.body.classList.toggle('exam-running',running);$('foot-status').textContent=`解答済み ${answers.filter(v=>v!==null).length} / ${n}問　｜　見直し ${flags.filter(Boolean).length}問`;
  renderGrid();$('question-scroll').scrollTop=0;remember();
 }
 function endExam(auto=false){if(!running)return;running=false;finished=true;clearInterval(timer);
@@ -286,11 +286,55 @@ $('status-btn').onclick=()=>{if(!running&&!finished)return;statusOpen=!statusOpe
 $('prev-btn').onclick=()=>{if(current>0){current--;refresh()}};
 $('next-btn').onclick=()=>{if(current<questions.length-1){current++;refresh()}};
 $('flag-btn').onclick=()=>{if(!running)return;flags[current]=!flags[current];refresh()};
+$('review-check').onchange=e=>{if(!running)return;flags[current]=e.target.checked;refresh()};
 $('end-btn').onclick=confirmEnd;$('ref-btn').onclick=reference;
 $('memo-btn').onclick=()=>toggleFloat('memo-window');$('calc-btn').onclick=()=>toggleFloat('calc-window');
 $('invert-toggle').onclick=e=>{const on=document.body.classList.toggle('dark');e.currentTarget.classList.toggle('on',on);e.currentTarget.setAttribute('aria-pressed',String(on))};
 $('zoom').oninput=e=>{$('zoom-number').textContent=e.target.value+' %';$('question-body').style.setProperty('--qsize',(16*Number(e.target.value)/100)+'px')};
-$('memo-input').oninput=e=>{memoText=e.target.value;remember()};
+// メモの保存内容は許可タグ・マーカーだけに正規化。クリップボード貼付は試験中禁止。
+function sanitizeMemoHtml(input){
+ const source=document.createElement('div');source.innerHTML=String(input||'').slice(0,60000);
+ function clean(node){if(node.nodeType===Node.TEXT_NODE)return esc(node.textContent);if(node.nodeType!==Node.ELEMENT_NODE)return '';
+  if(node.tagName==='BR')return '<br>';
+  const children=[...node.childNodes].map(clean).join('');
+  if(node.classList.contains('memo-mark-red'))return `<span class="memo-mark-red">${children}</span>`;
+  if(node.classList.contains('memo-mark-blue'))return `<span class="memo-mark-blue">${children}</span>`;
+  if(node.classList.contains('memo-mark-yellow'))return `<span class="memo-mark-yellow">${children}</span>`;
+  if(['DIV','P'].includes(node.tagName))return children+'<br>';
+  return children;
+ }
+ return [...source.childNodes].map(clean).join('');
+}
+function updateMemoCount(){const n=($('memo-input').innerText||'').length;$('memo-count').textContent=`${n.toLocaleString('ja-JP')} / 10,000 文字`;}
+function persistMemo(){memoHtml=sanitizeMemoHtml($('memo-input').innerHTML);memoText=$('memo-input').innerText.slice(0,10000);updateMemoCount();remember();}
+$('memo-input').addEventListener('input',()=>{persistMemo()});
+function setMemoImeMode(mode){memoImeMode=mode==='kana'?'kana':'romaji';$('memo-romaji').classList.toggle('is-active',memoImeMode==='romaji');$('memo-kana').classList.toggle('is-active',memoImeMode==='kana');
+  $('memo-romaji').setAttribute('aria-pressed',String(memoImeMode==='romaji'));$('memo-kana').setAttribute('aria-pressed',String(memoImeMode==='kana'));
+  $('memo-input').lang='ja';$('memo-input').inputMode='text';$('memo-input-note').textContent=memoImeMode==='romaji'?'ローマ字入力：OSのIMEをローマ字入力に設定':'かな入力：OSのIMEをかな入力に設定';
+}
+$('memo-romaji').onclick=()=>{setMemoImeMode('romaji');persistMemo();$('memo-input').focus()};
+$('memo-kana').onclick=()=>{setMemoImeMode('kana');persistMemo();$('memo-input').focus()};
+function clearSearchHighlights(){
+ $('memo-input').querySelectorAll('.memo-search-hit').forEach(s=>{s.replaceWith(...s.childNodes)});$('memo-input').normalize();
+}
+function searchMemo(){clearSearchHighlights();const needle=$('memo-search').value.trim();if(!needle){$('memo-hits').textContent='';return}
+ const walker=document.createTreeWalker($('memo-input'),NodeFilter.SHOW_TEXT);const textNodes=[];while(walker.nextNode())textNodes.push(walker.currentNode);
+ let hits=0,first=null;for(const node of textNodes){let cur=node;let pos=0;const lower=cur.textContent.toLocaleLowerCase('ja');const query=needle.toLocaleLowerCase('ja');const idxs=[];while((pos=lower.indexOf(query,pos))!==-1){idxs.push(pos);pos+=query.length;if(idxs.length>100)break}
+  for(let k=idxs.length-1;k>=0;k--){const ix=idxs[k],tail=cur.splitText(ix),after=tail.splitText(needle.length),mark=document.createElement('span');mark.className='memo-search-hit';tail.replaceWith(mark);mark.append(tail);first=mark;hits++}
+ }
+ $('memo-hits').textContent=`${hits}件`;if(first)first.scrollIntoView({block:'nearest'});
+}
+$('memo-search-toggle').onclick=()=>{$('memo-searchbar').hidden=!$('memo-searchbar').hidden;if(!$('memo-searchbar').hidden)$('memo-search').focus();else clearSearchHighlights()};
+$('memo-find').onclick=searchMemo;$('memo-search').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();searchMemo()}};
+function markMemo(color){clearSearchHighlights();const selection=window.getSelection();if(!selection||!selection.rangeCount||selection.isCollapsed)return;
+ const range=selection.getRangeAt(0);if(!$('memo-input').contains(range.commonAncestorContainer))return;
+ const selected=range.toString();if(!selected.trim()||selected.length>10000)return;
+ const contents=range.extractContents();const wrapper=document.createElement('span');if(color!=='none')wrapper.className='memo-mark-'+color;wrapper.append(contents);
+ if(color==='none'){range.insertNode(wrapper);wrapper.replaceWith(...wrapper.childNodes)}else range.insertNode(wrapper);
+ selection.removeAllRanges();persistMemo();}
+document.querySelectorAll('[data-marker]').forEach(b=>b.addEventListener('mousedown',e=>e.preventDefault()));
+document.querySelectorAll('[data-marker]').forEach(b=>b.onclick=()=>markMemo(b.dataset.marker));
+
 $('memo-transparent').onchange=e=>{$('memo-window').style.opacity=e.target.checked?'0.77':'1'};
 document.querySelectorAll('[data-close]').forEach(b=>b.onclick=()=>$(b.dataset.close).classList.remove('visible'));
 function toggleFloat(id){if(!running)return;$(id).classList.toggle('visible')}
@@ -298,11 +342,50 @@ for(const box of document.querySelectorAll('.floating')){const title=box.querySe
 let drag=null;$('splitter').onpointerdown=e=>{const w=$('workspace');drag={x:e.clientX,left:$('question-pane').getBoundingClientRect().width,total:w.getBoundingClientRect().width};$('splitter').setPointerCapture(e.pointerId)};
 $('splitter').onpointermove=e=>{if(!drag||window.innerWidth<600)return;const px=clamp(drag.left+e.clientX-drag.x,250,drag.total-190);document.documentElement.style.setProperty('--left',px+'px')};
 $('splitter').onpointerup=()=>drag=null;$('splitter').onpointercancel=()=>drag=null;
-// Four-function calculator, no dynamic code execution.
+
+// ベストエフォートの試験中の操作制限。開発者ツール・画面撮影の阻止を保証しない。
+for(const type of ['copy','cut','paste'])document.addEventListener(type,e=>{if(running){e.preventDefault();e.stopImmediatePropagation()}},true);
+document.addEventListener('keydown',e=>{if(!running)return;
+ const k=e.key.toLowerCase(),mod=e.ctrlKey||e.metaKey;
+ if((mod&&['c','x','v'].includes(k))||(mod&&e.key==='Insert')||(e.shiftKey&&e.key==='Insert')||(e.shiftKey&&e.key==='Delete')){e.preventDefault();e.stopPropagation();return}
+ if(mod&&k==='a'&&!e.target.closest('#memo-window')){e.preventDefault();e.stopPropagation();}
+},true);
+document.addEventListener('contextmenu',e=>{if(running)e.preventDefault()},true);
+document.addEventListener('dragstart',e=>{if(running)e.preventDefault()},true);
+document.addEventListener('selectstart',e=>{if(running&&e.target.closest('#question-pane,#answer-pane,#status-pane'))e.preventDefault()},true);
+
+// 四則電卓：チュートリアルのキー配列・三段階サイズを再現する。
 let display='0',acc=null,operator=null,needsNew=false;
-['C','⌫','%','÷','7','8','9','×','4','5','6','−','1','2','3','+','±','0','.','='].forEach(key=>{const b=document.createElement('button');b.textContent=key;if('÷×−+%'.includes(key))b.className='op';if(key==='=')b.className='equal';b.onclick=()=>calcPress(key);$('calc-grid').appendChild(b)});
-function calcPress(k){if(k==='C'){display='0';acc=null;operator=null;needsNew=false}else if(k==='⌫'){display=display.length>1?display.slice(0,-1):'0'}else if(k==='±'){display=String(-Number(display))}else if(k==='%'){display=String(Number(display)/100)}else if('0123456789.'.includes(k)&&k.length===1){if(needsNew){display='0';needsNew=false}if(k==='.'&&display.includes('.'))return;display=(display==='0'&&k!=='.')?k:display+k}else if(['÷','×','−','+'].includes(k)){if(operator&&acc!==null&&!needsNew)calculate();else acc=Number(display);operator=k;needsNew=true}else if(k==='='){if(operator&&acc!==null){calculate();operator=null;acc=null;needsNew=true}}$('calc-display').textContent=display}
-function calculate(){const b=Number(display);let r=acc;if(operator==='+')r+=b;else if(operator==='−')r-=b;else if(operator==='×')r*=b;else if(operator==='÷')r=b===0?NaN:r/b;display=Number.isFinite(r)?String(Number(r.toPrecision(12))):'エラー';acc=Number(display)}
+const calcKeys=['±','AC','BS','÷','7','8','9','×','4','5','6','−','1','2','3','+','0','00','.','='];
+for(const key of calcKeys){const b=document.createElement('button');b.type='button';b.textContent=key;
+ if(['÷','×','−','+'].includes(key))b.className='op';if(key==='=')b.className='equal';
+ b.addEventListener('click',()=>calcPress(key));$('calc-grid').appendChild(b)}
+document.querySelectorAll('[data-calc-size]').forEach(b=>b.addEventListener('click',()=>{
+ $('calc-window').dataset.size=b.dataset.calcSize;document.querySelectorAll('[data-calc-size]').forEach(x=>x.classList.toggle('active',x===b));
+}));
+function calcReset(){display='0';acc=null;operator=null;needsNew=false}
+function calcPress(k){
+ if(k==='AC')calcReset();
+ else if(k==='BS'){if(needsNew){needsNew=false}display=display.length>1?(display.length===2&&display.startsWith('-')?'0':display.slice(0,-1)):'0'}
+ else if(k==='±'){if(display!=='0'&&display!=='エラー')display=display.startsWith('-')?display.slice(1):'-'+display}
+ else if((/^[0-9]$/.test(k))||k==='00'||k==='.'){if(display==='エラー')calcReset();if(needsNew){display='0';needsNew=false}
+  if(k==='.'&&display.includes('.'))return;
+  if(k==='.')display+='.';
+  else if(display==='0')display=(k==='00'?'0':k);
+  else if(display==='-0')display='-'+k;
+  else display+=k;
+  if(display.replace(/[^0-9]/g,'').length>13)display=display.slice(0,-k.length);
+ }else if(['÷','×','−','+'].includes(k)){if(operator&&acc!==null&&!needsNew)calculate();else acc=Number(display);
+   operator=k;needsNew=true;
+ }else if(k==='='){if(operator&&acc!==null){calculate();operator=null;acc=null;needsNew=true}}
+ $('calc-display').textContent=display;
+}
+function calculate(){const b=Number(display);let r=acc;if(operator==='+')r+=b;else if(operator==='−')r-=b;else if(operator==='×')r*=b;else if(operator==='÷')r=b===0?NaN:r/b;
+ display=Number.isFinite(r)?String(Number(r.toPrecision(12))):'エラー';acc=Number(display)}
+// 電卓が開いている間のみ数字キーを処理。メモや設定欄での入力は妨げない。
+document.addEventListener('keydown',e=>{if(!running||!$('calc-window').classList.contains('visible')||e.target.closest('input,textarea,[contenteditable]')||e.ctrlKey||e.metaKey||e.altKey||e.isComposing)return;
+ const keys={'*':'×','/':'÷','-':'−','Enter':'=','Backspace':'BS','Escape':'AC'};
+ const key=keys[e.key]||e.key;if(calcKeys.includes(key)){e.preventDefault();calcPress(key)}},false);
 // Initial boot
 for(const raw of (window.AP_DEMO_SETS||[]))try{registerSet(raw,'demo')}catch(e){console.error('デモ問題の登録に失敗',e)}
 if(restore()&&finished){refresh();showResults()}
