@@ -134,6 +134,7 @@ def find_positions(doc,session):
  print('POSITION_COUNTS',session,'pages',len(doc),'found',len(candidates),'expected 80',flush=True)
  for d in diagnostic:
   print('PAGE_DIAG',session,'page',d['page'],'candidates',[(round(v['y']),v['number'],v['t']) for v in d['candidates']],flush=True)
+  print('TOKEN_DIAG',session,'page',d['page'],'tokens',d['tokens'][:85],flush=True)
  if len(candidates)!=80:
   # The matched labels are evidence for manual review; do not publish an
   # incomplete or missegmented question bank.
