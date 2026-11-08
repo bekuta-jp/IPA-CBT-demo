@@ -1,0 +1,52 @@
+name: Import IPA 2025 Autumn AP AM
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/import-ipa-2025-autumn.yml'
+      - 'tools/import_ipa_2025_autumn.py'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install OCR and Python dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-jpn
+          python -m pip install --disable-pip-version-check 'pymupdf>=1.24,<2' 'Pillow>=11,<13' 'requests>=2.31,<3' 'pytesseract>=0.3.13,<1'
+      - name: Build 80 original question images and answer-key JSON
+        run: python tools/import_ipa_2025_autumn.py
+      - name: Validate generated question set
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.loads(Path('sets/ap-2025-autumn.json').read_text())
+          assert len(data['questions'])==80
+          assert [q['number'] for q in data['questions']]==list(range(1,81))
+          assert len(set(q['image'] for q in data['questions']))==80
+          assert all(Path(q['image']).exists() for q in data['questions'])
+          assert all(q['answer'] in 'アイウエ' for q in data['questions'])
+          assert any(x['id']=='ap-2025-autumn' for x in json.loads(Path('sets/index.json').read_text()))
+          print('OK: 80 questions, 80 image files, answer key, manifest')
+          PY
+      - name: Commit generated material
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sets/index.json sets/ap-2025-autumn.json assets/ap-2025-autumn/
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: import IPA 2025 autumn AP AM 80 questions (source images)'
+            git push
+          fi
