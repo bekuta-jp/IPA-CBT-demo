@@ -122,7 +122,7 @@ def find_markers(doc: fitz.Document) -> list[Mark]:
     markers=[]
     for page_num,positions in CALIBRATED_LAYOUT.items():
         page=doc[page_num-1]
-        if not 550 <= page.rect.width <= 700 or not 780 <= page.rect.height <= 900:
+        if not 510 <= page.rect.width <= 520 or not 720 <= page.rect.height <= 735:
             raise RuntimeError(f'問題冊子のページ{page_num}のサイズが想定と異なります: {page.rect}')
         for y in positions:
             if y<40 or y>page.rect.height-65:
@@ -142,7 +142,7 @@ def page_segments(doc:fitz.Document,markers:list[Mark],i:int):
         y1=(following.y-5 if following and p==following.page else page.rect.height-51)
         # no portion on the next page if the next question begins at the top
         if y1-y0<12:continue
-        yield p,fitz.Rect(58,y0,page.rect.width-43,y1)
+        yield p,fitz.Rect(40,y0,page.rect.width-25,y1)
         if following and p==following.page:break
 
 
