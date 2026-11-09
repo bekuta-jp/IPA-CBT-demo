@@ -198,7 +198,7 @@ function showStart(){
   <label>計算の要否 <select id="tag-calculation"><option value="all">指定なし（未分類を含む）</option><option value="yes">計算・論理的導出あり</option><option value="no">計算不要</option></select></label>
   <label>学習テーマ <select id="tag-topic"><option value="all">すべてのテーマ</option></select></label>
   <label class="tag-check"><input id="tag-quick" type="checkbox"> 短時間で解ける候補だけ（計算・筆記不要）</label>
-  <button type="button" class="btn light" id="quick-preset">片手で10問（10分）</button>
+  <button type="button" class="btn light" id="quick-preset">片手で10問（10分・2025年秋期）</button>
  </div>
  <div id="tag-hint" class="setup-prompt">タグを指定しない場合はすべての問題を出題します。</div>
  </fieldset>
@@ -211,7 +211,9 @@ function showStart(){
  $('year-filter').onchange=renderCardsOnly;$('season-filter').onchange=renderCardsOnly;$('type-filter').onchange=renderCardsOnly;
  document.querySelectorAll('[name="set-mode"]').forEach(x=>x.addEventListener('change',()=>{if(x.checked&&x.value==='single'&&selectedSetIds.length>1)selectedSetIds=[selectedSetIds[0]];document.querySelectorAll('[name="q-order"]').forEach(r=>{r.disabled=x.value==='multi'&&x.checked;});renderCardsOnly()}));
  $('tag-calculation').onchange=showTagHint;$('tag-quick').onchange=showTagHint;$('tag-topic').onchange=showTagHint;
- $('quick-preset').onclick=()=>{const f=$('tag-calculation');f.value='no';$('tag-quick').checked=true;$('limit-count').value='10';$('limit-time').value='10';const q=document.querySelector('[name="q-order"][value="random"]');if(q&&!q.disabled)q.checked=true;showTagHint()};
+ $('quick-preset').onclick=()=>{const f=$('tag-calculation');f.value='no';$('tag-quick').checked=true;$('limit-count').value='10';$('limit-time').value='10';const q=document.querySelector('[name="q-order"][value="random"]');if(q&&!q.disabled)q.checked=true;
+  if(!selectedSetIds.includes('ap-2025-autumn')&&bank.has('ap-2025-autumn')){selectedSetIds=selectionMode()==='single'?['ap-2025-autumn']:[...new Set([...selectedSetIds,'ap-2025-autumn'])];renderCardsOnly()}
+  showTagHint();};
  showTagHint();
  $('file-input').onchange=importFiles;$('start-btn').onclick=beginFromSelection;
  if($('resume-btn'))$('resume-btn').onclick=()=>{if(restore()){closeModal();refresh();if(running){tickTimer();timer=setInterval(tickTimer,500)}}};
