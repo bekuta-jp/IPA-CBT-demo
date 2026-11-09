@@ -17,7 +17,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "yes",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q02": {
       "primary": "tech.system",
@@ -32,7 +33,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "yes",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q03": {
       "primary": "tech.basic",
@@ -45,7 +47,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q04": {
       "primary": "tech.network",
@@ -58,7 +61,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q05": {
       "primary": "tech.algorithm",
@@ -71,7 +75,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q06": {
       "primary": "tech.algorithm",
@@ -84,7 +89,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "yes",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q07": {
       "primary": "tech.algorithm",
@@ -97,7 +103,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q08": {
       "primary": "tech.architecture",
@@ -110,7 +117,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q09": {
       "primary": "tech.architecture",
@@ -123,7 +131,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q10": {
       "primary": "tech.hardware",
@@ -137,7 +146,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q11": {
       "primary": "tech.architecture",
@@ -151,7 +161,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "yes",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q12": {
       "primary": "tech.system",
@@ -164,7 +175,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q13": {
       "primary": "tech.system",
@@ -177,7 +189,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q14": {
       "primary": "tech.system",
@@ -190,7 +203,8 @@
       "calculation": "no",
       "quick": "no",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q15": {
       "primary": "tech.software",
@@ -204,7 +218,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "yes",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q16": {
       "primary": "tech.software",
@@ -217,7 +232,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q17": {
       "primary": "tech.software",
@@ -230,7 +246,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q18": {
       "primary": "tech.software",
@@ -244,7 +261,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q19": {
       "primary": "tech.architecture",
@@ -257,7 +275,8 @@
       "calculation": "no",
       "quick": "no",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q20": {
       "primary": "tech.hardware",
@@ -271,7 +290,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "yes",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q21": {
       "primary": "tech.hardware",
@@ -285,7 +305,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q22": {
       "primary": "tech.hardware",
@@ -299,7 +320,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "yes",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q23": {
       "primary": "tech.hardware",
@@ -313,7 +335,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "yes",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q24": {
       "primary": "tech.media",
@@ -326,7 +349,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q25": {
       "primary": "tech.media",
@@ -340,7 +364,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "yes",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q26": {
       "primary": "tech.database",
@@ -353,7 +378,8 @@
       "calculation": "no",
       "quick": "no",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q27": {
       "primary": "tech.database",
@@ -366,7 +392,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q28": {
       "primary": "tech.database",
@@ -379,7 +406,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q29": {
       "primary": "tech.database",
@@ -392,7 +420,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q30": {
       "primary": "tech.network",
@@ -406,7 +435,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "yes",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q31": {
       "primary": "tech.network",
@@ -419,7 +449,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q32": {
       "primary": "tech.network",
@@ -432,7 +463,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q33": {
       "primary": "tech.network",
@@ -445,7 +477,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q34": {
       "primary": "tech.network",
@@ -458,7 +491,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q35": {
       "primary": "tech.network",
@@ -472,7 +506,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "yes",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q36": {
       "primary": "tech.security",
@@ -485,7 +520,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q37": {
       "primary": "tech.security",
@@ -498,7 +534,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q38": {
       "primary": "tech.security",
@@ -511,7 +548,8 @@
       "calculation": "no",
       "quick": "no",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q39": {
       "primary": "tech.security",
@@ -524,7 +562,8 @@
       "calculation": "no",
       "quick": "no",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q40": {
       "primary": "tech.security",
@@ -537,7 +576,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q41": {
       "primary": "tech.security",
@@ -550,7 +590,8 @@
       "calculation": "no",
       "quick": "no",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q42": {
       "primary": "tech.security",
@@ -563,7 +604,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q43": {
       "primary": "tech.security",
@@ -577,7 +619,8 @@
       "calculation": "no",
       "quick": "no",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q44": {
       "primary": "tech.security",
@@ -590,7 +633,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q45": {
       "primary": "tech.security",
@@ -603,7 +647,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q46": {
       "primary": "tech.development",
@@ -616,7 +661,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q47": {
       "primary": "tech.development",
@@ -629,7 +675,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q48": {
       "primary": "tech.development",
@@ -643,7 +690,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "yes",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q49": {
       "primary": "tech.development",
@@ -656,7 +704,8 @@
       "calculation": "no",
       "quick": "no",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q50": {
       "primary": "strategy.law",
@@ -669,7 +718,8 @@
       "calculation": "no",
       "quick": "no",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q51": {
       "primary": "management.project",
@@ -682,7 +732,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q52": {
       "primary": "management.project",
@@ -695,7 +746,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q53": {
       "primary": "management.project",
@@ -709,7 +761,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "yes",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q54": {
       "primary": "management.project",
@@ -723,7 +776,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "yes",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q55": {
       "primary": "management.service",
@@ -736,7 +790,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q56": {
       "primary": "management.service",
@@ -749,7 +804,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q57": {
       "primary": "management.service",
@@ -762,7 +818,8 @@
       "calculation": "no",
       "quick": "no",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q58": {
       "primary": "management.audit",
@@ -775,7 +832,8 @@
       "calculation": "no",
       "quick": "no",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q59": {
       "primary": "management.audit",
@@ -788,7 +846,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q60": {
       "primary": "management.audit",
@@ -801,7 +860,8 @@
       "calculation": "no",
       "quick": "no",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q61": {
       "primary": "strategy.system",
@@ -814,7 +874,8 @@
       "calculation": "no",
       "quick": "no",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q62": {
       "primary": "strategy.system",
@@ -827,7 +888,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q63": {
       "primary": "strategy.business",
@@ -840,7 +902,8 @@
       "calculation": "no",
       "quick": "no",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q64": {
       "primary": "strategy.finance",
@@ -853,7 +916,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q65": {
       "primary": "strategy.business",
@@ -867,7 +931,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "yes",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q66": {
       "primary": "strategy.system",
@@ -880,7 +945,8 @@
       "calculation": "no",
       "quick": "no",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q67": {
       "primary": "strategy.business",
@@ -893,7 +959,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q68": {
       "primary": "strategy.business",
@@ -906,7 +973,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q69": {
       "primary": "strategy.business",
@@ -919,7 +987,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q70": {
       "primary": "strategy.business",
@@ -932,7 +1001,8 @@
       "calculation": "no",
       "quick": "no",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q71": {
       "primary": "strategy.manufacturing",
@@ -945,7 +1015,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q72": {
       "primary": "strategy.manufacturing",
@@ -958,7 +1029,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q73": {
       "primary": "strategy.manufacturing",
@@ -971,7 +1043,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q74": {
       "primary": "strategy.manufacturing",
@@ -985,7 +1058,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "yes",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q75": {
       "primary": "strategy.manufacturing",
@@ -998,7 +1072,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "yes",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q76": {
       "primary": "strategy.finance",
@@ -1012,7 +1087,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "yes",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q77": {
       "primary": "strategy.finance",
@@ -1025,7 +1101,8 @@
       "calculation": "yes",
       "quick": "no",
       "paper": "yes",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q78": {
       "primary": "strategy.law",
@@ -1038,7 +1115,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q79": {
       "primary": "strategy.law",
@@ -1051,7 +1129,8 @@
       "calculation": "no",
       "quick": "yes",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     },
     "r07a-q80": {
       "primary": "strategy.law",
@@ -1064,7 +1143,8 @@
       "calculation": "no",
       "quick": "no",
       "paper": "no",
-      "status": "provisional"
+      "status": "provisional",
+      "difficulty": null
     }
   }
 }
