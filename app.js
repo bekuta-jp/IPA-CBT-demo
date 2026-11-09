@@ -216,7 +216,7 @@ function renderImage(url,cls,alt){return url?`<img class="${cls}" src="${esc(url
 function refresh(){if(!questions.length){$('subheading').textContent='問題セットを選択してください';$('question-body').textContent='';$('choices').textContent='';$('remaining').textContent='--:--:--';return}
  const q=questions[current],n=questions.length;
  $('subheading').textContent=`${n}ページ中${current+1}ページ目`;
- $('answer-title').textContent=`${current+1} ページ目`;
+ $('answer-title').textContent=`問${q.originalNumber ?? current+1}`;
  $('question-body').innerHTML=q.imageOnly
   ? `<div class="sr-only">${esc(q.stem)}</div>${renderImage(q.image,'question-image question-image-original','IPA公式問題冊子から切り出した問'+q.originalNumber+'。ア〜エの選択肢も画像内にあります。')}`
   : `<div class="q-stem">${esc(q.stem)}</div>${renderImage(q.image,'question-image','問題の図表')}
@@ -224,7 +224,9 @@ function refresh(){if(!questions.length){$('subheading').textContent='問題セ�
  <div class="q-opt-list">${q.options.map((o,i)=>`<div class="q-opt"><span class="letter">${letters[i]}</span><div>${esc(o)}${renderImage(q.optionImages?.[i],'option-image',letters[i]+'の図表')}</div></div>`).join('')}</div>`;
  $('choices').innerHTML=letters.map((ch,i)=>`<button class="choice ${answers[current]===i?'chosen':''}" aria-pressed="${answers[current]===i}" data-opt="${i}" ${!running?'disabled':''}>${ch}</button>`).join('');
  $('choices').querySelectorAll('[data-opt]').forEach(b=>b.onclick=()=>{if(!running)return;const i=Number(b.dataset.opt);answers[current]=answers[current]===i?null:i;remember();refresh()});
- $('review-check').checked=!!flags[current];$('review-check').disabled=!running;$('flag-btn').classList.toggle('active',!!flags[current]);$('flag-btn').disabled=!running;
+ $('review-check').checked=!!flags[current];$('review-check').disabled=!running;
+ $('answer-pane').classList.toggle('review-marked',!!flags[current]);
+ $('flag-btn').classList.toggle('active',!!flags[current]);$('flag-btn').setAttribute('aria-pressed',String(!!flags[current]));$('flag-btn').disabled=!running;
  $('prev-btn').disabled=current===0;$('next-btn').disabled=current===n-1;
  $('memo-btn').disabled=!running;$('calc-btn').disabled=!running;$('end-btn').disabled=!running;
  $('status-btn').classList.toggle('active',statusOpen);
