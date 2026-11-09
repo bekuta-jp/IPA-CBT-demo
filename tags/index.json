@@ -1,0 +1,6 @@
+{
+  "schemaVersion": "ap-tag-index-v1",
+  "sets": {
+    "ap-2025-autumn": "tags/ap-2025-autumn.json"
+  }
+}
