@@ -1,0 +1,1070 @@
+{
+  "schemaVersion": "ap-tags-v1",
+  "setId": "ap-2025-autumn",
+  "reviewStatus": "provisional",
+  "reviewNote": "2025秋80問の試験運用タグ。問題画像／OCRテキストの読解をベースにした暫定推定であり、全問の厳密な人手校閲済みではない。",
+  "questions": {
+    "r07a-q01": {
+      "primary": "tech.basic",
+      "topics": [
+        "logic.boolean",
+        "logic.karnaugh_map"
+      ],
+      "skills": [
+        "logic",
+        "diagram"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "yes",
+      "status": "provisional"
+    },
+    "r07a-q02": {
+      "primary": "tech.system",
+      "topics": [
+        "performance.queueing",
+        "performance.utilization"
+      ],
+      "skills": [
+        "quantitative",
+        "formula"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "yes",
+      "status": "provisional"
+    },
+    "r07a-q03": {
+      "primary": "tech.basic",
+      "topics": [
+        "ml.classification_metrics"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q04": {
+      "primary": "tech.network",
+      "topics": [
+        "network.error_detection"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q05": {
+      "primary": "tech.algorithm",
+      "topics": [
+        "algorithm.memory_allocation"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q06": {
+      "primary": "tech.algorithm",
+      "topics": [
+        "algorithm.search"
+      ],
+      "skills": [
+        "formula"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "yes",
+      "status": "provisional"
+    },
+    "r07a-q07": {
+      "primary": "tech.algorithm",
+      "topics": [
+        "programming.languages"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q08": {
+      "primary": "tech.architecture",
+      "topics": [
+        "architecture.instruction_set"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q09": {
+      "primary": "tech.architecture",
+      "topics": [
+        "architecture.memory"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q10": {
+      "primary": "tech.hardware",
+      "topics": [
+        "hardware.timer"
+      ],
+      "skills": [
+        "quantitative",
+        "formula"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q11": {
+      "primary": "tech.architecture",
+      "topics": [
+        "architecture.parallel_computing"
+      ],
+      "skills": [
+        "quantitative",
+        "formula"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "yes",
+      "status": "provisional"
+    },
+    "r07a-q12": {
+      "primary": "tech.system",
+      "topics": [
+        "infrastructure.iac"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q13": {
+      "primary": "tech.system",
+      "topics": [
+        "reliability.metrics"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q14": {
+      "primary": "tech.system",
+      "topics": [
+        "capacity.planning"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "calculation": "no",
+      "quick": "no",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q15": {
+      "primary": "tech.software",
+      "topics": [
+        "os.scheduling"
+      ],
+      "skills": [
+        "quantitative",
+        "formula"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "yes",
+      "status": "provisional"
+    },
+    "r07a-q16": {
+      "primary": "tech.software",
+      "topics": [
+        "os.synchronization"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q17": {
+      "primary": "tech.software",
+      "topics": [
+        "os.threads"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q18": {
+      "primary": "tech.software",
+      "topics": [
+        "os.deadlock"
+      ],
+      "skills": [
+        "logic",
+        "diagram"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q19": {
+      "primary": "tech.architecture",
+      "topics": [
+        "architecture.cache"
+      ],
+      "skills": [
+        "diagram"
+      ],
+      "calculation": "no",
+      "quick": "no",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q20": {
+      "primary": "tech.hardware",
+      "topics": [
+        "electronics.power"
+      ],
+      "skills": [
+        "quantitative",
+        "formula"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "yes",
+      "status": "provisional"
+    },
+    "r07a-q21": {
+      "primary": "tech.hardware",
+      "topics": [
+        "logic.boolean"
+      ],
+      "skills": [
+        "logic",
+        "diagram"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q22": {
+      "primary": "tech.hardware",
+      "topics": [
+        "logic.circuit"
+      ],
+      "skills": [
+        "logic",
+        "diagram"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "yes",
+      "status": "provisional"
+    },
+    "r07a-q23": {
+      "primary": "tech.hardware",
+      "topics": [
+        "hardware.timer"
+      ],
+      "skills": [
+        "quantitative",
+        "formula"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "yes",
+      "status": "provisional"
+    },
+    "r07a-q24": {
+      "primary": "tech.media",
+      "topics": [
+        "ux.design_patterns"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q25": {
+      "primary": "tech.media",
+      "topics": [
+        "media.sampling"
+      ],
+      "skills": [
+        "quantitative",
+        "formula"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "yes",
+      "status": "provisional"
+    },
+    "r07a-q26": {
+      "primary": "tech.database",
+      "topics": [
+        "db.nosql"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "no",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q27": {
+      "primary": "tech.database",
+      "topics": [
+        "db.index"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q28": {
+      "primary": "tech.database",
+      "topics": [
+        "db.view"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q29": {
+      "primary": "tech.database",
+      "topics": [
+        "db.transaction"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q30": {
+      "primary": "tech.network",
+      "topics": [
+        "network.throughput"
+      ],
+      "skills": [
+        "quantitative",
+        "formula"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "yes",
+      "status": "provisional"
+    },
+    "r07a-q31": {
+      "primary": "tech.network",
+      "topics": [
+        "network.proxy"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q32": {
+      "primary": "tech.network",
+      "topics": [
+        "network.addressing"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q33": {
+      "primary": "tech.network",
+      "topics": [
+        "network.protocol"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q34": {
+      "primary": "tech.network",
+      "topics": [
+        "network.switching"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q35": {
+      "primary": "tech.network",
+      "topics": [
+        "network.error_rate"
+      ],
+      "skills": [
+        "quantitative",
+        "formula"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "yes",
+      "status": "provisional"
+    },
+    "r07a-q36": {
+      "primary": "tech.security",
+      "topics": [
+        "security.killchain"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q37": {
+      "primary": "tech.security",
+      "topics": [
+        "security.certificate"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q38": {
+      "primary": "tech.security",
+      "topics": [
+        "security.side_channel"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "no",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q39": {
+      "primary": "tech.security",
+      "topics": [
+        "security.certificate"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "calculation": "no",
+      "quick": "no",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q40": {
+      "primary": "tech.security",
+      "topics": [
+        "security.incident_response"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q41": {
+      "primary": "tech.security",
+      "topics": [
+        "security.management"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "calculation": "no",
+      "quick": "no",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q42": {
+      "primary": "tech.security",
+      "topics": [
+        "security.cloud_posture"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q43": {
+      "primary": "tech.security",
+      "topics": [
+        "security.port_scan"
+      ],
+      "skills": [
+        "logic",
+        "diagram"
+      ],
+      "calculation": "no",
+      "quick": "no",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q44": {
+      "primary": "tech.security",
+      "topics": [
+        "security.forensics"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q45": {
+      "primary": "tech.security",
+      "topics": [
+        "security.email_authentication"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q46": {
+      "primary": "tech.development",
+      "topics": [
+        "development.requirements"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q47": {
+      "primary": "tech.development",
+      "topics": [
+        "development.uml"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q48": {
+      "primary": "tech.development",
+      "topics": [
+        "quality.defect_estimation"
+      ],
+      "skills": [
+        "quantitative",
+        "formula"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "yes",
+      "status": "provisional"
+    },
+    "r07a-q49": {
+      "primary": "tech.development",
+      "topics": [
+        "web.pwa"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "calculation": "no",
+      "quick": "no",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q50": {
+      "primary": "strategy.law",
+      "topics": [
+        "law.copyright"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "calculation": "no",
+      "quick": "no",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q51": {
+      "primary": "management.project",
+      "topics": [
+        "pm.scope"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q52": {
+      "primary": "management.project",
+      "topics": [
+        "pm.team"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q53": {
+      "primary": "management.project",
+      "topics": [
+        "pm.resource_estimation"
+      ],
+      "skills": [
+        "quantitative",
+        "formula"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "yes",
+      "status": "provisional"
+    },
+    "r07a-q54": {
+      "primary": "management.project",
+      "topics": [
+        "pm.decision_tree"
+      ],
+      "skills": [
+        "quantitative",
+        "formula"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "yes",
+      "status": "provisional"
+    },
+    "r07a-q55": {
+      "primary": "management.service",
+      "topics": [
+        "itsm.availability"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q56": {
+      "primary": "management.service",
+      "topics": [
+        "itsm.problem_management"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q57": {
+      "primary": "management.service",
+      "topics": [
+        "hardware.cooling"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "calculation": "no",
+      "quick": "no",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q58": {
+      "primary": "management.audit",
+      "topics": [
+        "audit.terminology"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "calculation": "no",
+      "quick": "no",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q59": {
+      "primary": "management.audit",
+      "topics": [
+        "audit.follow_up"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q60": {
+      "primary": "management.audit",
+      "topics": [
+        "audit.control"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "no",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q61": {
+      "primary": "strategy.system",
+      "topics": [
+        "pm.program_management"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "calculation": "no",
+      "quick": "no",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q62": {
+      "primary": "strategy.system",
+      "topics": [
+        "strategy.soa"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q63": {
+      "primary": "strategy.business",
+      "topics": [
+        "data.analytics"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "calculation": "no",
+      "quick": "no",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q64": {
+      "primary": "strategy.finance",
+      "topics": [
+        "finance.payback"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q65": {
+      "primary": "strategy.business",
+      "topics": [
+        "strategy.scoring"
+      ],
+      "skills": [
+        "quantitative",
+        "formula"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "yes",
+      "status": "provisional"
+    },
+    "r07a-q66": {
+      "primary": "strategy.system",
+      "topics": [
+        "pm.contracts"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "calculation": "no",
+      "quick": "no",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q67": {
+      "primary": "strategy.business",
+      "topics": [
+        "marketing.4p4c"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q68": {
+      "primary": "strategy.business",
+      "topics": [
+        "strategy.bsc"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q69": {
+      "primary": "strategy.business",
+      "topics": [
+        "strategy.feasibility"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q70": {
+      "primary": "strategy.business",
+      "topics": [
+        "strategy.ansoff"
+      ],
+      "skills": [
+        "diagram"
+      ],
+      "calculation": "no",
+      "quick": "no",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q71": {
+      "primary": "strategy.manufacturing",
+      "topics": [
+        "manufacturing.mes"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q72": {
+      "primary": "strategy.manufacturing",
+      "topics": [
+        "manufacturing.plm"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q73": {
+      "primary": "strategy.manufacturing",
+      "topics": [
+        "iot.lpwa"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q74": {
+      "primary": "strategy.manufacturing",
+      "topics": [
+        "inventory.eoq"
+      ],
+      "skills": [
+        "quantitative",
+        "formula"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "yes",
+      "status": "provisional"
+    },
+    "r07a-q75": {
+      "primary": "strategy.manufacturing",
+      "topics": [
+        "operations.optimization"
+      ],
+      "skills": [
+        "optimization"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "yes",
+      "status": "provisional"
+    },
+    "r07a-q76": {
+      "primary": "strategy.finance",
+      "topics": [
+        "finance.balance_sheet"
+      ],
+      "skills": [
+        "quantitative",
+        "formula"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "yes",
+      "status": "provisional"
+    },
+    "r07a-q77": {
+      "primary": "strategy.finance",
+      "topics": [
+        "operations.optimization"
+      ],
+      "skills": [
+        "optimization"
+      ],
+      "calculation": "yes",
+      "quick": "no",
+      "paper": "yes",
+      "status": "provisional"
+    },
+    "r07a-q78": {
+      "primary": "strategy.law",
+      "topics": [
+        "law.copyright"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q79": {
+      "primary": "strategy.law",
+      "topics": [
+        "law.design_act"
+      ],
+      "skills": [
+        "knowledge"
+      ],
+      "calculation": "no",
+      "quick": "yes",
+      "paper": "no",
+      "status": "provisional"
+    },
+    "r07a-q80": {
+      "primary": "strategy.law",
+      "topics": [
+        "law.employment"
+      ],
+      "skills": [
+        "reading"
+      ],
+      "calculation": "no",
+      "quick": "no",
+      "paper": "no",
+      "status": "provisional"
+    }
+  }
+}
