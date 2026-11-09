@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "ap-tag-taxonomy-v1",
+  "description": "試験をまたいで使えるタグIDの試験運用。IPA分類との厳密な対応は別途レビューする。",
+  "dimensions": {
+    "primary": {
+      "label": "分類（学習用）",
+      "values": {
+        "tech.basic": "テクノロジ：基礎理論",
+        "tech.algorithm": "テクノロジ：アルゴリズム・プログラミング",
+        "tech.architecture": "テクノロジ：コンピュータ構成要素",
+        "tech.system": "テクノロジ：システム構成要素",
+        "tech.software": "テクノロジ：ソフトウェア",
+        "tech.hardware": "テクノロジ：ハードウェア",
+        "tech.media": "テクノロジ：ヒューマンインタフェース・メディア",
+        "tech.database": "テクノロジ：データベース",
+        "tech.network": "テクノロジ：ネットワーク",
+        "tech.security": "テクノロジ：セキュリティ",
+        "tech.development": "テクノロジ：システム開発技術",
+        "management.project": "マネジメント：プロジェクトマネジメント",
+        "management.service": "マネジメント：サービスマネジメント",
+        "management.audit": "マネジメント：システム監査",
+        "strategy.system": "ストラテジ：システム戦略",
+        "strategy.business": "ストラテジ：経営戦略",
+        "strategy.manufacturing": "ストラテジ：ビジネスインダストリ",
+        "strategy.finance": "ストラテジ：経営・財務",
+        "strategy.law": "ストラテジ：企業と法務"
+      }
+    },
+    "topics": {
+      "label": "学習テーマ（複数選択）",
+      "values": {
+        "logic.boolean": "論理演算",
+        "logic.karnaugh_map": "カルノー図",
+        "performance.queueing": "待ち行列",
+        "performance.utilization": "稼働率・利用率",
+        "ml.classification_metrics": "機械学習の評価指標",
+        "network.error_detection": "誤り検出・CRC",
+        "algorithm.memory_allocation": "メモリ割当アルゴリズム",
+        "algorithm.search": "探索アルゴリズム",
+        "programming.languages": "プログラミング言語",
+        "architecture.instruction_set": "命令セット・並列化",
+        "architecture.memory": "メモリ構成",
+        "hardware.timer": "タイマー・計数回路",
+        "architecture.parallel_computing": "並列計算・HPC",
+        "infrastructure.iac": "IaC",
+        "reliability.metrics": "信頼性指標",
+        "capacity.planning": "キャパシティプランニング",
+        "os.scheduling": "ジョブスケジューリング",
+        "os.synchronization": "排他制御",
+        "os.threads": "スレッドセーフ",
+        "os.deadlock": "デッドロック",
+        "architecture.cache": "キャッシュ置換",
+        "electronics.power": "回路・電力",
+        "logic.circuit": "論理回路",
+        "ux.design_patterns": "UIデザインパターン",
+        "media.sampling": "標本化定理",
+        "db.nosql": "NoSQL",
+        "db.index": "データベースの索引",
+        "db.view": "SQL・ビュー",
+        "db.transaction": "トランザクション・MVCC",
+        "network.throughput": "通信時間・スループット",
+        "network.proxy": "プロキシ",
+        "network.addressing": "IPアドレス・CIDR",
+        "network.protocol": "TCP・UDP",
+        "network.switching": "L2スイッチ・STP",
+        "network.error_rate": "ビット誤り率",
+        "security.killchain": "サイバーキルチェーン",
+        "security.certificate": "電子証明書・PKI",
+        "security.side_channel": "サイドチャネル攻撃",
+        "security.incident_response": "CSIRT・PSIRT",
+        "security.management": "情報セキュリティマネジメント",
+        "security.cloud_posture": "CSPM",
+        "security.port_scan": "ポートスキャン",
+        "security.forensics": "デジタルフォレンジックス",
+        "security.email_authentication": "DKIM・メール認証",
+        "development.requirements": "要件定義・ペルソナ",
+        "development.uml": "UML",
+        "quality.defect_estimation": "欠陥数の推定",
+        "web.pwa": "PWA",
+        "law.copyright": "著作権",
+        "pm.scope": "プロジェクトスコープ・WBS",
+        "pm.team": "チーム形成",
+        "pm.resource_estimation": "工数・要員・人件費",
+        "pm.decision_tree": "デシジョンツリー・期待値",
+        "itsm.availability": "可用性管理・FTA",
+        "itsm.problem_management": "問題管理",
+        "hardware.cooling": "液浸冷却",
+        "audit.terminology": "システム監査の用語",
+        "audit.follow_up": "監査フォローアップ",
+        "audit.control": "監査・コントロール",
+        "pm.program_management": "プログラムマネジメント",
+        "strategy.soa": "SOA",
+        "data.analytics": "データ分析手法",
+        "finance.payback": "投資回収期間法",
+        "strategy.scoring": "多基準評価・重み付け",
+        "pm.contracts": "契約・責任分担",
+        "marketing.4p4c": "マーケティング4P・4C",
+        "strategy.bsc": "バランススコアカード",
+        "strategy.feasibility": "フィージビリティスタディ",
+        "strategy.ansoff": "アンゾフの成長マトリクス",
+        "manufacturing.mes": "MES",
+        "manufacturing.plm": "PLM",
+        "iot.lpwa": "LPWA・IoT",
+        "inventory.eoq": "経済的発注量",
+        "operations.optimization": "最適化・利益最大化",
+        "finance.balance_sheet": "貸借対照表・自己資本比率",
+        "law.design_act": "意匠法",
+        "law.employment": "労働法"
+      }
+    },
+    "skills": {
+      "label": "解法",
+      "values": {
+        "knowledge": "知識・用語判別",
+        "quantitative": "数値計算",
+        "logic": "論理操作・推論",
+        "reading": "長文・状況読解",
+        "diagram": "図表読解",
+        "formula": "数式の適用",
+        "optimization": "最適化・比較",
+        "code": "コード／SQL読解"
+      }
+    },
+    "calculation": {
+      "label": "計算・論理的導出の要否",
+      "values": {
+        "yes": "計算・論理的導出あり",
+        "no": "計算不要",
+        "unknown": "未判定"
+      }
+    },
+    "quick": {
+      "label": "短時間・片手向き",
+      "values": {
+        "yes": "短時間演習の候補",
+        "no": "じっくり解く",
+        "unknown": "未判定"
+      }
+    },
+    "paper": {
+      "label": "筆記・メモ",
+      "values": {
+        "yes": "筆記推奨",
+        "no": "原則不要",
+        "unknown": "未判定"
+      }
+    }
+  },
+  "guidance": "短時間候補は推定であり、実測解答時間ではない。未判定は計算不要として扱わない。"
+}
