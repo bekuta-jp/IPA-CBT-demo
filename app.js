@@ -8,6 +8,7 @@ let questions=[], answers=[], flags=[], current=0, statusOpen=false;
 let running=false, finished=false, endAt=0, startedAt=0, timer=null;
 let memoText='', memoHtml='', memoImeMode='romaji', results=null, config=null, selectedSetIds=[];
 let loadingSets=false, manifestLoaded=false;
+let tagCatalog=null,tagIndex={},tagLoadPromise=null;const tagCache=new Map();
 const esc = s => String(s ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const clamp = (n,lo,hi)=>Math.min(hi,Math.max(lo,n));
 function safeStore(data){try{localStorage.setItem(storageKey,JSON.stringify(data));return true}catch(_){return false}}
@@ -34,6 +35,59 @@ function safeImage(s){if(!s||typeof s!=='string')return '';
 }
 function normalizeAnswer(v){if(Number.isInteger(v)&&v>=0&&v<=3)return v;
  if(typeof v==='string'){const t=v.trim();if(letters.includes(t))return letters.indexOf(t);if(/^[0-3]$/.test(t))return Number(t);if(/^[A-D]$/i.test(t))return t.toUpperCase().charCodeAt(0)-65;}throw Error('answer は 0～3 または ア／イ／ウ／エ で指定してください。')}
+// タグは原本の問題JSONとは別のsidecarに保存する。未分類を「計算不要」として扱わない。
+function normalizeQuestionTags(t){
+ const x=t&&typeof t==='object'&&!Array.isArray(t)?t:{};
+ const tri=v=>['yes','no','unknown'].includes(v)?v:'unknown';
+ const arr=v=>Array.isArray(v)?[...new Set(v.filter(a=>typeof a==='string'&&/^[a-z][a-z0-9._-]{1,90}$/.test(a)))].slice(0,12):[];
+ return {primary:typeof x.primary==='string'&&/^[a-z][a-z0-9._-]{1,90}$/.test(x.primary)?x.primary:'',
+  topics:arr(x.topics),skills:arr(x.skills),calculation:tri(x.calculation),quick:tri(x.quick),paper:tri(x.paper),
+  status:['reviewed','provisional','unclassified'].includes(x.status)?x.status:'unclassified'};
+}
+async function ensureTagCatalog(){
+ if(tagLoadPromise)return tagLoadPromise;
+ if(location.protocol==='file:')return;
+ tagLoadPromise=(async()=>{
+  const [a,b]=await Promise.all([fetch('./tags/index.json',{cache:'no-store'}),fetch('./tags/taxonomy.json',{cache:'no-store'})]);
+  if(!a.ok||!b.ok)throw Error('タグ定義の取得に失敗しました。');
+  const i=await a.json(),t=await b.json();
+  if(i.schemaVersion!=='ap-tag-index-v1'||t.schemaVersion!=='ap-tag-taxonomy-v1')throw Error('タグ定義のバージョンが異なります。');
+  tagIndex=i.sets||{};tagCatalog=t;
+  renderTagTopicOptions();
+ })();
+ return tagLoadPromise;
+}
+function renderTagTopicOptions(){
+ const el=$('tag-topic');if(!el||!tagCatalog)return;
+ const prev=el.value||'all',names=tagCatalog.dimensions?.topics?.values||{};
+ el.innerHTML='<option value="all">すべてのテーマ</option>'+Object.entries(names).sort((a,b)=>a[1].localeCompare(b[1],'ja')).map(([id,label])=>'<option value="'+esc(id)+'">'+esc(label)+'</option>').join('');
+ el.value=Object.hasOwn(names,prev)?prev:'all';
+}
+async function attachSidecarTags(set){
+ await ensureTagCatalog();
+ const file=tagIndex[set.id];
+ if(!file)return set;
+ if(typeof file!=='string'||!/^tags\/[a-zA-Z0-9/_-]+\.json$/.test(file)||file.includes('..'))throw Error('タグファイルの場所が不正です。');
+ let sidecar=tagCache.get(file);
+ if(!sidecar){const r=await fetch('./'+file,{cache:'no-store'});if(!r.ok)throw Error(set.title+' のタグが読み込めません（HTTP '+r.status+'）。');
+  sidecar=await r.json();if(sidecar.schemaVersion!=='ap-tags-v1'||sidecar.setId!==set.id||!sidecar.questions||typeof sidecar.questions!=='object')throw Error('タグデータが問題セットと一致しません。');
+  tagCache.set(file,sidecar);
+ }
+ for(const q of set.questions)if(Object.hasOwn(sidecar.questions,q.id))q.tags=normalizeQuestionTags(sidecar.questions[q.id]);
+ return set;
+}
+function selectedTagFilters(){return {calculation:$('tag-calculation')?.value||'all',quick:!!$('tag-quick')?.checked,topic:$('tag-topic')?.value||'all'}}
+function matchesTagFilter(q,f){
+ const t=q.tags||normalizeQuestionTags(null);
+ return (f.calculation==='all'||t.calculation===f.calculation)&&(!f.quick||(t.quick==='yes'&&t.calculation==='no'&&t.paper==='no'))&&
+   (f.topic==='all'||t.topics.includes(f.topic));
+}
+function showTagHint(){const x=$('tag-hint');if(!x)return;const f=selectedTagFilters();
+ x.textContent=f.quick?'短時間向け（計算不要・筆記不要）だけを選びます。未分類問題は除外されます。':
+ (f.calculation!=='all'||f.topic!=='all')?'タグがある問題から抽出します。現在、公式過去問では2025年秋期80問を暫定分類しています。':
+ '絞り込みなし：タグ未分類の問題も出題されます。';
+}
+
 function normalizeSet(raw,origin='custom'){
  if(!raw||typeof raw!=='object'||Array.isArray(raw))throw Error('セットは {id,title,questions:[...]} の形式で指定してください。');
  if(!Array.isArray(raw.questions)||raw.questions.length<1||raw.questions.length>2000)throw Error('questions は1～2000問の配列にしてください。');
@@ -54,7 +108,7 @@ function normalizeSet(raw,origin='custom'){
    const src=String(q.source||defaultSource);
    return {id:String(q.id||i+1),number:originalNo,topic:String(q.topic||'一般'),stem,code:String(q.code||''),image:safeImage(q.image),
    options:[...options],optionImages:Array.from({length:4},(_,k)=>safeImage(q.optionImages?.[k])),answer,imageOnly:!!q.imageOnly,
-   explanation:String(q.explanation||''),source:src,modified:!!q.modified};
+   explanation:String(q.explanation||''),source:src,modified:!!q.modified,tags:normalizeQuestionTags(q.tags)};
   }catch(e){throw Error(`${title} の${i+1}問目：${e.message}`)}
  });
  return {id,title,year,season,sourceType,exam:String(raw.exam||'AP'),questions:qlist,count:qlist.length,origin};
@@ -147,9 +201,12 @@ function showStart(){
  <p class="setup-prompt">終了後、画面には点数のみ表示します。問題・模範解答・自分の解答はJSON／Markdownで保存してLLMに渡せます。</p>`, 'setup');
  $('year-filter').onchange=renderCardsOnly;$('season-filter').onchange=renderCardsOnly;$('type-filter').onchange=renderCardsOnly;
  document.querySelectorAll('[name="set-mode"]').forEach(x=>x.addEventListener('change',()=>{if(x.checked&&x.value==='single'&&selectedSetIds.length>1)selectedSetIds=[selectedSetIds[0]];document.querySelectorAll('[name="q-order"]').forEach(r=>{r.disabled=x.value==='multi'&&x.checked;});renderCardsOnly()}));
+ $('tag-calculation').onchange=showTagHint;$('tag-quick').onchange=showTagHint;$('tag-topic').onchange=showTagHint;
+ $('quick-preset').onclick=()=>{const f=$('tag-calculation');f.value='no';$('tag-quick').checked=true;$('limit-count').value='10';$('limit-time').value='10';const q=document.querySelector('[name="q-order"][value="random"]');if(q&&!q.disabled)q.checked=true;showTagHint()};
+ showTagHint();
  $('file-input').onchange=importFiles;$('start-btn').onclick=beginFromSelection;
  if($('resume-btn'))$('resume-btn').onclick=()=>{if(restore()){closeModal();refresh();if(running){tickTimer();timer=setInterval(tickTimer,500)}}};
- renderSetupSets();loadManifest();
+ renderSetupSets();loadManifest();ensureTagCatalog().catch(e=>{console.warn('タグ定義を読み込めませんでした',e)});
 }
 async function importFiles(e){const files=[...e.target.files];const status=$('file-status');if(!files.length)return;let n=0,errors=[];
  for(const f of files){try{
@@ -164,13 +221,13 @@ async function importFiles(e){const files=[...e.target.files];const status=$('fi
  status.classList.toggle('error',errors.length>0);status.textContent=`${n}セットの読み込みが完了しました。${errors.length?'\nエラー：'+errors.join('\n'):''}`;
  renderSetupSets();
 }
-async function fetchSet(set){if(set.questions)return set;
+async function fetchSet(set){if(set.questions)return attachSidecarTags(set);
  const resp=await fetch('./'+set.file,{cache:'no-store'});
  if(!resp.ok)throw Error(`${set.title}（HTTP ${resp.status}）`);
  const obj=await resp.json();
  if(obj.id!==set.id)throw Error(`${set.title}：一覧とデータのIDが一致しません。`);
  const parsed=normalizeSet(obj,'public');
- bank.set(set.id,parsed);return parsed;
+ bank.set(set.id,parsed);return attachSidecarTags(parsed);
 }
 function createExamQuestion(q,s,shuffleAnswers){
  // 原本画像に選択肢を含む問題は、解答ボタンのラベルだけを動かさない。
@@ -179,18 +236,19 @@ function createExamQuestion(q,s,shuffleAnswers){
   topic:q.topic,stem:q.stem,code:q.code,image:q.image,imageOnly:q.imageOnly,
   originalOptions:q.options,originalAnswer:q.answer,
   options:order.map(i=>q.options[i]),optionImages:order.map(i=>q.optionImages[i]),
-  optionOrder:order,answer:idx,explanation:q.explanation,source:q.source,modified:q.modified};
+  optionOrder:order,answer:idx,explanation:q.explanation,source:q.source,modified:q.modified,tags:q.tags};
 }
 async function beginFromSelection(){if(loadingSets)return;
  const mode=selectionMode(),qOrder=document.querySelector('[name="q-order"]:checked')?.value||'original',aOrder=document.querySelector('[name="a-order"]:checked')?.value||'original';
  const lim=clamp(Number($('limit-count').value)||80,1,80),rawTime=$('limit-time').value.trim(),minutes=rawTime?clamp(Number(rawTime)||1,1,400):null;
- const btn=$('start-btn'),notice=$('setup-status');let chosen=selectedBank();
+ const btn=$('start-btn'),notice=$('setup-status');let chosen=selectedBank(),tagFilters=selectedTagFilters();
  if(!chosen.length){notice.textContent='少なくとも1つの問題セットを選択してください。';notice.className='status-message error';return}
  if(mode==='single'&&chosen.length!==1){notice.textContent='単一回モードでは1セットだけを選択してください。';notice.className='status-message error';return}
  loadingSets=true;btn.disabled=true;btn.textContent='問題セットを確認中…';notice.className='status-message';notice.textContent='読み込み中';
  try{
   chosen=await Promise.all(chosen.map(fetchSet));
-  let pool=chosen.flatMap(s=>s.questions.map(q=>({q,s})));
+  let pool=chosen.flatMap(s=>s.questions.map(q=>({q,s}))).filter(({q})=>matchesTagFilter(q,tagFilters));
+  if(!pool.length)throw Error('指定したタグに該当する問題がありません。2025年秋期を含めるか、絞り込みを解除してください。');
   // 複数回に同じ問題文・選択肢があるときのみ重複排除する。
   if(mode==='multi'){const seen=new Set();pool=pool.filter(({q})=>{const k=JSON.stringify([q.stem,q.options]);if(seen.has(k))return false;seen.add(k);return true;})}
   if(!pool.length)throw Error('選択したセットに問題がありません。');
@@ -199,7 +257,7 @@ async function beginFromSelection(){if(loadingSets)return;
   pool=pool.slice(0,lim);
   const qs=pool.map(({q,s})=>createExamQuestion(q,s,aOrder==='random'));
   const mins=minutes||Math.max(1,Math.ceil(qs.length*150/80));
-  start(qs,mins,{setMode:mode,questionOrder:mode==='multi'?'random':qOrder,choiceOrder:aOrder,questionLimit:lim,minutes:mins,sourceSetIds:chosen.map(s=>s.id),sourceSetTitles:chosen.map(s=>s.title)});
+  start(qs,mins,{setMode:mode,questionOrder:mode==='multi'?'random':qOrder,choiceOrder:aOrder,questionLimit:lim,minutes:mins,sourceSetIds:chosen.map(s=>s.id),sourceSetTitles:chosen.map(s=>s.title),tagFilters,eligibleCount:pool.length});
  }catch(e){notice.className='status-message error';notice.textContent='開始できません：'+e.message}finally{loadingSets=false;if($('start-btn')){$('start-btn').disabled=false;$('start-btn').textContent='試験開始'}}
 }
 function start(qs,mins,conf){clearInterval(timer);questions=qs;answers=Array(qs.length).fill(null);flags=Array(qs.length).fill(false);current=0;statusOpen=false;running=true;finished=false;results=null;config=conf;
@@ -259,7 +317,7 @@ function resultData(){if(!finished||!results)throw Error('試験はまだ終了�
  answered:results.answered,unanswered:questions.length-results.answered,elapsedSeconds:results.elapsedSeconds,autoEnded:results.auto},
  questions:questions.map((q,i)=>{
   const a=answers[i],orig=a===null?null:q.optionOrder[a];
-  return {sequence:i+1,id:q.uid,sourceSetId:q.setId,sourceSetTitle:q.setTitle,originalNumber:q.originalNumber,topic:q.topic,
+  return {sequence:i+1,id:q.uid,sourceSetId:q.setId,sourceSetTitle:q.setTitle,originalNumber:q.originalNumber,topic:q.topic,tags:q.tags||normalizeQuestionTags(null),
    source:q.source,modified:q.modified,question:q.stem,code:q.code,image:q.image?new URL(q.image,location.href).href:'',imageOnly:q.imageOnly,
    displayedOptions:q.options.map((text,k)=>({label:letters[k],text,image:q.optionImages?.[k]||'',originalLabel:letters[q.optionOrder[k]]})),
    originalOptions:q.originalOptions.map((text,k)=>({label:letters[k],text})),
@@ -278,6 +336,7 @@ function markdownReport(wrongOnly){const data=resultData(),qs=wrongOnly?data.que
  for(const q of qs){out.push(``,`### 問${q.sequence} ／ ${q.sourceSetTitle}・元の問${q.originalNumber} ／ ${q.topic}`,
  `- 出典: ${q.source}${q.modified?'（一部改変あり）':''}`,
  `- 問題:`,q.question);
+  if(q.tags?.status&&q.tags.status!=='unclassified'){out.push('- タグ: '+q.tags.topics.map(t=>tagCatalog?.dimensions?.topics?.values?.[t]||t).join('、')+' / 計算:'+q.tags.calculation+' / 短時間候補:'+q.tags.quick+'（暫定）')}
   if(q.code)out.push('```text',q.code,'```');if(q.image)out.push(`- IPA問題画像（数式・表・図・選択肢の原本表示。原文確認はこちらが優先）: ${q.image}`);
   for(const o of q.displayedOptions){out.push(`- ${o.label}: ${o.text}${o.image?' [画像: '+o.image+']':''} （元の${o.originalLabel}）`)}
   out.push(`- 私の解答: ${q.userAnswer?q.userAnswer.displayedLabel+'：'+q.userAnswer.text:'未解答'}`,
