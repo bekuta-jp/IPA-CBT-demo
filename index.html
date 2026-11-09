@@ -121,6 +121,13 @@ body.exam-running .q-scroll img{-webkit-user-drag:none;user-drag:none;pointer-ev
 .exam-set-group .set-item{margin:0}
 .exam-set-group input[type=radio],.exam-set-group input[type=checkbox]{width:18px;height:18px;accent-color:#174e83;flex:0 0 auto}
 .badge-real{display:inline-block;background:#dbece2;color:#205c39;border-radius:12px;padding:2px 8px;margin-left:7px;font-size:11px}
+
+/* 受験時の操作に合わせた見直しフラグ表示（2026-11） */
+#answer-pane #choices{position:relative}
+#answer-pane.review-marked #choices::before{
+  content:"";position:absolute;top:0;bottom:0;left:-9px;width:4px;
+  background:#d12f45;pointer-events:none;
+}
 </style>
 </head>
 <body>
@@ -133,7 +140,7 @@ body.exam-running .q-scroll img{-webkit-user-drag:none;user-drag:none;pointer-ev
   <main id="workspace">
    <section id="question-pane"><div class="zoomrow"><label for="zoom">拡大・縮小</label><input type="range" min="80" max="160" step="5" value="100" id="zoom"><span id="zoom-number">100 %</span></div><div class="q-scroll" id="question-scroll"><article class="q-body" id="question-body"></article></div></section>
    <div id="splitter" title="左右の表示幅をドラッグして変更"></div>
-   <aside id="answer-pane"><label class="ah"><input id="review-check" type="checkbox" aria-label="この問題を後で見直す"><span id="answer-title">1 ページ目</span></label><div id="choices"></div></aside>
+   <aside id="answer-pane"><label class="ah"><input id="review-check" type="checkbox" aria-label="この問題を後で見直す"><span id="answer-title">問1</span></label><div id="choices"></div></aside>
    <section id="status-pane"><div class="status-main" id="status-grid"></div><div class="status-key"><div class="keyrow"><span class="swatch"></span>未解答</div><div class="keyrow"><span class="swatch green"></span>解答済み</div><div class="keyrow"><span class="swatch red"></span>後で見直すもの</div><div class="keyrow"><span class="swatch yellow"></span>解答中</div></div></section>
   </main>
   <footer id="foot"><button class="btn" id="status-btn">解答状況</button><button class="btn light" id="calc-btn">電卓</button><button class="btn light push" id="flag-btn">後で見直す</button><button class="btn" id="prev-btn">前の問題</button><button class="btn" id="next-btn">次の問題</button></footer>
