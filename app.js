@@ -42,6 +42,7 @@ function normalizeQuestionTags(t){
  const arr=v=>Array.isArray(v)?[...new Set(v.filter(a=>typeof a==='string'&&/^[a-z][a-z0-9._-]{1,90}$/.test(a)))].slice(0,12):[];
  return {primary:typeof x.primary==='string'&&/^[a-z][a-z0-9._-]{1,90}$/.test(x.primary)?x.primary:'',
   topics:arr(x.topics),skills:arr(x.skills),calculation:tri(x.calculation),quick:tri(x.quick),paper:tri(x.paper),
+  difficulty:Number.isInteger(x.difficulty)&&x.difficulty>=1&&x.difficulty<=5?x.difficulty:null,
   status:['reviewed','provisional','unclassified'].includes(x.status)?x.status:'unclassified'};
 }
 async function ensureTagCatalog(){
