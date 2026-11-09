@@ -193,6 +193,15 @@ function showStart(){
  </section><section class="setup-section"><h2>② 選択肢と試験時間</h2>
  <div class="settings-grid"><fieldset class="fieldset"><legend>選択肢の順序</legend><label><input type="radio" name="a-order" value="original" checked> 原順（ア→エ）</label><label><input type="radio" name="a-order" value="random"> 選択肢もランダム</label><small>※公式問題画像のセットでは、選択肢が画像内に含まれるため原順固定です。</small></fieldset>
  <fieldset class="fieldset"><legend>出題数・制限時間</legend><div class="setup-controls"><label>問題数 <input type="number" id="limit-count" min="1" max="80" value="80"></label><label>時間（分） <input type="number" id="limit-time" min="1" max="400" placeholder="自動"></label></div><small>時間空欄：80問150分を基準に自動調整。選択問題が不足すると出題数は少なくなります。</small></fieldset></div>
+ <fieldset class="fieldset tag-filter-box" style="margin-top:12px"><legend>タグ別出題（2025年秋期80問で試験運用）</legend>
+ <div class="setup-controls">
+  <label>計算の要否 <select id="tag-calculation"><option value="all">指定なし（未分類を含む）</option><option value="yes">計算・論理的導出あり</option><option value="no">計算不要</option></select></label>
+  <label>学習テーマ <select id="tag-topic"><option value="all">すべてのテーマ</option></select></label>
+  <label class="tag-check"><input id="tag-quick" type="checkbox"> 短時間で解ける候補だけ（計算・筆記不要）</label>
+  <button type="button" class="btn light" id="quick-preset">片手で10問（10分）</button>
+ </div>
+ <div id="tag-hint" class="setup-prompt">タグを指定しない場合はすべての問題を出題します。</div>
+ </fieldset>
  </section><section class="setup-section"><h2>③ 自作・追加の問題を読み込む</h2>
  <label for="file-input">JSONファイル（複数選択可）</label><input id="file-input" type="file" accept=".json,application/json" multiple>
  <div class="import-note">読み込んだ問題セットはこの端末だけで利用します。GitHubへ送信されません。<br>形式は同梱の <b>examples/custom-set.json</b> を参照。</div><div class="status-message" id="file-status"></div></section>
