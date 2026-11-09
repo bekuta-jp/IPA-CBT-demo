@@ -32,6 +32,7 @@ def main():
                 assert all(v in dims[d]["values"] for v in t[d]),qid
             assert all(t.get(d) in tri for d in ("calculation","quick","paper")),qid
             assert t.get("status") in valid,qid
+            assert t.get("difficulty") is None or (type(t["difficulty"]) is int and 1<=t["difficulty"]<=5),qid
             assert t["quick"]!="yes" or (t["calculation"]=="no" and t["paper"]=="no"),qid
         print(f"PASS {set_id}: {len(tags)} tagged, "+str(sum(t["calculation"]=="yes" for t in tags.values()))+
               " calculation, "+str(sum(t["quick"]=="yes" for t in tags.values()))+" quick")
