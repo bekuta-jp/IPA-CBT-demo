@@ -1,0 +1,500 @@
+{
+  "id": "ap-b-original-demo-11",
+  "title": "科目B 操作練習・オリジナル11問（非公式）",
+  "year": "",
+  "season": "",
+  "source": "自作オリジナル問題。IPA公式過去問ではありません。",
+  "description": "大問選択と5種の入力方式・部分採点の動作確認用。公式問題ではありません。",
+  "requiredCount": 1,
+  "selectCount": 5,
+  "questions": [
+    {
+      "number": 1,
+      "required": true,
+      "title": "情報セキュリティ",
+      "content": [
+        {
+          "type": "h",
+          "text": "【ログ監視システムの改善】"
+        },
+        {
+          "type": "p",
+          "text": "A社では、社内システムへの不正ログインを検出するため、認証ログとネットワークログを統合して分析する仕組みを検討している。次の表は、ある日のアクセス履歴である。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "日時",
+            "利用者ID",
+            "送信元",
+            "認証結果"
+          ],
+          "rows": [
+            [
+              "09:10",
+              "user01",
+              "203.0.113.10",
+              "成功"
+            ],
+            [
+              "09:11",
+              "user02",
+              "203.0.113.10",
+              "失敗"
+            ],
+            [
+              "09:12",
+              "user03",
+              "203.0.113.10",
+              "失敗"
+            ],
+            [
+              "09:13",
+              "user04",
+              "203.0.113.10",
+              "失敗"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "セキュリティ担当者は、パスワードスプレー攻撃の検出と対処を計画した。"
+        },
+        {
+          "type": "h",
+          "text": "【設問】"
+        },
+        {
+          "type": "p",
+          "text": "設問1：ログを相関分析する機能について、最も適切な用語を選べ。"
+        },
+        {
+          "type": "p",
+          "text": "設問2：複数IDへの不正な試行を制限する仕組みを答えよ。"
+        },
+        {
+          "type": "p",
+          "text": "設問3：上記の攻撃を検出すべき理由を35字以内で述べよ。"
+        }
+      ],
+      "fields": [
+        {
+          "id": "a",
+          "label": "設問1 (1)",
+          "prompt": "ログの集約・相関分析に適するものを選べ。",
+          "type": "dropdown",
+          "maxLength": 20,
+          "weight": 1,
+          "reference": "SIEM",
+          "options": [
+            "SIEM",
+            "WAF",
+            "VPN",
+            "DNS"
+          ],
+          "correct": "SIEM",
+          "grading": "exact"
+        },
+        {
+          "id": "b",
+          "label": "設問2 (1)",
+          "prompt": "一定回数以上の失敗を検出して一時的に利用を停止する仕組みを答えよ。",
+          "type": "word",
+          "maxLength": 20,
+          "weight": 1,
+          "reference": "アカウントロックアウト",
+          "correct": [
+            "アカウントロックアウト",
+            "ロックアウト"
+          ],
+          "grading": "exact"
+        },
+        {
+          "id": "c",
+          "label": "設問3 (1)",
+          "prompt": "この攻撃を検出する必要がある理由を35字以内で説明せよ。",
+          "type": "long",
+          "maxLength": 35,
+          "weight": 1,
+          "reference": "同じパスワードを複数の利用者IDに対して試行されるため。"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "アルゴリズム",
+      "content": [
+        {
+          "type": "h",
+          "text": "【処理回数の評価】"
+        },
+        {
+          "type": "p",
+          "text": "次の処理を行うとき、work()の実行回数と計算量を考察する。"
+        },
+        {
+          "type": "code",
+          "text": "for i = 0 to n - 1:\n    j = 1\n    while j < n:\n        work()\n        j = j * 2"
+        },
+        {
+          "type": "p",
+          "text": "設問1：漸近計算量として適切なものを選べ。"
+        },
+        {
+          "type": "p",
+          "text": "設問2：内側ループの変数jが増える規則を説明せよ。"
+        }
+      ],
+      "fields": [
+        {
+          "id": "a",
+          "label": "設問1",
+          "prompt": "最も適切な計算量を選べ。",
+          "type": "single",
+          "maxLength": 40,
+          "weight": 2,
+          "reference": "O(n log n)",
+          "options": [
+            "O(1)",
+            "O(log n)",
+            "O(n log n)",
+            "O(n²)"
+          ],
+          "correct": "O(n log n)",
+          "grading": "exact"
+        },
+        {
+          "id": "b",
+          "label": "設問2",
+          "prompt": "内側ループの動きを40字以内で説明せよ。",
+          "type": "long",
+          "maxLength": 40,
+          "weight": 1,
+          "reference": "jを2倍にするため反復回数は対数オーダになる。"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "ネットワーク",
+      "content": [
+        {
+          "type": "h",
+          "text": "【通信設計】"
+        },
+        {
+          "type": "p",
+          "text": "社内LANと外部ネットワークの境界に通信中継装置を配置する。必要な通信のみを許可し、Webアクセスを保護する。"
+        },
+        {
+          "type": "p",
+          "text": "設問1：宛先ネットワークに応じてパケットの転送先を決定する機能を持つ機器を答えよ。"
+        },
+        {
+          "type": "p",
+          "text": "設問2：許可する通信を限定する際の考慮点を説明せよ。"
+        }
+      ],
+      "fields": [
+        {
+          "id": "a",
+          "label": "設問1",
+          "prompt": "装置名を答えよ。",
+          "type": "word",
+          "maxLength": 12,
+          "weight": 1,
+          "reference": "ルータ",
+          "correct": [
+            "ルータ",
+            "ルーター"
+          ],
+          "grading": "exact"
+        },
+        {
+          "id": "b",
+          "label": "設問2",
+          "prompt": "アクセス制御の考え方を40字以内で説明せよ。",
+          "type": "short",
+          "maxLength": 40,
+          "weight": 1,
+          "reference": "必要最小限の通信を許可し、それ以外は拒否する。"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "データベース",
+      "content": [
+        {
+          "type": "h",
+          "text": "【資格を保有していない社員】"
+        },
+        {
+          "type": "p",
+          "text": "次の社員表と資格表がある。資格を一件も保有しない社員の名前を求めるSQLを作成する。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "社員ID",
+            "社員名"
+          ],
+          "rows": [
+            [
+              "1",
+              "田中"
+            ],
+            [
+              "2",
+              "鈴木"
+            ],
+            [
+              "3",
+              "佐藤"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "資格ID",
+            "社員ID"
+          ],
+          "rows": [
+            [
+              "101",
+              "1"
+            ],
+            [
+              "102",
+              "3"
+            ]
+          ]
+        },
+        {
+          "type": "code",
+          "text": "SELECT 社員名 FROM 社員 S\nWHERE NOT EXISTS (\n SELECT 1 FROM 資格 Q\n WHERE Q.社員ID = S.社員ID\n);"
+        },
+        {
+          "type": "p",
+          "text": "設問：検索結果と副問合せの特徴を答えよ。"
+        }
+      ],
+      "fields": [
+        {
+          "id": "a",
+          "label": "設問1",
+          "prompt": "抽出される社員を選べ。",
+          "type": "single",
+          "maxLength": 40,
+          "weight": 1,
+          "reference": "鈴木",
+          "options": [
+            "田中",
+            "鈴木",
+            "佐藤",
+            "該当なし"
+          ],
+          "correct": "鈴木",
+          "grading": "exact"
+        },
+        {
+          "id": "b",
+          "label": "設問2",
+          "prompt": "NOT EXISTSが真になる条件を30字以内で説明せよ。",
+          "type": "long",
+          "maxLength": 30,
+          "weight": 1,
+          "reference": "相関副問合せの結果が0行の場合。"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "システムアーキテクチャ",
+      "content": [
+        {
+          "type": "h",
+          "text": "【障害に強いシステム】"
+        },
+        {
+          "type": "p",
+          "text": "サーバを二重化して片方が停止してもサービス提供を続ける構成とした。"
+        },
+        {
+          "type": "p",
+          "text": "設問1：可用性を高める一般的な構成を選べ。"
+        },
+        {
+          "type": "p",
+          "text": "設問2：切替時に考慮するべき事項を述べよ。"
+        }
+      ],
+      "fields": [
+        {
+          "id": "a",
+          "label": "設問1",
+          "prompt": "二重化の構成で正しいものを一つ選べ。",
+          "type": "single",
+          "maxLength": 40,
+          "weight": 1,
+          "reference": "冗長構成",
+          "options": [
+            "冗長構成",
+            "単一構成",
+            "完全停止",
+            "オフライン処理"
+          ],
+          "correct": "冗長構成",
+          "grading": "exact"
+        },
+        {
+          "id": "b",
+          "label": "設問2",
+          "prompt": "切替時の設計上の考慮点を40字以内で述べよ。",
+          "type": "long",
+          "maxLength": 40,
+          "weight": 1,
+          "reference": "故障検知と切替までの時間を短縮し、データ整合性を確保する。"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "ITサービスマネジメント",
+      "content": [
+        {
+          "type": "h",
+          "text": "【インシデント管理】"
+        },
+        {
+          "type": "p",
+          "text": "利用者から障害が報告された。サービスデスクでは優先順位を決め、復旧後に根本原因を調査する。"
+        },
+        {
+          "type": "p",
+          "text": "設問1：優先順位を決める要素をすべて選べ。"
+        },
+        {
+          "type": "p",
+          "text": "設問2：インシデント管理と問題管理の目的の違いを述べよ。"
+        }
+      ],
+      "fields": [
+        {
+          "id": "a",
+          "label": "設問1",
+          "prompt": "優先順位に影響する要素をすべて選べ。",
+          "type": "multi",
+          "maxLength": 40,
+          "weight": 1,
+          "reference": "影響範囲・緊急度",
+          "options": [
+            "影響範囲",
+            "緊急度",
+            "担当者の好み",
+            "印刷物の色"
+          ],
+          "correct": [
+            "影響範囲",
+            "緊急度"
+          ],
+          "grading": "exact"
+        },
+        {
+          "id": "b",
+          "label": "設問2",
+          "prompt": "両者の違いを50字以内で説明せよ。",
+          "type": "long",
+          "maxLength": 50,
+          "weight": 1,
+          "reference": "インシデント管理は早期復旧、問題管理は原因究明と再発防止を目的とする。"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "プロジェクトマネジメント",
+      "content": [
+        {
+          "type": "h",
+          "text": "【スケジュール管理】"
+        },
+        {
+          "type": "p",
+          "text": "プロジェクトは複数の作業で構成され、作業の依存関係を考慮して工期を見積もる。"
+        },
+        {
+          "type": "p",
+          "text": "設問1：全体の工期を決定する最長経路を何というか。"
+        },
+        {
+          "type": "p",
+          "text": "設問2：その経路上で作業が遅れた際の影響を述べよ。"
+        }
+      ],
+      "fields": [
+        {
+          "id": "a",
+          "label": "設問1",
+          "prompt": "該当する用語を答えよ。",
+          "type": "word",
+          "maxLength": 20,
+          "weight": 1,
+          "reference": "クリティカルパス",
+          "correct": [
+            "クリティカルパス"
+          ],
+          "grading": "exact"
+        },
+        {
+          "id": "b",
+          "label": "設問2",
+          "prompt": "工程の遅延の影響を説明せよ。",
+          "type": "short",
+          "maxLength": 45,
+          "weight": 1,
+          "reference": "ほかの対策を取らない場合、プロジェクト全体の完了が遅れる。"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "ソフトウェア設計",
+      "content": [
+        {
+          "type": "h",
+          "text": "【入力値の検証】"
+        },
+        {
+          "type": "p",
+          "text": "Webシステムでは、ユーザーから受け取る入力値をSQLに利用する。SQLインジェクション対策を検討する。"
+        },
+        {
+          "type": "p",
+          "text": "設問1：対策として有効なものを選べ。"
+        },
+        {
+          "type": "p",
+          "text": "設問2：権限設定の観点から追加すべき対策を述べよ。"
+        }
+      ],
+      "fields": [
+        {
+          "id": "a",
+          "label": "設問1",
+          "prompt": "SQLインジェクション対策で最も適切なものを選べ。",
+          "type": "dropdown",
+          "maxLength": 40,
+          "weight": 1,
+          "reference": "プレースホルダを使用する",
+          "options": [
+            "プレースホルダを使用する",
+            "平文でパスワードを記録する",
+            "入力制限をなくす",
+            "全ユーザーを管理者権限とする"
+          ],
+          "correct": "プレースホルダを使用する",
+          "grading": "exact"
+        },
+        {
