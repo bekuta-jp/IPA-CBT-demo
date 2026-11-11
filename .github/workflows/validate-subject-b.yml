@@ -1,0 +1,25 @@
+name: Validate Subject B
+on:
+  push:
+    paths:
+      - 'index.html'
+      - 'a.html'
+      - 'b.html'
+      - 'b.js'
+      - 'sets/b-demo.json'
+      - 'tools/validate_subject_b.py'
+      - '.github/workflows/validate-subject-b.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: JavaScript syntax
+        run: |
+          node --check b.js
+          node --check app.js
+      - name: Check Subject B question schema and routes
+        run: python tools/validate_subject_b.py
