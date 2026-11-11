@@ -183,7 +183,7 @@ function reset(){clearInterval(timer);running=false;finished=false;current=0;sta
 function showStart(){
  const resumeState=saved(),canResume=!!(resumeState?.running&&resumeState?.questions?.length);
  if(!selectedSetIds.length)selectedSetIds=[];
- modal(`<h1>応用情報技術者試験 CBT 科目A</h1><p>非公式・演習用。回別問題の原順・ランダム出題、選択肢シャッフル、解答結果のLLM向け出力に対応します。</p>
+ modal(`<div style="margin-bottom:14px"><a href="./index.html" style="font-weight:600;color:#205785">← トップページへ戻る</a></div><h1>応用情報技術者試験 CBT 科目A</h1><p>非公式・演習用。回別問題の原順・ランダム出題、選択肢シャッフル、解答結果のLLM向け出力に対応します。</p>
  <section class="setup-section"><h2>① 問題セットを選ぶ</h2>
  <div class="setup-controls"><label>表示年度 <select id="year-filter"><option value="all">全年度</option></select></label>
  <label>期 <select id="season-filter"><option value="all">全期</option></select></label>
