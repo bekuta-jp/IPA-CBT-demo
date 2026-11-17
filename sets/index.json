@@ -97,5 +97,86 @@
     "sourceType": "ipa",
     "count": 80,
     "file": "sets/ap-2024-autumn.json"
+  },
+  {
+    "id": "ap-2016-spring",
+    "title": "2016年度 春期 応用情報 午前［公式問題画像］",
+    "year": 2016,
+    "season": "春期",
+    "sourceType": "ipa",
+    "count": 80,
+    "file": "sets/ap-2016-spring.json"
+  },
+  {
+    "id": "ap-2016-autumn",
+    "title": "2016年度 秋期 応用情報 午前［公式問題画像］",
+    "year": 2016,
+    "season": "秋期",
+    "sourceType": "ipa",
+    "count": 80,
+    "file": "sets/ap-2016-autumn.json"
+  },
+  {
+    "id": "ap-2017-spring",
+    "title": "2017年度 春期 応用情報 午前［公式問題画像］",
+    "year": 2017,
+    "season": "春期",
+    "sourceType": "ipa",
+    "count": 80,
+    "file": "sets/ap-2017-spring.json"
+  },
+  {
+    "id": "ap-2017-autumn",
+    "title": "2017年度 秋期 応用情報 午前［公式問題画像］",
+    "year": 2017,
+    "season": "秋期",
+    "sourceType": "ipa",
+    "count": 80,
+    "file": "sets/ap-2017-autumn.json"
+  },
+  {
+    "id": "ap-2018-spring",
+    "title": "2018年度 春期 応用情報 午前［公式問題画像］",
+    "year": 2018,
+    "season": "春期",
+    "sourceType": "ipa",
+    "count": 80,
+    "file": "sets/ap-2018-spring.json"
+  },
+  {
+    "id": "ap-2018-autumn",
+    "title": "2018年度 秋期 応用情報 午前［公式問題画像］",
+    "year": 2018,
+    "season": "秋期",
+    "sourceType": "ipa",
+    "count": 80,
+    "file": "sets/ap-2018-autumn.json"
+  },
+  {
+    "id": "ap-2019-spring",
+    "title": "2019年度 春期 応用情報 午前［公式問題画像］",
+    "year": 2019,
+    "season": "春期",
+    "sourceType": "ipa",
+    "count": 80,
+    "file": "sets/ap-2019-spring.json"
+  },
+  {
+    "id": "ap-2019-autumn",
+    "title": "2019年度 秋期 応用情報 午前［公式問題画像］",
+    "year": 2019,
+    "season": "秋期",
+    "sourceType": "ipa",
+    "count": 80,
+    "file": "sets/ap-2019-autumn.json"
+  },
+  {
+    "id": "ap-2020-october",
+    "title": "2020年度 10月 応用情報 午前［公式問題画像］",
+    "year": 2020,
+    "season": "10月",
+    "sourceType": "ipa",
+    "count": 80,
+    "file": "sets/ap-2020-october.json"
   }
 ]

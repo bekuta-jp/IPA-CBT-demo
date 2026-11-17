@@ -1,0 +1,1613 @@
+{
+  "id": "ap-2017-autumn",
+  "title": "2017年度 秋期 応用情報 午前［公式問題画像］",
+  "year": 2017,
+  "season": "秋期",
+  "sourceType": "ipa",
+  "exam": "AP",
+  "sourceUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+  "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_ans.pdf",
+  "imageOnly": true,
+  "questions": [
+    {
+      "id": "2017-autumn-q01",
+      "number": 1,
+      "topic": "テクノロジ系",
+      "stem": "問1 相関係数に関する記述のうち, 適切なものはどれか。\nア 全ての標本点が正の傾きをもつ直線上にあるときは, 相関係数が 1 になる。\nイ 変量間の関係が線形のときは, 相関係数が0 になる。\nウ 変量問の関係が非線形のときは, 相関係数が負になる。\nエ 無相関のときは, 相関係数が 一1 になる。",
+      "image": "assets/ap-2017-autumn/q01.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問1 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.258
+    },
+    {
+      "id": "2017-autumn-q02",
+      "number": 2,
+      "topic": "テクノロジ系",
+      "stem": "問2 次の BNF において非終端記号 くA> から生成される文字列はどれか。\n<R == 0131619\n«RD #= 11417\nKR = 2/518\n<A> == (Rod | <A> (Rod | <B> <Re> | <C> «RD\n<B> == <R> | <A> <RD | <B> <Ro> | <C> GR\n<C>) = <B> | <A> <B> | <B> CRD | <C> (Rod\nア 123     イ 124     ウ 127     x 128",
+      "image": "assets/ap-2017-autumn/q02.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問2 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.363
+    },
+    {
+      "id": "2017-autumn-q03",
+      "number": 3,
+      "topic": "テクノロジ系",
+      "stem": "問3 四つのアルファベット a~d からと成るテキストがあり, 各アルファベットは2ビ\nットの固定長 2 進符号で符号化されている。このテキストにおける各アルファベッ\nトの出現確率を調べたところ, 表のとおりであった。各アルファベットの符号を表\nのような可変長 2 進符号に変換する場合, 符号化されたテキストの, 変換前に対す\nる変換後のビット列の長さの比は, およそ幾つか。\nmsト Te fe fe fa |\nWW*(%) | w | |» | 9\n[gg | 9 | m [uo | ml\nア 0.75          イ 0.85          ウ 090          エ 095",
+      "image": "assets/ap-2017-autumn/q03.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問3 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q04",
+      "number": 4,
+      "topic": "テクノロジ系",
+      "stem": "問4 UTF-8 の説明に関する記述として, 適切なものはどれか。\n\nア 1 文字を 1 バイトから 4 バイト (又は 6 バイト) までの可変長で表現しており,\nASCIT と上位互換性がある。\n\n4 2 バイトで表現する領域に収まらない文字は, 上位サロゲートと下位サロゲー\nトを組み合わせて 4 バイトで表現する。\n\nウ ASCH 文字だけを使用することが前提の電子メールで利用するために, 7 ビット\nで表現する。\n\nエ 各符号位置が4バイトの固定長で表現される符号化形式である。",
+      "image": "assets/ap-2017-autumn/q04.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問4 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q05",
+      "number": 5,
+      "topic": "テクノロジ系",
+      "stem": "問5 配列AH], AZ], …, Alm] で, AI1] を根とし, AL の左側の子を AL, 右側の\nFE A[27十1] とみなすことによって, 2 分木を表現する。このとき, 配列を先頭か\nら順に調べていくことは, 2 分木の探索のどれに当たるか。\nア 行きがけ順 GTM) 深さ優先探索\nイ 帰りがけ順 (ATID 深さ優先探索\nウ 通りがけ順 (中間順) 深さ優先探索\nエ 幅優先探索",
+      "image": "assets/ap-2017-autumn/q05.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問5 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q06",
+      "number": 6,
+      "topic": "テクノロジ系",
+      "stem": "FIG ノード 1て5 をもつグラフを隣接行列で表したもののうち, 木となるものはどれ\nか。ここで, 隣接行列の 行7列目の成分は, ノード 7 とノード7 を結ぶエッジがあ\nる場合は1, ない場合は 0 とする\nア (01001            イ (01001\n\n10100              10110\n01010              01000\n00101              01000\n10010              10000\n7 (01010            = (01100\n10100              10100\n01011              11011\n10100              00101\n00100              00110",
+      "image": "assets/ap-2017-autumn/q06.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問6 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.447
+    },
+    {
+      "id": "2017-autumn-q07",
+      "number": 7,
+      "topic": "テクノロジ系",
+      "stem": "問 7 fact⑰) は, 非負の整数ヶ々 に対してヵの階乗返す。fact ⑰) の再帰的な定義はどれ\nか。\nア if m=O then return 0 else return nX fact(@—1)\n¢ if n=0 then return 0 else return mX fact(+1)\n% if n=O then return 1 else return mX fact(—1)\nエエ if n=0 then return 1 else return zXfact⑰十1)",
+      "image": "assets/ap-2017-autumn/q07.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問7 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q08",
+      "number": 8,
+      "topic": "テクノロジ系",
+      "stem": "AS パイプライン制御を適切に表しているものはどれか。ここで, 図中の記号 D は解\n読, Eは実行, F は命令フェッチとする。\n7 和合[Flplg|\nfre   回回回\n3      回回回\nーーーーーーーーーーーーーーテ 時間\nィ wer [plrlgl\n2  回回回\n3    回回回\nーーーーーーーーーーーーーーーテ 時間\nッ en [gpl\n命令2 |FIDlEl|\nm3  回回回\nTT, 時間\n* #1 lplmlgl\na2 |DlFlE|\naes lplrlgl\n> 時間",
+      "image": "assets/ap-2017-autumn/q08.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問8 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q09",
+      "number": 9,
+      "topic": "テクノロジ系",
+      "stem": "問9 メモリインタリーブの説明はどれか。\nア CPU と磁気ディスク装置との間に半導体メネモリによるデータバッファを設けて,\n磁気ディスクアクセスの高速化を図る。\nイ 主記憶のデータの一部をキャッシュメモリにコピーすることによって, CPU と\n主記億とのアクセス速度のギャップを埋め, メモリアクセスの高速化を図る。\nウ 主記憶へのアクセスを高速化するために, アクセス要求」,データの読み書き及\nび後処理が終わってから, 次のメモリアクセスの処理に移る。\nエエ 主記憶を複数の独立したグループに分けて, 各グループに交互にアクセスする\nことによって, 主記憶へのアクセスの高速化を図る。",
+      "image": "assets/ap-2017-autumn/q09.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問9 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q10",
+      "number": 10,
+      "topic": "テクノロジ系",
+      "stem": "F410 ToT での活用が検討されている LPWA (Low Power, Wide Area) の特徴として, 適\n\n切なものはどれか。\n\nア 2 線だけで接続されるシリアル有線通信であり, 同じ基板上の回路及び LSI の\n間の通信に適している。\n\n4 60GHz 帯を使う近距離無線通信であり, 4K, 8K の映像などの大容量のデータ\nを高速伝送することに適している。\n\nウ 電力線を通信に使う通信技術であり, スマートメータの自動検針などに適して\nいる。\n\nエ バッテリ消費量が少なく, 一つの基地局で広範囲をカバーできる無線通信技術\nであり, 複数のセンサが同時につながるネットワークに適している。",
+      "image": "assets/ap-2017-autumn/q10.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問10 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q11",
+      "number": 11,
+      "topic": "テクノロジ系",
+      "stem": "間11 容量がZ Mバイトでアクセス時間がァナノ秒の命令キャッシュと, 容量が5 Mバ\n\nイトでアクセス時間が y ナノ秒の主記憶をもつシステムにおいて, CPU からみた,\n主記憶と命令キャッシュとを合わせた平均アクセス時間を表す式はどれか。ここで,\n読み込みたい命令コードがキャッシュに存在しない確率を > とし, キャッシュ管理\nに関するオーバヘッドは無視できるものとする。\n\nはのの の\nア  ato. * + G45?     イーの・タをオヶメタ\n\nrea    1ーの・5\nウ ato *+ G4p ウラ     =or-xt+(-n-y",
+      "image": "assets/ap-2017-autumn/q11.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問11 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q12",
+      "number": 12,
+      "topic": "テクノロジ系",
+      "stem": "問12 1 台のコンピュータで複数の仮想マシン環境を実現するための制御機能よどれか。\nア シストリックアレイ         イ デスクトップグリッド\nウ ハイパバイザ              エエ モノリシックカーネル",
+      "image": "assets/ap-2017-autumn/q12.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問12 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q13",
+      "number": 13,
+      "topic": "テクノロジ系",
+      "stem": "間13 MTBF を長くするよりも, MTTR を短くするのに役立つものはどれか。\nア エラーログ取得機能                       イ 記憶装置のビット誤り訂正機能\nウ 命令再試行機能                      エ 予防保守",
+      "image": "assets/ap-2017-autumn/q13.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問13 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q14",
+      "number": 14,
+      "topic": "テクノロジ系",
+      "stem": "問14 次のシステムにおいて, ピーク時間帯の CPU 使用率は何%か。ここで, トランザ\nクションはレコードアクセス処理と計算処理から成り。 レコードアクセスは CPU 処\n理だけで 1/0 は発生せず, OS のオーバヘッドは考慮しないものとする。また, 1 日\nのうち発生するトランザクション数が最大になる 1 時間をピーク時間帯と定義する。\n〔システムの概要)\n\nQ①) CPU数:1個\n\n2) 1日に発生する平均トランザクション数 : 54.000 件\n\n3) 1日のピーク時間帯におけるトランザクション数の割合 : 20%\n\n(《④ 1トランザクション当たりの平均レコードアクセス数 : 100 レコード\n\n© 1レコードアクセスに必要な平均 CPU 時間 : 1 ミリ秒\n\n© 1トランザクション当たりの計算処理に必要な平均 CPU 時間 : 100 ミリ秒\ny 20          イ 30          ウ 50          エ 60",
+      "image": "assets/ap-2017-autumn/q14.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問14 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q15",
+      "number": 15,
+      "topic": "テクノロジ系",
+      "stem": "FS ジョブの多重度が 1 で, 到着順にジョブが実行されるシステムにおいて, 表に示\nす状態のジョブAてCを処理するとき, ジョブCが到着してから実行が終了するま\nでのターンアラウンドタイムは何秒か。ここで, OS のオーバヘッドは考慮しないも\nのとする。\n単位 秒\n、            処理時間\n  BER | /導家生時)\n| A | oeo | 5 |\n| Bg | 2 | 6 |\nア 11        イ 12        ウ 13        エ 14",
+      "image": "assets/ap-2017-autumn/q15.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問15 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q16",
+      "number": 16,
+      "topic": "テクノロジ系",
+      "stem": "FIG リアルタイム OS において, 実行中のタスクがプリエンプションによって居移す\nる状態はどれか。\nア 休止状態   イ 実行可能状態 ウ 終了状態   エ 待ち状態",
+      "image": "assets/ap-2017-autumn/q16.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問16 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q17",
+      "number": 17,
+      "topic": "テクノロジ系",
+      "stem": "PNT ページング方式の仮想記憶において, ページ置換えの発生頻度が高くなり, シス\nテムの処理能力が急激に低下することがある。このような現象を何と呼ぶか。\nア スラッシング        イ スワップアウト\nウ フラグメンテーション      エエ ページフォールト",
+      "image": "assets/ap-2017-autumn/q17.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問17 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q18",
+      "number": 18,
+      "topic": "テクノロジ系",
+      "stem": "間18 CPU スケジューリングにおけるラウンドロビンスケジューリング方式に関する記\n述として, 適切なかものはどれか。\nア 自動制御システムなど, リアルタイムシステムのスケジューリングに適してい\nる。\nイ タイマ機能がないシステムにおいても, 簡単に実現することができる。\nウ タイムシェアリングシステムのスケジューリングに適している。\nエ タスクに優先順位を付けることによって, 容易に実現することができる。",
+      "image": "assets/ap-2017-autumn/q18.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問18 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q19",
+      "number": 19,
+      "topic": "テクノロジ系",
+      "stem": "間19 Hadoop の説明はどれか。\nア Javwa EE 仕様に準拠したアプリケーションサーバ\nイ Linux や Windows などの様々なプラットフォーム上で動作する Web サーバ\nウ 機能の豊富さが特徴の RDBMS\nエ 大規模なデータを分散処理するためのソフトウェアライブラリ",
+      "image": "assets/ap-2017-autumn/q19.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問19 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q20",
+      "number": 20,
+      "topic": "テクノロジ系",
+      "stem": "問29 SRAM と比較した場合の DRAM の特徴はどれか。\nア 主にキャッシュメモリとして使用される。\nイ データを保持するためのリフレッシュ又はアクセス動作が不要である。\nウ メモリセル構成が単純なので, ビット当たりの単価が安くなる。\nエエ メモリセルにフリップフロップを用いてデータを保存する。",
+      "image": "assets/ap-2017-autumn/q20.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問20 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q21",
+      "number": 21,
+      "topic": "テクノロジ系",
+      "stem": "問21 モータの速度制御おどに PWM (Pulse Width Modulation) 制御が用いられる。\nPWM の駆動波形を示したものはどれか。ここで, 波形は制御回路のポート出力であ\nり, 低域通過フィルタを通していないものとする。\nア SE\num 時間\n時間\n9 電圧 |\n時間\n工 電圧 |\n時間",
+      "image": "assets/ap-2017-autumn/q21.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問21 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q22",
+      "number": 22,
+      "topic": "テクノロジ系",
+      "stem": "問22 組込みシステムにおける, ウォッチドッグタイマの機能よどれか。\nア あらかじめ設定された一定時間内にタイマがクリアされなかった場合, システ\nム異常とみなしてシステムをリセット又は終了する。\nイ システム異常を検出した場合, タイマで設定された時間だけ待ってシステムに\n通知する。\nウ システム異常を検出した場合, マスカブル割込みでシステムに通知する。\nエエ システムが一定時間異常であった場合, 上位の管理プログラムを呼び出す。",
+      "image": "assets/ap-2017-autumn/q22.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問22 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": -0.266
+    },
+    {
+      "id": "2017-autumn-q23",
+      "number": 23,
+      "topic": "テクノロジ系",
+      "stem": "問23 入力マニ0 のときはアー4 ,了ニー を出力し, G=ニ1 のときはアニオ,\nアーを出力する回路はどれか。\nア               a\na         x      A         x\n本         2      B         Y\n@               @\nRD 4a         ¥    = 4         x\nB         ¥¢      B         ¥\né               @",
+      "image": "assets/ap-2017-autumn/q23.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問23 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q24",
+      "number": 24,
+      "topic": "テクノロジ系",
+      "stem": "間24 アクセシビリティ設計に関する規格である JIS X 8341-1:2010 (高齢者・障害者等\n配慮設計指針一情報通信における機器, ソフトウェア及びサービス一第 1 部 : 共通\n指針) を適用する目的のうち, 適切なものはどれか。\n\nア 全ての個人に対して, 等しい水準のアクセシピリティを達成できるようにする。\n\nイ 多様な人々に対して, 利用の状況を理解しながら, 多くの個人のアクセシビリ\nティ水準を改善できるようにする。\n\nウ 人間工学に関する規格が要求する水準よりも高いアクセシビリティを, 多くの\n人々に提供できるようにする。\n\nエ 平均的能力をもった人々に対して, 標準的なアクセシビリティが達成できるよ\nうにする。",
+      "image": "assets/ap-2017-autumn/q24.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問24 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q25",
+      "number": 25,
+      "topic": "テクノロジ系",
+      "stem": "問25 W3Cで仕様が定義され, 知形や円, 直線, 文字列などの図形オブジェクトを XML\n形式で記述し, Web ページでの図形描画にも使うことができる画像フォーマットは\nどれか。\n\nア OpenGL      イ PNG         ウ SVG         エ TIFF",
+      "image": "assets/ap-2017-autumn/q25.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問25 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q26",
+      "number": 26,
+      "topic": "テクノロジ系",
+      "stem": "問26 ストアドプロシージャの利点はどれか。\n\nア アプリケーションプログラムからネットワークを介して DBMS にアクセスする\n場合, 両者間の通信量を減少させる。\n\nイ アプリケーションプログラムからの一連の要求を一括して処理することによっ\nて, DBMS 内の実行計画の数を減少させる。\n\nウ アプリケーションプログラムからの一連の要求を一括して処理することによっ\nて, DBMS 内の必要バッファ数を減少させる。\n\nエエ データが格納されているディスク装置への 1/0 回数を減少させる。",
+      "image": "assets/ap-2017-autumn/q26.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問26 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q27",
+      "number": 27,
+      "topic": "テクノロジ系",
+      "stem": "問27 第 3 正規形であることの効果又は影響に関する記述として, 適切なものはどれか。\nア 画面や帳票の行ををのままデータベースの行に対応ささるので, データ量が増\nえる。\nイ 結合操作が不要となり, データベース全体の処理効率が向上する。\nウ 更新時のデッドロックを避けることができる。\nエ 冗長性が排除され, データの整合性を保ちやすくなる。",
+      "image": "assets/ap-2017-autumn/q27.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問27 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q28",
+      "number": 28,
+      "topic": "テクノロジ系",
+      "stem": "間28 関係R (ID, A, B, C) DA, C への射影の結果と SQL 文で求めた結果が同じに\nなるように, a に入れるべき字句はどれか。ここで, 関係 R を表 T で実現し, KT\nに各行を格納したものを次に示す。\n                                         (SQL 3%)\n[mw |Alglcl      SELECT [7a] A, C FROM T\nア ALL                                イ DISTINCT\nウ ORDER BY                           エエ REFERENCES",
+      "image": "assets/ap-2017-autumn/q28.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問28 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q29",
+      "number": 29,
+      "topic": "テクノロジ系",
+      "stem": "間29 トランザクション A~G の待ちグラフにおいて, 永久待ちの状態になっているト\nランザクション全てを列挙したものはどれか。ここで, 待ちもグラフの XY lk, ト\nランザクション双 はトランザクション了がロックしている資源のアンロックを待っ\nていることを表す。\n\n【トランザクション A~G の待ちグラフ〕\ny A,B,C, D      4 B,C, D\nウゥ B,C, D, F      = CD, E, FG",
+      "image": "assets/ap-2017-autumn/q29.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問29 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q30",
+      "number": 30,
+      "topic": "テクノロジ系",
+      "stem": "問39 データマイニングの説明として, 最も適切なものはどれか。\n\nア 基幹業務のデータベースとは別に作成され, 更新処理をしない集計データの分\n析を主目的とする。\n\nイ 個人別データ, 部門別データ, サマリデータなど, 分析の目的別に切り出され,\nカスタマイズされたデータを分析する。\n\nウ スライシング, ダイシング, ドリルダウンなどのインタラクティブな操作によ\nって多次元分析を行い, 意思決定を支援する。\n\nエエ ニューラルネットワークや統計解析などの手法を使って, 大量に蓄積されてい\nるデータから, 特徴あるパターンを探し出す。",
+      "image": "assets/ap-2017-autumn/q30.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問30 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q31",
+      "number": 31,
+      "topic": "テクノロジ系",
+      "stem": "間31 無線 LAN で用いられる SSID の説明として, 適切なものはどれか。\n\nア 48 ビットのネットワーク識別子であり, アクセスポイントの MAC アドレスと\n一致する。\n\nイ 48 ビットのホスト識別子であり, 有線 LAN の MAC アドレスと同様の働きをす\nる。\n\nウ 最長32 オクテットのネットワーク識別子であり, 接続するアクセスポイントの\n選択に用いられる。\n\nエエ 最長32オクテットのホスト識別子であり, ネットワーク上で一意である。",
+      "image": "assets/ap-2017-autumn/q31.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問31 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q32",
+      "number": 32,
+      "topic": "テクノロジ系",
+      "stem": "問32 設置場所が異なるクライアントとサーバ間で, 次の条件で通信を行う場合の応答\n時間は何秒か。 ここで, クライアントの送信処理の始まりから受信処理の終了まで\nを応答時間とし, 距離による遅延は考慮しないものとする。\n〔条件〕\nア 14           イ 3.8            ウ 5.0           x= 5.8",
+      "image": "assets/ap-2017-autumn/q32.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問32 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q33",
+      "number": 33,
+      "topic": "テクノロジ系",
+      "stem": "間33 CSMA/CD 方式に関する記述のうち, 適切なかものはどれか。\n\nア 衝突発生時の再送動作によって, 衝突の頻度が増すとスループットが下がる。\n\nイ 送信要求が発生したステーションは, 共通伝送路の搬送波を検出してからデー\nタを送信するので, データ送出後の衝突は発生しない。\n\nウ ハブによって複数のステーションが分岐接続されている構成では, 衝突の検出\nができないので, この方式は使用できない。\n\n工 フレームとしては任意長のビットが直列に送出されるので, フレーム長がオク\nテットの整数倍である必要はない。",
+      "image": "assets/ap-2017-autumn/q33.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問33 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q34",
+      "number": 34,
+      "topic": "テクノロジ系",
+      "stem": "間34 IPv4 において IP アドレスから MAC アドレスを取得するために用いるプロトコル\nはどれか。\nア ARP          4 DHCP        ウ ICMP         エ RARP",
+      "image": "assets/ap-2017-autumn/q34.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問34 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q35",
+      "number": 35,
+      "topic": "テクノロジ系",
+      "stem": "問35 ONF (Open Networking Foundation) が標準化を進めている OpenFlow プロトコル\nを用いた SDN (Software-Defned Networking) の説明として, 適切なものはどれか。\nア 管理ステーションから定期的にネットワーク機器の MIB (Management\nInformation Base) 情報を取得して, 稼働監視や性能管理を行うためのネットワー\nク管理手法\n\nイ データ転送機能をもつネットワーク機器同士が経路情報を交換して, ネットワ\nーク全体のデータ 転送経路を決定する方式\n\nウ ネットワーク制御機能とデータ転送機能を実装したソフトウェアを, 仮想環境\nで利用するための技術\n\nエエ ネットワーク制御機能とデータ転送機能を論理的に分離し, コントローラと呼\nばれるソフトウェアで, データ転送機能をもつネットワーク機器の集中制御を可\n能とするアーキテクチャ",
+      "image": "assets/ap-2017-autumn/q35.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問35 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q36",
+      "number": 36,
+      "topic": "テクノロジ系",
+      "stem": "問36 認証局が発行する CRL に関する記述のうち, 適切なものはどれか。\n\nア CRL には, 失効したディジタル証明書に対応する秘密鍵が登録される。\n\nイ CRL には, 有効期限内のディジタル証明書のうち失効したディジタル証明書と\n失効した日時の対応が提示される。\n\nウ CRL は, 鍵の漏えい, 失効申請の状況とリアルタイムに反映するプロトコルで\nある。\n\nエエ 有効期限切れで失効したディジタル証明書は, 所有者が新たなディジタル証明\n書を取得するまでの間, CRL に登録される。",
+      "image": "assets/ap-2017-autumn/q36.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問36 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q37",
+      "number": 37,
+      "topic": "テクノロジ系",
+      "stem": "問37 SEO ポイズニングの説明はどれか。\n\nア Web 検索サイトの順位付けアルゴリズムを悪用して, 検索結果の上位に, 悪意\nのある Web サイトを意図的に表示させる。\n\nイ ウイルス対策ソフトのセキュリティ上の及層性を悪用して, システム権限で不\n正な処理を実行させる。\n\nウ 車などで移動しながら, 無線 LAN のアクセスポイントを探し出して, ネットワ\nークに侵入する。\n\nエエ ネットワークを流れるパケットから, 侵入のパターンに合致するものを検出し\nて, 管理者への通知や, 検出した内容の記録を行う。",
+      "image": "assets/ap-2017-autumn/q37.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問37 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q38",
+      "number": 38,
+      "topic": "テクノロジ系",
+      "stem": "問38 SIEM (Security Information and Event Management) の特徴はどれか。\n\nア DMZ を通過する全ての通信データを監視し, 不正な通信を遮断する。\n\nイ サーバやネットワーク機器の MIB (Management Information Base) 情報を分析\nし, 中間者攻撃を遮断する。\n\nウ ネットワーク機器の IPFTX (IP Flow Information Export) 情報を監視し, 攻撃者\nが他者の PC を不正に利用したときの通信を検知する。\n\nエ 複数のサーバやネットワーク機器のログを収集分析し, 不審なアクセスを検知\nする。",
+      "image": "assets/ap-2017-autumn/q38.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問38 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q39",
+      "number": 39,
+      "topic": "テクノロジ系",
+      "stem": "問39 パスワードに使用できる文字の種類の数を M, パスワードの文字数を n とすると\nき, 設定できるパスワードの理論的な総数を求める数式はどれか。\nM!\n7 M                       4 eat\nM!                       (M+n-1)!\n2 sm!                  エエ “n@—D!",
+      "image": "assets/ap-2017-autumn/q39.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問39 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q40",
+      "number": 40,
+      "topic": "テクノロジ系",
+      "stem": "間49 ドライブバイダウンロード攻撃の説明はどれか。\n\nア PC に USB メモリが接続されたとき, USB メモリに保存されているプログラム\nを自動的に実行する機能を用いてマルウェアを実行し, PC をマルウェアに感染さ\nせる。\n\n4 PC に格納されているファイルを勝手に暗号化して, 復号することと引換えに金\n銭を要求する。\n\nウ 不正にアクセスする目的で, 建物の外部に漏れた無線 LAN の電波を傍受して,\nセキュリティの設定が族弱な無線 LAN のアクセスポイントを見つけ出す。\n\nエエ 利用者が Web サイトを閲覧したとき, 利用者に気付われないように, 利用者の\nPC に不正プログラムを転送させる。",
+      "image": "assets/ap-2017-autumn/q40.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問40 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q41",
+      "number": 41,
+      "topic": "テクノロジ系",
+      "stem": "問41 暗号方式に関する記述のうち, 適切なものはどれか。\nア AES は公開鍵暗号方式, RSA は共通鍵暗号方式の一種である。\nイ 共通鍵暗号方式では, 暗号化及び復号に同一の鍵を使用する。\nウ 公開鍵暗号方式を通信内容の秘匿に使用する場合は, 暗号化に使用する鍵を秘\n密にして, 復号に使用する鍵を公開する。\nエ ディジタル署名に公開鍵暗号方式が使用されることはなく, 共通鍵暗号方式が\n使用される。",
+      "image": "assets/ap-2017-autumn/q41.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問41 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q42",
+      "number": 42,
+      "topic": "テクノロジ系",
+      "stem": "問42 サイバーレスキュー隊 (J-CRAT) の役割はどれか。\n\nア 外部からのサイバー攻撃などの情報セキュリティ問題に対して, 政府横断的な\n情報収集や監視機能を整備し, 政府機関の緊急対応能力強化を図る。\n\nイ 重要インフラに関わる業界などを中心とした参加組織と秘密保持契約を締結し,\nその契約の下に提供された標的型サイバー攻撃の情報を分析及び加工することに\nよって, 参加組織間で情報共有する。\n\nウ セキュリティオペレーション技術向上, オペレータ人材育成, 及びサイバーセ\nキュリティに関係する組織・団体間の連携を推進することによって, セキュリテ\nイオペレーションサービスの普及とサービスレベルの向上を促す。\n\nエ 標的型サイバー攻撃を受けた組織や個人から提供された情報を分析し, 社会や\n産業に重大な被害を及ぼしかねない標的型サイバー攻撃の把握, 被害の分析, 対\n策の早期着手の支援を行う。",
+      "image": "assets/ap-2017-autumn/q42.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問42 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q43",
+      "number": 43,
+      "topic": "テクノロジ系",
+      "stem": "問43 暗号化や認証機能をもち, 遠隔にあるコンピュータに安全にログインするための\nプロトコルはどれか。\nア L2TP    イ RADIUS   ウ SSH     = TLS",
+      "image": "assets/ap-2017-autumn/q43.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問43 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q44",
+      "number": 44,
+      "topic": "テクノロジ系",
+      "stem": "問44 IC カードの耐タンパ性を高める対策はどれか。\n\nア 1IC カードと IC カードリーダとが非接触の状態で利用者を認証して, 利用者の\n利便性を高めるようにする。\n\nイ 故障に備えてあらかじめ作成した予備の IC カードを保管し, 故障時に直ちに予\n備カードに交換して利用者がIC カードを使い続けられるようにする。\n\nウ 信号の読出し用プロープの取付けを検出すると IC チップ内の保存情報を消去す\nる回路を設けて, IC チップ内の情報を容易に解析できないようにする。\n\nエエ 利用者認証に IC カードを利用している業務システムにおいて, 退職者の IC カ\nードは業務システム側で利用を停止して, 他の利用者が使用できないようにする。",
+      "image": "assets/ap-2017-autumn/q44.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問44 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q45",
+      "number": 45,
+      "topic": "テクノロジ系",
+      "stem": "問45 WAF の説明はどれか。\nア Web アプリケーションへの攻撃を監視し阻止する。\nイ Web ブラウザの通信内容を改ざんする攻撃を PC 内で監視し検出する。\nウ サーバの OS への不正なログインを監視する。\nエ ファイルのマルウェア感染を監視し検出する。",
+      "image": "assets/ap-2017-autumn/q45.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問45 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.382
+    },
+    {
+      "id": "2017-autumn-q46",
+      "number": 46,
+      "topic": "テクノロジ系",
+      "stem": "問46 モジュール設計に関する記述かうち, モジュール強度 (結束性) が最も強いもの\n\nはどれか。\n\nア ある木構造データを扱う機能をこのデータとともに一つにまとめ, 木構造デー\nタをモジュールの外から見えないようにした。\n\nイ 複数の機能のそれぞれに必要な初期設定の操作が, ある時点で一括して実行で\nきるので, 一つのモジュールにまとめた。\n\nY 二つの機能 A, B のコードは重複する部分が多いので, A, B を一つのモジュー\nルにまとめ, A, Bの機能を使い分けるための引数を設けた。\n\nエ 二つの機能 A, B は必ず A, B の順番に実行され, しかも A で計算した結果を\nB で使うことがあるので, 一つのモジュールにまとめた。",
+      "image": "assets/ap-2017-autumn/q46.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問46 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q47",
+      "number": 47,
+      "topic": "テクノロジ系",
+      "stem": "問47 テストで使用されるスタブ又はドライバの説明のうち, 適切なものはどれか。\nア スタプは, テスト対象モジュールからの戻り値を表示・印刷する。\nイ スタブは, テスト対象モジュールを呼び出すモジュールである。\nウ ドライバは, テスト対象モジュールから呼び出されるモジュールである。\nエエ ドライバは, 引数を渡してテスト対象モジュールを呼び出す。",
+      "image": "assets/ap-2017-autumn/q47.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問47 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q48",
+      "number": 48,
+      "topic": "テクノロジ系",
+      "stem": "問48 アジャイル開発のプラクティスのうち, 回帰テストを行うことを前提とするもの\nはどれか。\nア 日次ミーティング       イ ふりかえり\nウ ペアプログラミング      エ リファクタリング",
+      "image": "assets/ap-2017-autumn/q48.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問48 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q49",
+      "number": 49,
+      "topic": "テクノロジ系",
+      "stem": "問49 CMMI の説明はどれか。\n\nア ソフトウェア開発組織及びプロジェクトのプロセスの成熟度を評価するための\nモデルである。\n\nイ ソフトウェア開発のプロセスモデルの一種である。\n\nウ ソフトウェアを中心としたシステム開発及び取引のための共通フレームのこと\nである。\n\n= プロジェクトの成熟度に応じてソフトウェア開発の手順を定義したモデルであ\nる。",
+      "image": "assets/ap-2017-autumn/q49.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問49 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q50",
+      "number": 50,
+      "topic": "テクノロジ系",
+      "stem": "P50 アジャイル開発におけるプラクティスの一つであるバーンダウンチャートはどれ\nか。ここで, 図中の破線は予定又は予想を, 実線は実績を表す。\nアル                                イ\n作                                    生\n業                                    不\nik                                    内                          2\n数                         fi\n時間                                  時間\nウ                                     a\ng\n策              ーーデーー……          z\nバ             ンー\nグ       めの                      i         ーーエーーーー\n数       4                                        i          i\n時間                                  時間",
+      "image": "assets/ap-2017-autumn/q50.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問50 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q51",
+      "number": 51,
+      "topic": "マネジメント系",
+      "stem": "間51 ソフトウェア開発プロジェクトで行う構成管理の対象項目はどれか。\nア 開発作業の進捗状況      イ 成果物に対するレビューの実施結果\nウ プログラムのバージョン     エエ プロジェクト組織の編成",
+      "image": "assets/ap-2017-autumn/q51.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問51 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.341
+    },
+    {
+      "id": "2017-autumn-q52",
+      "number": 52,
+      "topic": "マネジメント系",
+      "stem": "問52 プロジェクト管理においてパフォーマンス測定に使用する EVM の管理対象の組\nみはどれか。\nア コスト, スケジュール      イ コスト, リスク\nウ スケジュール, 品質       = mR, VAD",
+      "image": "assets/ap-2017-autumn/q52.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問52 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q53",
+      "number": 53,
+      "topic": "マネジメント系",
+      "stem": "間53 次のプレシデンスダイアグラムで表現されたプロジェクトスケジュールネットワ\nーク図を, アローダイアグラムに書き直したものはどれか。ここで, プレシデンス\nダイアグラムの依存関係は全て FS 関係とする。\n\n| | |    | |上トオュオイトルォル[ |\n  LE |\n| | 上ト上ォ|トHゴM [| |   | | |\nLB | | p |\n-            凡例\nァ        6    E\nOOつつ、。\n(〇               (いり\n凡例\n©    ©)    O        one\n4        Cc    E\nA Oz  O  On    ーーーー はダミー作業\nO B  Se,      H C)\nD 3    F\nOO\nウ        G    E\nee  に   4 C)\nD Sy   FS\n©   (ーーベリ\nトコ        C    E\nQs    Ts  H ()\nD       F 3\n©   OO",
+      "image": "assets/ap-2017-autumn/q53.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問53 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q54",
+      "number": 54,
+      "topic": "マネジメント系",
+      "stem": "問54 品質の定量的評価の指標のうち, ソフトウェアの保守性の評価指標になるものは\nどれか。\nア (最終成果物に含まれる誤りの件数) + (最終成果物の量)\nイ (修正時間の合計) + (修正件数)\nウ (変更が必要となるソースコードの行数) + (移植するソースコードの行数)\nエエ (利用者からの改良要求件数) + (出荷後の経過月数)",
+      "image": "assets/ap-2017-autumn/q54.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問54 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q55",
+      "number": 55,
+      "topic": "マネジメント系",
+      "stem": "問55 サービス提供時間帯が毎日 6 ~ 20 時のシステムにおいて, ある月の停止時間, 修\n復時間及びシステムメンテナンス時間は次のとおりであった。 この月の可用性は\n何%か。ここで, 1 か月の稼働日数は 30 日, 可用性 (%) は小数第 2 位を四捨五入\nするものとする。\n\n(停止時間, 修復時間及びシステムメンテナンス時間〕\n・システム障害によるサービス提供時間内の停止時間 : 7 時間\n・システム障害に対処するサービス提供時間外の修復時間 : 3 時間\n・サービス提供時間外のシステムメンテナンス時間 : 8 時間\nア 95.7     4 976     ウ 983     エ 99.0",
+      "image": "assets/ap-2017-autumn/q55.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問55 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q56",
+      "number": 56,
+      "topic": "マネジメント系",
+      "stem": "間56 バックアップ処理には, フルバックアップ方式と差分バックアップ方式がある。\n差分バックアップ方式による運用に関する記述のうち, 適切なものはどれか。\nア 障害からの復旧時に差分だけ処理すればよいので, フルバックアップ方式に比\nべて復旧時間が短い。\nイ フルバックアップのデータで復元した後に, 差分バックアップのデータを反映\nさせて復旧する。\nウ フルバックアップ方式と交互に運用することはできない。\nエ フルバックアップ方式に比べ, バックアップに要する時間が長い。",
+      "image": "assets/ap-2017-autumn/q56.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問56 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q57",
+      "number": 57,
+      "topic": "マネジメント系",
+      "stem": "問57 空調計画における冷房負荷には, “外気負荷\", “室内負荷\", “伝熱負荷\", “日射負\n荷\" などがある。冷房負荷の軽減策のうち, “伝熱負荷\" の軽減策として, 最も適切\nなものはどれか。\nア 使用を終えたらその都度 PC の電源を切る。\nイ 隙間風や換気による影響少なくする。\nウ 日光が当たる南に面したガラス窓をおむやみに大きなものにしない。\nエ 屋根や壁面の断熱をおうそかにしない。",
+      "image": "assets/ap-2017-autumn/q57.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問57 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q58",
+      "number": 58,
+      "topic": "マネジメント系",
+      "stem": "問58 システム監査の改善指導(フォローアップ) において, 被監査部門による改善が\n計画よりも遅れていることが判明したとき, システム監査人が採るべき行動はどれ\nか。\nア 遅れを取り戻すために, 具体的な対策の実施を, 被監査部門の責任者に指示す\n\nる。\n\nイ 遅れを取り戻すために, 被監査部門の改善活動に参加する。\nウ 遅れを取り戻すための方策について, 被監査部門の責任者に助言する。\nエエ 遅れを取り戻すための要員の追加を, 人事部長に要求する。",
+      "image": "assets/ap-2017-autumn/q58.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問58 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q59",
+      "number": 59,
+      "topic": "マネジメント系",
+      "stem": "問59 開発プロジェクトにおいて, 開発検討フェーズ, プログラムテストフェーズ, 移\n行判定フェーズを対象とし, それぞれのフェーズ終了時に監査を実施する場合, B\n行判定フェーズで実施することが適切な監査手続はどれか。\n\nア 開発目的や開発体制があらかじめ検討された上で開発が実施されたことを確認\nするために, 開発計画書を閲覧する。\n\nイ システムの実現方法や代替案を検討したことを確認するために, フィージビリ\nティスタディ報告書を閲覧する。\n\nウ システムの品質が本番稼働にとって問題がないことの判断資料が作成されてい\nることを確認するために, 品質報告書を閲覧する。\n\nエ テスト計画が策定された上でプログラムテストに着手されたことを確認するた\nめに, プログラムテスト計画書を閲覧する。",
+      "image": "assets/ap-2017-autumn/q59.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問59 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q60",
+      "number": 60,
+      "topic": "マネジメント系",
+      "stem": "PAGO 在庫管理システムを対象とするシステム監査において, 当該システムに記録され\nた在庫データの網羅性のチェックポイントとして, 適切なものはどれか。\nア 設定された選定基準に従って, 自動的に購入業者を選定していること\n4 適正在庫高であることを, 責任者が承認していること\nウ 適正在庫量を維持するための発注点に達したときに, 自動的に発注しているこ\nと\nエ 入庫及び出庫記録に対して, 自動的に連番を付与していること",
+      "image": "assets/ap-2017-autumn/q60.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問60 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q61",
+      "number": 61,
+      "topic": "ストラテジ系",
+      "stem": "間61 エンタープライズアーキテクチャにおいて, 業務と情報システムの理想を表すモ\nデルはどれか。\nア EA参照モデル           4 Tむ-Be モデル\nウ ザックマンモデル        エ データモデル",
+      "image": "assets/ap-2017-autumn/q61.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問61 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q62",
+      "number": 62,
+      "topic": "ストラテジ系",
+      "stem": "問62 システム管理基準 (平成 16 年) によれば, 組織全体の情報システムのあるべき姿\nを明確にする計画はどれか。\nア 開発計画                 イ 事業継続計画\nウ 全体最適化計画             エ 年間運用計画",
+      "image": "assets/ap-2017-autumn/q62.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問62 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q63",
+      "number": 63,
+      "topic": "ストラテジ系",
+      "stem": "問63 クラウドサービスの導入事例のうち, データから新たな知見を抽出し, 付加価値\n\nとして提供しているものはどれか。\n\nア 顧客データ管理システムのサーバリソースとして, クラウドサービスを活用す\nることによって, 新しいサーバの構築期間を, クラウドサービス導入前の約 2 か\n月間から 1 日に短縮した。\n\nイ 個々の自動車から得た位置情報とブレーキ作動情報をクラウドサービスを用い\nて蓄積し, 急ブレーキが頻繁に踏まれる危険地点を分析し, その結果を運転者な\nどに配信することによって, 事故を未然に防止した。\n\nウ 自社運用のメールサーバのアプリケーションとデータを, クラウドサービスに\n移行することによって, 5 年間の TCO を約半分に削減した。\n\nエ 自社環境で動く情報システムに格納されたデータとソフトウェアを, クラウド\nサービスを用いてバックアップすることによって, 事業継続性を担保した。",
+      "image": "assets/ap-2017-autumn/q63.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問63 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q64",
+      "number": 64,
+      "topic": "ストラテジ系",
+      "stem": "間64 共通フレーム 2013 によれば, 要件定義プロセスで行うことはどれか。\nア システム化計画の立案              イ システム方式設計\nウ ソフトウェア詳細設計           エ 利害関係者のニーズの抽出",
+      "image": "assets/ap-2017-autumn/q64.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問64 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q65",
+      "number": 65,
+      "topic": "ストラテジ系",
+      "stem": "問65 “情報システム・モデル取引・契約書\" によれば, 情報システムの開発において,\n多段階契約の考え方を採用する目的はどれか。ここで, 多段階契約とは, 工程ごと\nに個別契約を締結することである。\n\nア 開発段階において, 前工程の遂行の結果, 後工程の見積前提条件に変更が生じ\nた場合に, 各工程の開始のタイミングで, 再度見積りを可能とするため\n\nイ サービスレベルの達成・未達の結果に対する対応措置 (協議手続, 解約権,ペ\nナルティ・インセンティブなど) 及びベンダの報告条件などを定めるため\n\nウ 正式な契約を締結する前に, 情報システム構築を開始せざるを得ないり場合の措\n置として, 仮発注合意書 (Letter of Intent: LOI) を交わすため\n\nエ ユーザ及びベンダのそれぞれの役割分担を, システムライフサイクルプロセス\nに応じて, あらかじめ詳細に決定しておくため",
+      "image": "assets/ap-2017-autumn/q65.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問65 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q66",
+      "number": 66,
+      "topic": "ストラテジ系",
+      "stem": "問66 半導体ファブレス企業の説明として, 適切なものはどれか。\nア 委託者の依頼を受けて, 自社工場で半導体製造だけを行う。\n4 自社で設計し, 自社工場で生産した製品を相手先プランドで納入する。\nウ 自社内で回路設計から製造まで全ての設備をもち, 自社ブランド製品を販売す\nる。\nエ 製品の企画, 設計及び開発は行うが, 半導体製造の工場は所有しない。",
+      "image": "assets/ap-2017-autumn/q66.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問66 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q67",
+      "number": 67,
+      "topic": "ストラテジ系",
+      "stem": "間67 営業部門で設定する KPI と KGI の適切な組合せはどれか。",
+      "image": "assets/ap-2017-autumn/q67.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問67 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q68",
+      "number": 68,
+      "topic": "ストラテジ系",
+      "stem": "間68 CRMを説明したものはどれか。\n\nア 卸売業者・メーカが, 小売店の経営活動を支援してその売上と利益を伸ばすこ\nとによって, 自社との取引拡大につなげる方法である。\n\nイ 企業全体の経営資源を有効かつ総合的に計画して管理し, 経営の高効率化を図\nるための手法である。\n\nウ 企業内の全ての顧客チャネルで情報を共有し, サービスのレベルを引き上げて\n顧客満足度を高め, 顧客ロイヤリティの最大化に結び付ける考え方である。\n\nエエ 生産, 在庫, 購買, 販売, 物流などの全ての情報をリアルタイムに交換するこ\nとによって, サプライチェーン全体の効率を大幅に向上させる経営手法である。",
+      "image": "assets/ap-2017-autumn/q68.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問68 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q69",
+      "number": 69,
+      "topic": "ストラテジ系",
+      "stem": "問69 ISO, IEC, ITU などの国際標準に適合した製品を製造及び販売する利点として,\n適切なものはどれか。\nア WTO 政府調達協定の加盟国では, 政府調達は国際標準の仕様に従って行われる。\nイ 国際標準に適合しない競合製品に比べて, 技術的に優位であることが保証され\nる。\nウ 国際標準に適合するために必要な特許は, 全て無償でライセンスを受けられる。\nエエ 輸出先国の国内標準及び国内法規の規制を受けることなく製品を輸出できる。",
+      "image": "assets/ap-2017-autumn/q69.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問69 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q70",
+      "number": 70,
+      "topic": "ストラテジ系",
+      "stem": "問79 構成表の製品 A を 300 個出荷しとようとするとき, 部品 b の正味所要量は何個か。\nここで, A, a, b, c の在庫量は在庫表のとおりとする。また, 他の仕掛残, 注文残,\n引当残などはないものとする。\n\n構成表                    単位 個        在庫表      単位 個\n\n”\n\n\"| 』 | 5 Te]\n\n| A | 3 | 3 | o |       [a | wo |\n\nトしょュレダ| ji | 2 |       | > | soo |\n\n[ ・ | 40 |\n\nア 200          イ 600          ウ 900          =x 1.500",
+      "image": "assets/ap-2017-autumn/q70.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問70 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q71",
+      "number": 71,
+      "topic": "ストラテジ系",
+      "stem": "問71 ドローン, マルチコプタなどの無人航空機に搭載されるセンサのうち, 機体を常\nに水平に保つ姿勢制御のために使われるセンサはどれか。\nア 気圧モセンサ                イ ジャイロセンサ\nウ 地磁気センサ                   エエ 超音波センサ",
+      "image": "assets/ap-2017-autumn/q71.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問71 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q72",
+      "number": 72,
+      "topic": "ストラテジ系",
+      "stem": "間72 IoT の技術として注目されている, エッジコンピューティングの説明として, 適\n\n切なものはどれか。\n\nア 演算処理のリソースを端末の近傍に置くことによって, アプリケーション処理\nの低遅延化や通信トラフィックの最適化を行う。\n\nイ データの特徴を学習して, 事象の認識や分類を行う。\n\nウ ネットワークを介して複数のコンピュータを結ぶことによって, 全体として処\n理能力が高いコンピュータシステムを作る。\n\nエエ 周りの環境から微小なかエネルギーを収穫して, 電力に変換する。",
+      "image": "assets/ap-2017-autumn/q72.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問72 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q73",
+      "number": 73,
+      "topic": "ストラテジ系",
+      "stem": "問73 3PL (3rd Party Logistics) を説明したものはどれか。\n\nア 購買, 生産, 販売及び物流の一連の業務を, 企業間で全体最適の視点から見直\nし, 納期短縮や在庫削減を図る。\n\nイ 資材の調達から生産, RE, 販売に至るまでの物流全体を, 費用対効果が最適\nになるように総合的に管理し, 合理化する。\n\nウ 電子・電機メーカから, 製品の設計や資材調達, 生産, 物流, 修理などを一括\nして受託する。\n\nエ 物流業務に加え, 流通加工なども含めたアウトソーシングサービスを行い, ま\nた荷主企業の物流企画も代行する。",
+      "image": "assets/ap-2017-autumn/q73.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問73 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q74",
+      "number": 74,
+      "topic": "ストラテジ系",
+      "stem": "問74 予測手法の一つであるデルファイ法の説明はどれか。\nア 現状の指標の中に将来の動向を示す指標があることに着目して予測する。\nイ 将来予測のためのモデル化した連立方程式を解いて予測する。\nウ 同時点における複数の観測データの統計比較分析によって将来を予測する。\nエ 複数の専門家へのアンケートの繰返しによる回答の収束によって将来を予測す\nる。",
+      "image": "assets/ap-2017-autumn/q74.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問74 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q75",
+      "number": 75,
+      "topic": "ストラテジ系",
+      "stem": "問75 本社から工場まで車で行くのに, 一般道路では 80 分掛かる。高速道路を利用する\nと, 混雑していなければ 50 分, 混雑していれば 100 分掛かる。高速道路の交通情報\nが “順調\" ならば高速道路を利用し, \"渋滞\" ならば一般道路を利用するとき, 期待\nできる平均所要時間は約何分か。ここで, 高速道路の混雑具合の確率は, 混雑して\nいる状態が 0.4, 混雑していない状態が 0.6 とし, 高速道路の真の状態に対する交通\n情報の発表の確率は表のとおりとする。\n[wes SE\n[ml wm | mw |\nア 62          イ 66          ウ 68         エ 72",
+      "image": "assets/ap-2017-autumn/q75.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問75 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q76",
+      "number": 76,
+      "topic": "ストラテジ系",
+      "stem": "間76 プログラムのステップ数が多くなるほどステップ当たりのエラー数も多くなる傾\n向があるように見受けられたので, データを採って調べた。これを分析するのに最\nも適した図はどれか。\n\nア 系統図    イ 散布図    ウ 特性要因図  x= パレート図",
+      "image": "assets/ap-2017-autumn/q76.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問76 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.203
+    },
+    {
+      "id": "2017-autumn-q77",
+      "number": 77,
+      "topic": "ストラテジ系",
+      "stem": "問77 今年度の事業損益実績は表のとおりである。来年度の営業利益目標を 240 百万円\nとしたとき, 来年度の目標売上高は何百万円か。ここで, 来年度の変動費率は今年\n度と同じであり, 製造固定費と販売固定費は今年度に比べそれぞれ 80 百万円, 20\n百万円の増加を見込む。\n\n〔今年度の事業損益実績] 単位 百万円\n売上高          1600\n材料費 (変動費) 720\n外注費 (GH) 240\n製造固定費      380\n粗利益           260\n販売固定費      100\n営業利益         160\nア 1750        イ 1780        ウ 1800        エ 2,050",
+      "image": "assets/ap-2017-autumn/q77.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問77 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q78",
+      "number": 78,
+      "topic": "ストラテジ系",
+      "stem": "問78 企業が請負で受託して開発したか, 又は派遣契約によって派遣された社員が開発\nしたプログラムの著作権の帰属に関し契約に定めがないとき, 著作権の原始的な帰\n属はどのようになるか。\n\nア 請負の場合は発注先に帰属し, 派遣の場合は派遣先に帰属する。\nイ 請負の場合は発注先に帰属し, 派遣の場合は派遣元に帰属する。\nウ 請負の場合は発注元に帰属し, 派遣の場合は派遣先に帰属する。\nエ 請負の場合は発注元に帰属し, 派遣の場合は派遣元に帰属する。",
+      "image": "assets/ap-2017-autumn/q78.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問78 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2017-autumn-q79",
+      "number": 79,
+      "topic": "ストラテジ系",
+      "stem": "間79 マイナンバー法におけるマイナンバー (個人番号) に関する記述のうち, 適切な\n\nものはどれか。\n\nア 国の行政機関 地方公共団体, 企業などがマイナンバーの使途を自由に決定し\nてよい。\n\nイ 日本国外に在住している場合, 日本国籍があれば日本の市区町村に住民票がな\nくてもマイナンバーは指定される。\n\nウ マイナンバーは主に社会保障分野で使用するので, 厚生労働省が指定する。\n\nエ 漏えいして不正に用いられるおそれがあると認められる場合に限り, 本人の申\n請又は市区町村長の職権によってマイナンバーは変更できる。",
+      "image": "assets/ap-2017-autumn/q79.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問79 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.273
+    },
+    {
+      "id": "2017-autumn-q80",
+      "number": 80,
+      "topic": "ストラテジ系",
+      "stem": "問80 ソフトウェアやデータに隊導がある場合に, 製造物資任法の対象となるものはど\nれか。\nア ROM化したソフトウェアを内蔵した組込み機器\nイ アプリケーションソフトウェアパッケージ\nウ 利用者がPCにインストールした OS\nエエ 利用者によってネットワークからダウンロードされたデータ",
+      "image": "assets/ap-2017-autumn/q80.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2017年度秋期 応用情報技術者試験 午前 問80 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fqpm-att/2017h29a_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.419
+    }
+  ]
+}

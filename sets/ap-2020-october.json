@@ -1,0 +1,1613 @@
+{
+  "id": "ap-2020-october",
+  "title": "2020年度 10月 応用情報 午前［公式問題画像］",
+  "year": 2020,
+  "season": "10月",
+  "sourceType": "ipa",
+  "exam": "AP",
+  "sourceUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+  "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_ans.pdf",
+  "imageOnly": true,
+  "questions": [
+    {
+      "id": "2020-october-q01",
+      "number": 1,
+      "topic": "テクノロジ系",
+      "stem": "問1 正の整数の 10 進表示の桁数 と 2 進表示の桁数 お との関係を表す式のうち, 最\nも適切なものはどれか。\nア D=2logwoB                     イ の=10logz\nウ の=ぢlogz 10                エ D=Blogw2",
+      "image": "assets/ap-2020-october/q01.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問1 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q02",
+      "number": 2,
+      "topic": "テクノロジ系",
+      "stem": "間2 3台の機械A, B, Cが良品を製造する確率は, それぞれ60%, 70%, 80%である。\n機械 A, B, C が製品を一つずつ製造したとき, いずれか二つの製品が良品で残り一\nつが不良品になる確率は何%か。\n\nア 224     イ 368     ウ 45.2     = 788",
+      "image": "assets/ap-2020-october/q02.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問2 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q03",
+      "number": 3,
+      "topic": "テクノロジ系",
+      "stem": "問3 式A+BXCの逆ポーランド表記法による表現として, 適切なものはどれか。\nア +XCBA   4 X+ABC   ウ ABCX+   = CBAt+x",
+      "image": "assets/ap-2020-october/q03.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問3 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q04",
+      "number": 4,
+      "topic": "テクノロジ系",
+      "stem": "間4 a, b, c, d の 4 文字から成るメッセージを符号化してビット列にする方法として\n表のアーエの 4 通りを考えた。この表は a, b, c, d の各 1 文字を符号化するときの\nビット列を表している。メッセージ中での a, b, c, d の出現頻度は, それぞれ\n50%, 30%, 10%, 10%であることが分かっている。符号化されたビット列から元\nのメッセージが一意に復号可能であって, ビット列の長さが最も短くなるものはど\nれか。\n\nPa fe Pe Ta |\n[yf o fa fiw fu |\n|Iィ| ? fo fw | a |\n|ヶ| 6 fo [wo fm |\n|E| w | pm | mw lm |",
+      "image": "assets/ap-2020-october/q04.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問4 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q05",
+      "number": 5,
+      "topic": "テクノロジ系",
+      "stem": "問5 ポインタを用いた線形リストの特徴のうち, 適切なものはどれか。\nア 先頭の要素を根とした n 分木で, 先頭以外の要素は全て先頭の要素の子である。\nイ 配列を用いた場合と比較して, 2 分探索を効率的に行うことが可能である。\nウ ポインタから次の要素を求めるためにハッシュ関数を用いる。\nエエ ポインタによって指定されている要素の後ろに, 新たな要素を追加する計算量\nは, 要素の個数や位置によらず一定である。",
+      "image": "assets/ap-2020-october/q05.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問5 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": -0.458
+    },
+    {
+      "id": "2020-october-q06",
+      "number": 6,
+      "topic": "テクノロジ系",
+      "stem": "問6 円周率ァの値を近似的に求める方法のうち, モンテカルロ法を応用したものはど\n\nれか。\n\nア 正方形の中に一様乱数を用いて多数の点をとったとき, その点の個数と正方形\nに内接する円の中にある点の個数の比が, 点の個数を多くすると両者の面積比で\nある 4 : に近づくことを用いて求める。\n\nイ 正方形の中に等間隔に多数の格子点をとったとき, その格子点の個数と正方形\nに内接する円の中にある格子点の個数の比が, 格子点の間隔を細かくすると両者\nの面積比である 4 : zに近づくことを用いて求める。\n\nウ 直径 1 の円に内接する正 ヵ 角形の周の長さと円の直径の比が. ヵ を大きくする\nEms 1に近づくことを用いて求める。\n\nエ 直径 1 の円に内接する正 ヵ 角形の面積と円に内接する正方形の面積の比が, ヵ\nを大きくするとァz : 2 に近づくことを用いて求める。",
+      "image": "assets/ap-2020-october/q06.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問6 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q07",
+      "number": 7,
+      "topic": "テクノロジ系",
+      "stem": "問7 オブジェクト指向のプログラム言語であり, クラスや関数, 条件文などのコード\nプブロックの範囲はインデントの深さによって指定する仕様でもるものはどれか。\nア JavaScript     イ Perl         ウ Python       エ Ruby",
+      "image": "assets/ap-2020-october/q07.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問7 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q08",
+      "number": 8,
+      "topic": "テクノロジ系",
+      "stem": "問8 CPUのスタックポインタが示すものとして, 最も適切なものはどれか。\nア サブルーチン呼出し時に, 戻り先アドレス, レジスタの内容などを格納するメ\nモリのアドレス\nイ 次に読み出す機械語命令が格納されているアドレス\nウ メモリから読み出された機械語命令\nエ 割込みの許可状態, 及び条件分岐の判断に必要な演算結果の状態",
+      "image": "assets/ap-2020-october/q08.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問8 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q09",
+      "number": 9,
+      "topic": "テクノロジ系",
+      "stem": "問9 メモリインタリーブの説明はどれか。\n\nア CPU と磁気ディスク装置との間に半導体メモリによるデータバッファを設けて,\n磁気ディスクアクセスの高速化を図る。\n\nイ 主記憶のデータの一部をキャッシュメモリにコピーすることによって, CPU と\n主記憶とのアクセス速度のギャップを埋め, メモリアクセスの高速化を図る。\n\nウ 主記憶へのアクセスを高速化するために, アクセス要求, データの読み書き及\nび後処理が終わってから, 次のメモリアクセスの処理に移る。\n\nエ 主記憶を複数の独立したグループに分けて, 各グループに交互にアクセスする\nことによって, 主記憶へのアクセスの高速化を図る。",
+      "image": "assets/ap-2020-october/q09.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問9 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": -0.377
+    },
+    {
+      "id": "2020-october-q10",
+      "number": 10,
+      "topic": "テクノロジ系",
+      "stem": "問19 メモリの誤り検出及び訂正を行う方式のうち, 2 ビットの誤り検出機能と, 1 ピッ\nトの誤り訂正機能をもつものはどれか。\nア 奇数パリティ           イ 水平パリティ\nウ チェックサム           エ ハミング符号",
+      "image": "assets/ap-2020-october/q10.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問10 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": -0.158
+    },
+    {
+      "id": "2020-october-q11",
+      "number": 11,
+      "topic": "テクノロジ系",
+      "stem": "問11 3D 映像の立体視を可能とする仕組みのうち, アクティブシャッタ方式の説明とし\n\nて, 適切なものはどれか。\n\nア 専用の特殊なディスプレイに右目用, 左目用の映像を同時に描画し, 網目状の\nフィルタを用いてそれぞれの映像が右目と左目に入るようにして, 裸眼立体視を\n可能とする。\n\nイ ディスプレイに赤色と青色で右目用, 左目用の映像を重ねて描画し, 一方のリ\nム (フレームにおいてレンズを囲む部分) に赤, 他方のリムに青のフィルタを付\nけた眼鏡で見ることによって, 立体視を可能とする。\n\nウ ディスプレイに右目用, 左目用の映像を交互に映し出し, 眼鏡がそのタイミン\nグに合わせて左右それぞれ交互に透過, 庶断することによって, 立体視を可能と\nする。\n\nエ ディスプレイに右目用, 左目用の映像を同時に描画し, フィルタを用いてそれ\nぞれの映像の光の振幅方向を回転して, 逃過する振幅方向が左右で異なる偏光眼\n鏡で見ることによって, 立体視を可能とする。",
+      "image": "assets/ap-2020-october/q11.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問11 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q12",
+      "number": 12,
+      "topic": "テクノロジ系",
+      "stem": "間12 現状の HPC (High Performance Computing) マシンの構成を, 次の条件で更新す\nることにした。 更新後の, ノード数と総理論ピーク演算性能はどれか。ここで, 総\n理論ピーク演算性能は, コア数に比例するものとする。\n\n〔現状の構成〕\n(Ql) 一つのコアの理論ピーク演算性能は 10GFLOPS である。\n2) 一つのノードのコア数は 8 CHS,\n(3) ノード数は 1,000 である。\n更新条件]\n(l) 一つのコアの理論ピーク演算性能を現状の 2 倍にする。\nQ) 一つのノードのコア数を現状の 2 倍にする。\n(3③) 総コア数を現状の4倍にする。\n(TFLOPS)\n| amo | 天\n| sw |  w |\n1 wm | mw |",
+      "image": "assets/ap-2020-october/q12.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問12 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": -0.432
+    },
+    {
+      "id": "2020-october-q13",
+      "number": 13,
+      "topic": "テクノロジ系",
+      "stem": "問13 複数のサーバを用いて構築されたシステムに対するサーバコンソリデーションの\n\n説明として, 適切なものはどれか。\n\nア 各サーバに存在する複数の磁気ディスクを, 特定のサーバから利用できるよう\nにして, 資源の有効活用を図る。\n\nイ 仮想化ソフトウェアを利用して元のサーバ数よりも少なくすることによって,\nサーバ機器の管理コストを削減する。\n\nウ サーバのうちいずれかを監視専用に変更することによって, システム全体のセ\nキュリティを強化する。\n\nエ サーバの故障時に正常なサーバだけで瞬時にシステムを再構成し.。 サーバ数を\n減らしてでも運転を継続する。",
+      "image": "assets/ap-2020-october/q13.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問13 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q14",
+      "number": 14,
+      "topic": "テクノロジ系",
+      "stem": "問14 MTBF を長くするよりも, MTTR を短くするのに役立つものはどれか。\nア エラーログ取得機能      イ 記憶装置のビット誤り訂正機能\nウ 命令再試行機能        エ 予防保守",
+      "image": "assets/ap-2020-october/q14.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問14 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q15",
+      "number": 15,
+      "topic": "テクノロジ系",
+      "stem": "問15 次のシステムにおいて, ピーク時間帯の CPU 使用率は何%か。ここで, トランザ\nクションはレコードアクセス処理と計算負理から成り。 レコードアクセスは CPU 処\n理だけで入出力は発生せず, OS のオーバヘッドは考慮しないものとする。また, 1\n日のうち発生するトランザクション数が最大になる 1 時間をピーク時間帯と定義す\nる。\n\n〔システムの概要〕\n\nQ) CPU数:1個\n\n⑫) 1 日に発生する平均トランザクション数 : 54,000 件\n\n(⑬) 1 日のビーク時間帯におけるトランザクション数の割合 : 20%\n\n(④⑪ 1トランザクション当たりの平均レコードアクセス数 : 100 レコード\n\n6) 1 レコードアクセスに必要な平均 CPU時間 : 1ミリ秒\n\n© 1トランザクション当たりの計算処理に必要な平均 CPU 時間 : 100 ミリ秒\nアァ 20          イ 30          ウ 50          エ 60",
+      "image": "assets/ap-2020-october/q15.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問15 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": -0.352
+    },
+    {
+      "id": "2020-october-q16",
+      "number": 16,
+      "topic": "テクノロジ系",
+      "stem": "問16 記憶領域の動的な割当て及び解放を繰り返すことによって, どこからも利用でき\nない記憶領域が発生することがある。このような記憶領域を再び利用可能にする機\n能はどれか。\n\nア ガーベジコレクション     イ スタック\nウ ヒープ           エエ フラグメンテーション",
+      "image": "assets/ap-2020-october/q16.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問16 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q17",
+      "number": 17,
+      "topic": "テクノロジ系",
+      "stem": "問17 三つの資源XーZを占有して処理を行う四つのプロセスA… D がある。各プロセ\nスは処理の進行に伴い, 表中の数値の順に資源を占有し, 実行終了時に三つの資源\nを一括して解放する。 プロセス A と同時にもう一つプロセスを動かした場合に, デ\nッドロックを起こす可能性があるプロセスはどれか。\n| gs li fetal\nLo ts ls lil\nァ B,C, D   イ CD     ウ Cだけ    = Dだけ",
+      "image": "assets/ap-2020-october/q17.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問17 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q18",
+      "number": 18,
+      "topic": "テクノロジ系",
+      "stem": "問18 仮想記憶方式で, デマンドページングと比較したときのプリページングの特徴と\n\nして, 適切なものはどれか。ここで, 主記憶には十分な余裕があるものとする。\n\nア 将来必要と想定されるページを主記憶にロードしておくので, 実際に必要とな\nったときの補助記憶へのアクセスによる遅れを減少できる。\n\nイ 将来必要と想定されるページを主記憶にロードしておくので, ページフォール\nトが多く発生し, 0S のオーバヘッドが増加する。\n\nウ プログラムがアクセスするページだけをその都度主記憶にロードするので, 主\n記憶への不必要なページのロードを避けることができる。\n\nエエ プログラムがアクセスするページだけをその都度主記憶にロードするので, 将\n来必要となるページの予想が不要である。",
+      "image": "assets/ap-2020-october/q18.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問18 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q19",
+      "number": 19,
+      "topic": "テクノロジ系",
+      "stem": "問19 OSS (Open Source Software) における, ディストリピュータの役割はどれか。\nア OSS やアプリケーションソフトウェアを組み合わせて, パッケージにして提供\nする。\n4 OSS を開発し, 活動状況を Web で公開する。\nウ OSS を稼働用のコンピュータにインストールし, 動作確認を行う。\nエエ 0SS を含むソフトウェアを利用したシステムの提案を行う。",
+      "image": "assets/ap-2020-october/q19.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問19 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q20",
+      "number": 20,
+      "topic": "テクノロジ系",
+      "stem": "問20 SRAM と比較した場合の DRAM の特徴はどれか。\nア 主にキャッシュメモリとして使用される。\nイ データを保持するためのリフレッシュ又はアクセス動作が不要である。\nウ メモリセル構成が単純なので, ビット当たりの単価が安くなる。\nエ メモリセルにフリップフロップを用いてデータを保存する。",
+      "image": "assets/ap-2020-october/q20.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問20 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q21",
+      "number": 21,
+      "topic": "テクノロジ系",
+      "stem": "問21 FPGA などに実装するディジタル回路を記述して, 直接論理合成するために使用\nされるものはどれか。\nア DDL          イ HDL          ウ UML          エ XML",
+      "image": "assets/ap-2020-october/q21.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問21 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": -0.42
+    },
+    {
+      "id": "2020-october-q22",
+      "number": 22,
+      "topic": "テクノロジ系",
+      "stem": "問22 モータの速度制御などに PWM (Pulse Width Modulation) 制御が用いられる。\nPWM の駆動波形を示したものはどれか。ここで, 流形は制御回路のポート出力であ\nり, 低域通過フィルタを通していないものとする。\nア 電圧\nLl。mm 時間\n時間\nウ 電圧\nーーーしーー 時間\n+ 電圧\nPPT 時間",
+      "image": "assets/ap-2020-october/q22.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問22 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q23",
+      "number": 23,
+      "topic": "テクノロジ系",
+      "stem": "間23 次の表に示す値が格納された LUT (Lookup Table) と等価な回路はどれか。ここ\nで, LUT のアドレス信号 4。て4。は 4。が LSB で, アーエの回路の入力信号ヶ が4,\nDAA, cが4に対応する。\n\n_ mr\nァ (SB) At                          っ\nス\n| 5 |il\nL 7 [oe |\nア   a                        イ   a\nヵ                 出          6                 出\ne                 カ          c                 カ\nv7]   a                        =   a\nb                 出          6                 出\ne                 カ          e                 カ",
+      "image": "assets/ap-2020-october/q23.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問23 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": -0.347
+    },
+    {
+      "id": "2020-october-q24",
+      "number": 24,
+      "topic": "テクノロジ系",
+      "stem": "問24 8 ビット D/A 変換器を使って負でない電圧を発生させる。使用する D/A 変換器は,\n最下位の 1 ビットの変化で出力が 10 ミリ V変化する。データに 0 を与えたときの出\n力は0 ミリ Vである。データに 16 進数で 82 を与えたときの出力は何ミリ V か。\n\nア 820          4 1,024         ウ 1,300         エ 1,312",
+      "image": "assets/ap-2020-october/q24.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問24 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": -0.357
+    },
+    {
+      "id": "2020-october-q25",
+      "number": 25,
+      "topic": "テクノロジ系",
+      "stem": "間25 800X600 ピクセル, 24 ビットカラーで 30 フレームンプ秒の動画像の配信に最小限\n必要な帯域幅はおよそ幾らか。ここで, 通信時にデータ圧縮は行わないものとする。\nア 350kピビットン/秒                  イ 3.5Mビピットノ秒\nウ 35Mビットンノ秒               x= 350Mビットノ/秒",
+      "image": "assets/ap-2020-october/q25.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問25 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q26",
+      "number": 26,
+      "topic": "テクノロジ系",
+      "stem": "間26 表に対する SQL の GRANT 文の説明として, 適切なかものはどれか。\nア パスワードを設定してデータベースへの接続を制限する。\nイ ビューを作成して, ビューの基となる表のアクセスできる行や列を制限する。\nウ 表のデータを暗号化して, 第三者がアクセスしてもデータの内容が分からない\nようにする。\nエ 表の利用者に対し, 表への問合せ, 更新, 追加, 削除などの操作権限を付与す\nる。",
+      "image": "assets/ap-2020-october/q26.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問26 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q27",
+      "number": 27,
+      "topic": "テクノロジ系",
+      "stem": "問27 UML を用いて表した図のデータモデルから, “部品” 表, “WA” 表及び“メー\n\nA” 表を関係データベース上に定義するときの解釈のうち, 適切なものはどれか。\n部品番号 |+ _ ※\\納入日 |ま _ 1リメーカ番号\n部品名       数量        メーカ名\n\nア 同一の部品を同一のメーカから複数回納入することは許されない。\n\nイ “納入\" 表に外部キーは必要ない。\n\nウ 部品番号とメーカ番号の組みを“納入” 表の候補キーの一部にできる。\n\nエ “メーカ\" Rid, 外部キーとして部品番号をもつことになる。",
+      "image": "assets/ap-2020-october/q27.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問27 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q28",
+      "number": 28,
+      "topic": "テクノロジ系",
+      "stem": "問28 関係 “注文記録”\" の属性間に ① ~ © の関数従属性があり, それに基づいて第 3\n正規形まで正規化を行って, \"商品\", \"顧客\", “注文\", “注文明細\" の各関係に分解\nした。関係 “HEXHAM” として, 適切なものはどれか。ここで, (X,Y) は, 履性\nXL YOMALRL, メーは, XM 也を関数的に決定することを表す。 また, 実\n線の下線は主キーを表す。\n\n注文記録 (注文番号注文日, 顧客番号, 顧客名, 商品番号, 商品名,\n\n数量, 販売単価)\n\n[関数従属性\n© 注文番号 注文日                  ② 注文番号 つ 顧客番号\n③ 顧客番号 > 顧客名                 ④ (注文番号, 商品番号) つ 数量\n© (注文番号, 商品番号)つ 販売単価      © 商品番号 > 商品名\nア 注文明細 (注文番号, 顧客番号, 商品番号, 顧客名, 数量, 販売単価)\nイ 注文明細 (注文番号, 顧客番号, 数量, 販売単価)\nウ 注文明細 (注文番号, 商品番号, 数量, 販売単価)\nエ 注文明細 (注文番号, 数量, 販売単価)",
+      "image": "assets/ap-2020-october/q28.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問28 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q29",
+      "number": 29,
+      "topic": "テクノロジ系",
+      "stem": "問29 “東京在庫”\" 表と “大阪在庫\" 表に対して, SQL 文を実行して得られる結果はどれ\nか。ここで, 実線の下線は主キーを表す。\n東京在庫                    大阪在庫\n      | sw | gw |\n(SQL 文\nSELECT 商品コード, 在庫数 FROM 東京在庫\nUNION ALL\nSELECT 商品コード, 在庫数 FROM 大阪在庫\n7       4\n[om | ぁ |          [oo | w |\nッ       =\n[ao [|          [aor | sw |\nmw | ぁ |\n[poe | w |",
+      "image": "assets/ap-2020-october/q29.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問29 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q30",
+      "number": 30,
+      "topic": "テクノロジ系",
+      "stem": "問39 トランザクションの ACID 特性のうち, 耐久性 (durability) に関する記述として,\n\n適切なものはどれか。\n\nア 正常に終了したトランザクションの更新結果は, 障害が発生してもデータベー\nスから消失しないこと\n\nイ データベースの内容が矛盾のない状態であること\n\nウ トランザクションの処理が全て実行されるか, 全く実行されないかのいずれか\nで終了すること\n\nエエ 複数のトランザクションを同時に実行した場合と, 順番に実行した場合の処理\n結果が一致すること",
+      "image": "assets/ap-2020-october/q30.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問30 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q31",
+      "number": 31,
+      "topic": "テクノロジ系",
+      "stem": "問31 無線 LAN のアクセスポイントや TP 電話機などに, LAN ケーブルを利用して給電\nも行う仕組みはどれか。\nア PLC            イ PoE            ウ UPS            エ USB",
+      "image": "assets/ap-2020-october/q31.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問31 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q32",
+      "number": 32,
+      "topic": "テクノロジ系",
+      "stem": "問32 図のようなネットワーク構成のシステムにおいて, 同じメッセージ長のデータを\nホストコンピュータとの間で送受信した場合のターンアラウンドタイムは, 端末 A\nでは 100 SVM, 端末 B では 820 ミリ秒であった。 上り, 下りのメッセージ長は同\nじ長さで, ホストコンピュータでの処理時間は端末 A, 端末 B のどちらから利用し\nても同じとするとき, 端末 A からホストコンピュータへの片道の伝送時間は何ミリ\n秒か。ここで, ターンアラウンドタイムは, 端末がデータを回線に送信し始めてか\nら応答データを受信し終わるまでの時間とし, 伝送時間は回線速度だけに依存する\nものとする。\n\n回線人速度\n1Gビピットノ秒\nコンピュータ| 100Mビットン/秒\nアァ 10       イ 20       ウ 30       = 40",
+      "image": "assets/ap-2020-october/q32.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問32 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q33",
+      "number": 33,
+      "topic": "テクノロジ系",
+      "stem": "間33 スイッチングハブ (レイヤ 2 スイッチ) の機能として, 適切なものはどれか。\nア IP アドレスを解析することによって, データを中継するか破棄するかを判断す\nる。\n4 MAC アドレスを解析することによって, 必要な LAN ポートにデータを流す。\nウ OSI基本参照モデルの物理層において, ネットワークを延長する。\nエ 互いに直接, 通信ができないトランスポート層以上の二つの異なるプロトコル\nの翻訳作業を行い, 通信ができるようにする。",
+      "image": "assets/ap-2020-october/q33.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問33 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q34",
+      "number": 34,
+      "topic": "テクノロジ系",
+      "stem": "問34 TCP, UDP のポート番号を識別し, プライベート IP アドレスとグローバル IP ア\nドレスとの対応関係を管理することによって, プライベート IP アドレスを使用する\nLAN 上の複数の端末が, 一つのグローバル IP アドレスを共有してインターネットに\nアクセスする仕組みはどれか。\n\nア IPスプーフィング           イ IP マルチキャスト\nウ NAPT                      x NTP",
+      "image": "assets/ap-2020-october/q34.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問34 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": -0.284
+    },
+    {
+      "id": "2020-october-q35",
+      "number": 35,
+      "topic": "テクノロジ系",
+      "stem": "問35 IPv4 ネットワークにおいて, IP アドレスを付与されていない PC が DHCP サーバ\nを利用してネットワーク設定を行う際, 最初に DHCPDISCOVER メッセージをプロ\nードキャストする。このメッセージの送信元 IP アドレスと宛先 IP アドレスの適切\nな組合せはどれか。ここで, この PC には DHCP サーバから IP アドレス\n192.168.10.24 が付与されるものとする。",
+      "image": "assets/ap-2020-october/q35.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問35 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q36",
+      "number": 36,
+      "topic": "テクノロジ系",
+      "stem": "問36 認証局が発行する CRL に関する記述のうち, 適切なものはどれか。\n\nア CRL には, 失効したディジタル証明書に対応する秘密鍵が登録される。\n\nイ CRL には, 有効期限内のディジタル証明書のうち失効したディジタル証明書の\nシリアル番号と失効した日時の対応が提示される。\n\nウ CRL は, 鍵の漏えい, 失効申請の状況そりアルタイムに反映するプロトコルで\nある。\n\nエ 有効期限切れで失効したディジタル証明書は, 所有者が新たなディジタル証明\n書を取得するまでの間, CRL に登録される。",
+      "image": "assets/ap-2020-october/q36.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問36 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q37",
+      "number": 37,
+      "topic": "テクノロジ系",
+      "stem": "問37 PC からサーバに対し, IPv6 を利用した通信を行う場合, ネットワーク層で暗号\n化を行うときに利用するものはどれか。\nア IPsec       5 EPP       ウ SSH       エ TLS",
+      "image": "assets/ap-2020-october/q37.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問37 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.186
+    },
+    {
+      "id": "2020-october-q38",
+      "number": 38,
+      "topic": "テクノロジ系",
+      "stem": "問38 OCSP クライアントと OCSP レスポンダとの通信に関する記述のうち, 適切なも\n\nのはどれか。\n\nア ディジタル証明書全体を OCSP レスポンダに送信し, その応答でディジタル証\n明書の有効性を確認する。\n\nイ ディジタル証明書全体を OCSP レスポンダに送信し, その応答としてタイムス\nタンプトークンの発行を受ける。\n\nウ ディジタル証明書のシリアル番号, 証明書発行者の識別名 (DN) のハッシュ値\nMLE OCSP レスポンダに送信し, その応答でディジタル証明書の有効性を確認\nする。\n\nエエ ディジタル証明書のシリアル番号, 証明書発行者の識別名 (DN) のハッシュ値\nなどを OCSP レスポンダに送信し, その応答としてタイムスタンプトークンの発\n行を受ける。",
+      "image": "assets/ap-2020-october/q38.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問38 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.395
+    },
+    {
+      "id": "2020-october-q39",
+      "number": 39,
+      "topic": "テクノロジ系",
+      "stem": "問39 SEO ポイズニングの説明はどれか。\n\nア Web 検索サイトの順位付けアルゴリズムを悪用して, 検索結果の上位に, 悪意\nのある Web サイトを意図的に表示させる。\n\n4 車などで移動しながら, 無線 LAN のアクセスポイントを探し出して, ネットワ\nークに侵入する。\n\nウ ネットワークを流れるパケットから, 侵入のパターンに合致するものを検出し\nて, 管理者への通知や, 検出した内容の記録を行う。\n\nエ マルウェア対策ソフトのセキュリティ上の騰形性を悪用して, システム権限で\n不正な処理を実行させる。",
+      "image": "assets/ap-2020-october/q39.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問39 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q40",
+      "number": 40,
+      "topic": "テクノロジ系",
+      "stem": "問40 送信者 A からの文書ファイルと, その文書ファイルのディジタル直名を受信者 B\nが受信したとき, 受信者 B ができることはどれか。ここで, 受信者 B は送信者A の\n署名検証鍵X を保有しており, 受信者 B と第三者は送信者 A の署名生成鍵Y を知ら\nないものとする。\n\nア FAVRVER, 文書ファイル及び署名検証鍵 X を比較することによって, 文\n書ファイルに改ざんがあった場合, その部分を判別できる。\n\nイ 文書ファイルが改ざんされていないこと, 及びディジタル署名が署名生成鍵 Y\nによって生成されたことを確認できる。\n\nウ 文書ファイルがマルウェアに感染していないことを誰証局に問い合わせて確認\nできる。\n\nエ 文書ファイルとディジタル署名のどちらかが改ざんされた場合, どちらが改ざ\nんされたかを判別できる。",
+      "image": "assets/ap-2020-october/q40.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問40 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": -0.409
+    },
+    {
+      "id": "2020-october-q41",
+      "number": 41,
+      "topic": "テクノロジ系",
+      "stem": "問41 クリプトジャッキングに該当するものはどれか。\n\nア PC にマルウェアを感染させ, その PC の CPU などが有する処理能力を不正に\n利用して, 暗号資産の取引承認に必要となる計算を行い, 報酬を得る。\n\nイ 暗号資産の取引所から利用者のアカウント情報を盗み出し, 利用者になりすま\nUT, 取引所から暗号資産を不正に盗みとる。\n\nウ カード加盟店に正規に設置されている, カードの磁気ストライプの情報を読み\n取る機器から, カード情報を初取する。\n\nエエ 利用者の PC を利用できなくし, 再び利用できるようにするのと引換えに金銭\nを要求する。",
+      "image": "assets/ap-2020-october/q41.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問41 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q42",
+      "number": 42,
+      "topic": "テクノロジ系",
+      "stem": "問42 暗号方式に関する記述のうち, 適切なものはどれか。\nア AES は公開鍵暗号方式, RSA は共通鍵暗号方式の一種である。\nイ 共通鍵暗号方式では, 暗号化及び復訪に同一の鍵を使用する。\nウ 公開鍵暗号方式を通信内容の秘匿に使用する場合は, 暗号化に使用する鍵を秘\n密にして, 復編に使用する鍵を公開する。\nエ ディジタル署名に公開鍵暗号方式が使用されることはなく, 共通鍵暗号方式が\n使用される。",
+      "image": "assets/ap-2020-october/q42.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問42 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q43",
+      "number": 43,
+      "topic": "テクノロジ系",
+      "stem": "問43 ボットネットにおける C&C サーバの役割として, 適切なものはどれか。\n\nア Web サイトのコンテンツをキャッシュし, 本来のサーバに代わってコンテンツ\nを利用者に配信することによって, ネットワークやサーバの負荷を軽減する。\n\nイ 外部からインターネットを経由して社内ネットワークにアクセスする際に,\nCHAP などのプロトコルを中継することによって, 利用者認証時のパスワードの\n盗聴を防止する。\n\nウ 外部からインターネットを経由して社内ネットワークにアクセスする際に, 時\n刻同期方式を採用したワンタイムパスワードを発行することによって, 利用者認\n証時のパスワードの盗聴を防止する。\n\nエ 侵入して乗っ取ったコンピュータに対して, 他のコンピュータへの攻撃などの\n不正な操作をするよう, 外部から命令を出したり応答を受け取ったりする。",
+      "image": "assets/ap-2020-october/q43.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問43 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q44",
+      "number": 44,
+      "topic": "テクノロジ系",
+      "stem": "間44 TPM (Trusted Platform Module) に該当するものはどれか。\n\nア PC などの機器に搭載され, 負生成, ハッシュ演算及び暗号処理を行うセキュリ\nティチップ\n\nイ 受信した電子メールが正当な送信者から送信されたものであることを保証する,\n\nウ ファイアウォール, 侵入検知, マルウェア対策など, 複数のセキュリティ機能\nを統合したネットワーク監視装置\n\nエ ログデータを一元的に管理し, セキュリティイベントの監視者への通知及び相\n関分析を行うシステム",
+      "image": "assets/ap-2020-october/q44.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問44 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q45",
+      "number": 45,
+      "topic": "テクノロジ系",
+      "stem": "問45 電子メールをスマートフォンで受信する際のメールサーバとスマートフォンとの\n間の通信をメール本文を含めて暗号化するプロトコルはどれか。\nア APOP            イ IMAPS\nウ POP3            エ SMTP Submission",
+      "image": "assets/ap-2020-october/q45.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問45 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q46",
+      "number": 46,
+      "topic": "テクノロジ系",
+      "stem": "問46 UML のアクティビティ図の特徴はどれか。\nア 多くの並行処理を含むシステムの, オブジェクトの振る舞いが記述できる。\nA オブジェクト群がどのようにコラボレーションを行うか記述できる。\nウ クラスの仕様と, クラスの間の静的な関係が記述できる。\nエ システムのコンポーネント間の物理的な関係が記述できる。",
+      "image": "assets/ap-2020-october/q46.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問46 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.25
+    },
+    {
+      "id": "2020-october-q47",
+      "number": 47,
+      "topic": "テクノロジ系",
+      "stem": "間47 次の流れ図において,\nD®7-@-O-O-O-O-@©-8O-@\nの順に実行させるために, ①において m とnに与えるべき初期値 & b の関係はど\nれか。ここで, a bはともに正の整数とする。\n®   m<a\nnとb\n©            @\nmの値を印字      mc (m—n)     nc (n~m)\nア a=2b    イ 2a=b    ウ 2a==3b    エ 3a=2b",
+      "image": "assets/ap-2020-october/q47.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問47 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q48",
+      "number": 48,
+      "topic": "テクノロジ系",
+      "stem": "問48 ソフトウェア保守で修正依頼を保守のタイプに分けるとき, 次の ard に該当す\nる保守のタイプの, 適切な組合せはどれか。\n(RFOR TT)\neames |. J\nsmswees 。 | こ|-\neeeweseeess [| =] «1\nPoe | oe | sk | a |",
+      "image": "assets/ap-2020-october/q48.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問48 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q49",
+      "number": 49,
+      "topic": "テクノロジ系",
+      "stem": "問49 アジャイル開発手法の説明のうち, スクラムのものはどれか。\n\nア コミュニケーション, シンプル, フィードバック, BR, 尊重の五つの価値を\n基礎とし, テスト駆動型開発, ペアプログラミング, リファクタリングなどのプ\nラクティスを推奨する。\n\nイ 推測 (プロジェクト立上げ, 適応的サイクル計画), 協調 (並行コンポーネント\n開発), 学習 (品質レビュー, 最終QAプリリース) のライフサイクルをもつ。\n\nウ プロダクトオーナなどの役割 ,スプリントレビューなどのイベント, プロダク\nトバックログなどの作成物, 及びルールから成るソフトウェア開発のフレームワ\nークである。\n\nエエ モデルの全体像を作成した上で, 優先度を付けた詳細なフィーチャリストを作\nML, フィーチャを上単位として計画し, フィーチャ単位に設計と構築を繰り返す。",
+      "image": "assets/ap-2020-october/q49.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問49 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q50",
+      "number": 50,
+      "topic": "テクノロジ系",
+      "stem": "問50 日本において特許 A を取得した特許権者から, 実施許諾を受けることが必要にな\nるのはどれか。\nア 出願日から 25 年を超えた特許A と同じ技術を新たに事業化する場合\nイ 特許Aの出願日よりも前から特許 A と同じ技術を独自に開発して, 特許Aの出\n願日に日本国内でその技術を用いた製品を製造し, 市場で販売していたことが証\n明できる場合\nウ 特許Aを家庭内で個人的に利用するだけの場合\nエ 日本国内で製造し, 米国に輸出する製品に特許A を利用する場合",
+      "image": "assets/ap-2020-october/q50.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問50 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q51",
+      "number": 51,
+      "topic": "マネジメント系",
+      "stem": "間51 PMBOK ガイド 第 6 版によれば, プロジェクト・スコーブプ記述書に記述する項目\nはどれか。\nア WBS                      4 コスト見積額\nウ ステークホルダー分類          エエ プロジェクトからの除外事項",
+      "image": "assets/ap-2020-october/q51.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問51 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q52",
+      "number": 52,
+      "topic": "マネジメント系",
+      "stem": "問52 プロジェクトマネジメントにおいてパフォーマンス測定に使用する EVM の管理\n対象の組みはどれか。\nア コスト, スケジュール      イ コスト, リスク\nウ スケジュール, 品質       エ mR, リスク",
+      "image": "assets/ap-2020-october/q52.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問52 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q53",
+      "number": 53,
+      "topic": "マネジメント系",
+      "stem": "問53 図は, 実施する三つのアクテイィビティについて, プレシデンスダイアグラム法を\n用いて, 依存関係及び必要な作業日数を示したものである。全ての作業を完了する\nのに必要な日数は最少で何日か。\n\nアクティビティA\n6日\n\n均了ー開始関係       =\n\n(リード2日)    アクティビティB\n78\n\n開始一開始関係\n\n(9 738)         アクティビティC\n\n5晶\nyu     4 12     ウ 13     エ 14",
+      "image": "assets/ap-2020-october/q53.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問53 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q54",
+      "number": 54,
+      "topic": "マネジメント系",
+      "stem": "問54 PMBOK ガイド 第 6 版によれば, 脅威と好機の,、 どちらに対しても採用されるリ\nスク対応戦略として, 適切なものはどれか。\nア 回避    イ 共有    ウ 受容    エ tele",
+      "image": "assets/ap-2020-october/q54.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問54 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q55",
+      "number": 55,
+      "topic": "マネジメント系",
+      "stem": "問55 IT サービスにおけるコンビュータシステムの利用に対する課金を通減課金方式で\n行うときのグラフはどれか。ここで, グラフの縦軸は果計の課金額を示す。\nァ                    ィ\n&\na      ‘BFA            u      使用量\nウ\n課                    課\n&                    &\n°      合用量            9      合用量",
+      "image": "assets/ap-2020-october/q55.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問55 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q56",
+      "number": 56,
+      "topic": "マネジメント系",
+      "stem": "間56 サービス提供時間帯が毎日 0て24 時の IT サービスにおいて, ある年の4月1日0\n時から 6 月 30 日 24 時までのサービス停止状況は表のとおりであった。システムバ\nージョンアップ作業に伴う停止時間は, 計画停止時間として顧客との間で合意され\nている。このとき, 4 月 1 日から 6 月 30 日までの IT サービスの可用性は何%か。\nここで, 可用性 (%) は小数第 3 位を四捨五入するものとする。\n〔サービス停止状況〕\nア 95.52         イ 95.70         ウ 99.52         エ 99.63",
+      "image": "assets/ap-2020-october/q56.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問56 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q57",
+      "number": 57,
+      "topic": "マネジメント系",
+      "stem": "問57 サービスマネジメントの容量・能力管理における, オンラインシステムの容量・\n能力の利用の監視についての注意事項のうち, 適切なものはどれか。\nア SLA の目標値を監視しきい値に設定し, しきい値を超過した場合には対策を講\nずる。\nイ 応答時間や CPU 使用率などの複数の測定項目を定常的に監視する。\nウ オンライン時間帯に性能を測定することはサービスレベルの低下につながるの\nで, 測定はオフライン時間帯に行う。\nエ 容量・能力及びパフォーマンスに関するインシデントを記録する。",
+      "image": "assets/ap-2020-october/q57.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問57 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q58",
+      "number": 58,
+      "topic": "マネジメント系",
+      "stem": "間58 システム監査基準 (平成 30 年) におけるウォークスルー法の説明として, 最も適\n\n切なものはどれか。\n\nア あらかじめシステム監査人が準備したテスト用データを監査対象プログラムで\n処理し, 期待した結果が出力されるかどうかを確かめる。\n\nイ 監査対象の実態を確かめるために, システム監査人が, 直接, 関係者に口頭で\n問い合わせ, 回答を入手する。\n\nウ 監査対象の状況に関する監査証拠を入手するために, システム監査人が, 関連\nする資料及び文書類を入手し, 内容を点検する。\n\nエ データの生成から入力, WH, 出力, 活用までのプロセス, 及び組み込まれて\nいるコントロールを, システム監査人が, 書面上で, 又は実際に追跡する。",
+      "image": "assets/ap-2020-october/q58.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問58 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q59",
+      "number": 59,
+      "topic": "マネジメント系",
+      "stem": "問59 システム監査のフォローアップにおいて, 監査対象部門による改善が計画よりも\n遅れていることが判明した際に, システム監査人が採るべき行動はどれか。\nア 遅れの原因に応じた具体的な対策の実施を, 監査対象部門の責任者に指示する。\n4 遅れの原因を確かめるために, 監査対象部門に対策の内容や実施状況を確認す\nる。\nウ 遅れを取り戻すために, 監査対象部門の改善活動に参加する。\nエ 遅れを取り戻すための監査対象部門への要員の追加を, 人事部長に要求する。",
+      "image": "assets/ap-2020-october/q59.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問59 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q60",
+      "number": 60,
+      "topic": "マネジメント系",
+      "stem": "問69 監査証拠の入手と評価に関する記述のうち, システム監査基準 (平成 30 年) に照\n\nらして, 適切でないものはどれか。\n\nア アジャイル手法を用いたシステム開発プロジェクトにおいては, 管理用ドキュ\nメントとしての体裁が整っているものだけが監査証拠として利用できる。\n\nイ 外部委託業務実施拠点に対する現地調査が必要と考えたとき, 委託先から入手\nした第三者の保証報告書に依拠できると判断すれば, 現地調査を省略できる。\n\nウ 十分かつ適切な監査証拠を入手するための本調査の前に, 監査対象の実態を把\n握するための予備調査を実施する。\n\nエ 一つの監査目的に対して, 通常は, 複数の監査手続を組み合わせて監査を実施\nする。",
+      "image": "assets/ap-2020-october/q60.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問60 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q61",
+      "number": 61,
+      "topic": "ストラテジ系",
+      "stem": "問61 情報戦略の投資効果を評価するとき, 利益額を分子に, 投資額を分母にして算出\nするものはどれか。\ny EVA     4 IRR     ウ NPV     = ROI",
+      "image": "assets/ap-2020-october/q61.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問61 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": -0.226
+    },
+    {
+      "id": "2020-october-q62",
+      "number": 62,
+      "topic": "ストラテジ系",
+      "stem": "問62 共通フレーム 2013 によれば, 企画プロセスで実施すべきものはどれか。\n\nア HY, 競合など事業環境を分析し, 企業の情報戦略と事業目標の関係を明確に\nする。\n\nイ システムのライフサイクルの全期間を通して, システムの利害関係者を識別す\nる。\n\nウ 人間の能力及びスキルの限界を考慮して, 利用者とシステムとの間の相互作用\nを識別する。\n\nエ 利害関係者の要件が正確に表現されていることを, 利害関係者とともに確立す\nる。",
+      "image": "assets/ap-2020-october/q62.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問62 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q63",
+      "number": 63,
+      "topic": "ストラテジ系",
+      "stem": "問63 SOAの説明はどれか。\n\nア SH, AW, 製造購買, 在庫管理, 販売などの企業の業務プロセスを一元管\n理することによって, 業務の効率化や経営資源の全体最適を図る手法\n\nイ 企業の業務プロセス, システム化要求などのニーズと, ソフトウェアパッケー\nジの機能性がどれだけ適合し, どれだけかい離しているかを分析する手法\n\nウ 業務プロセスの問題点を洗い出して, 目標設定, 実行, チェック, 修正行動の\nマネジメントサイクルを適用し, 継続的な改善を図る手法\n\nエ 利用者の視点から業務システムの機能を幾つかの独立した部品に分けることに\nよって, 業務プロセスとの対応付けや他ソフトウェアとの連携を容易にする手法",
+      "image": "assets/ap-2020-october/q63.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問63 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.357
+    },
+    {
+      "id": "2020-october-q64",
+      "number": 64,
+      "topic": "ストラテジ系",
+      "stem": "問64 クラウドサービスの利用手順を, “利用計画の策定\", “クラウド事業者の選定\",\n\n“クラウド事業者との契約締結\", “クラウド事業者の管理\", “サービスの利用終\n\n了” としたときに, \"利用計画の策定\" において, 利用者が実施すべき事項はどれか。\n\nア クラウドサービスの利用目的, 利用範囲, 利用による期待効果を検討し, クラ\nウドサービスに求める要件やクラウド事業者に求めるコントロール水準を定める。\n\nイ クラウド事業者が SLA などを適切に遵守しているかモニタリングし, また, 自\n社で構築しているコントロールの有効性を確認し, 改善の必要性を検討する。\n\nウ クラウド事業者との間で調整不可となる諸事項については, AIC LSRER\nを用意した上で, クラウド事業者との間でコントロール水準を SLA などで合意す\nる。\n\nエ 複数あるクラウド事業者のサービス内容を比較検討し, 自社が求める要件及び\nコントロール水準が充足できるかどうかを判定する。",
+      "image": "assets/ap-2020-october/q64.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問64 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q65",
+      "number": 65,
+      "topic": "ストラテジ系",
+      "stem": "FIGS 次に示すグリーン購入基本原則の “製品・サービスのライフサイクルの考慮”\" に\n該当する購入例はどれか。\n〔グリーン購入基本原則)〕\n1. 必要性の考慮\n購入する前に必要性を十分に考える。\n2. 製品・サービスのライフサイクルの考慮\n資源採取から廃棄までの製品ライフサイクルにおける多様な環境負荷を考慮し\nて購入する。\n3. 事業者の取組の考慮\n環境負荷の低減に努める事業者から製品・サービスを優先して購入する。\n4. 環境情報の入手・活用\n製品・サービスや事業者に関する環境情報を積極的に入手・活用して購入する。\nア 環境マネジメントシステムを導入し, 環境方針, 環境対応の責任体制などを定\nめ, 環境改善に取り組んでいる企業を, 重要な購入先として指定する。\nイ 環境や人の健康に悪影響を与えるような物質の使用や排出が削減されており,\nリユースやリサイクルが可能な製品を選定する。\nウ 製品の購入に当たっては, 遊休資産とかっている製品や使用頻度が少ない製品\nの活用などの代替策を検討した上で判断をする。\nエ 複数の製品を環境配慮や環境保全効果などの視点で比較するために, 製品紹介\nの Web ページ, カタログなどに示されている環境表示を参考にする。",
+      "image": "assets/ap-2020-october/q65.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問65 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q66",
+      "number": 66,
+      "topic": "ストラテジ系",
+      "stem": "問66 システムを委託する側のユーザ企業と, 受託する側の SI 事業者との間で締結され\n\nる契約形態のうち, レベニューシェア型契約はどれか。\n\nア SI 事業者が, ユーザ企業に対して, クラウドサービスを活用したシステム開発\nと運用に関わる SE サービスを月額固定料金で課金する。\n\n4 SI 事業者が, ユーザ企業に対して, ネットワーク経由でアプリケーションサー\nビスを提供する際に, サービスの利用時間に応じて加算された料金を課金する。\n\nウ 開発したシステムによって将来, ユーザ企業が獲得する売上や利益を ST 事業者\nにも分配することを条件に, 開発初期の SI 事業者への委託金額を抑える。\n\nエエ システム開発に必要な工数と人員の単価を掛け合わせた費用を SI 事業者が見積\nBY, システム構築費用としてシステム完成時にユーザ企業に請求する。",
+      "image": "assets/ap-2020-october/q66.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問66 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q67",
+      "number": 67,
+      "topic": "ストラテジ系",
+      "stem": "問67 企業の事業活動を機能ごとに主活動と支援活動に分け, 企業が顧客に提供する製\n品やサービスの利益が, どの活動で生み出されているかを分析する手法はどれか。\nア 3C分析           イ SWOT分析\nウ パリューチェーン分析      エエ ファイブフォース分析",
+      "image": "assets/ap-2020-october/q67.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問67 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q68",
+      "number": 68,
+      "topic": "ストラテジ系",
+      "stem": "問68 現在の動向から未来を予測したり, システム分析に使用したりする手法であり,\n専門的知識や経験を有する複数の人にアンケート調査を行い その結果を互いに参\n照した上で調査を繰り返して, 集団としての意見を収束させる手法はどれか。\n\nア 因果関係分析法        イ クロスセクション法\nウ 時系列回帰分析法       エエ デルファイ法",
+      "image": "assets/ap-2020-october/q68.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問68 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q69",
+      "number": 69,
+      "topic": "ストラテジ系",
+      "stem": "問69 プライスライニング戦略はどれか。\nア 消費者が選択しやすいように, 複数の価格帯に分けて商品を用意する。\nイ 商品の品質の良さやステータスを訴えるために意図的に価格を高く設定する。\nウ 商品本体の価格を安く設定し, 関連消耗品の販売で利益を得る。\nエエ 新商品に高い価格を設定して早い段階で利益を回収する。",
+      "image": "assets/ap-2020-october/q69.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問69 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q70",
+      "number": 70,
+      "topic": "ストラテジ系",
+      "stem": "問70 MPEG-4 などに存在するパテントプールの説明として, 適切なものはどれか。\nア 国際機関及び標準化団体による公的な標準ではなく, 市場の実勢によって事実\n上の標準とみなされるようになった規格及び製品\nイ 著作権表示を保持することによって, ソフトウェアの使用, 複製, 改変及び再\n頒布が認められる仕組み\nウ 特許料が無償でライセンスされている技術\nエ 複数の企業が自社の特許権をもち寄り, 特許権を一括して管理する仕組み",
+      "image": "assets/ap-2020-october/q70.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問70 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q71",
+      "number": 71,
+      "topic": "ストラテジ系",
+      "stem": "問71 CPS (サイバーフィジカルシステム) を活用している事例はどれか。\n\nア 仮想化された標準的なシステム資源を用意しておき, 業務内容に合わせてシス\nテムの規模や構成をソフトウェアによって設定する。\n\nイ 機器を販売するのではなく貸し出し, その機器に組み込まれたセンサで使用状\n況を検知し, その情報を元に利用者から利用料金を徴収する。\n\nウ 業務処理機能やデータ蓄積機能をサーバにもたせ, クライアント側はネットワ\nーク接続と最小限の入出力機能だけをもたせてデスクトップの仮想化を行う。\n\nエ 現実世界の都市の構造や活動状況のデータによって仮想世界を構築し, 災害の\n発生や時間軸を自由に操作して, 現実世界では実現できないシミュレーションを\n行う。",
+      "image": "assets/ap-2020-october/q71.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問71 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q72",
+      "number": 72,
+      "topic": "ストラテジ系",
+      "stem": "間72 企業システムにおける SoE (Systems of Engagement) の説明はどれか。\n\nア 高可用性, 拡張性,セキュリティを確保しながら情報システムを稼働・運用す\nるためのハードウェア, ソフトウェアから構成されるシステム基盤\n\nイ 社内業務プロセスに組み込まれ, 定型業務を処理し, 結果を記録することによ\nって省力化を実現するためのシステム\n\nウ データの活用を通じて, 消費者や顧客企業とのつながりや関係性を深めるため\nのシステム\n\nエエ 日々の仕訳伝票を入力した上で, データの改ざん, 消失を防ぎながら取引デー\nタベースを維持・管理することによって, 財務報告行うためのシステム",
+      "image": "assets/ap-2020-october/q72.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問72 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q73",
+      "number": 73,
+      "topic": "ストラテジ系",
+      "stem": "問73 EDI を実施するための情報表現規約で規定されるべきものはどれか。\nア 企業間の取引の契約内容     イ システムの運用時間\nウ 伝送制御手順         エエ メッセージの形式",
+      "image": "assets/ap-2020-october/q73.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問73 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q74",
+      "number": 74,
+      "topic": "ストラテジ系",
+      "stem": "間74 不良品の個数を製品別に集計すると表のようになった。ABC 分析を行って, まず\nA 群の製品に対策を講じることにした。4A 群の製品は何種類か。ここで, A Hit\n70%以上とする。\n\n[mlelelslslrlvlvlwlxleW\nFafa [oe [ae [oe fo Pe [fw fs | a\n7 3      イ 4      ウ 5      エ 6",
+      "image": "assets/ap-2020-october/q74.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問74 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q75",
+      "number": 75,
+      "topic": "ストラテジ系",
+      "stem": "問75 図は, 定量発注方式を運用する際の費用と発注量の関係を示したものである。図\n中の③を表しているものはどれか。ここで, 1 回当たりの発注量を Q, 1 回当たりの\n発注費用を C, 1 単位当たりの年間保管費用を H, 年間電要量を R とする。また,\n選択肢アンエのそれぞれの関係式は成り立っている。\n\n#\n\n用\n\n@\n@\n@\n®         発注量\n涯的発注量ニ 3            ee)    R\n\nア 経済的発注量       イ 総旨用ニテXH+ XC\nウゥ 年間人費用= xc      エ 平均年間保管催用こさ xi",
+      "image": "assets/ap-2020-october/q75.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ア",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問75 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q76",
+      "number": 76,
+      "topic": "ストラテジ系",
+      "stem": "問76 複雑な要因の絡む問題について, その因果関係明らかにすることによって, 問\n題の原因を究明する手法はどれか。\nア PDPC法             イ クラスタ分析法\nウ 系統図法           エ 連関図法",
+      "image": "assets/ap-2020-october/q76.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問76 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q77",
+      "number": 77,
+      "topic": "ストラテジ系",
+      "stem": "問77 資料は今年度の損益実績である。翌年度の計画では, 営業利益を 30 百万円にした\nい。 翌年度の売上高は何百万円を計画すべきか。ここで, 翌年度の固定費, 変動費\n率は今年度と変わらないものとする。\n\nCa)           単位 百万円\n\nぐく今年度の損益実績>\n売上高           500\n材料費 (変動費)       200\n外注費 (変動費)       100\n製造固定費        00_\n粗利益           100\n販売固定費        ー80_\n営業利益         20.\nア 510        イ 525        ウ 550        エ 575",
+      "image": "assets/ap-2020-october/q77.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問77 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q78",
+      "number": 78,
+      "topic": "ストラテジ系",
+      "stem": "PUTS プロバイダ商任制限法が定める特定電気通信役務提供者が行う送信防止措置に関\nする記述として, 適切なものはどれか。\n\nア 明らかに不当な権利侵害がなされている場合でも, 情報の発信者から事前に承\n諾を得ていなければ, 特定電気通信役務提供者は送信防止措置の結果として生じ\nた損害の賠償資任を負う。\n\nイ 権利侵害を防ぐための送信防止措置の結果, 情報の発信者に損害が生じた場合\nでも, 一定の条件を満たしていれば, 特定電気通信役務提供者は賠償責任を負わ\nない。\n\nウ 情報発信者に対して表現の自由を保障し, 通信の秘密を確保するため, 特定電\n気通信役務提供者は, 裁判所の決定を受けなければ送信防止措置を実施すること\nができない。\n\nエ 特定電気通信による情報の流通によって権利を侵害された者が, 個人情報保護\n委員会に苦情を申し立て, 被害が認定された際に特定電気通信役務提供者に命令\nされる措置である。",
+      "image": "assets/ap-2020-october/q78.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "イ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問78 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q79",
+      "number": 79,
+      "topic": "ストラテジ系",
+      "stem": "間79 マイナンバー法の個人番号を取り扱う事業者が特定個人情報の提供をすることが\n\nできる場合はどれか。\n\nア 4A 社からグループ企業である B 社に転籍した従業員の特定個人情報について,\nB 社での給与所得の源泉徴収票の提出目的で, A 社が B 社から提出を求められた\n場合\n\n4 A 社の従業員が B 社に出向した際に, A 社の従業員の業務成績を引き継ぐため\nに, 個人番号を業務成績に付加して提出するように, A 社が B 社から求められた\n場合\n\nウ 事業者が, 営業活動情報を管理するシステムを導入する際に, 営業担当者のマ\nスタ情報として使用する目的で, システムを導入するベンダから提出を求められ\nた場合\n\nエエ 事業者が, 個人情報保護委員会による特定個人情報の取扱いに関する立入検査\nを実施された際, 同委員会から資料の提出を求められた場合",
+      "image": "assets/ap-2020-october/q79.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "エ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問79 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": 0.0
+    },
+    {
+      "id": "2020-october-q80",
+      "number": 80,
+      "topic": "ストラテジ系",
+      "stem": "問80 A社はB社に対して業務システムの開発を委託し, A 社と B 社は請負契約を結ん\n\nでいる。 作業の実態から, 偽装請負とされる事象はどれか。\n\nア 4 社の従業員が, B 社を作業場所として, A 社の責任者の指揮命令に従ってシ\nステムの検証を行っている。\n\nイ A 社の従業員が, B 社を作業場所として, B 社の責任者の指揮命令に従ってシ\nステムの検証を行っている。\n\nウ B 社の従業員が, A 社を作業場所として, A 社の責任者の指揮命令に従って設\n計書を作成している。\n\nエ B 社の従業員が, A 社を作業場所として, B 社の資任者の指揮命令に従って設\n計書を作成している。",
+      "image": "assets/ap-2020-october/q80.webp",
+      "imageOnly": true,
+      "options": [
+        "原本画像内の選択肢ア",
+        "原本画像内の選択肢イ",
+        "原本画像内の選択肢ウ",
+        "原本画像内の選択肢エ"
+      ],
+      "answer": "ウ",
+      "explanation": "",
+      "source": "出典：IPA 2020年度10月 応用情報技術者試験 午前 問80 https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_ap_am_qs.pdf",
+      "modified": true,
+      "modificationNote": "公式問題の画像切り出し・保守的傾き補正。OCR文字列は参考情報であり原本画像を正とします。",
+      "deskewDegrees": -0.386
+    }
+  ]
+}
