@@ -164,7 +164,7 @@ function updateSelectionStats(){
 function renderSetupSets(){
  if(!$('set-list'))return;
  const els=metadataList(),years=[...new Set(els.filter(isOfficialExamSet).map(s=>s.year).filter(Boolean))].sort((a,b)=>Number(b)-Number(a));
- const seasons=['春期','秋期'];
+ const seasons=['春期','秋期','10月'].filter(t=>els.some(x=>x.season===t));
  const y=$('year-filter'),sv=y.value||'all';y.innerHTML='<option value="all">全年度</option>'+years.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'年度</option>').join('');y.value=years.includes(sv)?sv:'all';
  const st=$('season-filter'),ss=st.value||'all';st.innerHTML='<option value="all">全期</option>'+seasons.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');st.value=seasons.includes(ss)?ss:'all';
  renderCardsOnly();
