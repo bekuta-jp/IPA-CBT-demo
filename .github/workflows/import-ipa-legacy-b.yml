@@ -1,0 +1,29 @@
+name: Import IPA 2016-2025 AP Afternoon Archive
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tools/import_ipa_legacy_b.py'
+      - '.github/workflows/import-ipa-legacy-b.yml'
+permissions:
+  contents: write
+jobs:
+  import:
+    strategy:
+      fail-fast: false
+      matrix:
+        session:
+          - 2016-autumn
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install OCR and PDF packages
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-jpn
+          python -m pip install --disable-pip-version-check 'pymupdf>=1.24,<2' 'Pillow>=11,<13' requests pytesseract
+      - name: Diagnose big-question segmentation and answer sections
+        run: python tools/import_ipa_legacy_b.py --session '${{ matrix.session }}' --probe
