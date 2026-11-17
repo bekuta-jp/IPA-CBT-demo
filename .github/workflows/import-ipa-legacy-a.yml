@@ -33,5 +33,75 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-jpn
           python -m pip install --disable-pip-version-check 'pymupdf>=1.24,<2' 'Pillow>=11,<13' requests pytesseract 'opencv-python-headless>=4.8,<5' 'numpy>=1.26,<3'
-      - name: Diagnose missing morning headings and 80 answer positions
-        run: python tools/import_ipa_legacy_a.py --session '${{ matrix.session }}' --probe
+      - name: Build 80 question images with conservative deskew
+        run: python tools/import_ipa_legacy_a.py --session '${{ matrix.session }}'
+      - name: Validate 80 source images and official answer keys
+        shell: bash
+        env:
+          SESSION: ${{ matrix.session }}
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          ses=os.environ['SESSION']
+          d=json.loads(Path('sets/ap-'+ses+'.json').read_text(encoding='utf-8'))
+          assert len(d['questions'])==80
+          assert [q['number'] for q in d['questions']]==list(range(1,81))
+          assert all(q['imageOnly'] and q['answer'] in 'アイウエ' and Path(q['image']).is_file() for q in d['questions'])
+          print('VERIFIED',ses,'80 IPA questions and 80 images')
+          PY
+      - name: Store verified images and question JSON
+        uses: actions/upload-artifact@v4
+        with:
+          name: ap-a-${{ matrix.session }}
+          retention-days: 2
+          if-no-files-found: error
+          path: |
+            sets/ap-${{ matrix.session }}.json
+            assets/ap-${{ matrix.session }}/
+  publish:
+    needs: import
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - name: Download 9 verified A sessions
+        uses: actions/download-artifact@v4
+        with:
+          pattern: ap-a-*
+          path: .
+          merge-multiple: true
+      - name: Extend published A index to 2016-2025
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sessions=[f'{y}-{s}' for y in range(2016,2020) for s in ('spring','autumn')]+['2020-october']
+          manifest=json.loads(Path('sets/index.json').read_text(encoding='utf-8'))
+          manifest=[v for v in manifest if v.get('id') not in {'ap-'+s for s in sessions}]
+          for ses in sessions:
+              f=Path('sets/ap-'+ses+'.json');d=json.loads(f.read_text(encoding='utf-8'))
+              assert len(d['questions'])==80 and d['id']=='ap-'+ses
+              assert [q['number'] for q in d['questions']]==list(range(1,81))
+              assert all(Path(q['image']).is_file() for q in d['questions'])
+              manifest.append({'id':d['id'],'title':d['title'],'year':d['year'],'season':d['season'],'sourceType':'ipa','count':80,'file':str(f)})
+          official=[x for x in manifest if x.get('sourceType')=='ipa' and x.get('count')==80]
+          assert len(official)==19,(len(official),official)
+          Path('sets/index.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('PASS: 2016-2025 19 official A sittings / 1520 questions')
+          PY
+      - name: Commit validated question corpus
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sets/index.json sets/ap-2016-*.json sets/ap-2017-*.json sets/ap-2018-*.json sets/ap-2019-*.json sets/ap-2020-*.json assets/ap-2016-*/ assets/ap-2017-*/ assets/ap-2018-*/ assets/ap-2019-*/ assets/ap-2020-*/
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: publish 2016-2020 AP morning exams (720 official questions)'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
