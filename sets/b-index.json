@@ -159,7 +159,8 @@
     "season": "春期",
     "count": 11,
     "selectCount": 5,
-    "file": "sets/b-2025-spring.json"
+    "file": "sets/b-2025-spring.json",
+    "metadataFile": "sets/b-meta-2025-spring.json"
   },
   {
     "id": "ap-b-2025-autumn",
