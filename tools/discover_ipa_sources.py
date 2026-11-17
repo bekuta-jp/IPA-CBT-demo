@@ -14,12 +14,13 @@ def get(url):
 def discover():
     index=get(ROOT+'index.html')
     byyear={}
+    print('INDEX_LINK_SAMPLES',[(a.get_text(' ',strip=True)[:70],a.get('href')) for a in index.select('a[href]') if '2016' in a.get('href','')][:5],flush=True)
     for a in index.select('a[href]'):
-        title=a.get_text(' ',strip=True)
-        m=re.search(r'\((20\d\d)年度|（(20\d\d)年度',title)
+        href=urljoin(ROOT,a['href'])
+        m=re.search(r'/(20(?:1[6-9]|2[0-5]))[a-z0-9]*\\.html$',href)
         if m:
-            year=int(m.group(1) or m.group(2))
-            if year in range(2016,2026):byyear[year]=urljoin(ROOT,a['href'])
+            year=int(m.group(1))
+            byyear[year]=href
     print('YEAR_PAGES',json.dumps(byyear,ensure_ascii=False),flush=True)
     sessions={}
     for year in range(2016,2026):
