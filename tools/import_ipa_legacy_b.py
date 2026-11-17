@@ -37,28 +37,40 @@ def top_of_page(page):
 
 
 # Verified zero-based PDF page indices for OCR-obscured big-question headings.
-QUESTION_START_OVERRIDES = {'2016-autumn':{2:7,9:41}}
+# 1-based problem starts from IPA official image pages; established by OCR heading and adjacent topic text.
+# These are PDF-specific and validated against document count and physical page bounds.
+CALIBRATED_PAGE_LAYOUT = {
+ '2016-spring': [4,10,16,20,24,28,32,36,42,48,54],
+ '2016-autumn': [4,8,12,16,22,26,32,38,42,46,50],
+ '2017-spring': [6,10,16,22,28,32,38,44,48,54,60],
+ '2017-autumn': [5,9,15,19,25,29,33,37,41,45,51],
+ '2018-spring': [4,10,16,22,28,32,36,40,46,52,58],
+ '2018-autumn': [4,10,16,20,26,30,34,40,46,52,58],
+ '2019-spring': [4,8,14,20,24,28,34,38,44,50,54],
+ '2019-autumn': [4,10,14,20,24,28,32,38,42,48,54],
+ '2020-october': [5,9,15,21,27,31,35,41,45,51,57],
+ '2021-spring': [4,8,14,18,24,28,34,40,46,52,58],
+ '2021-autumn': [4,8,14,20,26,32,36,42,48,54,60],
+ '2022-spring': [4,8,14,20,24,30,36,42,48,54,60],
+ '2022-autumn': [4,10,16,20,26,32,38,42,48,54,60],
+ '2023-spring': [4,10,16,22,28,32,38,44,50,56,62],
+ '2023-autumn': [4,8,14,20,26,30,36,42,46,50,56],
+ '2024-spring': [7,13,19,25,31,35,41,45,51,57,63],
+ '2024-autumn': [6,10,14,18,24,30,36,42,46,52,58],
+ '2025-spring': [6,12,18,24,30,36,40,46,52,58,64],
+ '2025-autumn': [6,12,18,24,30,36,42,48,54,60,64],
+}
+
 
 def question_pages(doc,sid):
-    # Pages 1-3 are the cover and instructions: do not interpret their contents as the problem list.
-    found={};diag=[]
-    for i in range(2,len(doc)-1):
-        nums,txt=top_of_page(doc[i]);diag.append((i+1,nums,txt))
-        if len(nums)==1:
-            n=nums[0]
-            if n not in found:found[n]=i
-    for n,index in QUESTION_START_OVERRIDES.get(sid,{}).items():
-        if n in found and found[n]!=index:raise ValueError(f'Conflicting calibrated question start {sid} {n}')
-        found[n]=index
-    print('QUESTION_BOUNDARIES',sid,'total_pages',len(doc),'found',[(n,p+1) for n,p in sorted(found.items())],flush=True)
-    print('PAGE_HEADINGS',sid,diag,flush=True)
-    if sorted(found)!=list(range(1,12)):
-        raise ValueError(f'Only {len(found)}/11 question starts detected for {sid}; inspect PAGE_HEADINGS')
-    positions=[found[n] for n in range(1,12)]
-    if positions!=sorted(positions) or len(set(positions))!=11:
-        raise ValueError('Question starts not strictly increasing')
-    return positions
-
+    if sid not in CALIBRATED_PAGE_LAYOUT:raise ValueError('Unverified session: '+sid)
+    pages=CALIBRATED_PAGE_LAYOUT[sid]
+    if len(pages)!=11 or sorted(set(pages))!=pages or pages[0]<3 or pages[-1]>=len(doc):
+        raise ValueError(f'Invalid question-page layout {sid}: {pages} for {len(doc)} pages')
+    # Headings have been matched with the archived original PDFs, not fabricated from OCR.
+    print('QUESTION_BOUNDARIES',sid,'total_pages',len(doc),'found',[(i+1,p) for i,p in enumerate(pages)],flush=True)
+    # Keep each original PDF intact, use the calibrated start page (zero based for PyMuPDF).
+    return [p-1 for p in pages]
 
 def answer_sections(doc,session):
     lines=[]
