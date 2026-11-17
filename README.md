@@ -27,6 +27,18 @@
 
 科目Bの参考資料：[CBT-Solutions 2026年度AP操作案内](https://cbt-s.com/examinee/examination/ap_koudo_sc_r8cbt_zenki) ／ [科目B群（論述式なし）操作説明PDF](https://cbt-s.com/examinee/files/examination/17907371471.pdf) ／ [IPA試験概要](https://www.ipa.go.jp/shiken/kubun/ap.html)。
 
+### 2025年春期：設問ごとの解答欄メタデータ（試験運用）
+
+2025年度春期の旧午後11大問について、IPA公表問題文と公式解答例をもとに**94個の設問・小問・空欄別入力欄**を定義しています。このうち**30欄**を一意に判定できる選択肢・単語／数値として自動採点対象としています。長文、理由、SQLや記述式など表現揺れのある解答はLLMによる評価対象です。これらは試験運用上の推定であり、本番CBTの入力UIそのものを保証しません。
+
+- 解答欄のメタデータ：`sets/b-meta-2025-spring.json`（`ap-b-field-meta-v1`）。過去問の画像・公式解答ファイルには変更を加えず、`sets/b-index.json` の `metadataFile` から読み込みます。
+- `questions["大問番号"].fields` は、`parent`（元の設問グループ）、`id`（一意の入力欄ID）、`label`、`type`、`prompt`、`reference`、`verified`、`grading`、`correct`（一意採点する場合のみ）、`maxLength`、`maxLengthVerified`、`allowedChars`、`options`（選択式の場合）を持ちます。
+- `completeGroups` に記載された元の設問だけを小問別入力欄に差し替えます。**記載がない設問、メタデータファイル自体がない年度、ファイルの取得・検証に失敗した場合は汎用複数行欄**に戻します。
+- 2025年春期の**問11・設問3**は汎用欄を残し、同一回の中でのフォールバックも検証できるようにしています。
+- 文字数上限は問題冊子で確認できたものに `maxLengthVerified:true` を設定し、未確認の欄は暫定上限（練習用1,000字）とします。確認できた数字専用・英数字専用の入力欄には `allowedChars` を設定できます。
+- LLM向けJSONとMarkdownには、各小問の入力値・解答例と、元の設問グループ全体の公式解答例を保持します。
+- `node tools/test_subject_b_metadata.js` および `python tools/validate_subject_b_metadata.py` で、元の11大問の保存、94欄への展開、自動採点条件、未分類の汎用欄への切替を検証します。GitHub Actions「Validate Subject B」でも実行します。
+
 ### 科目B 自作JSONスキーマ（例）
 
 ```json
