@@ -43,5 +43,80 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-jpn
           python -m pip install --disable-pip-version-check 'pymupdf>=1.24,<2' 'Pillow>=11,<13' requests pytesseract
-      - name: Diagnose big-question segmentation and answer sections
-        run: python tools/import_ipa_legacy_b.py --session '${{ matrix.session }}' --probe
+      - name: Build official original image bundles and LLM-only answer fields
+        run: python tools/import_ipa_legacy_b.py --session '${{ matrix.session }}'
+      - name: Validate all 11 big questions and images
+        shell: bash
+        env:
+          SESSION: ${{ matrix.session }}
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          ses=os.environ['SESSION']
+          d=json.loads(Path('sets/b-'+ses+'.json').read_text(encoding='utf-8'))
+          assert d['id']=='ap-b-'+ses and d['selectCount']==5
+          assert [q['number'] for q in d['questions']]==list(range(1,12))
+          assert d['questions'][0]['required']
+          for q in d['questions']:
+              assert q['content'] and all(z['type']=='image' and Path(z['src']).is_file() for z in q['content'])
+              assert q['fields'] and all(f['type']=='long' and f['grading']=='llm' and f['reference'].strip() for f in q['fields'])
+          print('VERIFIED',ses,'11 big questions',sum(len(q['content']) for q in d['questions']),'pages')
+          PY
+      - name: Store validated set
+        uses: actions/upload-artifact@v4
+        with:
+          name: ap-b-${{ matrix.session }}
+          retention-days: 2
+          if-no-files-found: error
+          path: |
+            sets/b-${{ matrix.session }}.json
+            assets/ap-b-${{ matrix.session }}/
+  publish:
+    needs: import
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - name: Download all 19 validated sessions
+        uses: actions/download-artifact@v4
+        with:
+          pattern: ap-b-*
+          path: .
+          merge-multiple: true
+      - name: Validate corpus and create official B catalog
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sessions=[f'{y}-{p}' for y in range(2016,2026) for p in (('october',) if y==2020 else ('spring','autumn'))]
+          assert len(sessions)==19
+          catalog=[]
+          for ses in sessions:
+              f=Path('sets/b-'+ses+'.json')
+              d=json.loads(f.read_text(encoding='utf-8'))
+              assert d['id']=='ap-b-'+ses
+              assert [q['number'] for q in d['questions']]==list(range(1,12))
+              assert d['questions'][0]['required']
+              assert all(q['fields'] and q['content'] for q in d['questions'])
+              assert all(Path(b['src']).is_file() for q in d['questions'] for b in q['content'])
+              assert all(fld.get('grading')=='llm' for q in d['questions'] for fld in q['fields'])
+              catalog.append({'id':d['id'],'title':d['title'],'year':d['year'],'season':d['season'],'count':11,'selectCount':5,'file':str(f)})
+          Path('sets/b-index.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('PASS: 19 verified historical B sittings, 209 original big-question image bundles')
+          PY
+      - name: Commit published corpus
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sets/b-index.json sets/b-*.json assets/ap-b-*/
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: publish official 2016-2025 AP afternoon archives (209 big questions)'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
