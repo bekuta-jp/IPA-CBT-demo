@@ -36,6 +36,9 @@ def top_of_page(page):
     return [v for v in matches if 1<=v<=11],norm[:120].replace('\n',' / ')
 
 
+# Verified zero-based PDF page indices for OCR-obscured big-question headings.
+QUESTION_START_OVERRIDES = {'2016-autumn':{2:7,9:41}}
+
 def question_pages(doc,sid):
     # Pages 1-3 are the cover and instructions: do not interpret their contents as the problem list.
     found={};diag=[]
@@ -44,6 +47,9 @@ def question_pages(doc,sid):
         if len(nums)==1:
             n=nums[0]
             if n not in found:found[n]=i
+    for n,index in QUESTION_START_OVERRIDES.get(sid,{}).items():
+        if n in found and found[n]!=index:raise ValueError(f'Conflicting calibrated question start {sid} {n}')
+        found[n]=index
     print('QUESTION_BOUNDARIES',sid,'total_pages',len(doc),'found',[(n,p+1) for n,p in sorted(found.items())],flush=True)
     print('PAGE_HEADINGS',sid,diag,flush=True)
     if sorted(found)!=list(range(1,12)):
