@@ -1,0 +1,1433 @@
+{
+  "schemaVersion": "ap-b-field-meta-v1",
+  "setId": "ap-b-2025-spring",
+  "revision": "2026-11-18-pilot1",
+  "title": "2025年春期 旧午後問題・設問/小問別解答欄（試験運用）",
+  "sources": {
+    "question": "https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_pm_qs.pdf",
+    "answer": "https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07h_ap_pm_ans.pdf",
+    "operationGuide": "https://cbt-s.com/examinee/files/examination/17907371471.pdf"
+  },
+  "note": "解答例はIPA公表のもの。専用欄は解答形式と小問対応が確認できた範囲で設定。未確認の入力文字数を本番の文字数と誤認させない。問11設問3は汎用欄として保持。自動採点は選択肢・一意に定まる数値/語句に限定。",
+  "questions": {
+    "1": {
+      "completeGroups": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "fields": [
+        {
+          "parent": "s1",
+          "id": "s1-1",
+          "label": "設問1 調査方法",
+          "prompt": "公式問題冊子の設問1 調査方法に対応する解答を入力してください。",
+          "type": "word",
+          "reference": "デジタルフォレンジックス",
+          "verified": true,
+          "grading": "exact",
+          "maxLength": 12,
+          "maxLengthVerified": true,
+          "correct": [
+            "デジタルフォレンジックス"
+          ]
+        },
+        {
+          "parent": "s2",
+          "id": "s2-1",
+          "label": "設問2 a",
+          "prompt": "公式問題冊子の設問2 aに対応する解答を入力してください。",
+          "type": "single",
+          "reference": "オ",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ",
+            "オ",
+            "カ",
+            "キ",
+            "ク"
+          ],
+          "correct": [
+            "オ"
+          ]
+        },
+        {
+          "parent": "s2",
+          "id": "s2-2",
+          "label": "設問2 b",
+          "prompt": "公式問題冊子の設問2 bに対応する解答を入力してください。",
+          "type": "single",
+          "reference": "ウ",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ",
+            "オ",
+            "カ",
+            "キ",
+            "ク"
+          ],
+          "correct": [
+            "ウ"
+          ]
+        },
+        {
+          "parent": "s3",
+          "id": "s3-1",
+          "label": "設問3 設定項目",
+          "prompt": "公式問題冊子の設問3 設定項目に対応する解答を入力してください。",
+          "type": "word",
+          "reference": "ロックアウトのしきい値",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 15,
+          "maxLengthVerified": true
+        },
+        {
+          "parent": "s3",
+          "id": "s3-2",
+          "label": "設問3 理由",
+          "prompt": "公式問題冊子の設問3 理由に対応する解答を入力してください。",
+          "type": "long",
+          "reference": "同一のパスワードで異なるIDにログイン試行するから",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 25,
+          "maxLengthVerified": true
+        },
+        {
+          "parent": "s4",
+          "id": "s4-1",
+          "label": "設問4 (1)",
+          "prompt": "公式問題冊子の設問4 (1)に対応する解答を入力してください。",
+          "type": "long",
+          "reference": "暗号化されたデータで上書きされている。",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 30,
+          "maxLengthVerified": true
+        },
+        {
+          "parent": "s4",
+          "id": "s4-2",
+          "label": "設問4 (2)",
+          "prompt": "公式問題冊子の設問4 (2)に対応する解答を入力してください。",
+          "type": "long",
+          "reference": "古い記録のログが上書きされるから",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 20,
+          "maxLengthVerified": true
+        },
+        {
+          "parent": "s5",
+          "id": "s5-1",
+          "label": "設問5 c",
+          "prompt": "公式問題冊子の設問5 cに対応する解答を入力してください。",
+          "type": "single",
+          "reference": "ア",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ"
+          ],
+          "correct": [
+            "ア"
+          ]
+        }
+      ]
+    },
+    "2": {
+      "completeGroups": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "fields": [
+        {
+          "parent": "s1",
+          "id": "s1-1",
+          "label": "設問1 (1)",
+          "prompt": "公式問題冊子の設問1 (1)に対応する解答を入力してください。",
+          "type": "long",
+          "reference": "コア技術を維持してきたこと",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 15,
+          "maxLengthVerified": true
+        },
+        {
+          "parent": "s1",
+          "id": "s1-2",
+          "label": "設問1 (2) a",
+          "prompt": "公式問題冊子の設問1 (2) aに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "シナジー",
+          "verified": true,
+          "grading": "exact",
+          "maxLength": 5,
+          "maxLengthVerified": true,
+          "correct": [
+            "シナジー"
+          ]
+        },
+        {
+          "parent": "s2",
+          "id": "s2-1",
+          "label": "設問2 (1) b",
+          "prompt": "公式問題冊子の設問2 (1) bに対応する解答を入力してください。",
+          "type": "single",
+          "reference": "イ",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ"
+          ],
+          "correct": [
+            "イ"
+          ]
+        },
+        {
+          "parent": "s2",
+          "id": "s2-2",
+          "label": "設問2 (1) c",
+          "prompt": "公式問題冊子の設問2 (1) cに対応する解答を入力してください。",
+          "type": "single",
+          "reference": "ウ",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ"
+          ],
+          "correct": [
+            "ウ"
+          ]
+        },
+        {
+          "parent": "s2",
+          "id": "s2-3",
+          "label": "設問2 (2)",
+          "prompt": "公式問題冊子の設問2 (2)に対応する解答を入力してください。",
+          "type": "long",
+          "reference": "再生医療市場の拡大を見込み、抗酸化技術を応用した製品を開発する。",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 35,
+          "maxLengthVerified": true
+        },
+        {
+          "parent": "s3",
+          "id": "s3-1",
+          "label": "設問3 (1)",
+          "prompt": "公式問題冊子の設問3 (1)に対応する解答を入力してください。",
+          "type": "single",
+          "reference": "イ",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ"
+          ],
+          "correct": [
+            "イ"
+          ]
+        },
+        {
+          "parent": "s3",
+          "id": "s3-2",
+          "label": "設問3 (2)",
+          "prompt": "公式問題冊子の設問3 (2)に対応する解答を入力してください。",
+          "type": "long",
+          "reference": "事業環境の変化による事業リスクを分散・軽減できること",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 30,
+          "maxLengthVerified": true
+        },
+        {
+          "parent": "s3",
+          "id": "s3-3",
+          "label": "設問3 (3) d",
+          "prompt": "公式問題冊子の設問3 (3) dに対応する解答を入力してください。",
+          "type": "short",
+          "reference": "映像関連事業を売却",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 15,
+          "maxLengthVerified": true
+        },
+        {
+          "parent": "s3",
+          "id": "s3-4",
+          "label": "設問3 (4)",
+          "prompt": "公式問題冊子の設問3 (4)に対応する解答を入力してください。",
+          "type": "short",
+          "reference": "対応スピードの速さ",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 10,
+          "maxLengthVerified": true
+        }
+      ]
+    },
+    "3": {
+      "completeGroups": [
+        "s1",
+        "s2"
+      ],
+      "fields": [
+        {
+          "parent": "s1",
+          "id": "s1-1",
+          "label": "設問1 配列",
+          "prompt": "公式問題冊子の設問1 配列に対応する解答を入力してください。",
+          "type": "long",
+          "reference": "{{8, 6, 7}, {2, 9, 4}, {3, 5, 1}}",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s2",
+          "id": "s2-1",
+          "label": "設問2 ア",
+          "prompt": "公式問題冊子の設問2 アに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "explore_queue.isEmpty()",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s2",
+          "id": "s2-2",
+          "label": "設問2 イ",
+          "prompt": "公式問題冊子の設問2 イに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "poll()",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s2",
+          "id": "s2-3",
+          "label": "設問2 ウ",
+          "prompt": "公式問題冊子の設問2 ウに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "direction[i][1]",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s2",
+          "id": "s2-4",
+          "label": "設問2 エ",
+          "prompt": "公式問題冊子の設問2 エに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "board_size",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s2",
+          "id": "s2-5",
+          "label": "設問2 オ",
+          "prompt": "公式問題冊子の設問2 オに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "direction[i][2]",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s2",
+          "id": "s2-6",
+          "label": "設問2 カ",
+          "prompt": "公式問題冊子の設問2 カに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "checkGoal(new_state.board, goal_board)",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s2",
+          "id": "s2-7",
+          "label": "設問2 キ",
+          "prompt": "公式問題冊子の設問2 キに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "add(new_state)",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s2",
+          "id": "s2-8",
+          "label": "設問2 ク",
+          "prompt": "公式問題冊子の設問2 クに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "add(new_state.board)",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        }
+      ]
+    },
+    "4": {
+      "completeGroups": [
+        "s1",
+        "s2"
+      ],
+      "fields": [
+        {
+          "parent": "s1",
+          "id": "s1-1",
+          "label": "設問1 (1) a",
+          "prompt": "公式問題冊子の設問1 (1) aに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "BEMSゲートウェイ",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s1",
+          "id": "s1-2",
+          "label": "設問1 (2) b",
+          "prompt": "公式問題冊子の設問1 (2) bに対応する解答を入力してください。",
+          "type": "single",
+          "reference": "イ",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ"
+          ],
+          "correct": [
+            "イ"
+          ]
+        },
+        {
+          "parent": "s1",
+          "id": "s1-3",
+          "label": "設問1 (2) c",
+          "prompt": "公式問題冊子の設問1 (2) cに対応する解答を入力してください。",
+          "type": "single",
+          "reference": "ウ",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ"
+          ],
+          "correct": [
+            "ウ"
+          ]
+        },
+        {
+          "parent": "s1",
+          "id": "s1-4",
+          "label": "設問1 (3) d",
+          "prompt": "公式問題冊子の設問1 (3) dに対応する解答を入力してください。",
+          "type": "single",
+          "reference": "エ",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ",
+            "オ",
+            "カ",
+            "キ",
+            "ク"
+          ],
+          "correct": [
+            "エ"
+          ]
+        },
+        {
+          "parent": "s1",
+          "id": "s1-5",
+          "label": "設問1 (3) e",
+          "prompt": "公式問題冊子の設問1 (3) eに対応する解答を入力してください。",
+          "type": "single",
+          "reference": "ク",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ",
+            "オ",
+            "カ",
+            "キ",
+            "ク"
+          ],
+          "correct": [
+            "ク"
+          ]
+        },
+        {
+          "parent": "s2",
+          "id": "s2-1",
+          "label": "設問2 (1) f",
+          "prompt": "公式問題冊子の設問2 (1) fに対応する解答を入力してください。",
+          "type": "single",
+          "reference": "ア",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ"
+          ],
+          "correct": [
+            "ア"
+          ]
+        },
+        {
+          "parent": "s2",
+          "id": "s2-2",
+          "label": "設問2 (2) g",
+          "prompt": "公式問題冊子の設問2 (2) gに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "22",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "correct": [
+            "22"
+          ],
+          "allowedChars": "digits"
+        },
+        {
+          "parent": "s2",
+          "id": "s2-3",
+          "label": "設問2 (3)",
+          "prompt": "公式問題冊子の設問2 (3)に対応する解答を入力してください。",
+          "type": "word",
+          "reference": "900",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "correct": [
+            "900"
+          ],
+          "allowedChars": "digits"
+        },
+        {
+          "parent": "s2",
+          "id": "s2-4",
+          "label": "設問2 (4)",
+          "prompt": "公式問題冊子の設問2 (4)に対応する解答を入力してください。",
+          "type": "single",
+          "reference": "ウ",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ"
+          ],
+          "correct": [
+            "ウ"
+          ]
+        }
+      ]
+    },
+    "5": {
+      "completeGroups": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "fields": [
+        {
+          "parent": "s1",
+          "id": "s1-1",
+          "label": "設問1 (1)",
+          "prompt": "公式問題冊子の設問1 (1)に対応する解答を入力してください。",
+          "type": "long",
+          "reference": "表2項番3のMACアドレスがプリンタのものと異なっていたから",
+          "verified": false,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s1",
+          "id": "s1-2",
+          "label": "設問1 (2) a",
+          "prompt": "公式問題冊子の設問1 (2) aに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "192.168.1.21",
+          "verified": false,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s1",
+          "id": "s1-3",
+          "label": "設問1 (3)",
+          "prompt": "公式問題冊子の設問1 (3)に対応する解答を入力してください。",
+          "type": "single",
+          "reference": "ウ",
+          "verified": false,
+          "grading": "llm",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ"
+          ]
+        },
+        {
+          "parent": "s1",
+          "id": "s1-4",
+          "label": "設問1 (4) b",
+          "prompt": "公式問題冊子の設問1 (4) bに対応する解答を入力してください。",
+          "type": "single",
+          "reference": "エ",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ"
+          ],
+          "correct": [
+            "エ"
+          ]
+        },
+        {
+          "parent": "s2",
+          "id": "s2-1",
+          "label": "設問2 (1) c",
+          "prompt": "公式問題冊子の設問2 (1) cに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "nslookup",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s2",
+          "id": "s2-2",
+          "label": "設問2 (2)",
+          "prompt": "公式問題冊子の設問2 (2)に対応する解答を入力してください。",
+          "type": "single",
+          "reference": "ウ",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ"
+          ],
+          "correct": [
+            "ウ"
+          ]
+        },
+        {
+          "parent": "s3",
+          "id": "s3-1",
+          "label": "設問3 (1) d",
+          "prompt": "公式問題冊子の設問3 (1) dに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "ファイルサーバ",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s3",
+          "id": "s3-2",
+          "label": "設問3 (2) 名称",
+          "prompt": "公式問題冊子の設問3 (2) 名称に対応する解答を入力してください。",
+          "type": "word",
+          "reference": "SNMPトラップ",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s3",
+          "id": "s3-3",
+          "label": "設問3 (2) 条件",
+          "prompt": "公式問題冊子の設問3 (2) 条件に対応する解答を入力してください。",
+          "type": "long",
+          "reference": "トラフィック量が800 Mビット/秒を超える",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s3",
+          "id": "s3-4",
+          "label": "設問3 (3) e",
+          "prompt": "公式問題冊子の設問3 (3) eに対応する解答を入力してください。",
+          "type": "single",
+          "reference": "ウ",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ"
+          ],
+          "correct": [
+            "ウ"
+          ]
+        }
+      ]
+    },
+    "6": {
+      "completeGroups": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "fields": [
+        {
+          "parent": "s1",
+          "id": "s1-1",
+          "label": "設問1 a",
+          "prompt": "公式問題冊子の設問1 aに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "店舗エリア郵便番号",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s1",
+          "id": "s1-2",
+          "label": "設問1 b",
+          "prompt": "公式問題冊子の設問1 bに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "→",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s2",
+          "id": "s2-1",
+          "label": "設問2 c",
+          "prompt": "公式問題冊子の設問2 cに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "FROM",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s2",
+          "id": "s2-2",
+          "label": "設問2 d",
+          "prompt": "公式問題冊子の設問2 dに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "LEFT OUTER JOIN",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s2",
+          "id": "s2-3",
+          "label": "設問2 e",
+          "prompt": "公式問題冊子の設問2 eに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "SUM(M.商品個数 * S.商品原価)",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s3",
+          "id": "s3-1",
+          "label": "設問3 f",
+          "prompt": "公式問題冊子の設問3 fに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "AND U.キャンペーン種別 = 'H'",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s3",
+          "id": "s3-2",
+          "label": "設問3 g",
+          "prompt": "公式問題冊子の設問3 gに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "ORDER BY 売上実績数 DESC",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s4",
+          "id": "s4-1",
+          "label": "設問4 見直し内容",
+          "prompt": "公式問題冊子の設問4 見直し内容に対応する解答を入力してください。",
+          "type": "long",
+          "reference": "Webキャンペーン実績表の集計粒度を日次から週次に修正する。",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 35,
+          "maxLengthVerified": true
+        }
+      ]
+    },
+    "7": {
+      "completeGroups": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "fields": [
+        {
+          "parent": "s1",
+          "id": "s1-1",
+          "label": "設問1 状態遷移",
+          "prompt": "公式問題冊子の設問1 状態遷移に対応する解答を入力してください。",
+          "type": "single",
+          "reference": "ウ",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ"
+          ],
+          "correct": [
+            "ウ"
+          ]
+        },
+        {
+          "parent": "s2",
+          "id": "s2-1",
+          "label": "設問2 (1) a",
+          "prompt": "公式問題冊子の設問2 (1) aに対応する解答を入力してください。",
+          "type": "short",
+          "reference": "0.1km/時未満が一定時間継続",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s2",
+          "id": "s2-2",
+          "label": "設問2 (2)",
+          "prompt": "公式問題冊子の設問2 (2)に対応する解答を入力してください。",
+          "type": "word",
+          "reference": "位置情報",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s3",
+          "id": "s3-1",
+          "label": "設問3 (1) b",
+          "prompt": "公式問題冊子の設問3 (1) bに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "停止中",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s3",
+          "id": "s3-2",
+          "label": "設問3 (1) d",
+          "prompt": "公式問題冊子の設問3 (1) dに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "メイン",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s3",
+          "id": "s3-3",
+          "label": "設問3 (2) c",
+          "prompt": "公式問題冊子の設問3 (2) cに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "電動KBの状態",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s4",
+          "id": "s4-1",
+          "label": "設問4 (1) e",
+          "prompt": "公式問題冊子の設問4 (1) eに対応する解答を入力してください。",
+          "type": "single",
+          "reference": "エ",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ",
+            "オ"
+          ],
+          "correct": [
+            "エ"
+          ]
+        },
+        {
+          "parent": "s4",
+          "id": "s4-2",
+          "label": "設問4 (1) f",
+          "prompt": "公式問題冊子の設問4 (1) fに対応する解答を入力してください。",
+          "type": "single",
+          "reference": "オ",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ",
+            "オ"
+          ],
+          "correct": [
+            "オ"
+          ]
+        },
+        {
+          "parent": "s4",
+          "id": "s4-3",
+          "label": "設問4 (1) g",
+          "prompt": "公式問題冊子の設問4 (1) gに対応する解答を入力してください。",
+          "type": "single",
+          "reference": "ア",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ",
+            "オ"
+          ],
+          "correct": [
+            "ア"
+          ]
+        },
+        {
+          "parent": "s4",
+          "id": "s4-4",
+          "label": "設問4 (2) 1",
+          "prompt": "公式問題冊子の設問4 (2) 1に対応する解答を入力してください。",
+          "type": "word",
+          "reference": "0.40",
+          "verified": false,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s4",
+          "id": "s4-5",
+          "label": "設問4 (2) 2",
+          "prompt": "公式問題冊子の設問4 (2) 2に対応する解答を入力してください。",
+          "type": "word",
+          "reference": "2.54",
+          "verified": false,
+          "grading": "llm",
+          "maxLengthVerified": false
+        }
+      ]
+    },
+    "8": {
+      "completeGroups": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "fields": [
+        {
+          "parent": "s1",
+          "id": "s1-1",
+          "label": "設問1 a",
+          "prompt": "公式問題冊子の設問1 aに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "継承",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s1",
+          "id": "s1-2",
+          "label": "設問1 b",
+          "prompt": "公式問題冊子の設問1 bに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "ID",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s1",
+          "id": "s1-3",
+          "label": "設問1 c",
+          "prompt": "公式問題冊子の設問1 cに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "ログイン認証の判定結果",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s2",
+          "id": "s2-1",
+          "label": "設問2 d",
+          "prompt": "公式問題冊子の設問2 dに対応する解答を入力してください。",
+          "type": "short",
+          "reference": "運用担当者、開発担当者",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s3",
+          "id": "s3-1",
+          "label": "設問3 システム障害",
+          "prompt": "公式問題冊子の設問3 システム障害に対応する解答を入力してください。",
+          "type": "single",
+          "reference": "イ",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ",
+            "オ"
+          ],
+          "correct": [
+            "イ"
+          ]
+        },
+        {
+          "parent": "s3",
+          "id": "s3-2",
+          "label": "設問3 システムエラー",
+          "prompt": "公式問題冊子の設問3 システムエラーに対応する解答を入力してください。",
+          "type": "single",
+          "reference": "エ",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ",
+            "オ"
+          ],
+          "correct": [
+            "エ"
+          ]
+        },
+        {
+          "parent": "s4",
+          "id": "s4-1",
+          "label": "設問4 出力機能",
+          "prompt": "公式問題冊子の設問4 出力機能に対応する解答を入力してください。",
+          "type": "word",
+          "reference": "エラーメッセージ表示",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s4",
+          "id": "s4-2",
+          "label": "設問4 内容",
+          "prompt": "公式問題冊子の設問4 内容に対応する解答を入力してください。",
+          "type": "long",
+          "reference": "エラーの詳細情報を出力しない。",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 20,
+          "maxLengthVerified": true
+        },
+        {
+          "parent": "s5",
+          "id": "s5-1",
+          "label": "設問5 (1) e",
+          "prompt": "公式問題冊子の設問5 (1) eに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "AbstractController",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s5",
+          "id": "s5-2",
+          "label": "設問5 (1) f",
+          "prompt": "公式問題冊子の設問5 (1) fに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "クラス名",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s5",
+          "id": "s5-3",
+          "label": "設問5 (2)",
+          "prompt": "公式問題冊子の設問5 (2)に対応する解答を入力してください。",
+          "type": "long",
+          "reference": "ログは開発担当者も参照するから",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 20,
+          "maxLengthVerified": true
+        }
+      ]
+    },
+    "9": {
+      "completeGroups": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "fields": [
+        {
+          "parent": "s1",
+          "id": "s1-1",
+          "label": "設問1 (1)",
+          "prompt": "公式問題冊子の設問1 (1)に対応する解答を入力してください。",
+          "type": "long",
+          "reference": "費用及び要求充足度を重要視するため",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 25,
+          "maxLengthVerified": true
+        },
+        {
+          "parent": "s1",
+          "id": "s1-2",
+          "label": "設問1 (2) a",
+          "prompt": "公式問題冊子の設問1 (2) aに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "K",
+          "verified": true,
+          "grading": "exact",
+          "maxLength": 1,
+          "maxLengthVerified": true,
+          "correct": [
+            "K"
+          ],
+          "allowedChars": "alphanumeric"
+        },
+        {
+          "parent": "s2",
+          "id": "s2-1",
+          "label": "設問2 (1) b",
+          "prompt": "公式問題冊子の設問2 (1) bに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "41",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "correct": [
+            "41"
+          ],
+          "allowedChars": "digits"
+        },
+        {
+          "parent": "s2",
+          "id": "s2-2",
+          "label": "設問2 (2)",
+          "prompt": "公式問題冊子の設問2 (2)に対応する解答を入力してください。",
+          "type": "long",
+          "reference": "バッファを不必要に消費しなくなる。",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 20,
+          "maxLengthVerified": true
+        },
+        {
+          "parent": "s2",
+          "id": "s2-3",
+          "label": "設問2 (3) c",
+          "prompt": "公式問題冊子の設問2 (3) cに対応する解答を入力してください。",
+          "type": "single",
+          "reference": "エ",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ"
+          ],
+          "correct": [
+            "エ"
+          ]
+        },
+        {
+          "parent": "s2",
+          "id": "s2-4",
+          "label": "設問2 (3) d",
+          "prompt": "公式問題冊子の設問2 (3) dに対応する解答を入力してください。",
+          "type": "single",
+          "reference": "イ",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "options": [
+            "ア",
+            "イ",
+            "ウ",
+            "エ"
+          ],
+          "correct": [
+            "イ"
+          ]
+        },
+        {
+          "parent": "s3",
+          "id": "s3-1",
+          "label": "設問3 (1)",
+          "prompt": "公式問題冊子の設問3 (1)に対応する解答を入力してください。",
+          "type": "word",
+          "reference": "1",
+          "verified": true,
+          "grading": "exact",
+          "maxLengthVerified": false,
+          "correct": [
+            "1"
+          ],
+          "allowedChars": "digits"
+        },
+        {
+          "parent": "s3",
+          "id": "s3-2",
+          "label": "設問3 (2)",
+          "prompt": "公式問題冊子の設問3 (2)に対応する解答を入力してください。",
+          "type": "long",
+          "reference": "J3チームだった要員を[D2]に投入する。",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 25,
+          "maxLengthVerified": true
+        }
+      ]
+    },
+    "10": {
+      "completeGroups": [
+        "s1",
+        "s2"
+      ],
+      "fields": [
+        {
+          "parent": "s1",
+          "id": "s1-1",
+          "label": "設問1 (1)",
+          "prompt": "公式問題冊子の設問1 (1)に対応する解答を入力してください。",
+          "type": "long",
+          "reference": "前日の注文情報に基づく翌日の生産計画。またはバッチ処理遅延による生産部への業務影響と対策",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 25,
+          "maxLengthVerified": true
+        },
+        {
+          "parent": "s1",
+          "id": "s1-2",
+          "label": "設問1 (2)",
+          "prompt": "公式問題冊子の設問1 (2)に対応する解答を入力してください。",
+          "type": "long",
+          "reference": "例外になるように設定する。",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 15,
+          "maxLengthVerified": true
+        },
+        {
+          "parent": "s2",
+          "id": "s2-1",
+          "label": "設問2 (1) a",
+          "prompt": "公式問題冊子の設問2 (1) aに対応する解答を入力してください。",
+          "type": "short",
+          "reference": "Sメッセージの出力を認識",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 15,
+          "maxLengthVerified": true
+        },
+        {
+          "parent": "s2",
+          "id": "s2-2",
+          "label": "設問2 (2) 実施内容",
+          "prompt": "公式問題冊子の設問2 (2) 実施内容に対応する解答を入力してください。",
+          "type": "long",
+          "reference": "増強したストレージの容量を元に戻す。",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 20,
+          "maxLengthVerified": true
+        },
+        {
+          "parent": "s2",
+          "id": "s2-3",
+          "label": "設問2 (2) 理由",
+          "prompt": "公式問題冊子の設問2 (2) 理由に対応する解答を入力してください。",
+          "type": "long",
+          "reference": "クラウド利用料が加算されるから",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 20,
+          "maxLengthVerified": true
+        },
+        {
+          "parent": "s2",
+          "id": "s2-4",
+          "label": "設問2 (3) b",
+          "prompt": "公式問題冊子の設問2 (3) bに対応する解答を入力してください。",
+          "type": "short",
+          "reference": "需要予測に基づくリソースの使用量の見積り",
+          "verified": true,
+          "grading": "llm",
+          "maxLength": 25,
+          "maxLengthVerified": true
+        },
+        {
+          "parent": "s2",
+          "id": "s2-5",
+          "label": "設問2 (4) c",
+          "prompt": "公式問題冊子の設問2 (4) cに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "キャパシティ計画",
+          "verified": true,
+          "grading": "llm",
+          "maxLengthVerified": false
+        }
+      ]
+    },
+    "11": {
+      "completeGroups": [
+        "s1",
+        "s2"
+      ],
+      "fields": [
+        {
+          "parent": "s1",
+          "id": "s1-1",
+          "label": "設問1 (1) a",
+          "prompt": "公式問題冊子の設問1 (1) aに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "手作業",
+          "verified": false,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s1",
+          "id": "s1-2",
+          "label": "設問1 (2) b",
+          "prompt": "公式問題冊子の設問1 (2) bに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "入力コントロール",
+          "verified": false,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s2",
+          "id": "s2-1",
+          "label": "設問2 (1) c",
+          "prompt": "公式問題冊子の設問2 (1) cに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "勤務形態",
+          "verified": false,
+          "grading": "llm",
+          "maxLengthVerified": false
+        },
+        {
+          "parent": "s2",
+          "id": "s2-2",
+          "label": "設問2 (2) d",
+          "prompt": "公式問題冊子の設問2 (2) dに対応する解答を入力してください。",
+          "type": "word",
+          "reference": "一定の組合せ",
+          "verified": false,
+          "grading": "llm",
+          "maxLengthVerified": false
+        }
+      ]
+    }
+  }
+}
