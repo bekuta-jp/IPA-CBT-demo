@@ -33,7 +33,7 @@ for q in b['questions']:
             exact+=1
             assert f['verified'] is True and f['type'] in {'single','multi','dropdown','word'}
             assert f['correct']
-            if f['options']:
+            if f.get('options'):
                 assert all(v in f['options'] for v in f['correct'])
         if f.get('maxLengthVerified'):
             assert f.get('maxLength') and len(f['reference'])<=f['maxLength']
