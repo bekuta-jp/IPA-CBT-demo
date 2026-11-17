@@ -1,0 +1,794 @@
+{
+  "id": "ap-b-2024-autumn",
+  "title": "2024年度 秋期（旧午後・科目B）公式過去問",
+  "year": "2024",
+  "season": "秋期",
+  "source": "出典：IPA 2024年度 秋期 応用情報技術者試験 午後 問題冊子・解答例。https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06a_ap_pm_qs.pdf ／ https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06a_ap_pm_ans.pdf",
+  "sourceUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06a_ap_pm_qs.pdf",
+  "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06a_ap_pm_ans.pdf",
+  "description": "旧午後試験の原本画像。設問ごとの記述欄を用意し、模範解答は公式解答例より抽出。すべてLLM採点対象（自動採点なし）。",
+  "requiredCount": 1,
+  "selectCount": 5,
+  "questions": [
+    {
+      "number": 1,
+      "required": true,
+      "title": "情報セキュリティ",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q01-p01.webp",
+          "alt": "2024-autumn 午後 問1 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q01-p02.webp",
+          "alt": "2024-autumn 午後 問1 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q01-p03.webp",
+          "alt": "2024-autumn 午後 問1 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q01-p04.webp",
+          "alt": "2024-autumn 午後 問1 原本画像 4ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1  ハッシュ値からパスワードの割出しは難しい。",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2  機密性",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s3",
+          "label": "設問3",
+          "prompt": "設問3の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問3     a オ\n              b カ",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s4",
+          "label": "設問4",
+          "prompt": "設問4の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問4  イ",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s5",
+          "label": "設問5",
+          "prompt": "設問5の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問5  多層防御",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s6",
+          "label": "設問6",
+          "prompt": "設問6の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問6(1) 会員テーブルの窃取だけではペッパーを得ることができないから\n         (2)  c   704",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "required": false,
+      "title": "経営戦略",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q02-p01.webp",
+          "alt": "2024-autumn 午後 問2 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q02-p02.webp",
+          "alt": "2024-autumn 午後 問2 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q02-p03.webp",
+          "alt": "2024-autumn 午後 問2 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q02-p04.webp",
+          "alt": "2024-autumn 午後 問2 原本画像 4ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1  (1)   a 従業員満足度\n               b 顧客満足度\n         (2)  機会 環境や倫理に対する社会意識の高まり\n        強み 環境に配慮した高品質なコーヒー豆の使用\n         (3)   c ・顧客がQ 社にもたらす利益\n         ・顧客生涯価値\n         (4)   d リピート率",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2  (1)   e 自己評価と部下からの評価とのギャップ\n         (2)   f 共感\n         (3) 香り深いコーヒーの淹れ方のマニュアル化\n\n\n\n\n\n                                                1/6\n\n                                                                        ©2024 独立行政法人情報処理推進機構",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "required": false,
+      "title": "プログラミング",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q03-p01.webp",
+          "alt": "2024-autumn 午後 問3 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q03-p02.webp",
+          "alt": "2024-autumn 午後 問3 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q03-p03.webp",
+          "alt": "2024-autumn 午後 問3 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q03-p04.webp",
+          "alt": "2024-autumn 午後 問3 原本画像 4ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1  ア  N2",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2  イ  isPrime[d]がtrue と等しい\n       ウ t+d",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s3",
+          "label": "設問3",
+          "prompt": "設問3の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問3  エ  isPrime[(d-1)÷2]がtrue と等しい\n       オ (t-1)÷2\n       カ t+2×d",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s4",
+          "label": "設問4",
+          "prompt": "設問4の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問4    (L1)  171\n             (L2)  13\n             (L3)  2",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "required": false,
+      "title": "システムアーキテクチャ",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q04-p01.webp",
+          "alt": "2024-autumn 午後 問4 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q04-p02.webp",
+          "alt": "2024-autumn 午後 問4 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q04-p03.webp",
+          "alt": "2024-autumn 午後 問4 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q04-p04.webp",
+          "alt": "2024-autumn 午後 問4 原本画像 4ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q04-p05.webp",
+          "alt": "2024-autumn 午後 問4 原本画像 5ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q04-p06.webp",
+          "alt": "2024-autumn 午後 問4 原本画像 6ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1(1) ア,イ,エ,オ\n         (2)  a  1.6",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2(1)  b  50\n              c  10\n              d  4\n         (2)  e  0.8\n         (3) アウトプットデータと比較してインプットデータの量が多いから\n         (4) 素材データをAP サーバのSSD にキャッシュする。",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s3",
+          "label": "設問3",
+          "prompt": "設問3の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問3(1)  f ア\n              g イ\n         (2) 追加・更新のない過去のデータ\n\n\n\n\n\n                                                2/6\n\n                                                                        ©2024 独立行政法人情報処理推進機構",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "required": false,
+      "title": "ネットワーク",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q05-p01.webp",
+          "alt": "2024-autumn 午後 問5 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q05-p02.webp",
+          "alt": "2024-autumn 午後 問5 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q05-p03.webp",
+          "alt": "2024-autumn 午後 問5 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q05-p04.webp",
+          "alt": "2024-autumn 午後 問5 原本画像 4ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q05-p05.webp",
+          "alt": "2024-autumn 午後 問5 原本画像 5ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q05-p06.webp",
+          "alt": "2024-autumn 午後 問5 原本画像 6ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1(1)  a  NAPT\n         (2) ip1",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2(1)  b  URL\n         (2) ウ",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s3",
+          "label": "設問3",
+          "prompt": "設問3の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問3(1)  c  ip8\n         (2)  d 業務サーバ",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s4",
+          "label": "設問4",
+          "prompt": "設問4の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問4     e プロキシサーバ 又は  ip3\n              f  443",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "required": false,
+      "title": "データベース",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q06-p01.webp",
+          "alt": "2024-autumn 午後 問6 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q06-p02.webp",
+          "alt": "2024-autumn 午後 問6 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q06-p03.webp",
+          "alt": "2024-autumn 午後 問6 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q06-p04.webp",
+          "alt": "2024-autumn 午後 問6 原本画像 4ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q06-p05.webp",
+          "alt": "2024-autumn 午後 問6 原本画像 5ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q06-p06.webp",
+          "alt": "2024-autumn 午後 問6 原本画像 6ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1     a\n\n              b\n              c 追跡番号\n              d",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2     e  WITH RECURSIVE\n              f  UNION ALL\n              g 出品.カテゴリID = 指定カテゴリ.カテゴリID\n              h  LIKE '%' || :キーワード || '%'",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s3",
+          "label": "設問3",
+          "prompt": "設問3の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問3(1) ア,ウ,オ\n         (2)  出品表   カテゴリID,出品価格\n       カテゴリ表 上位カテゴリID\n\n\n\n\n\n                                                3/6\n\n                                                                        ©2024 独立行政法人情報処理推進機構",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "required": false,
+      "title": "組込みシステム",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q07-p01.webp",
+          "alt": "2024-autumn 午後 問7 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q07-p02.webp",
+          "alt": "2024-autumn 午後 問7 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q07-p03.webp",
+          "alt": "2024-autumn 午後 問7 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q07-p04.webp",
+          "alt": "2024-autumn 午後 問7 原本画像 4ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q07-p05.webp",
+          "alt": "2024-autumn 午後 問7 原本画像 5ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q07-p06.webp",
+          "alt": "2024-autumn 午後 問7 原本画像 6ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1(1)  a 音源再生機能\n                                           順不同\n              b 音声アシスト機能\n         (2) イ",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2  オ",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s3",
+          "label": "設問3",
+          "prompt": "設問3の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問3(1)  f マイク\n              g スピーカー\n              h 特定語検出\n         (2) 特定語検出",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s4",
+          "label": "設問4",
+          "prompt": "設問4の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問4(1)  i 待ち状態\n         (2) クロックの再開に掛かる5 ミリ秒以下の周期で動くタスクがあるから",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "required": false,
+      "title": "情報システム開発",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q08-p01.webp",
+          "alt": "2024-autumn 午後 問8 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q08-p02.webp",
+          "alt": "2024-autumn 午後 問8 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q08-p03.webp",
+          "alt": "2024-autumn 午後 問8 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q08-p04.webp",
+          "alt": "2024-autumn 午後 問8 原本画像 4ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1     a カプセル化\n              b 継承\n              c 多相性",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2(1)  d データ取得()\n         (2)  e オ\n              f ア\n         (3)  g  XML\n              h  HTTPS",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s3",
+          "label": "設問3",
+          "prompt": "設問3の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問3(1) 連携データ,コネクタ\n         (2) フォーマット\n\n\n\n\n\n                                                4/6\n\n                                                                        ©2024 独立行政法人情報処理推進機構",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "required": false,
+      "title": "プロジェクトマネジメント",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q09-p01.webp",
+          "alt": "2024-autumn 午後 問9 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q09-p02.webp",
+          "alt": "2024-autumn 午後 問9 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q09-p03.webp",
+          "alt": "2024-autumn 午後 問9 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q09-p04.webp",
+          "alt": "2024-autumn 午後 問9 原本画像 4ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q09-p05.webp",
+          "alt": "2024-autumn 午後 問9 原本画像 5ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q09-p06.webp",
+          "alt": "2024-autumn 午後 問9 原本画像 6ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1(1) 消費者向けのヘルスケア市場に進出\n         (2) 健康増進に関わるサービスの提供",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2(1) イ\n         (2) サービス開始までに仮説検証プロセスの反復が必要だから",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s3",
+          "label": "設問3",
+          "prompt": "設問3の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問3(1)  a 軽減\n              b 受容 又は 保有\n         (2) 各メンバーが本プロジェクトへの貢献についての認識に基づいて活動できるか\n      ら\n         (3)  c 顧客への体験価値の提供",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "required": false,
+      "title": "サービスマネジメント",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q10-p01.webp",
+          "alt": "2024-autumn 午後 問10 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q10-p02.webp",
+          "alt": "2024-autumn 午後 問10 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q10-p03.webp",
+          "alt": "2024-autumn 午後 問10 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q10-p04.webp",
+          "alt": "2024-autumn 午後 問10 原本画像 4ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q10-p05.webp",
+          "alt": "2024-autumn 午後 問10 原本画像 5ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q10-p06.webp",
+          "alt": "2024-autumn 午後 問10 原本画像 6ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1(1)  a 最初の連絡で回答\n         (2)  b サービスデスク用ドキュメントの説明",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2(1)  c 問合せ対応ノウハウ集\n         (2)  目的  現在のサービス課の業務を極力サービスデスクに移管するため\n       調査内容 通常変更の中に標準変更にできるものがないかを調査する。",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s3",
+          "label": "設問3",
+          "prompt": "設問3の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問3  一次解決率",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s4",
+          "label": "設問4",
+          "prompt": "設問4の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問4    3\n\n\n\n\n\n                                                5/6\n\n                                                                        ©2024 独立行政法人情報処理推進機構",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "required": false,
+      "title": "システム監査",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q11-p01.webp",
+          "alt": "2024-autumn 午後 問11 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q11-p02.webp",
+          "alt": "2024-autumn 午後 問11 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q11-p03.webp",
+          "alt": "2024-autumn 午後 問11 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q11-p04.webp",
+          "alt": "2024-autumn 午後 問11 原本画像 4ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q11-p05.webp",
+          "alt": "2024-autumn 午後 問11 原本画像 5ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2024-autumn/q11-p06.webp",
+          "alt": "2024-autumn 午後 問11 原本画像 6ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1(1)  a 学習\n              b 手作業入力\n         (2)  c 目標レベル\n         (3)  d レビュー",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2(1)  e イ\n         (2)  f 季節性のある製品\n              g 本番移行\n              h 受入テスト\n\n\n\n\n\n                                                6/6\n\n                                                                        ©2024 独立行政法人情報処理推進機構",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

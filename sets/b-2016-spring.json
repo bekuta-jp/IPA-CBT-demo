@@ -1,0 +1,814 @@
+{
+  "id": "ap-b-2016-spring",
+  "title": "2016年度 春期（旧午後・科目B）公式過去問",
+  "year": "2016",
+  "season": "春期",
+  "source": "出典：IPA 2016年度 春期 応用情報技術者試験 午後 問題冊子・解答例。https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000gn5o-att/2016h28h_ap_pm_qs.pdf ／ https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000gn5o-att/2016h28h_ap_pm_ans.pdf",
+  "sourceUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000gn5o-att/2016h28h_ap_pm_qs.pdf",
+  "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000gn5o-att/2016h28h_ap_pm_ans.pdf",
+  "description": "旧午後試験の原本画像。設問ごとの記述欄を用意し、模範解答は公式解答例より抽出。すべてLLM採点対象（自動採点なし）。",
+  "requiredCount": 1,
+  "selectCount": 5,
+  "questions": [
+    {
+      "number": 1,
+      "required": true,
+      "title": "情報セキュリティ",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q01-p01.webp",
+          "alt": "2016-spring 午後 問1 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q01-p02.webp",
+          "alt": "2016-spring 午後 問1 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q01-p03.webp",
+          "alt": "2016-spring 午後 問1 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q01-p04.webp",
+          "alt": "2016-spring 午後 問1 原本画像 4ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q01-p05.webp",
+          "alt": "2016-spring 午後 問1 原本画像 5ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q01-p06.webp",
+          "alt": "2016-spring 午後 問1 原本画像 6ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1     a  TLS\n              b 踏み台\n              c ゼロデイ",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2     d イ\n              e ア",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s3",
+          "label": "設問3",
+          "prompt": "設問3の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問3(1) 1 ・種類\n       2 ・バージョン\n         (2) 必要なポートだけ開ける。\n         (3) WAF",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s4",
+          "label": "設問4",
+          "prompt": "設問4の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問4  ア,ウ,オ",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "required": false,
+      "title": "経営戦略",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q02-p01.webp",
+          "alt": "2016-spring 午後 問2 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q02-p02.webp",
+          "alt": "2016-spring 午後 問2 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q02-p03.webp",
+          "alt": "2016-spring 午後 問2 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q02-p04.webp",
+          "alt": "2016-spring 午後 問2 原本画像 4ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q02-p05.webp",
+          "alt": "2016-spring 午後 問2 原本画像 5ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q02-p06.webp",
+          "alt": "2016-spring 午後 問2 原本画像 6ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1(1)  a エ\n              d ア\n         (2) A 社しか中核部品X の製造をしておらず,B 社の事業継続への影響が大きいか\n      ら\n         (3)  b エ\n              c ウ",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2(1)  e 売上及び営業利益の減少\n         (2) D 社及びE 社にBCP の策定を要請する。\n         (3) BCP の有効性を高めるため\n\n\n\n\n\n                                                1/5\n\n                                                                   ©2016 独立行政法人情報処理推進機構",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "required": false,
+      "title": "プログラミング",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q03-p01.webp",
+          "alt": "2016-spring 午後 問3 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q03-p02.webp",
+          "alt": "2016-spring 午後 問3 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q03-p03.webp",
+          "alt": "2016-spring 午後 問3 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q03-p04.webp",
+          "alt": "2016-spring 午後 問3 原本画像 4ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1  ア ×\n       イ ×\n       ウ ○\n       エ ○",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2  オ (k-1)×N+j",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s3",
+          "label": "設問3",
+          "prompt": "設問3の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問3  カ temp[c]と1 が等しい\n       キ  ( temp[i]と0 が等しい ) and ( e と3 が等しい )\n       ク  m[i] ← 1",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s4",
+          "label": "設問4",
+          "prompt": "設問4の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問4  チェックするマスが盤の第1 列又は第N 列の場合",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s5",
+          "label": "設問5",
+          "prompt": "設問5の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問5(1) ケ  2\n         (2) for( i を2 からp まで1 ずつ増やす )",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "required": false,
+      "title": "システムアーキテクチャ",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q04-p01.webp",
+          "alt": "2016-spring 午後 問4 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q04-p02.webp",
+          "alt": "2016-spring 午後 問4 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q04-p03.webp",
+          "alt": "2016-spring 午後 問4 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q04-p04.webp",
+          "alt": "2016-spring 午後 問4 原本画像 4ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1(1) α2\n         (2) 1-(1-α2)2",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2(1)  a   1.0\n         (2) 4",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s3",
+          "label": "設問3",
+          "prompt": "設問3の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問3(1) ア,イ\n         (2) 3(本)",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s4",
+          "label": "設問4",
+          "prompt": "設問4の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問4  スループットが通信量に見合うこと\n\n\n\n\n\n                                                2/5\n\n                                                                   ©2016 独立行政法人情報処理推進機構",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "required": false,
+      "title": "ネットワーク",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q05-p01.webp",
+          "alt": "2016-spring 午後 問5 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q05-p02.webp",
+          "alt": "2016-spring 午後 問5 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q05-p03.webp",
+          "alt": "2016-spring 午後 問5 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q05-p04.webp",
+          "alt": "2016-spring 午後 問5 原本画像 4ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1     a オ\n              b ア\n              c ク\n              d カ",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2    p10 にVLAN10 を設定する。",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s3",
+          "label": "設問3",
+          "prompt": "設問3の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問3(1) サーバ名 部署2 サーバ\n        理由   PC1 と部署1 サーバが所属するVLAN が異なるから\n         (2)  e  VLAN10\n              f  VLAN20",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s4",
+          "label": "設問4",
+          "prompt": "設問4の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問4  イ,ウ",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "required": false,
+      "title": "データベース",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q06-p01.webp",
+          "alt": "2016-spring 午後 問6 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q06-p02.webp",
+          "alt": "2016-spring 午後 問6 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q06-p03.webp",
+          "alt": "2016-spring 午後 問6 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q06-p04.webp",
+          "alt": "2016-spring 午後 問6 原本画像 4ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1     a 販売時単価\n              b ←\n              c ←",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2     d  LEFT OUTER JOIN\n              e  ST.店舗ID = SS.店舗ID\n                                          順不同\n              f  ST.商品ID = SS.商品ID",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s3",
+          "label": "設問3",
+          "prompt": "設問3の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問3     g  ORDER BY SF.売上年月 DESC, SF.店舗ID ASC, 平均在庫数量 DESC",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s4",
+          "label": "設問4",
+          "prompt": "設問4の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問4(1) α\n        (2) 在庫数量を記録していない日の商品の在庫数量を実績から導出したデータ\n\n\n\n\n\n                                                3/5\n\n                                                                   ©2016 独立行政法人情報処理推進機構",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "required": false,
+      "title": "組込みシステム",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q07-p01.webp",
+          "alt": "2016-spring 午後 問7 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q07-p02.webp",
+          "alt": "2016-spring 午後 問7 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q07-p03.webp",
+          "alt": "2016-spring 午後 問7 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q07-p04.webp",
+          "alt": "2016-spring 午後 問7 原本画像 4ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1(1) 0.7(秒)\n         (2) ウ\n         (3) エ",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2(1) タッチパネルタスク\n         (2) タッチされた座標情報",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s3",
+          "label": "設問3",
+          "prompt": "設問3の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問3     a 画面切替え中か",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s4",
+          "label": "設問4",
+          "prompt": "設問4の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問4  有効なボタンの座標情報",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "required": false,
+      "title": "情報システム開発",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q08-p01.webp",
+          "alt": "2016-spring 午後 問8 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q08-p02.webp",
+          "alt": "2016-spring 午後 問8 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q08-p03.webp",
+          "alt": "2016-spring 午後 問8 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q08-p04.webp",
+          "alt": "2016-spring 午後 問8 原本画像 4ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q08-p05.webp",
+          "alt": "2016-spring 午後 問8 原本画像 5ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q08-p06.webp",
+          "alt": "2016-spring 午後 問8 原本画像 6ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1     a 配送センタへ商品の発送を指示する\n                                          順不同\n              b 顧客に商品の発送を通知する\n              c 入金期限日を過ぎている\n              d 入金期限日を過ぎていない",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2     e カ\n              f エ",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s3",
+          "label": "設問3",
+          "prompt": "設問3の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問3  決済番号取得,決済情報通知",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s4",
+          "label": "設問4",
+          "prompt": "設問4の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問4  入金されている購入情報が取り消されてしまう。",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "required": false,
+      "title": "プロジェクトマネジメント",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q09-p01.webp",
+          "alt": "2016-spring 午後 問9 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q09-p02.webp",
+          "alt": "2016-spring 午後 問9 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q09-p03.webp",
+          "alt": "2016-spring 午後 問9 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q09-p04.webp",
+          "alt": "2016-spring 午後 問9 原本画像 4ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q09-p05.webp",
+          "alt": "2016-spring 午後 問9 原本画像 5ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q09-p06.webp",
+          "alt": "2016-spring 午後 問9 原本画像 6ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1(1) モジュールごとに品質の偏りがないかどうかを確認する必要があるから\n         (2)  a 単体テスト\n         (3)  b 詳細設計での品質不足",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2(1)  c 開発メンバが正しく理解したこと\n         (2)  d 開発コストの増大\n                                          順不同\n              e 納期の遅延\n         (3)  f モジュールの開発の難易度\n\n\n\n                                                4/5\n\n                                                                   ©2016 独立行政法人情報処理推進機構",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "required": false,
+      "title": "サービスマネジメント",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q10-p01.webp",
+          "alt": "2016-spring 午後 問10 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q10-p02.webp",
+          "alt": "2016-spring 午後 問10 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q10-p03.webp",
+          "alt": "2016-spring 午後 問10 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q10-p04.webp",
+          "alt": "2016-spring 午後 問10 原本画像 4ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q10-p05.webp",
+          "alt": "2016-spring 午後 問10 原本画像 5ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q10-p06.webp",
+          "alt": "2016-spring 午後 問10 原本画像 6ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1  ア,オ",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2  計画を定期的に見直し,データ処理件数を予測する。",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s3",
+          "label": "設問3",
+          "prompt": "設問3の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問3(1)  a ア\n              b カ\n         (2) イ,エ",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s4",
+          "label": "設問4",
+          "prompt": "設問4の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問4(1) 他のチケットをピーク時間帯以外に申し込む場合は付与ポイントを増額する。\n         (2) 会員の購入記録を検索するときに応答時間が悪化する。",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "required": false,
+      "title": "システム監査",
+      "showChoiceBank": false,
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q11-p01.webp",
+          "alt": "2016-spring 午後 問11 原本画像 1ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q11-p02.webp",
+          "alt": "2016-spring 午後 問11 原本画像 2ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q11-p03.webp",
+          "alt": "2016-spring 午後 問11 原本画像 3ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q11-p04.webp",
+          "alt": "2016-spring 午後 問11 原本画像 4ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q11-p05.webp",
+          "alt": "2016-spring 午後 問11 原本画像 5ページ目"
+        },
+        {
+          "type": "image",
+          "src": "assets/ap-b-2016-spring/q11-p06.webp",
+          "alt": "2016-spring 午後 問11 原本画像 6ページ目"
+        }
+      ],
+      "fields": [
+        {
+          "id": "s1",
+          "label": "設問1",
+          "prompt": "設問1の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問1     a オ\n              d エ",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s2",
+          "label": "設問2",
+          "prompt": "設問2の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問2     b 入力期限\n              c 受注確度\n              e データ変換表",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s3",
+          "label": "設問3",
+          "prompt": "設問3の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問3  1 ・作業手順書\n       2 ・システム業務記録簿",
+          "grading": "llm",
+          "weight": 1
+        },
+        {
+          "id": "s4",
+          "label": "設問4",
+          "prompt": "設問4の各小問・記号・空欄に対する解答を入力してください。各解答を「(1) a：...」のように区別してください。",
+          "type": "long",
+          "maxLength": 1000,
+          "reference": "設問4     f 業績の見通しと実績の差異\n\n\n\n\n\n                                                5/5\n\n                                                                   ©2016 独立行政法人情報処理推進機構",
+          "grading": "llm",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

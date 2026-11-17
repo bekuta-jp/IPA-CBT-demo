@@ -1,0 +1,173 @@
+[
+  {
+    "id": "ap-b-2016-spring",
+    "title": "2016年度 春期（旧午後・科目B）公式過去問",
+    "year": "2016",
+    "season": "春期",
+    "count": 11,
+    "selectCount": 5,
+    "file": "sets/b-2016-spring.json"
+  },
+  {
+    "id": "ap-b-2016-autumn",
+    "title": "2016年度 秋期（旧午後・科目B）公式過去問",
+    "year": "2016",
+    "season": "秋期",
+    "count": 11,
+    "selectCount": 5,
+    "file": "sets/b-2016-autumn.json"
+  },
+  {
+    "id": "ap-b-2017-spring",
+    "title": "2017年度 春期（旧午後・科目B）公式過去問",
+    "year": "2017",
+    "season": "春期",
+    "count": 11,
+    "selectCount": 5,
+    "file": "sets/b-2017-spring.json"
+  },
+  {
+    "id": "ap-b-2017-autumn",
+    "title": "2017年度 秋期（旧午後・科目B）公式過去問",
+    "year": "2017",
+    "season": "秋期",
+    "count": 11,
+    "selectCount": 5,
+    "file": "sets/b-2017-autumn.json"
+  },
+  {
+    "id": "ap-b-2018-spring",
+    "title": "2018年度 春期（旧午後・科目B）公式過去問",
+    "year": "2018",
+    "season": "春期",
+    "count": 11,
+    "selectCount": 5,
+    "file": "sets/b-2018-spring.json"
+  },
+  {
+    "id": "ap-b-2018-autumn",
+    "title": "2018年度 秋期（旧午後・科目B）公式過去問",
+    "year": "2018",
+    "season": "秋期",
+    "count": 11,
+    "selectCount": 5,
+    "file": "sets/b-2018-autumn.json"
+  },
+  {
+    "id": "ap-b-2019-spring",
+    "title": "2019年度 春期（旧午後・科目B）公式過去問",
+    "year": "2019",
+    "season": "春期",
+    "count": 11,
+    "selectCount": 5,
+    "file": "sets/b-2019-spring.json"
+  },
+  {
+    "id": "ap-b-2019-autumn",
+    "title": "2019年度 秋期（旧午後・科目B）公式過去問",
+    "year": "2019",
+    "season": "秋期",
+    "count": 11,
+    "selectCount": 5,
+    "file": "sets/b-2019-autumn.json"
+  },
+  {
+    "id": "ap-b-2020-october",
+    "title": "2020年度 10月（旧午後・科目B）公式過去問",
+    "year": "2020",
+    "season": "10月",
+    "count": 11,
+    "selectCount": 5,
+    "file": "sets/b-2020-october.json"
+  },
+  {
+    "id": "ap-b-2021-spring",
+    "title": "2021年度 春期（旧午後・科目B）公式過去問",
+    "year": "2021",
+    "season": "春期",
+    "count": 11,
+    "selectCount": 5,
+    "file": "sets/b-2021-spring.json"
+  },
+  {
+    "id": "ap-b-2021-autumn",
+    "title": "2021年度 秋期（旧午後・科目B）公式過去問",
+    "year": "2021",
+    "season": "秋期",
+    "count": 11,
+    "selectCount": 5,
+    "file": "sets/b-2021-autumn.json"
+  },
+  {
+    "id": "ap-b-2022-spring",
+    "title": "2022年度 春期（旧午後・科目B）公式過去問",
+    "year": "2022",
+    "season": "春期",
+    "count": 11,
+    "selectCount": 5,
+    "file": "sets/b-2022-spring.json"
+  },
+  {
+    "id": "ap-b-2022-autumn",
+    "title": "2022年度 秋期（旧午後・科目B）公式過去問",
+    "year": "2022",
+    "season": "秋期",
+    "count": 11,
+    "selectCount": 5,
+    "file": "sets/b-2022-autumn.json"
+  },
+  {
+    "id": "ap-b-2023-spring",
+    "title": "2023年度 春期（旧午後・科目B）公式過去問",
+    "year": "2023",
+    "season": "春期",
+    "count": 11,
+    "selectCount": 5,
+    "file": "sets/b-2023-spring.json"
+  },
+  {
+    "id": "ap-b-2023-autumn",
+    "title": "2023年度 秋期（旧午後・科目B）公式過去問",
+    "year": "2023",
+    "season": "秋期",
+    "count": 11,
+    "selectCount": 5,
+    "file": "sets/b-2023-autumn.json"
+  },
+  {
+    "id": "ap-b-2024-spring",
+    "title": "2024年度 春期（旧午後・科目B）公式過去問",
+    "year": "2024",
+    "season": "春期",
+    "count": 11,
+    "selectCount": 5,
+    "file": "sets/b-2024-spring.json"
+  },
+  {
+    "id": "ap-b-2024-autumn",
+    "title": "2024年度 秋期（旧午後・科目B）公式過去問",
+    "year": "2024",
+    "season": "秋期",
+    "count": 11,
+    "selectCount": 5,
+    "file": "sets/b-2024-autumn.json"
+  },
+  {
+    "id": "ap-b-2025-spring",
+    "title": "2025年度 春期（旧午後・科目B）公式過去問",
+    "year": "2025",
+    "season": "春期",
+    "count": 11,
+    "selectCount": 5,
+    "file": "sets/b-2025-spring.json"
+  },
+  {
+    "id": "ap-b-2025-autumn",
+    "title": "2025年度 秋期（旧午後・科目B）公式過去問",
+    "year": "2025",
+    "season": "秋期",
+    "count": 11,
+    "selectCount": 5,
+    "file": "sets/b-2025-autumn.json"
+  }
+]
