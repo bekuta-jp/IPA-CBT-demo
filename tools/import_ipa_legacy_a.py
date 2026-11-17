@@ -5,7 +5,17 @@ from pathlib import Path
 import import_ipa_bulk as bulk
 ROOT=Path(__file__).resolve().parents[1]
 # OCR misses are recorded only after verification of question-heading positions.
-CALIBRATED_LEGACY={}
+CALIBRATED_LEGACY={
+ '2016-spring': [(11,285), (13,467), (17,67), (26,303)],
+ '2016-autumn': [(6,62), (10,63), (18,346), (27,427)],
+ '2017-spring': [(11,203), (19,325)],
+ '2017-autumn': [],
+ '2018-spring': [(5,432), (5,552), (19,287), (29,65)],
+ '2018-autumn': [(4,505), (5,186), (25,510)],
+ '2019-spring': [(9,463)],
+ '2019-autumn': [(5,506), (13,434), (19,345)],
+ '2020-october': [(14,470), (31,284)],
+}
 
 def run(session,probe=False):
     src=json.loads((ROOT/'tools/ipa-sources.json').read_text(encoding='utf-8'))[session]['am']
