@@ -13,7 +13,15 @@ jobs:
       fail-fast: false
       matrix:
         session:
+          - 2016-spring
           - 2016-autumn
+          - 2017-spring
+          - 2017-autumn
+          - 2018-spring
+          - 2018-autumn
+          - 2019-spring
+          - 2019-autumn
+          - 2020-october
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
