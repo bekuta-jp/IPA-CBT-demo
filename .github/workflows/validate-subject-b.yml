@@ -7,7 +7,13 @@ on:
       - 'b.html'
       - 'b.js'
       - 'sets/b-demo.json'
+      - 'sets/b-2025-spring.json'
+      - 'sets/b-2025-autumn.json'
+      - 'sets/b-index.json'
+      - 'sets/b-meta-2025-spring.json'
       - 'tools/validate_subject_b.py'
+      - 'tools/test_subject_b_metadata.js'
+      - 'tools/validate_subject_b_metadata.py'
       - '.github/workflows/validate-subject-b.yml'
   workflow_dispatch:
 permissions:
@@ -23,3 +29,7 @@ jobs:
           node --check app.js
       - name: Check Subject B question schema and routes
         run: python tools/validate_subject_b.py
+      - name: Validate Subject B official answer metadata
+        run: |
+          python tools/validate_subject_b_metadata.py
+          node tools/test_subject_b_metadata.js
