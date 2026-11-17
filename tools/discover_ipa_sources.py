@@ -17,7 +17,7 @@ def discover():
     print('INDEX_LINK_SAMPLES',[(a.get_text(' ',strip=True)[:70],a.get('href')) for a in index.select('a[href]') if '2016' in a.get('href','')][:5],flush=True)
     for a in index.select('a[href]'):
         href=urljoin(ROOT,a['href'])
-        m=re.search(r'/(20(?:1[6-9]|2[0-5]))[a-z0-9]*\\.html$',href)
+        m=re.search(r'/(20(?:1[6-9]|2[0-5]))[a-z0-9]*\.html$',href)
         if m:
             year=int(m.group(1))
             byyear[year]=href
