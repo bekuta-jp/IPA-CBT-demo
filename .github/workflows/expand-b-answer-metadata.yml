@@ -1,0 +1,78 @@
+name: Expand Subject B Answer Metadata 2016-2025
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tools/generate_b_metadata.py'
+      - '.github/workflows/expand-b-answer-metadata.yml'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate provisional field metadata for the other 18 exam sessions
+        run: python tools/generate_b_metadata.py
+      - name: Verify metadata and preserve the 2025 spring reviewed pilot
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          paths=[p for p in Path('sets').glob('b-meta-*.json')]
+          assert len(paths)==19,(len(paths),[str(p) for p in paths])
+          catalog=json.loads(Path('sets/b-index.json').read_text(encoding='utf-8'))
+          assert len(catalog)==19
+          total=0
+          auto=0
+          filled=0
+          fallback=0
+          for item in catalog:
+              path=Path(item['metadataFile']);assert path.is_file(),path
+              meta=json.loads(path.read_text(encoding='utf-8'))
+              source=json.loads(Path(item['file']).read_text(encoding='utf-8'))
+              assert meta['schemaVersion']=='ap-b-field-meta-v1'
+              assert meta['setId']==item['id']==source['id']
+              assert len(source['questions'])==len(meta['questions'])==11
+              for question in source['questions']:
+                  spec=meta['questions'][str(question['number'])]
+                  ids={f['id'] for f in question['fields']}
+                  groups=spec['completeGroups']
+                  assert set(groups)<=ids,(item['id'],question['number'])
+                  keys=set()
+                  for field in spec['fields']:
+                      assert field['parent'] in groups,(item['id'],question['number'],field)
+                      assert field['id'] not in keys
+                      keys.add(field['id'])
+                      assert field['type'] in {'word','short','long','single','multi','dropdown'}
+                      assert len(field['reference'])>0
+                      if item['id']!='ap-b-2025-spring':
+                          assert field['verified'] is False and field['grading']=='llm'
+                          assert field['maxLengthVerified'] is False
+                      auto+=field['grading']=='exact'
+                  fallback+=len(ids)-len(groups)
+                  filled+=len(spec['fields'])
+                  total+=1
+          assert total==209 and filled>=400,(total,filled)
+          print('PASS: 19 sessions / 209 big questions; all metadata refs valid')
+          print('fields:',filled,'fallback parent groups:',fallback,'exact:',auto)
+          PY
+      - name: JavaScript syntax
+        run: node --check b.js
+      - name: Commit generated metadata and updated catalog
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sets/b-index.json sets/b-meta-*.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: add provisional per-subquestion metadata for 18 older B sessions'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
