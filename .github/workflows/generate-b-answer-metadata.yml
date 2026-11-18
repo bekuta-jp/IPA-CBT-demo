@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'tools/build_b_answer_metadata.py'
+      - 'tools/test_b_metadata_runtime.cjs'
       - '.github/workflows/generate-b-answer-metadata.yml'
   workflow_dispatch:
 permissions:
@@ -40,6 +41,8 @@ jobs:
                   assert all((f.get('grading')!='exact') or (f.get('verified') and f.get('correct')) for f in spec['fields'])
           print('PASS: 19 linked metadata sets, no unverified exact-grading fields')
           PY
+      - name: Test Subject B UI schema/fallback with actual application functions
+        run: node tools/test_b_metadata_runtime.cjs
       - name: Publish official-answer-derived metadata without modifying source PDFs
         run: |
           git config user.name 'github-actions[bot]'
