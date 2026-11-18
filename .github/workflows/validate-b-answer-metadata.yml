@@ -1,0 +1,21 @@
+name: Validate Subject B Answer Metadata
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'sets/b-index.json'
+      - 'sets/b-meta-*.json'
+      - 'b.js'
+      - 'tools/validate_b_metadata.js'
+      - '.github/workflows/validate-b-answer-metadata.yml'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check exam JavaScript syntax
+        run: node --check b.js
+      - name: Verify all metadata overlays and generic fallback
+        run: node tools/validate_b_metadata.js
