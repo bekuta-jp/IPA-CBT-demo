@@ -7,6 +7,7 @@ on:
       - 'sets/b-meta-*.json'
       - 'b.js'
       - 'tools/validate_b_metadata.js'
+      - 'tools/test_b_metadata_runtime.cjs'
       - '.github/workflows/validate-b-answer-metadata.yml'
 permissions:
   contents: read
@@ -19,3 +20,5 @@ jobs:
         run: node --check b.js
       - name: Verify all metadata overlays and generic fallback
         run: node tools/validate_b_metadata.js
+      - name: Cross-check 19 sets against actual Subject B application functions
+        run: node tools/test_b_metadata_runtime.cjs
