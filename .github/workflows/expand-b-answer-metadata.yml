@@ -64,6 +64,8 @@ jobs:
           print('PASS: 19 sessions / 209 big questions; all metadata refs valid')
           print('fields:',filled,'fallback parent groups:',fallback,'exact:',auto)
           PY
+      - name: Actual Subject B metadata runtime integration
+        run: node tools/test_b_metadata_runtime.cjs
       - name: JavaScript syntax
         run: node --check b.js
       - name: Commit generated metadata and updated catalog
